@@ -1,0 +1,728 @@
+{
+  "lecture": "oxphos",
+  "title": "Oxidative Phosphorylation & ETC",
+  "format": "Single best answer · 5 options",
+  "provenance": "Original exam-style items written from the lecture slides and Lippincott; modelled on the NUST/OMC MD-program SBA format (no public past papers were found).",
+  "questions": [
+    {
+      "id": "oxphos-01",
+      "topic": "Definition of oxidative phosphorylation",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which of the following best defines oxidative phosphorylation?",
+      "options": [
+        "Formation of ATP from ADP and Pi without involvement of the ETC or molecular O₂",
+        "Transfer of electrons from NADH and FADH₂ to O₂ with release of energy only as heat",
+        "Coupling of electron transport through the respiratory chain with ATP synthesis",
+        "Oxidation of acetyl-CoA to CO₂ in the matrix with production of NADH + H⁺",
+        "Reduction of NAD⁺ and FAD during catabolism of glucose, fatty acids and amino acids"
+      ],
+      "answer": 2,
+      "explain": "Slide 4 (and the banner on slide 5) defines oxidative phosphorylation as the coupling of electron transport with ATP synthesis. Energy released as electrons pass from NADH and FADH₂ to O₂ is captured to phosphorylate ADP + Pi → ATP; both halves, electron transport and phosphorylation, are required.",
+      "distractors": "Option A is the lecture's definition of substrate-level phosphorylation. Option B describes uncoupled electron flow (thermogenesis), and D and E only describe how the reduced coenzymes are generated.",
+      "source": "Slides 4 and 5 · Lippincott 9e Ch 5 – oxidative phosphorylation"
+    },
+    {
+      "id": "oxphos-02",
+      "topic": "Oxidation and reduction",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "At Complex I, NADH + H⁺ is converted to NAD⁺ as it passes two electrons into the respiratory chain. Which statement correctly describes what happens to NADH in this step?",
+      "options": [
+        "It is oxidized, because it loses electrons",
+        "It is reduced, because it loses electrons",
+        "It is oxidized, because it gains electrons",
+        "It is reduced, because it gains electrons",
+        "It is phosphorylated, because it gains a phosphate group"
+      ],
+      "answer": 0,
+      "explain": "Slide 4 defines oxidation as loss of electrons and reduction as gain of electrons. NADH donates 2e⁻ to the ETC (slide 5), so it is oxidized to NAD⁺, while the acceptor in Complex I (FMN) is reduced.",
+      "distractors": "B and C pair each process with the wrong electron movement (oxidation is loss and reduction is gain of electrons). D correctly defines reduction, but NADH loses rather than gains electrons in this step. Phosphorylation (E) is the formation of ATP from ADP and Pi and does not apply to NADH.",
+      "source": "Slides 4 and 5 · Lippincott 9e Ch 5 – redox reactions of the ETC"
+    },
+    {
+      "id": "oxphos-03",
+      "topic": "Substrate-level vs oxidative phosphorylation",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 58-year-old man in septic shock has poor tissue perfusion, and his skeletal muscle cells are severely deprived of O₂. Which ATP-generating process can continue in these cells despite the lack of O₂?",
+      "options": [
+        "ATP synthesis by F₁, driven by H⁺ re-entry through F₀",
+        "ATP formation coupled to H⁺ pumping by cytochrome c oxidase",
+        "Oxidative phosphorylation driven by FADH₂ entering at Complex II",
+        "Substrate-level phosphorylation during glycolysis in the cytoplasm",
+        "Oxidative phosphorylation driven by NADH entering at Complex I"
+      ],
+      "answer": 3,
+      "explain": "Substrate-level phosphorylation forms ATP without involvement of the ETC and molecular O₂ (slide 4); slides 6–7 show glycolysis in the cytoplasm producing ATP this way. Without O₂ as the final electron acceptor, electron flow, H⁺ pumping and ATP synthase activity stop, but glycolytic ATP production continues.",
+      "distractors": "A, B, C and E are all oxidative phosphorylation, which needs O₂ to accept electrons at Complex IV (½O₂ + 2H⁺ → H₂O). Electrons from FADH₂ bypass Complex I but must still reach O₂.",
+      "source": "Slides 4, 6 and 7 · Lippincott 9e Ch 5 – oxidative vs substrate-level phosphorylation"
+    },
+    {
+      "id": "oxphos-04",
+      "topic": "O₂ as final electron acceptor (coupling)",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 62-year-old man has an acute occlusion of his left anterior descending coronary artery. Within minutes, ATP production by ATP synthase in the ischemic myocardium falls sharply. Which is the best explanation?",
+      "options": [
+        "O₂ is a required cofactor for the catalytic β subunits of F₁",
+        "Electron flow to O₂ stops, so no H⁺ gradient forms to drive ATP synthase",
+        "Hypoxia makes the inner membrane permeable to H⁺, as uncouplers do",
+        "Hypoxia blocks the H⁺ channel of F₀ in the same way as oligomycin",
+        "Complex II starts pumping H⁺ from the intermembrane space into the matrix"
+      ],
+      "answer": 1,
+      "explain": "O₂ is the final electron acceptor of the ETC (½O₂ + 2H⁺ → H₂O; slides 5–6). Without it, electrons cannot leave Complex IV, so flow through the chain and H⁺ pumping by Complexes I, III and IV stop. With no H⁺ gradient there is no flow back through F₀ to drive F₁; this is the coupling described by the chemiosmotic theory (slides 4 and 10).",
+      "distractors": "ATP synthase itself does not use O₂ (A). C and D describe the actions of uncouplers and oligomycin, not of hypoxia, and Complex II pumps no protons at all (E).",
+      "source": "Slides 5, 6 and 10 · Lippincott 9e Ch 5 – coupling of electron transport and phosphorylation"
+    },
+    {
+      "id": "oxphos-05",
+      "topic": "Location of the ETC",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Where are the protein complexes of the electron transport chain located?",
+      "options": [
+        "Outer mitochondrial membrane",
+        "Intermembrane space",
+        "Mitochondrial matrix",
+        "Cytoplasm",
+        "Inner mitochondrial membrane"
+      ],
+      "answer": 4,
+      "explain": "Slide 3 defines the ETC as a series of protein complexes located in the inner mitochondrial membrane, which is folded into cristae. Lippincott adds that this membrane is impermeable to most ions, including H⁺, which is what allows a proton gradient to build up across it.",
+      "distractors": "The matrix contains the TCA cycle and the F₁ head of ATP synthase but not the membrane-embedded complexes, and the intermembrane space is where the pumped H⁺ accumulate.",
+      "source": "Slides 3 and 10 · Lippincott 9e Ch 5 – mitochondrial structure and the ETC"
+    },
+    {
+      "id": "oxphos-06",
+      "topic": "Flavin-containing complexes (I and II)",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 72-year-old man who lives alone and eats a very restricted diet has angular stomatitis and glossitis. Tests confirm deficiency of riboflavin, the vitamin precursor of FMN and FAD. Which pair of ETC complexes is most directly affected by the shortage of these flavin coenzymes?",
+      "options": [
+        "Complex I (NADH dehydrogenase) and Complex II (succinate dehydrogenase)",
+        "Complex II (succinate dehydrogenase) and Complex III (cytochrome bc₁)",
+        "Complex III (cytochrome bc₁) and Complex IV (cytochrome c oxidase)",
+        "Complex I (NADH dehydrogenase) and Complex IV (cytochrome c oxidase)",
+        "Complex IV (cytochrome c oxidase) and Complex V (ATP synthase)"
+      ],
+      "answer": 0,
+      "explain": "Slide 8 lists the redox centres of each complex: Complex I (NADH dehydrogenase) contains FMN and Fe-S, and Complex II (succinate dehydrogenase) contains FAD and Fe-S. Both flavins are made from riboflavin, so a deficiency impairs the entry of electrons from NADH and from FADH₂.",
+      "distractors": "Complex III contains cytochromes b and c₁ with Fe-S, Complex IV contains cytochromes a and a₃ with Cu_A and Cu_B, and ATP synthase has no redox centres, so none of them depends on flavins.",
+      "source": "Slide 8 · Lippincott 9e Ch 5 – NADH dehydrogenase and succinate dehydrogenase (flavoproteins)"
+    },
+    {
+      "id": "oxphos-07",
+      "topic": "Names of the complexes",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which ETC complex is correctly paired with its name?",
+      "options": [
+        "Complex I — succinate dehydrogenase complex",
+        "Complex II — cytochrome c oxidase",
+        "Complex III — cytochrome bc₁ complex",
+        "Complex IV — ATP synthase (F₁F₀-ATPase)",
+        "Complex V — NADH dehydrogenase complex"
+      ],
+      "answer": 2,
+      "explain": "Slide 8: Complex I = NADH dehydrogenase complex (FMN, Fe-S); Complex II = succinate dehydrogenase complex (FAD, Fe-S); Complex III = cytochrome bc₁ complex (cytochromes b and c₁, Fe-S); Complex IV = cytochrome c oxidase (cytochromes a and a₃, Cu_A, Cu_B). ATP synthase (F₁F₀-ATPase) is Complex V (slide 13).",
+      "distractors": "Each of the other options swaps names between complexes; ATP synthase is Complex V, not Complex IV.",
+      "source": "Slides 8 and 13 · Lippincott 9e Ch 5 – organization of the ETC"
+    },
+    {
+      "id": "oxphos-08",
+      "topic": "Copper centres of Complex IV",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 5-month-old boy has hypotonia, seizures and sparse, kinky hair. He is diagnosed with Menkes disease, which causes severe copper deficiency in his tissues. Which component of his electron transport chain is most likely to show reduced activity?",
+      "options": [
+        "NADH dehydrogenase (Complex I)",
+        "Succinate dehydrogenase (Complex II)",
+        "Coenzyme Q (ubiquinone)",
+        "Cytochrome bc₁ complex (Complex III)",
+        "Cytochrome c oxidase (Complex IV)"
+      ],
+      "answer": 4,
+      "explain": "Slide 8: Complex IV (cytochrome c oxidase) contains cytochromes a and a₃ together with the copper centres Cu_A and Cu_B. Lippincott notes that these bound copper atoms are required for the transfer of electrons to O₂, so copper deficiency impairs the terminal step ½O₂ + 2H⁺ → H₂O.",
+      "distractors": "Complexes I and II use FMN/FAD with Fe-S, Complex III uses cytochromes b and c₁ with Fe-S, and CoQ is a lipid-soluble quinone; none of them contains copper.",
+      "source": "Slide 8 · Lippincott 9e Ch 5 – cytochrome c oxidase (Complex IV)"
+    },
+    {
+      "id": "oxphos-09",
+      "topic": "Mobile electron carriers",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which pair of components act as the mobile electron carriers of the ETC?",
+      "options": [
+        "FMN and FAD (flavin groups)",
+        "Ubiquinone (CoQ) and cytochrome c",
+        "Cytochrome b and cytochrome c₁",
+        "Cytochrome a and cytochrome a₃",
+        "Cu_A and Cu_B (copper centres)"
+      ],
+      "answer": 1,
+      "explain": "Slide 8 lists two mobile electron carriers: coenzyme Q (ubiquinone) and cytochrome c. According to Lippincott, CoQ is a lipid-soluble carrier that moves within the inner membrane, taking electrons from Complexes I and II to Complex III, and cytochrome c is a small protein on the outer face of the inner membrane that carries electrons from Complex III to Complex IV.",
+      "distractors": "FMN and FAD are bound within Complexes I and II, cytochromes b and c₁ are fixed in Complex III, and cytochromes a/a₃ and Cu_A/Cu_B are fixed in Complex IV.",
+      "source": "Slides 8 and 10 · Lippincott 9e Ch 5 – coenzyme Q and cytochromes"
+    },
+    {
+      "id": "oxphos-10",
+      "topic": "Role of coenzyme Q",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "In an experiment, coenzyme Q (ubiquinone) is extracted from the inner membranes of isolated mitochondria. Transfer of electrons between which components is directly interrupted?",
+      "options": [
+        "From cytochrome c to cytochrome aa₃ in Complex IV",
+        "From NADH to FMN within Complex I",
+        "From Complex IV to molecular O₂",
+        "From Complexes I and II to Complex III",
+        "From Complex III to cytochrome c"
+      ],
+      "answer": 3,
+      "explain": "CoQ is the mobile carrier that collects electrons from both Complex I (NADH) and Complex II (FADH₂) and delivers them to Complex III: slide 10 places Q between Complexes I/II and III, and slide 15 shows Fe-S → CoQ → cyt b. Without CoQ, electrons from both NADH and FADH₂ cannot reach Complex III, so flow to O₂ stops.",
+      "distractors": "Transfer from Complex III to Complex IV is the job of the other mobile carrier, cytochrome c (A, E). NADH → FMN and the reduction of O₂ take place inside fixed complexes and do not involve CoQ.",
+      "source": "Slides 8, 10 and 15 · Lippincott 9e Ch 5 – coenzyme Q"
+    },
+    {
+      "id": "oxphos-11",
+      "topic": "Sequence of electron carriers",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which sequence correctly shows the path of electrons from NADH to O₂ through the respiratory chain?",
+      "options": [
+        "FMN → Fe-S → CoQ → cyt b → cyt c₁ → cyt c → cyt aa₃ → O₂",
+        "FMN → CoQ → Fe-S → cyt c → cyt b → cyt c₁ → cyt aa₃ → O₂",
+        "FMN → Fe-S → cyt b → CoQ → cyt c₁ → cyt aa₃ → cyt c → O₂",
+        "FMN → Fe-S → CoQ → cyt c₁ → cyt b → cyt aa₃ → cyt c → O₂",
+        "FMN → Fe-S → CoQ → cyt c → cyt c₁ → cyt b → cyt aa₃ → O₂"
+      ],
+      "answer": 0,
+      "explain": "Slide 15 shows the order NAD → FMN → Fe-S (Complex I) → CoQ → cyt b → cyt c₁ (Complex III) → cyt c → cyt aa₃ (Complex IV) → O₂. The mobile carriers sit between complexes: CoQ between I and III, and cytochrome c between III and IV.",
+      "distractors": "B and E place cytochrome c before Complex III, C puts CoQ after cytochrome b, and D reverses cytochromes b and c₁. Cytochrome c always sits between cyt c₁ and cyt aa₃.",
+      "source": "Slides 3 and 15 · Lippincott 9e Ch 5 – organization of the ETC"
+    },
+    {
+      "id": "oxphos-12",
+      "topic": "Complex II (succinate dehydrogenase)",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 3-year-old girl with progressive muscle weakness is found to have markedly reduced succinate dehydrogenase activity in her muscle mitochondria. Which statement about electron transport in her muscle is most accurate?",
+      "options": [
+        "NADH-linked electrons can no longer reach O₂, because Complex II is the main proton pump",
+        "Proton pumping stops at every complex, because Complex II supplies all electrons to CoQ",
+        "Electrons from FADH₂ can bypass Complex II by entering the chain at Complex I",
+        "O₂ cannot be reduced, because cytochrome c receives electrons only from Complex II",
+        "Electrons from NADH still reach O₂ through Complexes I, III and IV, pumping 10 H⁺"
+      ],
+      "answer": 4,
+      "explain": "Complex II is the succinate dehydrogenase complex (FAD, Fe-S; slide 8), the entry point for FADH₂, and it pumps no H⁺ (slide 10). NADH enters at Complex I and its electrons travel CoQ → III → cyt c → IV → O₂, so NADH-linked respiration and its proton pumping (4 + 4 + 2 = 10 H⁺) continue despite the Complex II defect.",
+      "distractors": "Complex II pumps no protons (A) and is not the only source of electrons for CoQ (B). Electrons do not flow backwards into Complex I (C), and cytochrome c is reduced by Complex III, not Complex II (D).",
+      "source": "Slides 7, 8 and 10 · Lippincott 9e Ch 5 – succinate dehydrogenase (Complex II)"
+    },
+    {
+      "id": "oxphos-13",
+      "topic": "Cellular respiration: compartments",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which step of cellular respiration is correctly matched with its location?",
+      "options": [
+        "Glycolysis — mitochondrial matrix",
+        "Conversion of pyruvate to acetyl-CoA — cytoplasm",
+        "TCA cycle — mitochondrial matrix",
+        "Electron transport chain — outer mitochondrial membrane",
+        "ATP synthesis by F₁ — intermembrane space"
+      ],
+      "answer": 2,
+      "explain": "Slides 6–7: glycolysis occurs in the cytoplasm; pyruvate enters the mitochondria and is converted to acetyl-CoA; acetyl-CoA is oxidized by the TCA cycle in the mitochondrial matrix; reduced coenzymes feed electrons into the ETC in the inner membrane; and F₁ of ATP synthase projects into the matrix (slide 13).",
+      "distractors": "Glycolysis is cytoplasmic, pyruvate is converted to acetyl-CoA inside the mitochondria, the ETC lies in the inner (not outer) membrane, and F₁ faces the matrix, not the intermembrane space.",
+      "source": "Slides 6, 7 and 13 · Lippincott 9e Ch 5 – mitochondrial compartments"
+    },
+    {
+      "id": "oxphos-14",
+      "topic": "Chemiosmotic theory (Peter Mitchell)",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Peter Mitchell proposed which theory to explain how electron transport is coupled to ATP synthesis?",
+      "options": [
+        "Induced-fit theory",
+        "Chemiosmotic theory",
+        "Lock-and-key theory",
+        "Fluid mosaic model",
+        "Endosymbiotic theory"
+      ],
+      "answer": 1,
+      "explain": "Slide 9 credits Peter Mitchell with the chemiosmotic theory of oxidative phosphorylation. Energy from electron transport is used to pump H⁺ across the inner membrane, and the resulting electrochemical gradient drives ATP synthesis as H⁺ flow back through ATP synthase (slide 10); Lippincott calls this the chemiosmotic hypothesis.",
+      "distractors": "Induced-fit and lock-and-key models describe enzyme–substrate binding, the fluid mosaic model describes membrane structure, and the endosymbiotic theory concerns the evolutionary origin of mitochondria.",
+      "source": "Slides 9 and 10 · Lippincott 9e Ch 5 – chemiosmotic hypothesis"
+    },
+    {
+      "id": "oxphos-15",
+      "topic": "Proton pumping by each complex",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "According to the lecture, how many H⁺ are pumped from the matrix into the intermembrane space by Complexes I, II, III and IV, respectively, for each pair of electrons passing through them?",
+      "options": [
+        "4, 2, 4, 0",
+        "4, 4, 2, 0",
+        "2, 0, 4, 4",
+        "4, 0, 4, 2",
+        "4, 0, 2, 4"
+      ],
+      "answer": 3,
+      "explain": "Slide 10 shows proton-pumping arrows only through Complex I (4 H⁺), Complex III (4 H⁺) and Complex IV (2 H⁺); there is no arrow through Complex II, which pumps no protons. Slide 11 uses the same values to calculate ATP yield.",
+      "distractors": "A and B wrongly credit Complex II with pumping or leave out Complex IV, while C and E swap the values for Complexes I/III and IV.",
+      "source": "Slides 10 and 11 · Lippincott 9e Ch 5 – proton pump"
+    },
+    {
+      "id": "oxphos-16",
+      "topic": "Electrochemical gradient",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "During active electron transport, how does the intermembrane space compare with the mitochondrial matrix?",
+      "options": [
+        "Higher pH and positive charge",
+        "Lower pH and negative charge",
+        "Higher pH and negative charge",
+        "Same pH but positive charge",
+        "Lower pH and positive charge"
+      ],
+      "answer": 4,
+      "explain": "Complexes I, III and IV pump H⁺ out of the matrix into the intermembrane space (slide 10). The intermembrane space therefore has more H⁺ (↓pH) and an excess of positive charge, while the matrix is relatively alkaline (↑pH) and negative. Lippincott describes these as the chemical (pH) and electrical components of the proton-motive force.",
+      "distractors": "A and C reverse the pH difference; B and D misplace the charge or ignore the pH gradient. H⁺ pumping creates both gradients at the same time.",
+      "source": "Slides 10 and 17 · Lippincott 9e Ch 5 – electrochemical (proton) gradient"
+    },
+    {
+      "id": "oxphos-17",
+      "topic": "How the H⁺ gradient drives ATP synthase",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "According to the chemiosmotic theory, which event directly drives the synthesis of ATP by ATP synthase?",
+      "options": [
+        "Flow of H⁺ from the intermembrane space back into the matrix through F₀",
+        "Pumping of H⁺ from the matrix into the intermembrane space by F₀",
+        "Direct transfer of electrons from cytochrome c to the F₁ subunits",
+        "Flow of H⁺ from the matrix into the cytoplasm across the outer membrane",
+        "Reduction of O₂ to H₂O at the catalytic β subunits of F₁"
+      ],
+      "answer": 0,
+      "explain": "The gradient built by Complexes I, III and IV is discharged when H⁺ re-enter the matrix, down their gradient, through the H⁺ channel of F₀ in the inner membrane. This flow drives ADP + Pi → ATP at the catalytic F₁ domain in the matrix (slides 10 and 13); oligomycin acts by preventing exactly this re-entry (slide 16).",
+      "distractors": "H⁺ are pumped out by the respiratory complexes, not by F₀ (B). ATP synthase neither receives electrons nor reduces O₂ (C, E); that is the work of Complex IV.",
+      "source": "Slides 10, 13 and 16 · Lippincott 9e Ch 5 – ATP synthase and the chemiosmotic hypothesis"
+    },
+    {
+      "id": "oxphos-18",
+      "topic": "H⁺ pumped per FADH₂",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Using the proton-pumping values taught in the lecture, how many H⁺ are pumped into the intermembrane space when one FADH₂ is oxidized by the ETC?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "answer": 2,
+      "explain": "FADH₂ enters at Complex II, which pumps no protons, so its electrons pass only Complex III (4 H⁺) and Complex IV (2 H⁺): 4 + 2 = 6 H⁺ (slides 10–11). At the lecture's ratio of 4 H⁺ per ATP, this gives 1.5 ATP.",
+      "distractors": "10 H⁺ is the total for NADH, whose electrons also pass Complex I (4 + 4 + 2). 4 or 8 result from leaving out Complex IV or crediting Complex II with pumping.",
+      "source": "Slides 10 and 11 · Lippincott 9e Ch 5 – proton pump"
+    },
+    {
+      "id": "oxphos-19",
+      "topic": "ATP yield per NADH and FADH₂",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "According to the ATP-yield table taught in this lecture, how much ATP is produced when one NADH + H⁺ and one FADH₂, respectively, are oxidized through the ETC?",
+      "options": [
+        "3 ATP and 2 ATP",
+        "2.5 ATP and 1.5 ATP",
+        "2 ATP and 1 ATP",
+        "1.5 ATP and 2.5 ATP",
+        "3.5 ATP and 2.5 ATP"
+      ],
+      "answer": 1,
+      "explain": "Slide 11 uses 4 H⁺ = 1 ATP: NADH → Complex I (1) + Complex III (1) + Complex IV (½) = 2.5 ATP; FADH₂ → Complex III (1) + Complex IV (½) = 1.5 ATP. The slide notes that Lippincott quotes 3 and 2 ATP and labels these the 'older concept'; the lecture expects 2.5 and 1.5.",
+      "distractors": "3 and 2 (A) are the older whole-number values that the lecturer explicitly sets aside. D reverses the two coenzymes; FADH₂ always yields less because it bypasses Complex I.",
+      "source": "Slides 10 and 11 · Lippincott 9e Ch 5 – coupling of electron transport and ATP synthesis"
+    },
+    {
+      "id": "oxphos-20",
+      "topic": "Why FADH₂ yields less ATP",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Why does oxidation of FADH₂ yield less ATP than oxidation of NADH + H⁺?",
+      "options": [
+        "FADH₂ donates one electron to the chain, whereas NADH donates two",
+        "Electrons from FADH₂ bypass Complex IV and reduce O₂ directly",
+        "FADH₂ is oxidized in the cytoplasm, outside the mitochondria",
+        "Its electrons enter at Complex II, which pumps no H⁺, bypassing Complex I",
+        "Complex II pumps H⁺ from the intermembrane space back into the matrix"
+      ],
+      "answer": 3,
+      "explain": "FADH₂ enters the chain at Complex II (succinate dehydrogenase), which pumps no protons, and its electrons pass to CoQ beyond Complex I. Only Complexes III and IV pump H⁺ for FADH₂ (6 H⁺ vs 10 H⁺ for NADH), giving 1.5 vs 2.5 ATP (slides 7, 10 and 11).",
+      "distractors": "Both coenzymes donate 2e⁻ (slide 5) and both pass their electrons through Complex IV to O₂. FADH₂ is generated and oxidized inside the mitochondria (TCA cycle, slide 6), and Complex II moves no protons in either direction.",
+      "source": "Slides 5, 10 and 11 · Lippincott 9e Ch 5 – coupling of electron transport and ATP synthesis"
+    },
+    {
+      "id": "oxphos-21",
+      "topic": "ATP yield calculation (acetyl-CoA)",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "Oxidation of one acetyl-CoA in the TCA cycle yields 3 NADH + H⁺, 1 FADH₂ and 1 ATP by substrate-level phosphorylation. Using the ATP values taught in this lecture, what is the total ATP yield per acetyl-CoA?",
+      "options": [
+        "7.5",
+        "8.5",
+        "9",
+        "10",
+        "12"
+      ],
+      "answer": 3,
+      "explain": "Oxidative phosphorylation gives 3 NADH × 2.5 = 7.5 ATP plus 1 FADH₂ × 1.5 = 1.5 ATP, i.e. 9 ATP. Adding the 1 ATP formed by substrate-level phosphorylation in the TCA cycle (slide 7) gives 10 ATP (slide 11). Textbooks note that in many tissues this substrate-level step (succinyl-CoA synthetase) actually forms GTP, which is energetically equivalent to ATP.",
+      "distractors": "9 omits the substrate-level ATP, and 7.5 or 8.5 omit the FADH₂. 12 uses the older values of 3 and 2 ATP (3 × 3 + 2 + 1), which the lecturer labels an older concept.",
+      "source": "Slides 7 and 11 · Lippincott 9e Ch 5 – ATP yield from reduced coenzymes"
+    },
+    {
+      "id": "oxphos-22",
+      "topic": "ATP synthase: F₀ domain",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which components are found in the F₀ domain of ATP synthase?",
+      "options": [
+        "The H⁺ channel and the c-ring",
+        "The α and β subunits bearing the catalytic sites",
+        "Cytochromes a and a₃ with copper centres",
+        "FMN and iron-sulfur (Fe-S) centres",
+        "The γ, δ and ε subunits"
+      ],
+      "answer": 0,
+      "explain": "Slide 13: F₀ is the membrane domain of ATP synthase, located in the inner mitochondrial membrane, and contains the H⁺ channel and the 'C' rings. H⁺ flowing through F₀ turn the c-ring, and F₀ is also where oligomycin binds (slide 16).",
+      "distractors": "α, β, γ, δ and ε are the subunits of F₁, the extramembranous domain in the matrix (slide 13). Cytochromes a/a₃ with copper belong to Complex IV, and FMN/Fe-S to Complex I.",
+      "source": "Slides 13 and 16 · Lippincott 9e Ch 5 – ATP synthase (F₁F₀-ATPase)"
+    },
+    {
+      "id": "oxphos-23",
+      "topic": "ATP synthase: F₁ domain",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "A research toxin binds to and inactivates the F₁ domain of ATP synthase but leaves F₀ intact. Which function is directly lost?",
+      "options": [
+        "Pumping of H⁺ by Complex I",
+        "Transfer of electrons from CoQ to cytochrome b",
+        "Formation of the H⁺ channel across the inner membrane",
+        "Reduction of O₂ to H₂O by cytochrome c oxidase",
+        "Catalytic conversion of ADP and Pi to ATP"
+      ],
+      "answer": 4,
+      "explain": "Slide 13: F₁, the extramembranous domain in the matrix (α, β, γ, δ, ε subunits), contains the catalytic activity of ATP synthase, whereas F₀ provides the H⁺ channel. Inactivating F₁ therefore directly abolishes the formation of ATP from ADP + Pi.",
+      "distractors": "The H⁺ channel belongs to F₀ (C), which is spared. Proton pumping, CoQ → cytochrome b transfer and O₂ reduction are functions of the respiratory complexes, not of ATP synthase.",
+      "source": "Slide 13 · Lippincott 9e Ch 5 – ATP synthase (F₁ domain)"
+    },
+    {
+      "id": "oxphos-24",
+      "topic": "Classes of agents affecting OxPhos",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Agents affecting oxidative phosphorylation are grouped into site-specific ETC inhibitors, inhibitors of ATP synthase, and uncouplers. Which agent is correctly matched to its class?",
+      "options": [
+        "Rotenone — uncoupler",
+        "2,4-Dinitrophenol — inhibitor of ATP synthase",
+        "Oligomycin — inhibitor of ATP synthase",
+        "Salicylate — site-specific ETC inhibitor",
+        "Cyanide — uncoupler"
+      ],
+      "answer": 2,
+      "explain": "Slide 14 lists the three classes. Oligomycin binds F₀ and inhibits ATP synthase (slide 16); rotenone (Complex I) and cyanide (Complex IV) are site-specific ETC inhibitors (slide 15); and 2,4-dinitrophenol and salicylate are uncouplers (slide 18).",
+      "distractors": "Uncouplers are often confused with oligomycin because both stop ATP synthesis, but 2,4-DNP and salicylate dissipate the H⁺ gradient rather than blocking F₀ (B, D). Rotenone and cyanide block electron transfer at specific complexes rather than uncoupling (A, E).",
+      "source": "Slides 14–18 · Lippincott 9e Ch 5 – inhibitors and uncouplers"
+    },
+    {
+      "id": "oxphos-25",
+      "topic": "Site-specific inhibitors",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which inhibitor is correctly matched with the ETC complex it blocks?",
+      "options": [
+        "Rotenone — Complex III",
+        "Antimycin A — Complex III",
+        "Piericidin — Complex IV",
+        "Hydrogen sulfide — Complex I",
+        "Amobarbital — Complex II"
+      ],
+      "answer": 1,
+      "explain": "Slide 15: Complex I is blocked by rotenone, amobarbital and piericidin; Complex III by antimycin A (between cytochrome b and cytochrome c₁); and Complex IV by cyanide, CO and H₂S. The lecture lists no inhibitor of Complex II.",
+      "distractors": "Rotenone, piericidin and amobarbital all act on Complex I, and H₂S acts with cyanide and CO on Complex IV.",
+      "source": "Slide 15 · Lippincott 9e Ch 5 – site-specific inhibitors"
+    },
+    {
+      "id": "oxphos-26",
+      "topic": "Localising a defect from substrate oxidation",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "Mitochondria isolated from a muscle biopsy of a 7-year-old boy with exercise intolerance consume O₂ normally when given succinate, but hardly at all when given substrates that generate NADH + H⁺. A defect in which component best explains these findings?",
+      "options": [
+        "NADH dehydrogenase (Complex I)",
+        "Succinate dehydrogenase (Complex II)",
+        "Coenzyme Q (ubiquinone)",
+        "Cytochrome c",
+        "Cytochrome c oxidase (Complex IV)"
+      ],
+      "answer": 0,
+      "explain": "Succinate is oxidized by Complex II (succinate dehydrogenase), and its electrons enter at CoQ and then pass Complex III → cytochrome c → Complex IV → O₂. Normal respiration on succinate shows that CoQ, Complex III, cytochrome c and Complex IV are all working, so the only step unique to NADH, Complex I (NADH dehydrogenase), must be defective (slides 7, 8 and 15).",
+      "distractors": "A defect in CoQ, cytochrome c or Complex IV would block oxidation of both NADH and succinate (C, D, E). A Complex II defect would impair succinate oxidation and spare NADH (B).",
+      "source": "Slides 7, 8 and 15 · Lippincott 9e Ch 5 – organization of the ETC"
+    },
+    {
+      "id": "oxphos-27",
+      "topic": "Complex I inhibition: FADH₂ bypass",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 40-year-old farmer accidentally swallows a garden insecticide containing rotenone. Assuming Complex I is completely blocked, which electron donor can still drive ATP synthesis in his mitochondria, and what is its yield per molecule according to the lecture?",
+      "options": [
+        "NADH + H⁺; 2.5 ATP",
+        "NADH + H⁺; 1.5 ATP",
+        "FADH₂; 2.5 ATP",
+        "Neither donor; oxidative ATP synthesis stops completely",
+        "FADH₂; 1.5 ATP"
+      ],
+      "answer": 4,
+      "explain": "Rotenone blocks Complex I (slide 15), so electrons from NADH + H⁺ cannot enter the chain. FADH₂ enters at Complex II and passes its electrons to CoQ beyond the block, then through Complexes III and IV, so it still pumps 6 H⁺ and yields 1.5 ATP (slides 10–11). Lippincott: a site-specific inhibitor stops electron flow only from carriers upstream of the block.",
+      "distractors": "NADH oxidation stops completely when Complex I is blocked (A, B). A Complex I block does not stop everything (D), because FADH₂ never passes through Complex I; for the same reason its yield does not rise to 2.5 ATP (C).",
+      "source": "Slides 10, 11 and 15 · Lippincott 9e Ch 5 – site-specific inhibitors"
+    },
+    {
+      "id": "oxphos-28",
+      "topic": "Redox state of carriers after a block",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "Antimycin A is added to isolated mitochondria that are actively oxidizing NADH-linked substrates. Once a new steady state is reached, which carrier will be found mainly in the oxidized form?",
+      "options": [
+        "NADH",
+        "FMN",
+        "Coenzyme Q",
+        "Cytochrome b",
+        "Cytochrome c"
+      ],
+      "answer": 4,
+      "explain": "Antimycin A blocks Complex III between cytochrome b and cytochrome c₁ (slide 15). Carriers upstream of the block (NADH, FMN, Fe-S, CoQ, cytochrome b) cannot pass on their electrons and become fully reduced, while carriers downstream (cytochrome c₁, cytochrome c, cytochrome aa₃) give their electrons to O₂ and remain oxidized. This redox pattern is stated in Lippincott (site-specific inhibitors), not drawn on the slides.",
+      "distractors": "Cytochrome b lies just before the block, so it is reduced; this is the commonest trap. NADH, FMN and CoQ lie further upstream and also accumulate in the reduced state.",
+      "source": "Slide 15 · Lippincott 9e Ch 5 – site-specific inhibitors"
+    },
+    {
+      "id": "oxphos-29",
+      "topic": "Cyanide poisoning: site of action",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 34-year-old man is rescued from a house fire in which foam furniture and plastics burned. He is confused and hypotensive, his venous blood looks unusually bright red, and his blood cyanide level is markedly raised. Cyanide causes this cellular hypoxia by directly inhibiting which enzyme?",
+      "options": [
+        "NADH dehydrogenase (Complex I)",
+        "Succinate dehydrogenase (Complex II)",
+        "Cytochrome bc₁ complex (Complex III)",
+        "Cytochrome c oxidase (Complex IV)",
+        "F₁F₀-ATPase (Complex V)"
+      ],
+      "answer": 3,
+      "explain": "Slide 15: cyanide, CO and H₂S inhibit Complex IV (cytochrome c oxidase), blocking transfer of electrons from cytochrome aa₃ to O₂. Cells cannot use O₂ as the final electron acceptor, so oxidative ATP production stops and O₂ stays in the blood, which explains the bright red venous blood despite cellular hypoxia.",
+      "distractors": "Complex I is blocked by rotenone, amobarbital and piericidin, Complex III by antimycin A, and ATP synthase by oligomycin; the lecture lists no Complex II inhibitor.",
+      "source": "Slide 15 · Lippincott 9e Ch 5 – site-specific inhibitors (Complex IV)"
+    },
+    {
+      "id": "oxphos-30",
+      "topic": "Cyanide poisoning: consequences",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 45-year-old electroplating worker accidentally swallows a cyanide-containing solution and collapses. Which change is expected in the mitochondria of his tissues?",
+      "options": [
+        "Electron flow to O₂ continues, but the energy is released as heat",
+        "Carriers upstream of Complex IV stay reduced, and O₂ consumption falls",
+        "Carriers upstream of Complex IV become oxidized, and O₂ consumption rises",
+        "The H⁺ gradient becomes maximal because H⁺ cannot re-enter through F₀",
+        "Electrons bypass Complex IV by passing from cytochrome c directly to O₂"
+      ],
+      "answer": 1,
+      "explain": "Cyanide blocks Complex IV between cytochrome aa₃ and O₂ (slide 15). Electrons back up, so the upstream carriers (NADH, FMN, CoQ, cytochromes b, c₁ and c) remain reduced, O₂ is no longer consumed, H⁺ pumping stops and oxidative ATP synthesis ceases. The redox and O₂-consumption effects come from Lippincott (site-specific inhibitors) rather than the slides.",
+      "distractors": "Option A describes an uncoupler such as 2,4-DNP, and D describes oligomycin (slide 16). No route carries electrons from cytochrome c to O₂ without Complex IV (E).",
+      "source": "Slides 15–17 · Lippincott 9e Ch 5 – site-specific inhibitors"
+    },
+    {
+      "id": "oxphos-31",
+      "topic": "Carbon monoxide poisoning",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "On a cold night, an Omani family burns charcoal for bukhoor in a closed bedroom. By morning, the mother and daughter have headache, confusion and vomiting, and their carboxyhemoglobin levels are raised. Besides binding hemoglobin, carbon monoxide inhibits a component of the ETC. Which other agent inhibits the same component?",
+      "options": [
+        "Rotenone",
+        "Antimycin A",
+        "Hydrogen sulfide",
+        "Oligomycin",
+        "2,4-Dinitrophenol"
+      ],
+      "answer": 2,
+      "explain": "Slide 15 groups CO with cyanide and H₂S as inhibitors of Complex IV (cytochrome c oxidase), blocking electron transfer from cytochrome aa₃ to O₂. In CO poisoning this cellular block adds to the reduced O₂-carrying capacity caused by carboxyhemoglobin.",
+      "distractors": "Rotenone (Complex I) and antimycin A (Complex III) are site-specific inhibitors of other complexes; oligomycin inhibits ATP synthase at F₀, and 2,4-DNP is an uncoupler.",
+      "source": "Slide 15 · Lippincott 9e Ch 5 – site-specific inhibitors (Complex IV)"
+    },
+    {
+      "id": "oxphos-32",
+      "topic": "Hydrogen sulfide poisoning",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 28-year-old technician at an oil and gas field in interior Oman collapses within minutes of a leak of gas that smells of rotten eggs. Hydrogen sulfide poisoning is diagnosed. Which step of the electron transport chain is directly blocked?",
+      "options": [
+        "NADH + H⁺ → NAD⁺ at Complex I",
+        "FADH₂ → FAD at Complex II",
+        "Cytochrome b → cytochrome c₁ in Complex III",
+        "Cytochrome aa₃ → O₂ in Complex IV",
+        "H⁺ re-entry through the F₀ channel"
+      ],
+      "answer": 3,
+      "explain": "Slide 15 lists H₂S with cyanide and CO as Complex IV inhibitors, and its figure places the block between cytochrome aa₃ and O₂. O₂ can no longer accept electrons (½O₂ + 2H⁺ → H₂O), so the whole chain stops and oxidative ATP production fails.",
+      "distractors": "The Complex I step is the site of rotenone, amobarbital and piericidin, cytochrome b → c₁ is the antimycin A site, and H⁺ re-entry through F₀ is blocked by oligomycin. The lecture lists no Complex II inhibitor.",
+      "source": "Slide 15 · Lippincott 9e Ch 5 – site-specific inhibitors (Complex IV)"
+    },
+    {
+      "id": "oxphos-33",
+      "topic": "Oligomycin: mechanism",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Oligomycin inhibits oxidative phosphorylation by which mechanism?",
+      "options": [
+        "Binding the F₀ domain and blocking H⁺ re-entry into the matrix",
+        "Binding F₁ of ATP synthase and preventing the release of ATP",
+        "Blocking electron transfer from cytochrome aa₃ to O₂",
+        "Blocking electron transfer from cytochrome b to cytochrome c₁",
+        "Making the inner mitochondrial membrane permeable to H⁺"
+      ],
+      "answer": 0,
+      "explain": "Slide 16: oligomycin binds the F₀ domain of ATP synthase and prevents re-entry of H⁺ into the mitochondrial matrix, thereby inhibiting ATP synthase and phosphorylation. It is the lecture's example of class 2, inhibitors of oxidative phosphorylation (slide 14).",
+      "distractors": "C is the Complex IV block (cyanide, CO, H₂S), D is the Complex III block (antimycin A), and E is the mechanism of uncouplers. Oligomycin acts on F₀, not F₁.",
+      "source": "Slides 14 and 16 · Lippincott 9e Ch 5 – inhibition of ATP synthase (oligomycin)"
+    },
+    {
+      "id": "oxphos-34",
+      "topic": "Oligomycin then uncoupler (respiratory control)",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "Isolated mitochondria are respiring actively with succinate, ADP and Pi. Oligomycin is added and O₂ consumption falls sharply. 2,4-Dinitrophenol (DNP) is then added. What is the expected result?",
+      "options": [
+        "Both O₂ consumption and ATP synthesis are restored",
+        "O₂ consumption resumes, but ATP synthesis stays inhibited",
+        "ATP synthesis resumes, but O₂ consumption stays inhibited",
+        "Neither O₂ consumption nor ATP synthesis changes",
+        "The H⁺ gradient rises further and O₂ use falls to zero"
+      ],
+      "answer": 1,
+      "explain": "Oligomycin blocks H⁺ re-entry through F₀ (slide 16), so the gradient builds until the complexes can no longer pump against it and electron flow slows; Lippincott calls this respiratory control (the effect on O₂ consumption is textbook extension, not stated on the slides). DNP makes the inner membrane leaky to H⁺ (slide 17), dissipating the gradient so that electrons flow to O₂ again, but ATP synthase is still blocked, so no ATP is made.",
+      "distractors": "A forgets that oligomycin remains bound to F₀. C and E ignore that the uncoupler removes the back-pressure of the gradient on the ETC, which is what allows O₂ consumption to resume.",
+      "source": "Slides 16 and 17 · Lippincott 9e Ch 5 – oligomycin, respiratory control and uncouplers"
+    },
+    {
+      "id": "oxphos-35",
+      "topic": "Uncouplers vs site-specific inhibitors",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Which statement correctly distinguishes an uncoupler such as 2,4-dinitrophenol from a site-specific ETC inhibitor such as antimycin A?",
+      "options": [
+        "The uncoupler binds cytochrome c oxidase, whereas antimycin A binds the F₀ domain",
+        "The uncoupler blocks H⁺ re-entry via F₀, whereas antimycin A makes the membrane leaky to H⁺",
+        "The uncoupler stops electron flow and heat output, whereas antimycin A increases both",
+        "The uncoupler increases ATP synthesis, whereas antimycin A blocks electron entry at Complex I",
+        "The uncoupler lets electrons reach O₂ without ATP synthesis; antimycin A halts electron flow"
+      ],
+      "answer": 4,
+      "explain": "Slide 17: uncouplers allow electron transfer through the ETC without ATP synthesis by making the inner membrane abnormally permeable to H⁺, so the energy is lost as heat. Site-specific inhibitors (slide 15) block a carrier (antimycin A at Complex III), so electron flow itself stops. Although slide 14 lists uncouplers under 'Inhibitors of ETC', they do not inhibit electron transport; they inhibit only its coupling to ATP synthesis.",
+      "distractors": "B reverses the mechanisms of uncouplers and oligomycin, and C reverses their effects on electron flow and heat. Uncouplers decrease rather than increase oxidative ATP synthesis, and antimycin A acts at Complex III, not Complex I (D).",
+      "source": "Slides 14, 15 and 17 · Lippincott 9e Ch 5 – site-specific inhibitors and uncouplers"
+    },
+    {
+      "id": "oxphos-36",
+      "topic": "Salicylate toxicity (uncoupling)",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 3-year-old boy is brought to an emergency department in Muscat after swallowing many of his grandfather's aspirin tablets. He has a temperature of 39.6 °C, profuse sweating and rapid breathing. His hyperthermia is best explained by which action of salicylate?",
+      "options": [
+        "Inhibition of cytochrome c oxidase, blocking the reduction of O₂ to water",
+        "Binding to F₀ and preventing H⁺ re-entry into the matrix through ATP synthase",
+        "Making the inner membrane leaky to H⁺, so energy is released as heat",
+        "Inhibition of Complex I, preventing the oxidation of NADH",
+        "Stimulation of F₁, increasing the rate of ATP synthesis"
+      ],
+      "answer": 2,
+      "explain": "Salicylate is one of the uncouplers listed on slide 18. Uncouplers make the inner mitochondrial membrane abnormally permeable to H⁺ (slide 17), so H⁺ leak back into the matrix bypassing ATP synthase; electron transport continues, but the energy is released as heat (thermogenesis) instead of being captured as ATP. Lippincott links this to the fever seen in salicylate overdose.",
+      "distractors": "A and D describe site-specific ETC inhibitors and B describes oligomycin; none of these generates heat. Uncouplers reduce, rather than increase, ATP synthesis by ATP synthase (E).",
+      "source": "Slides 17 and 18 · Lippincott 9e Ch 5 – synthetic uncouplers (salicylate)"
+    },
+    {
+      "id": "oxphos-37",
+      "topic": "2,4-Dinitrophenol toxicity",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 24-year-old bodybuilder who bought a 'fat-burning' supplement online presents with a temperature of 41 °C, profuse sweating and tachycardia. The product contains 2,4-dinitrophenol. Which combination of mitochondrial changes is expected?",
+      "options": [
+        "Electron transport stops; oxidative ATP synthesis falls; heat production falls",
+        "Electron transport continues; oxidative ATP synthesis falls; heat production rises",
+        "Electron transport stops; oxidative ATP synthesis rises; heat production rises",
+        "Electron transport continues; oxidative ATP synthesis rises; heat production falls",
+        "Electron transport stops; oxidative ATP synthesis falls; heat production rises"
+      ],
+      "answer": 1,
+      "explain": "2,4-Dinitrophenol is an uncoupler (slide 18). It makes the inner membrane abnormally permeable to H⁺, so electrons keep flowing through the ETC to O₂ while the gradient is dissipated and ATP synthase makes little ATP; the energy is released as heat (thermogenesis, slide 17), causing dangerous hyperthermia. The slide's 'NO ATP' refers to oxidative phosphorylation; substrate-level ATP from glycolysis continues.",
+      "distractors": "A describes a site-specific inhibitor such as cyanide. E wrongly assumes that uncouplers block electron transport; the slide states that they 'allow transfer of electrons through ETC'.",
+      "source": "Slides 17 and 18 · Lippincott 9e Ch 5 – synthetic uncouplers (2,4-DNP)"
+    },
+    {
+      "id": "oxphos-38",
+      "topic": "Uncoupling proteins (brown fat)",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A term newborn in a cool delivery room keeps warm by non-shivering thermogenesis in brown adipose tissue, whose mitochondria contain an uncoupling protein. How does this protein generate heat?",
+      "options": [
+        "It blocks the transfer of electrons from cytochrome aa₃ to O₂",
+        "It binds F₀ and blocks H⁺ re-entry through ATP synthase",
+        "It pumps extra H⁺ from the matrix into the intermembrane space",
+        "It provides an H⁺ channel into the matrix that bypasses ATP synthase",
+        "It increases the catalytic rate of ATP synthesis by the F₁ domain"
+      ],
+      "answer": 3,
+      "explain": "The slide 18 figure shows that uncoupling proteins create a channel allowing H⁺ to re-enter the mitochondrial matrix without capturing any energy as ATP. Electron transport continues, the gradient is dissipated and the energy appears as heat (thermogenesis, slide 17); Lippincott names this protein UCP1 (thermogenin) of brown adipose tissue.",
+      "distractors": "Pumping H⁺ out of the matrix (C) is done by Complexes I, III and IV and builds the gradient. A and B describe cyanide-type and oligomycin-type inhibition, which do not produce heat.",
+      "source": "Slides 17 and 18 · Lippincott 9e Ch 5 – uncoupling proteins (UCP1, thermogenin)"
+    },
+    {
+      "id": "oxphos-39",
+      "topic": "Examples of uncouplers",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which of the following is an uncoupler of oxidative phosphorylation?",
+      "options": [
+        "Dicoumarol",
+        "Oligomycin",
+        "Rotenone",
+        "Antimycin A",
+        "Carbon monoxide"
+      ],
+      "answer": 0,
+      "explain": "Slide 18 lists three chemical uncouplers: 2,4-dinitrophenol (DNP), dicoumarol (spelled 'Dicuomarol' on the slide) and salicylate. Like all uncouplers, dicoumarol makes the inner membrane permeable to H⁺, so electron transport continues without ATP synthesis (slide 17).",
+      "distractors": "Oligomycin inhibits ATP synthase at F₀, whereas rotenone (Complex I), antimycin A (Complex III) and carbon monoxide (Complex IV) are site-specific ETC inhibitors.",
+      "source": "Slides 17 and 18 · Lippincott 9e Ch 5 – uncouplers"
+    },
+    {
+      "id": "oxphos-40",
+      "topic": "Cyanide vs uncoupler: common effect",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "In the emergency department, one patient has cyanide poisoning and another has 2,4-dinitrophenol toxicity. Which mitochondrial change is common to both patients?",
+      "options": [
+        "Continued electron flow to O₂",
+        "Inhibition of cytochrome c oxidase",
+        "Decreased ATP synthesis by ATP synthase",
+        "Increased H⁺ permeability of the inner membrane",
+        "Increased heat production from H⁺ leak"
+      ],
+      "answer": 2,
+      "explain": "Cyanide blocks Complex IV, so no H⁺ gradient is generated (slide 15); 2,4-DNP dissipates the gradient by making the inner membrane leaky to H⁺ (slide 17). Either way there is no proton-motive force to drive H⁺ through F₀, so ATP synthesis by ATP synthase falls in both patients.",
+      "distractors": "Continued electron flow (A), increased H⁺ permeability (D) and heat from H⁺ leak (E) are features of the uncoupler only, while inhibition of cytochrome c oxidase (B) is specific to cyanide.",
+      "source": "Slides 15, 17 and 18 · Lippincott 9e Ch 5 – site-specific inhibitors and uncouplers"
+    }
+  ]
+}

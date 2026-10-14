@@ -1,0 +1,728 @@
+{
+  "lecture": "glycogen",
+  "title": "Glycogen Metabolism",
+  "format": "Single best answer · 5 options",
+  "provenance": "Original exam-style items written from the lecture slides and Lippincott; modelled on the NUST/OMC MD-program SBA format (no public past papers were found).",
+  "questions": [
+    {
+      "id": "glycogen-01",
+      "topic": "Glycogenesis in the fed state",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 22-year-old medical student eats a large rice-and-chicken lunch. An hour later her blood glucose and insulin are raised, and her liver and skeletal muscle are converting the excess glucose into a branched glucose polymer for storage. Which process is this?",
+      "options": [
+        "Glycogenolysis",
+        "Gluconeogenesis",
+        "Glycolysis",
+        "Glycogenesis",
+        "Lipogenesis"
+      ],
+      "answer": 3,
+      "explain": "Glycogenesis is the process of glycogen synthesis. In the fed state blood glucose rises, and the excess is stored as glycogen in liver and muscle (slide 3). Insulin stimulates glycogenesis (slide 12).",
+      "distractors": "Glycogenolysis (glycogen degradation) and gluconeogenesis are the fasting-state sources of blood glucose on slide 3. Glycolysis breaks glucose down, and lipogenesis stores fuel as fat, not as a glucose polymer.",
+      "source": "Slides 3, 6 and 12 · Lippincott ch. 11, overview of glycogen metabolism"
+    },
+    {
+      "id": "glycogen-02",
+      "topic": "Site of glycogen metabolism",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "In which cellular compartment do glycogenesis and the phosphorylase-dependent pathway of glycogenolysis take place?",
+      "options": [
+        "Mitochondrial matrix",
+        "Lysosomes",
+        "Cytoplasm (cytosol)",
+        "Nucleus",
+        "Golgi apparatus"
+      ],
+      "answer": 2,
+      "explain": "Slides 6 and 13 give the cytoplasm as the site of both glycogenesis and glycogenolysis. Glycogen synthase, the branching enzyme, glycogen phosphorylase and the debranching enzyme all act on cytosolic glycogen granules.",
+      "distractors": "Lysosomes contain a separate, minor degradative route (lysosomal α(1→4)-glucosidase, deficient in Pompe disease), not the phosphorylase pathway. Glycogen metabolism does not take place in mitochondria, the nucleus or the Golgi.",
+      "source": "Slides 6, 13 and 16 · Lippincott ch. 11, glycogen synthesis and degradation"
+    },
+    {
+      "id": "glycogen-03",
+      "topic": "Structure of glycogen",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Glycogen is a branched homopolymer of glucose. Which option correctly describes the linkage at its branch points and how often branches occur?",
+      "options": [
+        "α(1→4) glycosidic bonds, about every 8–10 glucose residues",
+        "α(1→6) glycosidic bonds, about every 8–10 glucose residues",
+        "α(1→6) glycosidic bonds, about every 2–3 glucose residues",
+        "β(1→6) glycosidic bonds, about every 8–10 glucose residues",
+        "β(1→4) glycosidic bonds, about every 25–30 glucose residues"
+      ],
+      "answer": 1,
+      "explain": "The straight chains of glycogen are joined by α(1→4) glycosidic bonds, and each branch point is an α(1→6) glycosidic bond. Slide 5 states: 'Every 8 to 10 glucose, there is a branch'.",
+      "distractors": "α(1→4) bonds link residues within each chain, not at branch points. Glycogen contains no β-glycosidic bonds.",
+      "source": "Slide 5 · Lippincott ch. 11, structure of glycogen"
+    },
+    {
+      "id": "glycogen-04",
+      "topic": "Significance of branching",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "A tutor asks why the highly branched structure of glycogen suits a fuel store that must be mobilised rapidly. Which is the best explanation?",
+      "options": [
+        "Branching multiplies the nonreducing ends at which synthase and phosphorylase act",
+        "Branching creates many reducing ends, each anchored to its own molecule of glycogenin",
+        "Branch points are cleaved by phosphorolysis, giving extra glucose 1-phosphate per branch",
+        "α(1→6) bonds store more chemical energy than the α(1→4) bonds of the chains",
+        "Branching allows glycogen to be stored and then degraded inside lysosomes"
+      ],
+      "answer": 0,
+      "explain": "Glycogen synthase adds glucose, and glycogen phosphorylase removes it, at the nonreducing ends of chains. Each new branch adds a nonreducing end (slide 10 shows branching taking the count from one to two), so many enzyme molecules can work on one granule at once. Lippincott adds that branching also makes glycogen more soluble.",
+      "distractors": "A glycogen molecule has only one reducing end, and it is attached to glycogenin. α(1→6) branch points are hydrolysed by the debranching enzyme to free glucose; they are not phosphorolysed.",
+      "source": "Slides 5 and 10 · Lippincott ch. 11, structure and branching of glycogen"
+    },
+    {
+      "id": "glycogen-05",
+      "topic": "Liver vs muscle glycogen stores",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which statement about glycogen stores in a well-fed adult is correct?",
+      "options": [
+        "The liver holds about 400 g of glycogen, about 10% of its fresh weight",
+        "The liver holds most of the body's glycogen because its glycogen concentration is highest",
+        "Skeletal muscle and liver each hold about 250 g of glycogen",
+        "Skeletal muscle glycogen is about 10% of its fresh weight, exceeding that of the liver",
+        "Skeletal muscle holds about 400 g, although only 1–2% of its fresh weight"
+      ],
+      "answer": 4,
+      "explain": "On slide 4, liver glycogen is about 10% of fresh weight (about 100 g) and muscle glycogen is 1–2% of fresh weight (about 400 g). Muscle has the lower concentration but a much larger total mass, so 'most of the body's glycogen is found in muscle'.",
+      "distractors": "The liver has the higher concentration (10%) but the smaller total store (about 100 g). Options A–D mix up the two tissues' concentration and total-mass figures.",
+      "source": "Slide 4 · Lippincott ch. 11, function of glycogen in liver and muscle"
+    },
+    {
+      "id": "glycogen-06",
+      "topic": "Ramadan fasting and hepatic glycogenolysis",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A healthy 35-year-old Omani man is fasting during Ramadan. He ate suhoor at 4 a.m. and has had nothing since, yet at 1 p.m. his blood glucose is normal. Breakdown of glycogen in which tissue is supporting his blood glucose, and why?",
+      "options": [
+        "Skeletal muscle, because it holds most of the body's glycogen",
+        "Skeletal muscle, because it releases glucose 6-phosphate into the blood",
+        "Liver, because it has glucose-6-phosphatase to release free glucose",
+        "Liver, because hepatocytes export glucose 1-phosphate into the blood",
+        "Cardiac muscle, because it stores glycogen at the highest concentration"
+      ],
+      "answer": 2,
+      "explain": "Falling blood glucose in fasting triggers glycogenolysis (slide 3). Liver glycogen is broken down to glucose 1-phosphate and then glucose 6-phosphate. Glucose-6-phosphatase hydrolyses this to free glucose, which leaves the hepatocyte to support blood glucose (slides 4, 15 and 16). Gluconeogenesis also contributes during fasting.",
+      "distractors": "Muscle holds more glycogen in total, but its glycogenolysis stops at glucose 6-phosphate, which the muscle uses itself. Phosphorylated sugars such as glucose 1-phosphate and glucose 6-phosphate are not released into the blood; the phosphate must first be removed.",
+      "source": "Slides 3, 4, 15 and 16 · Lippincott ch. 11, liver vs muscle glycogen"
+    },
+    {
+      "id": "glycogen-07",
+      "topic": "Muscle glycogen: fate of glucose 6-phosphate",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "During a vigorous 30-minute swimming session, glycogen in a swimmer's shoulder muscles is broken down rapidly. What is the main fate of the glucose 6-phosphate formed in these muscle fibres?",
+      "options": [
+        "It enters glycolysis to supply ATP for contraction in the fibre",
+        "It is hydrolysed to free glucose, which is exported into the blood",
+        "It is converted back to UDP-glucose for immediate glycogen resynthesis",
+        "It is transported intact to the liver for dephosphorylation",
+        "It is taken up by lysosomes and hydrolysed to free glucose"
+      ],
+      "answer": 0,
+      "explain": "In muscle, glycogenolysis ends at glucose 6-phosphate (slide 4), which enters glycolysis to fuel contraction (slide 16, 'GLYCOLYSIS'). Muscle glycogen is the muscle's own fuel reserve, not a source of blood glucose.",
+      "distractors": "Muscle lacks glucose-6-phosphatase, so it cannot make free glucose for export; only the liver can (slides 15 and 16). Glucose 6-phosphate cannot leave the cell to reach the liver.",
+      "source": "Slides 4, 15 and 16 · Lippincott ch. 11, liver vs muscle glycogen"
+    },
+    {
+      "id": "glycogen-08",
+      "topic": "Activation of glucose for glycogenesis",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "In the liver, glucose must be activated before it is added to glycogen. Which sequence of intermediates is correct?",
+      "options": [
+        "Glucose → glucose 1-phosphate → glucose 6-phosphate → UDP-glucose → glycogen",
+        "Glucose → UDP-glucose → glucose 1-phosphate → glucose 6-phosphate → glycogen",
+        "Glucose → glucose 6-phosphate → UDP-glucose → glucose 1-phosphate → glycogen",
+        "Glucose → glucose 6-phosphate → glucose 1-phosphate → UDP-glucose → glycogen",
+        "Glucose → glucose 6-phosphate → fructose 6-phosphate → UDP-glucose → glycogen"
+      ],
+      "answer": 3,
+      "explain": "Slide 8 shows the steps. Glucokinase uses ATP to make glucose 6-phosphate, and phosphoglucomutase converts it reversibly to glucose 1-phosphate. UDP-glucose pyrophosphorylase then uses UTP to make UDP-glucose, releasing PPi. Glycogen synthase transfers the glucose onto the glycogen primer.",
+      "distractors": "Phosphorylation at C6 comes first, and the phosphate is then moved to C1. UDP-glucose is made from glucose 1-phosphate, and fructose 6-phosphate is a glycolytic intermediate, not part of glycogenesis.",
+      "source": "Slides 8 and 10 · Lippincott ch. 11, synthesis of UDP-glucose"
+    },
+    {
+      "id": "glycogen-09",
+      "topic": "UDP-glucose as glucosyl donor",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "What is the immediate donor of the glucosyl residues that glycogen synthase adds to a growing glycogen chain?",
+      "options": [
+        "Glucose 6-phosphate",
+        "Glucose 1-phosphate",
+        "ADP-glucose",
+        "Free α-D-glucose",
+        "UDP-glucose"
+      ],
+      "answer": 4,
+      "explain": "Glycogen synthase transfers glucose from UDP-glucose to the end of an existing chain and releases UDP (slides 8 and 10). UDP-glucose is the activated form of glucose used in glycogenesis.",
+      "distractors": "Glucose 1-phosphate is the precursor of UDP-glucose, not the donor the synthase uses. ADP-glucose is not used in human glycogen synthesis.",
+      "source": "Slides 8 and 10 · Lippincott ch. 11, UDP-glucose and glycogen synthase"
+    },
+    {
+      "id": "glycogen-10",
+      "topic": "Pyrophosphatase and UDP-glucose formation",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Glucose 1-phosphate reacts with UTP to form UDP-glucose and pyrophosphate (PPi). Which reaction makes this step effectively irreversible?",
+      "options": [
+        "Phosphorylation of UDP to UTP by ATP",
+        "Hydrolysis of PPi to two molecules of Pi by pyrophosphatase",
+        "Isomerisation of glucose 6-phosphate to glucose 1-phosphate",
+        "Release of UDP from UDP-glucose by glycogen synthase",
+        "Hydrolysis of glucose 6-phosphate by glucose-6-phosphatase"
+      ],
+      "answer": 1,
+      "explain": "Slide 10 shows pyrophosphatase hydrolysing PPi + H₂O to 2 Pi. Removing PPi pulls the UDP-glucose pyrophosphorylase reaction towards UDP-glucose, which makes it effectively irreversible (Lippincott).",
+      "distractors": "UDP + ATP → UTP + ADP regenerates UTP (slide 8), but it does not remove a product of this reaction. The phosphoglucomutase step is freely reversible (double arrow on slide 8).",
+      "source": "Slides 8 and 10 · Lippincott ch. 11, synthesis of UDP-glucose"
+    },
+    {
+      "id": "glycogen-11",
+      "topic": "Regeneration of UTP",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Each glucose added to glycogen arrives as UDP-glucose, and glycogen synthase releases UDP. How is UTP regenerated for the next round of UDP-glucose synthesis?",
+      "options": [
+        "UDP is phosphorylated by ATP, giving UTP and ADP",
+        "UDP combines with the PPi released by UDP-glucose pyrophosphorylase",
+        "UDP accepts a phosphate group from glucose 6-phosphate",
+        "UDP is phosphorylated by the Pi released from glycogen phosphorylase",
+        "UDP is hydrolysed to UMP, which glycogenin converts back to UTP"
+      ],
+      "answer": 0,
+      "explain": "Slide 8 shows a recycling loop in which ATP rephosphorylates the UDP released by glycogen synthase (UDP + ATP → UTP + ADP). This is why both ATP and UTP are listed as requirements of glycogenesis (slide 6). The slide does not name the enzyme; textbooks name it nucleoside diphosphate kinase.",
+      "distractors": "PPi is not reused; pyrophosphatase hydrolyses it to 2 Pi (slide 10). Glucose 6-phosphate and Pi cannot phosphorylate UDP, and glycogenin is a primer protein, not a kinase.",
+      "source": "Slides 6, 8 and 10 · Lippincott ch. 11, synthesis of UDP-glucose"
+    },
+    {
+      "id": "glycogen-12",
+      "topic": "Glycogen synthase: bond and site",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Glycogen synthase lengthens glycogen chains. Which bond does it form, and at which end of the chain does it add glucose?",
+      "options": [
+        "α(1→6) bonds, at the nonreducing ends",
+        "α(1→4) bonds, at the reducing end",
+        "α(1→4) bonds, at the nonreducing ends",
+        "α(1→6) bonds, at the reducing end",
+        "β(1→4) bonds, at the nonreducing ends"
+      ],
+      "answer": 2,
+      "explain": "Glycogen synthase transfers glucose from UDP-glucose to the nonreducing end of an existing chain, forming α(1→4) bonds. Slide 10 reads: 'Further elongation at the nonreducing ends by glycogen synthase, making α(1→4) bonds.' The α(1→6) branch bonds are made by the branching enzyme.",
+      "distractors": "The single reducing end is attached to glycogenin, so it cannot be elongated. Glycogen contains no β bonds.",
+      "source": "Slides 8 and 10 · Lippincott ch. 11, elongation by glycogen synthase"
+    },
+    {
+      "id": "glycogen-13",
+      "topic": "Glycogenin as primer",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "In a laboratory experiment, purified glycogen synthase is incubated with plenty of UDP-glucose under optimal conditions, but no glycogen forms. Adding which component would most directly allow synthesis to begin?",
+      "options": [
+        "Glucose 1-phosphate",
+        "Branching enzyme",
+        "Pyridoxal phosphate",
+        "Inorganic phosphate",
+        "Glycogenin"
+      ],
+      "answer": 4,
+      "explain": "Glycogen synthase can only extend an existing chain; it cannot start one. Glycogenin is the primer. It attaches glucose from UDP-glucose to the OH group of its own Tyrosine-194 and builds a short chain, which glycogen synthase then extends (slide 10). This is why glycogenin is listed as a requirement of glycogenesis (slide 6).",
+      "distractors": "The branching enzyme only acts on chains that already exist. Pyridoxal phosphate and inorganic phosphate are needed by glycogen phosphorylase for degradation, not for synthesis.",
+      "source": "Slides 6, 9 and 10 · Lippincott ch. 11, glycogenin and primer synthesis"
+    },
+    {
+      "id": "glycogen-14",
+      "topic": "Branching enzyme (4:6 transferase)",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which statement best describes the action of the branching enzyme (4:6 transferase) during glycogenesis?",
+      "options": [
+        "It adds single glucose residues from UDP-glucose directly to the C6 hydroxyl of interior residues",
+        "It hydrolyses α(1→4) bonds within chains, releasing short oligosaccharides into the cytosol",
+        "It transfers a short block of residues from a branch stub onto the end of another chain",
+        "It cuts a block from a chain end and joins it to an interior residue by an α(1→6) bond",
+        "It cleaves terminal α(1→4) bonds with inorganic phosphate, releasing glucose 1-phosphate"
+      ],
+      "answer": 3,
+      "explain": "The branching enzyme breaks an α(1→4) bond to remove a terminal block of glucose residues. It then reattaches the block to an interior residue by an α(1→6) bond, creating a new branch and a new nonreducing end (slides 7, 9 and 10). Lippincott gives the block as 6–8 residues; the slide figures draw 6 or 7, so no exact number is tested here.",
+      "distractors": "Option C is the glucan (4:4) transferase activity of the debranching enzyme, which works in degradation. Option E describes glycogen phosphorylase.",
+      "source": "Slides 7, 9 and 10 · Lippincott ch. 11, formation of branches"
+    },
+    {
+      "id": "glycogen-15",
+      "topic": "Coenzyme of glycogen phosphorylase",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Glycogen phosphorylase needs a coenzyme that the lecture lists among the requirements for glycogenolysis. From which vitamin is this coenzyme derived?",
+      "options": [
+        "Thiamine (vitamin B1)",
+        "Pyridoxine (vitamin B6)",
+        "Riboflavin (vitamin B2)",
+        "Biotin (vitamin B7)",
+        "Cobalamin (vitamin B12)"
+      ],
+      "answer": 1,
+      "explain": "Slide 13 lists the requirements for glycogenolysis as glycogen phosphorylase, the debranching enzyme and PLP (pyridoxal phosphate). PLP is a vitamin B6 derivative and is the coenzyme of glycogen phosphorylase (Lippincott).",
+      "distractors": "Thiamine (as TPP) and biotin are coenzymes for other enzymes, such as pyruvate dehydrogenase and the carboxylases. Neither is used by glycogen phosphorylase.",
+      "source": "Slide 13 · Lippincott ch. 11, glycogen phosphorylase"
+    },
+    {
+      "id": "glycogen-16",
+      "topic": "Phosphoglucomutase in glycogenolysis",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "In glycogenolysis, which enzyme converts the glucose 1-phosphate released by glycogen phosphorylase into glucose 6-phosphate?",
+      "options": [
+        "Phosphoglucomutase",
+        "Glucose-6-phosphatase",
+        "Glucokinase",
+        "UDP-glucose pyrophosphorylase",
+        "Glucan transferase"
+      ],
+      "answer": 0,
+      "explain": "Phosphoglucomutase interconverts glucose 1-phosphate and glucose 6-phosphate (slides 15 and 16). The reaction is reversible, so the same enzyme works in the opposite direction in glycogenesis (slide 8).",
+      "distractors": "Glucose-6-phosphatase acts at the next step, converting glucose 6-phosphate to free glucose in the liver. Glucokinase and UDP-glucose pyrophosphorylase are glycogenesis enzymes.",
+      "source": "Slides 8, 15 and 16 · Lippincott ch. 11, fate of glucose 1-phosphate"
+    },
+    {
+      "id": "glycogen-17",
+      "topic": "Phosphorylase and limit dextrin",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Glycogen phosphorylase removes glucose residues one at a time from the outer chains of glycogen. At what point does it stop, leaving a limit dextrin?",
+      "options": [
+        "When a single glucose residue remains attached by an α(1→6) bond",
+        "When two glucose residues remain before a branch point",
+        "When eight glucose residues remain before a branch point",
+        "When it reaches the reducing end attached to glycogenin",
+        "When four glucose residues remain before a branch point"
+      ],
+      "answer": 4,
+      "explain": "Phosphorylase cleaves α(1→4) bonds by phosphorolysis until four glucose residues remain before a branch point (slides 14 and 16; Lippincott). The resulting structure is the limit dextrin, and the debranching enzyme is needed before phosphorylase can continue.",
+      "distractors": "A single α(1→6)-linked residue is left later, after the debranching transferase has moved three of the four residues away. 'About 8:1' is the ratio of glucose 1-phosphate to free glucose in the products, not a residue count.",
+      "source": "Slides 14 and 16 · Lippincott ch. 11, shortening of chains"
+    },
+    {
+      "id": "glycogen-18",
+      "topic": "Sequence of branch removal",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Which sequence correctly describes how the cytosolic enzymes remove one branch of glycogen?",
+      "options": [
+        "Glucan transferase moves the branch residues → phosphorylase shortens the outer chains → α(1→6)-glucosidase releases glucose 1-phosphate",
+        "α(1→6)-glucosidase releases the whole branch → phosphorylase degrades the released fragment → glucan transferase rejoins the chains",
+        "Phosphorylase trims the outer chains → glucan transferase moves most of the stub to another chain → α(1→6)-glucosidase frees the last residue as glucose",
+        "Phosphorylase shortens the outer chains → α(1→6)-glucosidase removes all the remaining branch residues → glucan transferase joins the chain ends",
+        "Phosphorylase shortens the outer chains → branching enzyme moves the remaining branch residues → α(1→6)-glucosidase releases glucose 1-phosphate"
+      ],
+      "answer": 2,
+      "explain": "Slides 14 and 16 show three steps. (1) Phosphorylase shortens the chains to four residues before the branch point (limit dextrin). (2) The glucan (4:4) transferase moves the outer three of those residues onto the end of another chain. (3) Amylo-α(1→6)-glucosidase hydrolyses the one remaining α(1→6)-linked glucose to free glucose, and the cycle repeats.",
+      "distractors": "The glucosidase removes only the last single residue, and it releases free glucose, not glucose 1-phosphate. The branching enzyme belongs to synthesis, not degradation.",
+      "source": "Slides 14 and 16 · Lippincott ch. 11, removal of branches"
+    },
+    {
+      "id": "glycogen-19",
+      "topic": "Debranching enzyme: 4:4 transferase",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "The glucan transferase activity of the debranching enzyme is called a '4:4 transferase'. What does this name refer to?",
+      "options": [
+        "It moves a block of four glucose residues from a branch onto the end of another chain",
+        "It breaks an α(1→4) bond and forms an α(1→6) bond, creating a new branch point",
+        "It breaks the α(1→6) bond at a branch and forms an α(1→4) bond on another chain",
+        "It breaks one α(1→4) bond and forms another α(1→4) bond on a different chain",
+        "It moves a block of glucose residues onto glycogenin to start a new glycogen molecule"
+      ],
+      "answer": 3,
+      "explain": "The transferase cuts off the outer three of the four residues that phosphorylase leaves on a branch, breaking an α(1→4) bond. It joins them to the nonreducing end of another chain with a new α(1→4) bond (slides 14 and 16; Lippincott). '4:4' therefore names the bond broken and the bond made, not the number of residues. The branching enzyme, by contrast, is a 4:6 transferase: it breaks an α(1→4) bond and makes an α(1→6) bond.",
+      "distractors": "Option A is the classic trap: the figures show only three residues moved, leaving one α(1→6)-linked residue behind. Option B describes the branching enzyme, and the α(1→6) bond in option C is hydrolysed by the glucosidase activity, not transferred.",
+      "source": "Slides 10, 14 and 16 · Lippincott ch. 11, removal of branches"
+    },
+    {
+      "id": "glycogen-20",
+      "topic": "Products of glycogenolysis (~8:1 ratio)",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "When liver glycogen is completely degraded by glycogen phosphorylase and the debranching enzyme, the products are glucose 1-phosphate and free glucose in a ratio of about 8:1. Which statement best explains this ratio?",
+      "options": [
+        "Glucose-6-phosphatase dephosphorylates about one in every nine molecules of glucose 6-phosphate formed",
+        "Only the single α(1→6)-linked residue at each branch point is freed as glucose; all others are phosphorolysed",
+        "Glycogen phosphorylase releases free glucose instead of glucose 1-phosphate at every ninth bond it cleaves",
+        "The 4:4 transferase releases one molecule of free glucose each time it moves a block of residues",
+        "Lysosomal α(1→4)-glucosidase digests about one-ninth of the glycogen to free glucose in parallel"
+      ],
+      "answer": 1,
+      "explain": "Phosphorylase releases every α(1→4)-linked residue it removes as glucose 1-phosphate. The only free glucose comes from amylo-α(1→6)-glucosidase, which hydrolyses the single residue left at each branch point. Branch points are few compared with α(1→4)-linked residues (about one every 8–10 residues), so glucose 1-phosphate outnumbers free glucose by roughly 8:1 (slides 5 and 16).",
+      "distractors": "Glucose-6-phosphatase is not part of glycogen degradation itself; it acts afterwards on glucose 6-phosphate in the liver. Phosphorylase never releases free glucose, and the transferase only moves residues.",
+      "source": "Slides 5 and 16 · Lippincott ch. 11, degradation of glycogen"
+    },
+    {
+      "id": "glycogen-21",
+      "topic": "Rate-limiting enzyme of glycogenesis",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which enzyme is the rate-limiting, regulated enzyme of glycogenesis?",
+      "options": [
+        "Glucokinase",
+        "Phosphoglucomutase",
+        "UDP-glucose pyrophosphorylase",
+        "Branching enzyme",
+        "Glycogen synthase"
+      ],
+      "answer": 4,
+      "explain": "Slide 11 states that glycogenesis is regulated 'through rate limiting enzymes of glycogenesis', with glycogen synthase in the central box. It is controlled hormonally through phosphorylation (slide 12) and allosterically by glucose 6-phosphate (slide 18).",
+      "distractors": "Phosphoglucomutase and UDP-glucose pyrophosphorylase are not presented as regulated steps. The branching enzyme makes branches but does not set the rate of synthesis.",
+      "source": "Slides 11, 12 and 18 · Lippincott ch. 11, regulation of glycogen synthase"
+    },
+    {
+      "id": "glycogen-22",
+      "topic": "Phosphorylation states (a and b forms)",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Phosphorylation has opposite effects on the two key enzymes of glycogen metabolism. Which description of an enzyme form is correct?",
+      "options": [
+        "Glycogen phosphorylase a – phosphorylated and active",
+        "Glycogen synthase a – phosphorylated and inactive",
+        "Glycogen synthase b – dephosphorylated and active",
+        "Glycogen phosphorylase b – phosphorylated and active",
+        "Glycogen phosphorylase a – dephosphorylated and inactive"
+      ],
+      "answer": 0,
+      "explain": "Slides 12 and 17 give the four forms. Glycogen synthase a is dephosphorylated and active, and synthase b is phosphorylated and inactive. Glycogen phosphorylase b is dephosphorylated and inactive, and phosphorylase a is phosphorylated and active. Phosphorylation therefore turns synthesis off and breakdown on.",
+      "distractors": "For both enzymes the 'a' form is the active one, but phosphorylation produces synthase b and phosphorylase a. Options B and C reverse the synthase forms, and D and E reverse the phosphorylase forms.",
+      "source": "Slides 12 and 17 · Lippincott ch. 11, covalent regulation"
+    },
+    {
+      "id": "glycogen-23",
+      "topic": "Glucagon and glycogen synthase",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 28-year-old woman has not eaten for 12 hours. Her plasma glucagon is raised, and cAMP rises in her hepatocytes. What happens to hepatic glycogen synthase?",
+      "options": [
+        "cAMP-dependent protein kinase dephosphorylates it, activating it",
+        "cAMP binds glycogen synthase directly and inhibits it allosterically",
+        "cAMP-dependent protein kinase phosphorylates it, inactivating it",
+        "Phosphodiesterase phosphorylates it, activating it",
+        "Accumulating glucose 6-phosphate inhibits it allosterically"
+      ],
+      "answer": 2,
+      "explain": "Slide 12 shows the cascade. Glucagon activates adenylate cyclase, which makes cAMP from ATP, and cAMP activates cAMP-dependent protein kinase (PKA). PKA phosphorylates active glycogen synthase a, converting it to inactive synthase b, so glucagon inhibits glycogenesis while the liver is releasing glucose.",
+      "distractors": "Kinases add phosphate groups; they do not remove them, and cAMP acts through PKA, not by binding the synthase. Glucose 6-phosphate activates glycogen synthase (slide 18); it does not inhibit it.",
+      "source": "Slides 12 and 18 · Lippincott ch. 11, regulation of glycogen synthesis"
+    },
+    {
+      "id": "glycogen-24",
+      "topic": "Epinephrine cascade in muscle",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 30-year-old man is suddenly chased by a stray dog. A surge of epinephrine raises cAMP in his skeletal muscle and activates cAMP-dependent protein kinase (PKA). Which enzyme does PKA phosphorylate to switch on glycogenolysis?",
+      "options": [
+        "Glycogen phosphorylase b",
+        "Phosphorylase kinase",
+        "Adenylate cyclase",
+        "Debranching enzyme",
+        "Phosphoglucomutase"
+      ],
+      "answer": 1,
+      "explain": "On slide 17, active PKA phosphorylates inactive phosphorylase kinase, turning it into active phosphorylase kinase. Phosphorylase kinase then phosphorylates glycogen phosphorylase b (inactive) to phosphorylase a (active). The slide does not draw this last arrow, but Lippincott confirms that phosphorylase kinase phosphorylates phosphorylase.",
+      "distractors": "PKA does not phosphorylate phosphorylase b directly; phosphorylase kinase does. Adenylate cyclase acts upstream of cAMP, and the lecture does not show the debranching enzyme or phosphoglucomutase being regulated by phosphorylation.",
+      "source": "Slide 17 · Lippincott ch. 11, activation of glycogen phosphorylase"
+    },
+    {
+      "id": "glycogen-25",
+      "topic": "Tissue specificity of glucagon",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "A volunteer receives an intravenous infusion of glucagon. His hepatic glycogen phosphorylase is activated, but his skeletal-muscle glycogen phosphorylase is not. Which is the best explanation?",
+      "options": [
+        "Skeletal muscle lacks the adenylate cyclase needed to make cAMP",
+        "Skeletal muscle lacks cAMP-dependent protein kinase (PKA)",
+        "Glucagon is degraded in the circulation before it reaches skeletal muscle",
+        "Skeletal muscle lacks receptors for glucagon",
+        "Glucagon activates phosphodiesterase in muscle, which lowers cAMP there"
+      ],
+      "answer": 3,
+      "explain": "Slides 12 and 17 label the hormones by tissue: 'Glucagon in liver' and 'Epinephrine in muscle and liver'. Skeletal muscle does not respond to glucagon because it lacks glucagon receptors (Lippincott). Its adenylate cyclase–cAMP–PKA machinery is intact and is switched on by epinephrine instead.",
+      "distractors": "Muscle has adenylate cyclase and PKA, which epinephrine uses (slide 17). Activating phosphodiesterase is how insulin acts, not glucagon.",
+      "source": "Slides 12 and 17 · Lippincott ch. 11, hormonal regulation of glycogen metabolism"
+    },
+    {
+      "id": "glycogen-26",
+      "topic": "Insulin and phosphodiesterase",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "Two hours after breakfast, a 40-year-old man's plasma insulin is high. According to the regulatory cascade in the lecture, insulin lowers hepatic cAMP by activating which enzyme?",
+      "options": [
+        "Phosphodiesterase",
+        "Adenylate cyclase",
+        "cAMP-dependent protein kinase",
+        "Phosphorylase kinase",
+        "Glucose-6-phosphatase"
+      ],
+      "answer": 0,
+      "explain": "On slides 12 and 17, insulin activates phosphodiesterase, which converts cAMP to inactive 5′-AMP. With less cAMP, PKA activity falls, so insulin stimulates glycogenesis and inhibits glycogenolysis. Lippincott adds that insulin also activates protein phosphatase-1; the slides do not show this.",
+      "distractors": "Adenylate cyclase makes cAMP, so activating it would raise cAMP; glucagon and epinephrine activate it. PKA and phosphorylase kinase act downstream of cAMP and do not lower it.",
+      "source": "Slides 12 and 17 · Lippincott ch. 11, effect of insulin"
+    },
+    {
+      "id": "glycogen-27",
+      "topic": "Reciprocal regulation by insulin",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "Insulin promotes glycogen storage in the fed liver. Given how insulin changes cAMP and protein phosphorylation, what is the state of the two key enzymes in the hepatocyte?",
+      "options": [
+        "Synthase phosphorylated and inactive; phosphorylase phosphorylated and active",
+        "Synthase dephosphorylated and active; phosphorylase phosphorylated and active",
+        "Synthase phosphorylated and active; phosphorylase dephosphorylated and inactive",
+        "Synthase phosphorylated and inactive; phosphorylase dephosphorylated and active",
+        "Synthase dephosphorylated and active; phosphorylase dephosphorylated and inactive"
+      ],
+      "answer": 4,
+      "explain": "Insulin lowers cAMP through phosphodiesterase (slides 12 and 17), so PKA and phosphorylase kinase are less active and both enzymes stay dephosphorylated. Lippincott adds that insulin also activates protein phosphatase-1, which removes these phosphates. Dephosphorylated synthase is the active a form and dephosphorylated phosphorylase is the inactive b form, so synthesis is on and breakdown is off.",
+      "distractors": "Option A is the fasting pattern produced by glucagon and epinephrine. Option B would run synthesis and breakdown at the same time, which reciprocal regulation prevents.",
+      "source": "Slides 12 and 17 · Lippincott ch. 11, covalent regulation and insulin"
+    },
+    {
+      "id": "glycogen-28",
+      "topic": "Phosphodiesterase inhibition",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "Hepatocytes in culture are stimulated with glucagon and then given insulin. In one dish, a drug that inhibits phosphodiesterase is added together with the insulin. Based on the insulin mechanism shown in the lecture, how will the drug-treated cells differ from cells given insulin alone?",
+      "options": [
+        "cAMP falls further, so glycogen synthase is activated more strongly",
+        "cAMP falls further, so glycogen phosphorylase is activated",
+        "cAMP stays higher, so phosphorylase stays active and glycogenolysis continues",
+        "cAMP stays higher, so glycogen phosphorylase is switched off more rapidly",
+        "No difference, because phosphodiesterase acts only in skeletal muscle"
+      ],
+      "answer": 2,
+      "explain": "On slides 12 and 17, insulin lowers cAMP by activating phosphodiesterase, which converts cAMP to 5′-AMP. If phosphodiesterase is blocked, the cAMP made in response to glucagon persists. PKA and phosphorylase kinase stay active, so phosphorylase stays phosphorylated (active), synthase stays phosphorylated (inactive), and glycogenolysis continues. Insulin's textbook action on protein phosphatase-1 would partly offset this, but breakdown is still greater than with insulin alone.",
+      "distractors": "Blocking the enzyme that destroys cAMP cannot lower cAMP. Higher cAMP activates phosphorylase; it does not inactivate it.",
+      "source": "Slides 12 and 17 · Lippincott ch. 11, hormonal regulation of glycogen metabolism"
+    },
+    {
+      "id": "glycogen-29",
+      "topic": "Allosteric effects of glucose 6-phosphate",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "In the well-fed resting state, glucose 6-phosphate accumulates in liver and muscle cells. What allosteric effects does it have on glycogen metabolism?",
+      "options": [
+        "It activates glycogen phosphorylase and inhibits glycogen synthase",
+        "It activates glycogen synthase and inhibits glycogen phosphorylase",
+        "It activates both glycogen synthase and glycogen phosphorylase",
+        "It inhibits both glycogen synthase and glycogen phosphorylase",
+        "It activates glycogen synthase and has no effect on glycogen phosphorylase"
+      ],
+      "answer": 1,
+      "explain": "On slide 18, glucose 6-phosphate activates glycogen synthase (green +) and inhibits glycogen phosphorylase (red −, together with ATP). High glucose 6-phosphate means substrate is plentiful, so glucose is stored rather than released.",
+      "distractors": "Option E is only half right because it misses the inhibition of phosphorylase. Slide 11 also lists Ca²⁺ and AMP beside glycogen synthase, but this conflicts with slide 18 and the textbook, so the item relies only on glucose 6-phosphate.",
+      "source": "Slide 18 (cf. slide 11) · Lippincott ch. 11, allosteric regulation"
+    },
+    {
+      "id": "glycogen-30",
+      "topic": "Ca²⁺ and AMP in exercising muscle",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "During a 400-m sprint, Ca²⁺ is released in the sprinter's contracting thigh muscle, and AMP rises as ATP is used up. What is the main effect of these two signals on glycogen metabolism in that muscle?",
+      "options": [
+        "Activation of glycogen synthase, storing more glucose",
+        "Activation of glucose-6-phosphatase, releasing glucose into the blood",
+        "Inhibition of the debranching enzyme, leaving limit dextrin",
+        "Increased glycogen phosphorylase activity, speeding glycogenolysis",
+        "Activation of phosphodiesterase, lowering cAMP"
+      ],
+      "answer": 3,
+      "explain": "On slide 18, Ca²⁺ and AMP activate glycogen phosphorylase, while ATP and glucose 6-phosphate inhibit it, so glycogen breakdown follows the energy demand of contraction. Lippincott gives the mechanism: AMP activates muscle phosphorylase b directly, and Ca²⁺ binds the calmodulin subunit of phosphorylase kinase, which then activates phosphorylase. Either way, phosphorylase activity rises.",
+      "distractors": "Muscle lacks glucose-6-phosphatase and cannot release glucose. Ca²⁺ and AMP do not activate glycogen synthase (slide 11 lists them beside the synthase, but this conflicts with slide 18 and should not be relied on).",
+      "source": "Slide 18 · Lippincott ch. 11, allosteric regulation in muscle"
+    },
+    {
+      "id": "glycogen-31",
+      "topic": "Von Gierke disease",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 6-month-old Omani girl has a seizure 3 hours after her last feed; her blood glucose is 1.8 mmol/L. She has marked hepatomegaly, and ultrasound shows enlarged kidneys. Blood tests show lactic acidosis, hyperuricemia and hyperlipidemia. Which enzyme is most likely deficient?",
+      "options": [
+        "Glucose-6-phosphatase",
+        "Lysosomal α(1→4)-glucosidase",
+        "Debranching enzyme",
+        "Liver glycogen phosphorylase",
+        "Muscle glycogen phosphorylase"
+      ],
+      "answer": 0,
+      "explain": "Von Gierke disease is glucose-6-phosphatase deficiency, and it involves the liver and kidney (slide 20). The liver cannot convert glucose 6-phosphate to free glucose, so fasting hypoglycemia is severe and glycogen builds up in the enlarged organs, with lactic acidosis, hyperlipidemia and hyperuricemia. The slide prints 'hepatosplenomegaly', but Lippincott describes enlarged liver and kidneys, as in this vignette.",
+      "distractors": "Cori and Hers diseases also cause hepatomegaly and fasting hypoglycemia, but the lecture lists no lactic acidosis, hyperuricemia, hyperlipidemia or kidney involvement for them. Pompe disease has normal blood sugar.",
+      "source": "Slides 16 and 20 · Lippincott ch. 11, GSD type Ia"
+    },
+    {
+      "id": "glycogen-32",
+      "topic": "Von Gierke disease: glucagon response",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 2-year-old boy with genetically confirmed glucose-6-phosphatase deficiency is given intramuscular glucagon after a short supervised fast. His blood glucose hardly changes. Which is the best explanation?",
+      "options": [
+        "Glucagon cannot activate hepatic adenylate cyclase in this disorder",
+        "His liver glycogen stores are depleted, so there is no substrate to mobilise",
+        "Hepatic glycogen phosphorylase cannot be converted to its active form",
+        "Glucagon stimulates only skeletal-muscle glycogenolysis, which cannot raise blood glucose",
+        "Glucose 6-phosphate from liver glycogen cannot be converted to free glucose"
+      ],
+      "answer": 4,
+      "explain": "The glucagon cascade works normally. cAMP rises, phosphorylase is activated, and liver glycogen is broken down to glucose 1-phosphate and then glucose 6-phosphate (slides 15–17). The final step, glucose 6-phosphate → glucose by glucose-6-phosphatase, is missing, so glucose cannot leave the liver. Glycogen accumulates instead, causing hepatomegaly (slide 20); Lippincott notes that the same enzyme is the last step of gluconeogenesis, which makes the fasting hypoglycemia severe.",
+      "distractors": "Liver glycogen is increased in this disease, not depleted. Glucagon acts on the liver, not on skeletal muscle (slides 12 and 17), and the cAMP–phosphorylase machinery is intact.",
+      "source": "Slides 15, 16, 17 and 20 · Lippincott ch. 11, GSD type Ia"
+    },
+    {
+      "id": "glycogen-33",
+      "topic": "Pompe disease",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 4-month-old boy has poor feeding, marked hypotonia and muscle weakness. Chest X-ray shows massive cardiomegaly, and his blood glucose is normal. Muscle biopsy shows glycogen of normal structure stored inside lysosomes, and enzyme replacement therapy is offered. Which enzyme is deficient?",
+      "options": [
+        "Glucose-6-phosphatase",
+        "Debranching enzyme",
+        "Lysosomal α(1→4)-glucosidase",
+        "Muscle glycogen phosphorylase",
+        "Liver glycogen phosphorylase"
+      ],
+      "answer": 2,
+      "explain": "Pompe disease (type II) is lysosomal α(1→4)-glucosidase deficiency, the only glycogen storage disease that is a lysosomal storage disease (slides 16 and 21). It affects all organs with lysosomes, mainly heart, liver and muscle, causing massive cardiomegaly, hypotonia and, in the infantile form, early death from heart failure. Blood sugar and glycogen structure are normal, and enzyme replacement therapy is available.",
+      "distractors": "Glucose-6-phosphatase and debranching-enzyme deficiencies cause fasting hypoglycemia. Muscle phosphorylase deficiency causes exercise-induced cramps, not lysosomal storage or infantile cardiomegaly.",
+      "source": "Slides 16 and 21 · Lippincott ch. 11, GSD type II"
+    },
+    {
+      "id": "glycogen-34",
+      "topic": "Organs involved in GSDs",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which glycogen storage disease is correctly matched with the organs it mainly involves?",
+      "options": [
+        "Von Gierke disease – skeletal muscle only",
+        "Pompe disease – liver only, sparing heart and muscle",
+        "McArdle syndrome – liver and kidney",
+        "Cori disease – liver, skeletal muscle and heart",
+        "Hers disease – skeletal muscle and heart"
+      ],
+      "answer": 3,
+      "explain": "On slide 22, Cori disease (debranching enzyme deficiency) involves the liver, skeletal muscle and heart, which explains its mix of hepatomegaly, fasting hypoglycemia and muscle weakness. The lecture's other organ lists are: von Gierke, liver and kidney; Pompe, all organs with lysosomes (heart, liver, muscle); McArdle, skeletal muscle; Hers, liver.",
+      "distractors": "Each wrong option gives one disease the organs of another. For example, 'liver and kidney' belongs to von Gierke disease, not McArdle syndrome.",
+      "source": "Slides 20–24 · Lippincott ch. 11, glycogen storage diseases"
+    },
+    {
+      "id": "glycogen-35",
+      "topic": "Cori disease",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 2-year-old boy has hepatomegaly, episodes of fasting hypoglycemia and progressive muscle weakness. A liver biopsy shows excess glycogen with an abnormal structure, with very short outer branches. Which enzyme is most likely deficient?",
+      "options": [
+        "Glucose-6-phosphatase",
+        "Debranching enzyme",
+        "Liver glycogen phosphorylase",
+        "Muscle glycogen phosphorylase",
+        "Lysosomal α(1→4)-glucosidase"
+      ],
+      "answer": 1,
+      "explain": "Cori disease (type III) is deficiency of the debranching enzyme (slide 22). Phosphorylase can still shorten the outer chains but stops at the branch points, so glycogen with abnormal, very short outer branches builds up. Because liver, skeletal muscle and heart are involved, the child has hepatomegaly, fasting hypoglycemia and muscle weakness.",
+      "distractors": "Von Gierke disease (glucose-6-phosphatase) and Hers disease (liver phosphorylase) do not cause muscle weakness, and the lecture describes no abnormal glycogen structure in either. A muscle phosphorylase defect would not cause hepatomegaly or hypoglycemia.",
+      "source": "Slides 16 and 22 · Lippincott ch. 11, GSD type III"
+    },
+    {
+      "id": "glycogen-36",
+      "topic": "Cori disease: which debranching activity",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A child with fasting hypoglycemia and hepatomegaly has a liver biopsy. Analysis shows that the outer branch points of the stored glycogen each carry a single glucose residue attached by an α(1→6) bond. Which enzyme activity is most likely deficient?",
+      "options": [
+        "Glucan transferase (4:4 transferase) activity of the debranching enzyme",
+        "Branching enzyme (4:6 transferase)",
+        "Liver glycogen phosphorylase",
+        "Lysosomal α(1→4)-glucosidase",
+        "Amylo-α(1→6)-glucosidase activity of the debranching enzyme"
+      ],
+      "answer": 4,
+      "explain": "Phosphorylase shortens chains to four residues before each branch, and the 4:4 transferase moves three of them away. This leaves one α(1→6)-linked glucose, which amylo-α(1→6)-glucosidase normally hydrolyses to free glucose (slides 14 and 16). If only the glucosidase is missing, these single residues stay at the branch points. Slide 16 describes Cori (type III) glycogen as having 'four or one glucosyl residues at branch points': four points to a transferase defect and one to a glucosidase defect.",
+      "distractors": "A transferase defect would leave four-residue stubs, not single residues. Liver phosphorylase deficiency (Hers) and lysosomal α(1→4)-glucosidase deficiency (Pompe) do not produce single-residue branch stubs.",
+      "source": "Slides 14 and 16 · Lippincott ch. 11, GSD type III and removal of branches"
+    },
+    {
+      "id": "glycogen-37",
+      "topic": "McArdle syndrome",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 19-year-old man has had painful muscle cramps and weakness during strenuous exercise since his early teens. After a football match his urine turned dark, and myoglobinuria was confirmed. His blood lactate does not rise during an exercise test, and his fasting blood glucose is normal. Which enzyme is most likely deficient?",
+      "options": [
+        "Liver glycogen phosphorylase",
+        "Lysosomal α(1→4)-glucosidase",
+        "Glucose-6-phosphatase",
+        "Muscle glycogen phosphorylase",
+        "Debranching enzyme"
+      ],
+      "answer": 3,
+      "explain": "McArdle syndrome (type V) is deficiency of skeletal-muscle glycogen phosphorylase (myophosphorylase); the liver enzyme is normal (slides 16 and 23). Exercising muscle cannot break down its glycogen, so it has no glucose 6-phosphate for glycolysis and blood lactate does not rise. This causes exercise intolerance, cramps and sometimes myoglobinemia and myoglobinuria, while fasting glucose stays normal.",
+      "distractors": "Liver phosphorylase deficiency (Hers) causes hepatomegaly and mild fasting hypoglycemia, not exercise cramps. Debranching enzyme deficiency (Cori) causes muscle weakness but also hepatomegaly and fasting hypoglycemia.",
+      "source": "Slides 16 and 23 · Lippincott ch. 11, GSD type V"
+    },
+    {
+      "id": "glycogen-38",
+      "topic": "Pompe disease: normal blood glucose",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 6-month-old girl with infantile Pompe disease has massive cardiomegaly and hypotonia, yet her fasting blood glucose is consistently normal. Which is the best explanation?",
+      "options": [
+        "Cytosolic glycogenolysis and hepatic glucose-6-phosphatase are unaffected",
+        "Her enlarged heart releases free glucose from its stored glycogen",
+        "Glycogen stored in her lysosomes is exported to the blood as glucose",
+        "Her skeletal muscle releases glucose 6-phosphate into the blood to compensate",
+        "Her stored glycogen has short outer branches that are degraded rapidly"
+      ],
+      "answer": 0,
+      "explain": "Pompe disease affects only the lysosomal pathway (lysosomal α(1→4)-glucosidase). The cytosolic pathway that maintains blood glucose works normally: phosphorylase, the debranching enzyme, phosphoglucomutase and liver glucose-6-phosphatase. Blood sugar is therefore normal (slides 16 and 21), while glycogen builds up in the lysosomes of heart, liver and muscle.",
+      "distractors": "Lysosomal glycogen is the stored burden, not a source of blood glucose, and only the liver exports glucose from glycogen (slide 4). Short outer branches describe Cori disease; Pompe glycogen has normal structure.",
+      "source": "Slides 4, 16 and 21 · Lippincott ch. 11, GSD type II"
+    },
+    {
+      "id": "glycogen-39",
+      "topic": "Hers disease",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 3-year-old boy is referred because an enlarged liver was found on routine examination. He has had mild fasting hypoglycemia. Blood lactate and uric acid are normal, his muscle strength and exercise tolerance are normal, and a liver biopsy shows increased glycogen of normal structure. Which enzyme is most likely deficient?",
+      "options": [
+        "Glucose-6-phosphatase",
+        "Debranching enzyme",
+        "Liver glycogen phosphorylase",
+        "Muscle glycogen phosphorylase",
+        "Lysosomal α(1→4)-glucosidase"
+      ],
+      "answer": 2,
+      "explain": "Hers disease (type VI) is deficiency of the liver isozyme of glycogen phosphorylase. It involves only the liver and causes hepatomegaly with mild fasting hypoglycemia (slides 16 and 24). Glucose-6-phosphatase and gluconeogenesis are intact, so hypoglycemia is mild and the metabolic features of von Gierke disease are absent.",
+      "distractors": "Von Gierke disease causes severe hypoglycemia with lactic acidosis, hyperuricemia and hyperlipidemia. Cori disease also involves muscle and produces glycogen of abnormal structure.",
+      "source": "Slides 16, 20, 22 and 24 · Lippincott ch. 11, GSD type VI"
+    },
+    {
+      "id": "glycogen-40",
+      "topic": "Ramadan fasting in McArdle syndrome",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 22-year-old Omani man with McArdle syndrome plans to fast from dawn to sunset during Ramadan. He asks whether fasting will make his blood glucose fall dangerously. Which response is most accurate?",
+      "options": [
+        "Yes, because skeletal muscle normally supplies most blood glucose during a fast",
+        "Unlikely, because the liver enzymes that release glucose from glycogen are unaffected",
+        "Yes, mild hypoglycemia is likely because the same enzyme defect is present in his liver",
+        "Yes, because his glycogen is trapped inside lysosomes and cannot be mobilised",
+        "Unlikely, because his muscles can release glucose 6-phosphate into the blood"
+      ],
+      "answer": 1,
+      "explain": "In McArdle syndrome only the skeletal-muscle isozyme of glycogen phosphorylase is deficient, and slide 16 states 'liver enzyme normal'. During a fast, blood glucose is maintained by liver glycogenolysis (ending with glucose-6-phosphatase) and by gluconeogenesis (slides 3 and 15). Muscle glycogen never supplies blood glucose, even in healthy people, so his symptoms come from strenuous exercise, not from fasting.",
+      "distractors": "A defect of the liver isozyme is Hers disease (type VI), and glycogen trapped in lysosomes is Pompe disease. Muscle lacks glucose-6-phosphatase and releases neither glucose nor glucose 6-phosphate into the blood.",
+      "source": "Slides 3, 4, 15, 16 and 23 · Lippincott ch. 11, GSD type V"
+    }
+  ]
+}

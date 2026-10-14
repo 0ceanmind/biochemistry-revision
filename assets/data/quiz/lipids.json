@@ -1,0 +1,728 @@
+{
+  "lecture": "lipids",
+  "title": "Lipid Chemistry",
+  "format": "Single best answer · 5 options",
+  "provenance": "Original exam-style items written from the lecture slides and Lippincott; modelled on the NUST/OMC MD-program SBA format (no public past papers were found).",
+  "questions": [
+    {
+      "id": "lipids-01",
+      "topic": "Definition of lipids",
+      "type": "application",
+      "difficulty": "easy",
+      "stem": "In a biochemistry practical, a liver homogenate is shaken with a mixture of water and chloroform, and the two layers are allowed to separate. Which pair of compounds will be recovered mainly from the chloroform layer?",
+      "options": [
+        "Glucose and amino acids",
+        "Triglyceride and cholesterol",
+        "Urea and lactic acid",
+        "Albumin and haemoglobin",
+        "Sodium chloride and ATP"
+      ],
+      "answer": 1,
+      "explain": "The lecture defines lipids by solubility rather than by one shared structure: they are organic substances that are insoluble in water but soluble in organic solvents such as chloroform, ether and benzene. Triglyceride (triacylglycerol) and cholesterol are both on the lecture's list of lipids, so they move into the chloroform layer. Lippincott also describes lipids as a varied group of water-insoluble (hydrophobic) molecules.",
+      "distractors": "Sugars, amino acids, urea, lactate, salts and ATP are polar or ionic, so they stay in the water layer. Albumin and haemoglobin are water-soluble proteins; albumin can carry fatty acids but is not a lipid itself.",
+      "source": "Slide 3 · Lippincott 9e Ch 15 (overview of lipids)"
+    },
+    {
+      "id": "lipids-02",
+      "topic": "Fatty acid structure",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "At physiological pH, a free fatty acid exists mainly in its ionised form, R–COO⁻. Which description of its structure matches the lecture?",
+      "options": [
+        "A hydrophobic carboxylate head and a hydrophilic hydrocarbon tail",
+        "An uncharged, fully hydrophobic molecule with no polar group",
+        "A positively charged amino head and a hydrophobic tail",
+        "A hydrophilic phosphate head and two hydrophobic acyl tails",
+        "A hydrophilic carboxylate head and a hydrophobic hydrocarbon tail"
+      ],
+      "answer": 4,
+      "explain": "Slide 4 defines fatty acids as carboxylic acids with a hydrocarbon side chain. The ionised COO⁻ group is the hydrophilic (water-attracting) head and the R chain is the hydrophobic tail, so a fatty acid has both a water-loving and a water-repelling part (amphipathic). Lippincott notes that the carboxyl group (pKa ≈ 4.8) is ionised at physiological pH.",
+      "distractors": "Option A swaps the hydrophilic and hydrophobic parts. An uncharged, fully hydrophobic molecule describes a triacylglycerol, and a phosphate head with two acyl tails describes a glycerophospholipid.",
+      "source": "Slide 4 · Lippincott 9e Ch 16 (fatty acid structure)"
+    },
+    {
+      "id": "lipids-03",
+      "topic": "Fatty acid classification",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Capric acid (C10:0) is one of the fatty acids found in milk. Using the three classification schemes taught in the lecture, how is capric acid best classified?",
+      "options": [
+        "Odd-chain, medium-chain, saturated",
+        "Even-chain, short-chain, saturated",
+        "Even-chain, medium-chain, saturated",
+        "Even-chain, long-chain, unsaturated",
+        "Odd-chain, short-chain, unsaturated"
+      ],
+      "answer": 2,
+      "explain": "The lecture classifies fatty acids by number of carbons (even or odd), by chain length (short 2–4, medium 6–12, long 14–20, very long >20) and by the nature of the chain (saturated = no double bond; unsaturated = at least one double bond). Capric acid has 10 carbons, so it is even-chain and medium-chain, and ':0' means it has no double bonds, so it is saturated. Slide 6 lists it with butyric acid (C4:0) as a milk fatty acid.",
+      "distractors": "Short-chain means only 2–4 carbons, as in butyric acid (C4:0). Odd-chain fatty acids have 3, 5, 7… carbons, as in propionic acid (C3:0).",
+      "source": "Slides 5–6 · Lippincott 9e Ch 16 (fatty acid chain length)"
+    },
+    {
+      "id": "lipids-04",
+      "topic": "Carbon numbering (α, β, ω)",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Palmitic acid has the formula CH₃–(CH₂)₁₄–COOH. Using the numbering system taught, which option correctly identifies its β-carbon and its ω-carbon?",
+      "options": [
+        "β = C2; ω = C16",
+        "β = C3; ω = C1",
+        "β = C14; ω = C16",
+        "β = C3; ω = C16",
+        "β = C2; ω = C1"
+      ],
+      "answer": 3,
+      "explain": "Carbons are numbered from the carboxyl carbon, which is C1. C2 is the α-carbon, C3 is the β-carbon, and the terminal methyl carbon is the ω-carbon, which is C16 in palmitic acid (slide 7). The β-carbon is the carbon that gets oxidised in β-oxidation (Lippincott).",
+      "distractors": "C2 is the α-carbon, not β, and C1 is the carboxyl carbon, not ω. C14 would be called 'β' only if you counted wrongly from the methyl end.",
+      "source": "Slide 7 · Lippincott 9e Ch 16 (fatty acid structure; β-oxidation)"
+    },
+    {
+      "id": "lipids-05",
+      "topic": "Δ and ω nomenclature",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Oleic acid has 18 carbons and one double bond between C9 and C10, counting from the carboxyl carbon. How is it written in the Δ ('C') system and in the ω system?",
+      "options": [
+        "18:1 Δ⁹ and ω-9",
+        "18:1 Δ⁹ and ω-10",
+        "18:1 Δ¹⁰ and ω-9",
+        "18:1 Δ⁹ and ω-6",
+        "18:1 Δ⁹ and ω-3"
+      ],
+      "answer": 0,
+      "explain": "The Δ ('C') system counts from the carboxyl carbon and names a double bond by its lower-numbered carbon, which gives Δ⁹. The ω system counts from the methyl end. In an 18-carbon chain, the first double-bond carbon from that end is 18 − 9 = 9, which gives ω-9 (slide 8). So oleic acid is 18:1 Δ⁹, ω-9.",
+      "distractors": "ω-10 and Δ¹⁰ come from naming the double bond by its second carbon. ω-6 and ω-3 are the linoleic and linolenic acid families.",
+      "source": "Slide 8 · Lippincott 9e Ch 16 (fatty acid nomenclature)"
+    },
+    {
+      "id": "lipids-06",
+      "topic": "Triacylglycerol structure",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "In adipocytes, triacylglycerols gather into large, almost water-free droplets, while phospholipids form membrane bilayers. Which structural feature of triacylglycerols best explains this difference?",
+      "options": [
+        "They carry a phosphate group that binds water",
+        "They contain sphingosine linked to a fatty acid by an amide bond",
+        "All three glycerol hydroxyls are esterified, leaving no charged group",
+        "Their glycerol backbone carries a positively charged choline head",
+        "They have a free 3-OH group on a four-ring steroid nucleus"
+      ],
+      "answer": 2,
+      "explain": "Triacylglycerols are esters of three fatty acids with glycerol, so they are uncharged ('neutral') and hydrophobic (slide 13). With no polar head group they cannot form bilayers and instead gather into water-free droplets, which makes them an efficient energy store (slide 14). Phospholipids, by contrast, have a polar phosphate and head group, so they are amphipathic (slide 15).",
+      "distractors": "A phosphate group or a choline head describes a glycerophospholipid. Sphingosine with an amide-linked fatty acid describes ceramide, and a free 3-OH on a four-ring nucleus describes cholesterol.",
+      "source": "Slides 13–15 · Lippincott 9e Ch 16 (triacylglycerol structure and storage)"
+    },
+    {
+      "id": "lipids-07",
+      "topic": "Polyunsaturated fatty acids",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "A fatty acid has the structure CH₃–(CH₂)₄–CH=CH–CH₂–CH=CH–CH₂–CH=CH–CH₂–CH=CH–(CH₂)₃–COOH. Which description is correct?",
+      "options": [
+        "18:2 Δ⁹,¹²; ω-6",
+        "20:4 Δ⁵,⁸,¹¹,¹⁴; ω-3",
+        "18:3 Δ⁹,¹²,¹⁵; ω-3",
+        "20:4 Δ⁶,⁹,¹²,¹⁵; ω-5",
+        "20:4 Δ⁵,⁸,¹¹,¹⁴; ω-6"
+      ],
+      "answer": 4,
+      "explain": "The chain has 20 carbons and four double bonds. Counting from the carboxyl carbon (C1), the double bonds start at C5, C8, C11 and C14. Counting from the methyl end, the first double bond is at carbon 6 (20 − 14 = 6). This is arachidonic acid (20:4 Δ⁵,⁸,¹¹,¹⁴), an ω-6 fatty acid and the precursor of eicosanoids (slides 6, 9, 12).",
+      "distractors": "Option B has the right Δ positions but the wrong ω family, and option D numbers the double bonds from the methyl end, although Δ positions are always counted from the carboxyl carbon. Options A and C are the 18-carbon linoleic and linolenic acids.",
+      "source": "Slides 6, 9 · Lippincott 9e Ch 16 (fatty acid nomenclature)"
+    },
+    {
+      "id": "lipids-08",
+      "topic": "Essential fatty acid deficiency",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 7-year-old boy with short bowel syndrome has been on fat-free parenteral nutrition for several months. He now has dry, scaly dermatitis over his limbs and trunk. A lack of which dietary lipids most likely explains his skin lesions?",
+      "options": [
+        "Palmitic and oleic acids",
+        "Linoleic and linolenic acids",
+        "Butyric and capric acids",
+        "Cholesterol and cholesterol esters",
+        "Sphingomyelin and ceramide"
+      ],
+      "answer": 1,
+      "explain": "The essential fatty acids are linoleic acid (ω-6, 18:2 Δ⁹,¹²) and linolenic acid (ω-3, 18:3 Δ⁹,¹²,¹⁵). The body cannot make them, so they must come from the diet (slides 9, 11). The lecture gives dry, scaly dermatitis as the sign of essential fatty acid deficiency, which is a known risk of long-term fat-free parenteral feeding.",
+      "distractors": "Butyric, capric, palmitic and oleic acids are not essential, and the body makes its own cholesterol and sphingolipids. Leaving them out of a fat-free regimen therefore does not cause this deficiency.",
+      "source": "Slides 9, 11 · Lippincott 9e Ch 16 (essential fatty acids)"
+    },
+    {
+      "id": "lipids-09",
+      "topic": "Basis of fatty acid essentiality",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "Human cells make oleic acid (18:1 Δ⁹) from stearic acid, but linoleic acid (18:2 Δ⁹,¹²) must be supplied in the diet. Which statement best explains why linoleic acid is essential?",
+      "options": [
+        "Humans cannot synthesise fatty acids longer than 16 carbons",
+        "Human desaturases can form only trans double bonds",
+        "Linoleic acid is oxidised too rapidly to accumulate in tissues",
+        "Humans cannot insert double bonds beyond C9 towards the methyl end",
+        "Humans lack the elongase that converts C16 to C18 fatty acids"
+      ],
+      "answer": 3,
+      "explain": "Lippincott explains that human desaturases (the enzymes that insert double bonds) act at C9 and closer to the carboxyl end (Δ9, Δ6, Δ5, Δ4), but none can insert a double bond between C10 and the ω end. Linoleic acid's Δ¹² bond and linolenic acid's Δ¹⁵ bond lie beyond C9, so these parent ω-6 and ω-3 fatty acids must be eaten; this is why the lecture groups them as the essential fatty acids (slides 9, 11). Oleic acid has only a Δ⁹ bond, which human cells can make.",
+      "distractors": "The stem shows that humans can make an 18-carbon fatty acid with a cis Δ⁹ double bond. That rules out the chain-length, elongase and 'trans-only' options.",
+      "source": "Slides 8, 9, 11 · Lippincott 9e Ch 16 (desaturation of fatty acids; essential fatty acids)"
+    },
+    {
+      "id": "lipids-10",
+      "topic": "Trans fatty acids",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 45-year-old office worker eats fried fast food and bakery products made with partially hydrogenated vegetable shortening almost every day, so his diet is rich in trans fatty acids. Which change in his plasma lipoproteins does the lecture predict?",
+      "options": [
+        "Increased LDL and decreased HDL",
+        "Decreased LDL and increased HDL",
+        "Decreased LDL and decreased HDL",
+        "Increased LDL and increased HDL",
+        "No change, as trans fatty acids are unsaturated"
+      ],
+      "answer": 0,
+      "explain": "In a trans fatty acid, the groups on each side of the double bond point to opposite sides, so the chain stays straight and behaves like a saturated fatty acid. The lecture states that trans fatty acids increase LDL and decrease HDL (slide 10). This pattern promotes atherosclerosis and fits the lecture's definition of dyslipidemia (slide 24). Lippincott notes that most dietary trans fats come from partial hydrogenation of vegetable oils.",
+      "distractors": "Lower LDL with higher HDL is the opposite, healthy pattern. Option E wrongly assumes that every unsaturated fatty acid behaves like the cis forms.",
+      "source": "Slides 10, 24 · Lippincott 9e (Nutrition: dietary fats, trans fatty acids)"
+    },
+    {
+      "id": "lipids-11",
+      "topic": "Cis vs trans geometry",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Natural oleic acid has a cis Δ⁹ double bond, but partial hydrogenation of oils turns some of it into the trans isomer. Compared with cis-oleic acid, how does the trans isomer behave when packed into a fat or a membrane?",
+      "options": [
+        "Its chain bends more sharply, so it packs loosely and increases fluidity",
+        "Its chain stays nearly straight, so it packs tightly like a saturated fatty acid",
+        "Its double bond moves to C1, which makes the chain water-soluble",
+        "It loses its double bond and becomes a saturated fatty acid",
+        "It gains negative charges along the chain that repel neighbouring lipids"
+      ],
+      "answer": 1,
+      "explain": "In a cis double bond, the groups lie on the same side. This bends the chain, stops the chains packing closely and keeps the membrane fluid. In a trans double bond, the groups lie on opposite sides, so the chain stays almost straight, packs tightly and 'behaves like saturated fatty acids' (slide 10). This saturated-like behaviour explains why trans fats raise LDL and lower HDL.",
+      "distractors": "Option A describes the cis isomer. A trans fatty acid still has its double bond; it remains unsaturated, only with a different shape.",
+      "source": "Slide 10 · Lippincott 9e Ch 16 (fatty acid structure: cis and trans double bonds)"
+    },
+    {
+      "id": "lipids-12",
+      "topic": "ω-3 dietary sources",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "A dietitian advises a patient to eat more ω-3 fatty acids. Which of the following food sources listed in the lecture is most appropriate?",
+      "options": [
+        "Corn oil",
+        "Sunflower oil",
+        "Avocado",
+        "Olives",
+        "Flaxseed oil"
+      ],
+      "answer": 4,
+      "explain": "Slide 11 lists flaxseed oil, walnut and fish oil as sources of ω-3 fatty acids, and flaxseed oil provides linolenic acid (18:3 Δ⁹,¹²,¹⁵, ω-3). Corn oil, sunflower oil, avocados and olives are on the lecture's ω-6 (linoleic acid) list. Accuracy note: according to Lippincott, the ω-3 fatty acids in fish oil are mainly the long-chain EPA and DHA, not linolenic acid.",
+      "distractors": "Corn oil and sunflower oil are rich in linoleic acid, an ω-6 fatty acid. Avocado and olives are also on the lecture's ω-6 list, not its ω-3 list.",
+      "source": "Slide 11 · Lippincott 9e (Nutrition: dietary fats, ω-3 and ω-6 fatty acids)"
+    },
+    {
+      "id": "lipids-13",
+      "topic": "ω-3 vs ω-6: triacylglycerol and thrombosis",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 50-year-old Omani man has a fasting triglyceride level of 310 mg/dL. His total cholesterol, LDL and HDL are within the lecture's reference ranges, and his father had repeated thrombotic strokes. According to the lecture, which dietary fatty acid class most directly lowers plasma triacylglycerol and reduces the tendency to thrombosis?",
+      "options": [
+        "ω-6 fatty acids, e.g., linoleic acid",
+        "Trans fatty acids, e.g., from hydrogenated shortening",
+        "ω-3 fatty acids, e.g., linolenic acid",
+        "Saturated fatty acids, e.g., palmitic acid",
+        "ω-9 fatty acids, e.g., oleic acid"
+      ],
+      "answer": 2,
+      "explain": "Slide 11 contrasts the two essential fatty acid families: ω-3 fatty acids (linolenic acid; flaxseed oil, walnut, fish oil) lower plasma TAG and reduce the tendency to thrombosis, whereas ω-6 fatty acids (linoleic acid) lower plasma cholesterol and LDL. His only abnormal result is a TG above 150 mg/dL (slide 24), and he has a family history of thrombosis, so ω-3 fatty acids fit best. This matches Lippincott's account of dietary ω-3 PUFAs.",
+      "distractors": "ω-6 fatty acids act mainly on cholesterol and LDL, not on TAG. Trans and saturated fatty acids promote atherosclerosis rather than protect against it.",
+      "source": "Slides 11, 24 · Lippincott 9e (Nutrition: dietary fats, ω-3 fatty acids)"
+    },
+    {
+      "id": "lipids-14",
+      "topic": "ω-6 fatty acids and LDL",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 52-year-old man has total cholesterol 245 mg/dL, LDL-cholesterol 175 mg/dL and triglycerides 120 mg/dL. He cooks all his meals in ghee. Based on the lecture's comparison of dietary fatty acids, which change would most directly lower his plasma cholesterol and LDL?",
+      "options": [
+        "Replace ghee with sunflower or corn oil, rich in linoleic acid",
+        "Replace ghee with partially hydrogenated vegetable shortening",
+        "Keep cooking in ghee but add daily fish-oil capsules",
+        "Replace ghee with palm oil, rich in palmitic acid",
+        "Add butter to increase his short-chain milk fatty acids"
+      ],
+      "answer": 0,
+      "explain": "Slide 11 states that ω-6 fatty acids (linoleic acid, found in sunflower, corn and soybean oils and nuts) lower plasma cholesterol and LDL. ω-3 fatty acids, by contrast, mainly lower plasma TAG and the tendency to thrombosis. His cholesterol and LDL are raised but his TG is normal (slide 24), so the lecture supports replacing saturated ghee with an oil rich in linoleic acid. Lippincott agrees that ω-6 PUFAs lower LDL, and adds that they may also lower HDL and that ω-3 fatty acids have little effect on LDL.",
+      "distractors": "Hydrogenated shortening supplies trans fats, which raise LDL (slide 10). Fish oil acts on TAG and leaves the saturated ghee in his diet, while palm oil and butter just swap one saturated fat for another.",
+      "source": "Slides 10, 11, 24 · Lippincott 9e (Nutrition: dietary fats, ω-6 PUFA)"
+    },
+    {
+      "id": "lipids-15",
+      "topic": "Functions of essential fatty acids",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A mother asks why her newborn's formula milk has added linoleic and linolenic acids. Which of the following is a function of these essential fatty acids listed in the lecture?",
+      "options": [
+        "Formation of bile acids and bile salts",
+        "Forming DPPC to lower alveolar surface tension",
+        "Acting as blood-group determinants",
+        "Development of the retina and brain",
+        "Synthesis of vitamin D in the skin"
+      ],
+      "answer": 3,
+      "explain": "Slide 11 lists four functions of essential fatty acids: synthesis of eicosanoids, keeping cells structurally intact, development of the retina and brain, and protection against atherosclerosis (antiatherogenic effect). Development of the retina and brain matters most for a fast-growing infant, which is why formula milk has them added.",
+      "distractors": "Bile acids and vitamin D are made from cholesterol (slide 27). DPPC contains two saturated palmitic acids (slide 18), and the blood-group determinants are glycolipids (slide 21).",
+      "source": "Slide 11 · Lippincott 9e Ch 16 (essential fatty acids)"
+    },
+    {
+      "id": "lipids-16",
+      "topic": "Eicosanoid precursor",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "The lecture's PUFA slide does not mark arachidonic acid (20:4 Δ⁵,⁸,¹¹,¹⁴) as an essential fatty acid. Yet a diet lacking essential fatty acids reduces eicosanoid production. What is the best explanation?",
+      "options": [
+        "It is formed in the body from dietary linolenic acid (ω-3)",
+        "Eicosanoids are made directly from linoleic acid, bypassing arachidonate",
+        "It is formed in the body from dietary linoleic acid (ω-6)",
+        "It is formed from palmitic acid by chain elongation alone",
+        "It is formed from oleic acid by the addition of three double bonds"
+      ],
+      "answer": 2,
+      "explain": "Slide 12 shows the pathway: dietary essential fatty acids → arachidonic acid → prostaglandins, thromboxanes and leukotrienes. Linoleic acid and arachidonic acid are both ω-6 (18 − 12 = 6; 20 − 14 = 6). The body lengthens linoleic acid and adds double bonds to it to make arachidonate. For this reason Lippincott notes that arachidonic acid becomes essential only when linoleic acid is lacking.",
+      "distractors": "Human enzymes never change the ω end of a fatty acid, so neither ω-3 linolenic acid nor ω-9 oleic acid can become ω-6 arachidonate. Eicosanoids have 20 carbons, so they cannot be made directly from 18-carbon linoleic acid.",
+      "source": "Slides 9, 12 · Lippincott 9e Ch 16–17 (essential fatty acids; eicosanoid synthesis)"
+    },
+    {
+      "id": "lipids-17",
+      "topic": "Prostaglandin actions",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "An 18-year-old student has severe cramping pain in her lower abdomen on the first two days of every menstrual period. Which lipid-derived mediators are mainly responsible for her pain and her excessive uterine contractions?",
+      "options": [
+        "Thromboxanes",
+        "Leukotrienes",
+        "Glucocorticoids",
+        "Gangliosides",
+        "Prostaglandins"
+      ],
+      "answer": 4,
+      "explain": "Slide 12 lists the actions of prostaglandins, which are made from arachidonic acid: vasodilation, inhibition of platelet aggregation, pain sensation and stimulation of uterine contractions. Painful menstrual cramps (dysmenorrhoea) reflect two of these: prostaglandins make nerves more sensitive to pain and make the uterus contract. Accuracy note: standard textbooks attribute uterine contraction mainly to PGF₂α and PGE₂, while PGI₂ is the prostaglandin that dilates vessels and blocks platelet aggregation.",
+      "distractors": "The lecture links thromboxanes and leukotrienes to vasoconstriction, bronchoconstriction and smooth-muscle contraction, but not specifically to pain or uterine contraction. Glucocorticoids are steroid hormones made from cholesterol, and gangliosides are glycolipids in cell membranes.",
+      "source": "Slide 12 · Lippincott 9e Ch 17 (eicosanoids: prostaglandins)"
+    },
+    {
+      "id": "lipids-18",
+      "topic": "Prostacyclin vs thromboxane",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "At a site of vascular injury, endothelial cells release mediator X, which dilates vessels and inhibits platelet aggregation. Activated platelets release mediator Y, which constricts vessels and promotes platelet aggregation. Both are made from arachidonic acid. Which option correctly identifies X and Y?",
+      "options": [
+        "X = prostacyclin (PGI₂); Y = thromboxane A₂ (TXA₂)",
+        "X = thromboxane A₂ (TXA₂); Y = prostacyclin (PGI₂)",
+        "X = PGF₂α; Y = prostacyclin (PGI₂)",
+        "X = thromboxane A₂ (TXA₂); Y = PGF₂α",
+        "X = prostacyclin (PGI₂); Y = PGF₂α"
+      ],
+      "answer": 0,
+      "explain": "Slide 12 states that TXA₂ promotes platelet aggregation and causes vasoconstriction, and it lists PGI₂ among the prostaglandins that cause vasodilation and inhibit platelet aggregation. Lippincott adds that PGI₂ comes from the vascular endothelium and TXA₂ from platelets, and that the balance between them controls clot formation. Accuracy note: the slide gives the vasodilator and anti-platelet actions to all the prostaglandins it lists, including PGF₂α, and says leukotrienes promote platelet aggregation, whereas textbooks give these actions specifically to PGI₂ and TXA₂.",
+      "distractors": "Option B swaps the two mediators. PGF₂α acts mainly on the uterus; it is neither the endothelial mediator that blocks platelet aggregation nor the platelet mediator that promotes it, so options C–E are wrong.",
+      "source": "Slide 12 · Lippincott 9e Ch 17 (prostaglandins and thromboxanes)"
+    },
+    {
+      "id": "lipids-19",
+      "topic": "Triacylglycerol: clinical aspects",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 15-year-old girl with newly diagnosed type 1 diabetes mellitus has weight loss, polyuria and ketonuria. Her plasma free fatty acids are markedly raised. Which triacylglycerol-related process, listed in the lecture as a clinical aspect, best explains these findings?",
+      "options": [
+        "Excessive esterification of fatty acids into adipose triacylglycerol",
+        "Excessive lipolysis of triacylglycerol stored in adipose tissue",
+        "Increased hepatic conversion of fatty acids into cholesterol esters",
+        "Increased thermogenesis by brown adipose tissue",
+        "Excessive phospholipid synthesis for pulmonary surfactant"
+      ],
+      "answer": 1,
+      "explain": "Slide 14 lists 'excessive lipolysis in starvation and diabetes' as a clinical aspect of triacylglycerols, along with obesity and fatty liver. Without insulin, the TAG stored in adipose tissue (glycerol esterified with three fatty acids) is broken down, and free fatty acids flood the plasma. The liver oxidises these fatty acids to ketone bodies (Lippincott), which explains the ketonuria and weight loss.",
+      "distractors": "Insulin drives the esterification of fatty acids into TAG, and this process would lower plasma free fatty acids. Thermogenesis is a normal function of TAG and does not explain ketosis.",
+      "source": "Slides 13–14 · Lippincott 9e Ch 16 (mobilisation of stored fat; ketone bodies)"
+    },
+    {
+      "id": "lipids-20",
+      "topic": "Functions of triacylglycerols vs phospholipids",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which of the following does the lecture list as a function of triacylglycerols rather than of phospholipids?",
+      "options": [
+        "Blood coagulation",
+        "Pulmonary surfactant",
+        "Source of choline for acetylcholine",
+        "Thermogenesis",
+        "Digestion and absorption of fats"
+      ],
+      "answer": 3,
+      "explain": "Slide 14 lists the functions of triacylglycerols as provision of energy, insulation, thermogenesis and protection of internal organs. Thermogenesis means heat production, and it uses the body's stored fat. Phospholipid functions are a separate list on slide 19.",
+      "distractors": "Blood coagulation, pulmonary surfactant, supplying choline for acetylcholine, and digestion and absorption of fats are all on the lecture's list of phospholipid functions (slide 19).",
+      "source": "Slides 14, 19 · Lippincott 9e Ch 16–17 (triacylglycerol storage; phospholipid functions)"
+    },
+    {
+      "id": "lipids-21",
+      "topic": "Sphingomyelin and ceramide",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "A membrane lipid purified from nerve tissue is completely hydrolysed. The products are sphingosine, one fatty acid, phosphate and choline; no glycerol or sugar is found. Which lipid was hydrolysed?",
+      "options": [
+        "Phosphatidylcholine (lecithin)",
+        "Galactocerebroside",
+        "Ganglioside GM1",
+        "Plasmalogen",
+        "Sphingomyelin"
+      ],
+      "answer": 4,
+      "explain": "Phospholipids are classified by the alcohol in their backbone: glycerol gives glycerophospholipids and sphingosine gives sphingophospholipids (slide 15). Sphingosine plus one fatty acid makes ceramide. Ceramide plus phosphate plus choline makes sphingomyelin, an important component of the myelin sheath (slide 16). Lippincott notes that the fatty acid is joined to sphingosine by an amide bond.",
+      "distractors": "Phosphatidylcholine and plasmalogens are glycerophospholipids, built on glycerol. Cerebrosides and gangliosides contain sugar but no phosphate.",
+      "source": "Slides 15–16 · Lippincott 9e Ch 17 (sphingophospholipids)"
+    },
+    {
+      "id": "lipids-22",
+      "topic": "Phosphatidic acid derivatives (lecithin)",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Phosphatidic acid (diacylglycerol + PO₄) is the parent glycerophospholipid. Attaching which compound to its phosphate group produces lecithin?",
+      "options": [
+        "Serine",
+        "Ethanolamine",
+        "Choline",
+        "Inositol",
+        "Glycerol"
+      ],
+      "answer": 2,
+      "explain": "Slide 17 shows that adding serine to phosphatidic acid gives phosphatidylserine, adding ethanolamine gives phosphatidylethanolamine, and adding choline gives phosphatidylcholine, which is also called lecithin. In the slide's structure of lecithin, the phosphate is negatively charged and the choline has a positively charged nitrogen.",
+      "distractors": "Serine, ethanolamine and inositol give phosphatidylserine, phosphatidylethanolamine and phosphatidylinositol. An extra glycerol that links two phosphatidic acids gives cardiolipin.",
+      "source": "Slides 16–17 · Lippincott 9e Ch 17 (glycerophospholipids)"
+    },
+    {
+      "id": "lipids-23",
+      "topic": "Cardiolipin",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which glycerophospholipid is made of two phosphatidic acid molecules joined through an extra glycerol, and where is it characteristically found?",
+      "options": [
+        "Cardiolipin — inner mitochondrial membrane",
+        "Cardiolipin — myelin sheath of nerve fibres",
+        "Plasmalogen — inner mitochondrial membrane",
+        "Phosphatidylinositol — lung surfactant",
+        "Phosphatidylserine — inner mitochondrial membrane"
+      ],
+      "answer": 0,
+      "explain": "Slide 17 states that two phosphatidic acids plus one more glycerol form cardiolipin, which is found in the inner mitochondrial membrane. Lippincott calls it diphosphatidylglycerol and describes it as a characteristic lipid of the inner mitochondrial membrane.",
+      "distractors": "The myelin sheath is known for sphingomyelin and glycolipids, not cardiolipin. The main lipid of lung surfactant is dipalmitoylphosphatidylcholine, not phosphatidylinositol.",
+      "source": "Slide 17 · Lippincott 9e Ch 17 (cardiolipin)"
+    },
+    {
+      "id": "lipids-24",
+      "topic": "Classes of phospholipids",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "A student is sorting membrane lipids by the alcohol in their backbone. Which of the following belongs to the glycerophospholipid class?",
+      "options": [
+        "Sphingomyelin",
+        "Plasmalogen",
+        "Galactocerebroside",
+        "Sulfatide",
+        "Ganglioside GM1"
+      ],
+      "answer": 1,
+      "explain": "Slide 16 lists the glycerophospholipids, which are built on glycerol: phosphatidylcholine, phosphatidylethanolamine, phosphatidylserine, phosphatidylinositol, plasmalogens and cardiolipins. The other four options are all built on sphingosine.",
+      "distractors": "Sphingomyelin does contain phosphate, but it is built on sphingosine, so it is a sphingophospholipid. Cerebrosides, sulfatides and gangliosides are glycolipids built on sphingosine, and they have no phosphate (slide 20).",
+      "source": "Slides 15–16, 20 · Lippincott 9e Ch 17 (classes of phospholipids)"
+    },
+    {
+      "id": "lipids-25",
+      "topic": "Sphingomyelin in myelin",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 28-year-old woman has blurred vision in her right eye and tingling in both legs. MRI of her brain shows several white-matter lesions consistent with demyelination. Which phospholipid is an important component of the myelin sheath that is being damaged?",
+      "options": [
+        "Cardiolipin",
+        "Phosphatidylinositol",
+        "Dipalmitoylphosphatidylcholine",
+        "Sphingomyelin",
+        "Phosphatidylserine"
+      ],
+      "answer": 3,
+      "explain": "The lecture describes sphingomyelin (ceramide + phosphate + choline) as an important component of the myelin sheath of nerve fibres (slide 16). Slide 21 shows white-matter lesions as an example of myelin loss. Myelin also contains glycolipids such as galactocerebroside, but these are not phospholipids.",
+      "distractors": "Cardiolipin belongs to the inner mitochondrial membrane, and dipalmitoylphosphatidylcholine is the main lipid of lung surfactant. Neither is the typical phospholipid of myelin.",
+      "source": "Slides 16, 21 · Lippincott 9e Ch 17 (sphingomyelin)"
+    },
+    {
+      "id": "lipids-26",
+      "topic": "Lung surfactant and RDS",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A baby boy born at 29 weeks' gestation develops rapid breathing, grunting and indrawing between the ribs within hours of birth. His chest X-ray shows diffuse ground-glass opacities caused by collapsed alveoli. Deficiency of which lipid is the main cause?",
+      "options": [
+        "Cardiolipin",
+        "Sphingomyelin",
+        "Dipalmitoyl lecithin",
+        "Phosphatidylinositol",
+        "Galactocerebroside"
+      ],
+      "answer": 2,
+      "explain": "Dipalmitoyl lecithin (DPPC) is the main component of lung surfactant. Surfactant forms the fluid layer that lines the alveoli, and it lowers surface tension so the alveoli do not collapse (slide 18). Respiratory distress syndrome happens when not enough surfactant is secreted, usually in preterm infants such as this 29-week baby.",
+      "distractors": "Sphingomyelin is a phospholipid of myelin and cardiolipin is a lipid of mitochondria. Neither is the surface-active lipid that lines the alveoli.",
+      "source": "Slide 18 · Lippincott 9e Ch 17 (lung surfactant; respiratory distress syndrome)"
+    },
+    {
+      "id": "lipids-27",
+      "topic": "Antenatal glucocorticoids",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 30-year-old woman at 31 weeks' gestation is admitted in preterm labour. Before delivery, the obstetrician gives her two intramuscular doses of betamethasone, a glucocorticoid. What is the main biochemical reason for this treatment?",
+      "options": [
+        "To block sphingomyelin synthesis in the fetal lung",
+        "To make type I pneumocytes secrete cardiolipin into the alveoli",
+        "To raise alveolar surface tension so that fetal alveoli stay open",
+        "To supply the fetus with essential fatty acids for DPPC",
+        "To mature fetal type II pneumocytes so they secrete surfactant"
+      ],
+      "answer": 4,
+      "explain": "Surfactant, which is rich in DPPC, is secreted by type II pneumocytes (slide 18). The lecture states that giving glucocorticoids to the mother shortly before delivery speeds up fetal lung maturation. More surfactant lowers surface tension in the alveoli, so the newborn is less likely to develop respiratory distress syndrome, or develops a milder form.",
+      "distractors": "Surfactant lowers surface tension rather than raising it, and type I pneumocytes do not produce it. DPPC is made from palmitic acid, a saturated fatty acid that is not essential, so supplying essential fatty acids is not the reason.",
+      "source": "Slide 18 · Lippincott 9e Ch 17 (lung surfactant; respiratory distress syndrome)"
+    },
+    {
+      "id": "lipids-28",
+      "topic": "Structure of DPPC",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Complete hydrolysis of the major lipid of lung surfactant would yield which set of products?",
+      "options": [
+        "Glycerol, palmitic acid, oleic acid, phosphate and choline",
+        "Glycerol, two palmitic acids, phosphate and choline",
+        "Sphingosine, palmitic acid, phosphate and choline",
+        "Glycerol, two palmitic acids, phosphate and ethanolamine",
+        "Glycerol and three palmitic acids"
+      ],
+      "answer": 1,
+      "explain": "The main surfactant lipid is dipalmitoyl lecithin (DPPC). It is glycerol esterified with two palmitic acids (C16:0), plus phosphate and choline (slide 18). Both fatty acid chains are saturated, whereas the typical lecithin on slide 17 has one cis-unsaturated chain.",
+      "distractors": "Option A is an ordinary lecithin, option C is sphingomyelin and option D is a phosphatidylethanolamine. Glycerol with three palmitic acids is a triacylglycerol.",
+      "source": "Slides 17–18 · Lippincott 9e Ch 17 (dipalmitoylphosphatidylcholine)"
+    },
+    {
+      "id": "lipids-29",
+      "topic": "Cerebrosides",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "A lipid extracted from brain white matter is hydrolysed. The products are sphingosine, one fatty acid and one molecule of galactose; no phosphate, sulfate or sialic acid is detected. How is this lipid classified?",
+      "options": [
+        "Galactocerebroside",
+        "Sulfatide",
+        "Ganglioside",
+        "Sphingomyelin",
+        "Phosphatidylinositol"
+      ],
+      "answer": 0,
+      "explain": "Glycolipids are made of fatty acid + sphingosine + carbohydrate and contain no phosphate (slide 20). Cerebrosides are ceramide plus a single sugar; they are either glucocerebrosides or galactocerebrosides, and they are found in the brain and the myelin sheath. A single galactose with no sulfate and no NANA means this lipid is a galactocerebroside.",
+      "distractors": "A sulfatide would also release sulfate. A ganglioside would release a chain of sugars with NANA (sialic acid), and sphingomyelin would release phosphate and choline.",
+      "source": "Slide 20 · Lippincott 9e Ch 17 (glycosphingolipids: cerebrosides)"
+    },
+    {
+      "id": "lipids-30",
+      "topic": "Sulfatides",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which glycolipid carries a negatively charged sulfate group on its galactose residue?",
+      "options": [
+        "Glucocerebroside",
+        "Ganglioside",
+        "Sphingomyelin",
+        "Sulfatide",
+        "Galactocerebroside"
+      ],
+      "answer": 3,
+      "explain": "Sulfatides are made of ceramide + galactose + sulfate and are found in the brain and kidneys (slide 20). Lippincott describes them as galactocerebrosides with a sulfate added, which makes them acidic, negatively charged glycolipids.",
+      "distractors": "Galactocerebroside has the same ceramide–galactose core but no sulfate. Gangliosides get their negative charge from NANA, not from sulfate.",
+      "source": "Slide 20 · Lippincott 9e Ch 17 (sulfatides)"
+    },
+    {
+      "id": "lipids-31",
+      "topic": "Gangliosides",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Gangliosides are concentrated in the ganglion cells of the central nervous system. Which component distinguishes them from cerebrosides and sulfatides?",
+      "options": [
+        "A phosphate group linked to choline",
+        "A sulfate group on a galactose residue",
+        "One or more N-acetylneuraminic acid (NANA) residues",
+        "A glycerol backbone in place of sphingosine",
+        "A single glucose residue attached to ceramide"
+      ],
+      "answer": 2,
+      "explain": "Gangliosides are made of ceramide + a chain of sugars + one or more NANA (N-acetylneuraminic acid) residues (slide 20). Lippincott calls NANA sialic acid; it makes gangliosides acidic. The structure of GM1 on the slide is ceramide–Glc–Gal(–NeuAc)–GalNAc–Gal, where NeuAc is NANA.",
+      "distractors": "A sulfate on galactose marks a sulfatide, and a single glucose marks a glucocerebroside. A phosphate–choline head belongs to sphingomyelin, and all glycolipids are built on sphingosine, not glycerol.",
+      "source": "Slide 20 · Lippincott 9e Ch 17 (gangliosides)"
+    },
+    {
+      "id": "lipids-32",
+      "topic": "Functions of glycolipids",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "Before a blood transfusion, a patient's red cells are typed for ABO antigens. These antigens are carbohydrate chains that stick out from the outer surface of the red-cell membrane. According to the lecture, which lipid class acts as blood-group determinants?",
+      "options": [
+        "Triacylglycerols",
+        "Cholesterol esters",
+        "Phosphatidylcholines",
+        "Lipoproteins",
+        "Glycolipids"
+      ],
+      "answer": 4,
+      "explain": "Slide 21 lists four functions of glycolipids: part of the myelin sheath, part of the brain's white matter, blood-group determinants, and part of the cell membrane. Their sugar residues stick out from the lipid bilayer (slide 21 figure), where they act as antigens such as the ABO antigens. Lippincott notes that ABO antigens are carried by glycosphingolipids as well as glycoproteins.",
+      "distractors": "Phosphatidylcholines carry choline, not carbohydrate chains. Triacylglycerols and cholesterol esters are neutral lipids that are not exposed on the cell surface.",
+      "source": "Slide 21 · Lippincott 9e Ch 17 (functions of glycosphingolipids)"
+    },
+    {
+      "id": "lipids-33",
+      "topic": "Lipoprotein classes",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A blood sample taken from a healthy 25-year-old man about three hours after a large fatty meal shows milky, cloudy plasma. Which plasma lipid carrier is mainly responsible for this appearance?",
+      "options": [
+        "Very low-density lipoprotein (VLDL)",
+        "Chylomicrons",
+        "Low-density lipoprotein (LDL)",
+        "High-density lipoprotein (HDL)",
+        "Albumin-bound free fatty acids"
+      ],
+      "answer": 1,
+      "explain": "Lipoproteins carry lipids between tissues in the blood. On slide 22, chylomicrons carry dietary lipid, VLDL comes from the liver, LDL is the 'bad' lipoprotein and HDL the 'good' one. Lippincott explains that intestinal cells assemble chylomicrons from dietary fat. These large, TAG-rich particles scatter light, which makes plasma milky after a meal.",
+      "distractors": "VLDL exports TAG made in the liver, not dietary fat. Albumin carries free fatty acids but does not make plasma cloudy.",
+      "source": "Slide 22 · Lippincott 9e Ch 15, 18 (chylomicrons)"
+    },
+    {
+      "id": "lipids-34",
+      "topic": "Sources of body cholesterol",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 46-year-old woman eats a strict vegetarian diet and cooks only with vegetable oils. She is surprised that her total cholesterol is 225 mg/dL, because she thought that avoiding animal foods would keep her blood cholesterol very low. Which fact from the lecture best explains her result?",
+      "options": [
+        "Vegetable oils contain esterified cholesterol that food labels do not declare",
+        "Cholesterol is the major sterol of plant tissues, including oil seeds",
+        "Plant fatty acids are converted directly into cholesterol in the intestine",
+        "Most body cholesterol is synthesised in the body; only a little comes from the diet",
+        "Dietary linoleic acid is the main precursor of plasma cholesterol"
+      ],
+      "answer": 3,
+      "explain": "The lecture states that no vegetable oil contains any cholesterol and that cholesterol is the major sterol of animal tissues (slide 25). Only a small part of the body's cholesterol comes from the diet; most is made in the body, mainly in the liver from acetyl-CoA (Lippincott). So a plant-based diet cannot by itself make plasma cholesterol very low.",
+      "distractors": "Plants contain no significant cholesterol, so options A and B are wrong. Plant fatty acids such as linoleic acid are not direct precursors of cholesterol, so options C and E are wrong.",
+      "source": "Slide 25 · Lippincott 9e Ch 18 (cholesterol sources and synthesis)"
+    },
+    {
+      "id": "lipids-35",
+      "topic": "VLDL and fatty liver",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 40-year-old man who has drunk heavily for many years has an enlarged liver. Ultrasound shows a fatty liver, and a biopsy shows liver cells filled with triacylglycerol droplets. Reduced export of liver triacylglycerol in which particle would most directly contribute to this finding?",
+      "options": [
+        "Very low-density lipoprotein (VLDL)",
+        "Chylomicrons",
+        "Low-density lipoprotein (LDL)",
+        "High-density lipoprotein (HDL)",
+        "Albumin-bound free fatty acids"
+      ],
+      "answer": 0,
+      "explain": "The lecture lists fatty liver as a clinical aspect of triacylglycerols (slide 14) and names VLDL as the lipoprotein made by the liver (slide 22). Lippincott explains that fatty liver (hepatic steatosis) develops when the liver makes TAG faster than it can export it as VLDL. Causes include long-term alcohol use, obesity and uncontrolled diabetes.",
+      "distractors": "Chylomicrons carry dietary TAG from the intestine, not from the liver. LDL and HDL are rich in cholesterol and do not export newly made TAG from the liver.",
+      "source": "Slides 14, 22 · Lippincott 9e Ch 18 (VLDL; fatty liver)"
+    },
+    {
+      "id": "lipids-36",
+      "topic": "Lipid profile reference values",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 42-year-old woman has a routine fasting lipid profile: total plasma lipids 520 mg/dL, total cholesterol 190 mg/dL, LDL-cholesterol 120 mg/dL, HDL-cholesterol 34 mg/dL and triglycerides 140 mg/dL. Using the lecture's reference values, which result is abnormal?",
+      "options": [
+        "Total plasma lipids",
+        "Total cholesterol",
+        "LDL-cholesterol",
+        "HDL-cholesterol",
+        "Triglycerides"
+      ],
+      "answer": 3,
+      "explain": "The lecture's reference values (slide 24, in mg/dL) are total plasma lipids 400–600, total cholesterol 140–200, HDL 40–60, LDL 80–130 and triglycerides 50–150. Only HDL (34 mg/dL) is outside its range; a fall in HDL, the 'good' cholesterol, counts as dyslipidemia under the lecture's definition and increases the risk of atherosclerosis and coronary artery disease. These ranges are the lecture's teaching values; clinical guidelines express them as target cut-offs instead.",
+      "distractors": "Total cholesterol (190), LDL (120) and triglycerides (140) are close to the upper limits of their ranges but still within them. Total plasma lipids (520) are in the middle of the range.",
+      "source": "Slides 22, 24 · Lippincott 9e Ch 18 (plasma lipoproteins; HDL)"
+    },
+    {
+      "id": "lipids-37",
+      "topic": "Dyslipidemia interpretation",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 55-year-old man who smokes has these fasting results: total plasma lipids 680 mg/dL, total cholesterol 236 mg/dL, LDL-cholesterol 158 mg/dL, HDL-cholesterol 52 mg/dL and triglycerides 135 mg/dL. Which interpretation best fits the lecture?",
+      "options": [
+        "Normal profile, because his HDL and triglyceride values are within range",
+        "Dyslipidemia, because his HDL is below the reference range",
+        "Dyslipidemia, because his triglycerides are above the reference range",
+        "Protective profile, because LDL is the 'good' cholesterol",
+        "Dyslipidemia, because total lipids, total cholesterol and LDL are raised"
+      ],
+      "answer": 4,
+      "explain": "The lecture defines dyslipidemia as any change in the lipid profile, meaning a fall in HDL and/or a rise in any of the other values (slide 24). His total plasma lipids (>600), total cholesterol (>200) and LDL (>130) are above the lecture's ranges, while HDL (40–60) and triglycerides (50–150) are normal. This is dyslipidemia, which increases the risk of atherosclerosis, coronary artery disease and myocardial infarction.",
+      "distractors": "A normal HDL and triglyceride level does not cancel out raised LDL and total cholesterol, and neither of those two values is abnormal here. LDL is the 'bad' cholesterol (slide 22).",
+      "source": "Slides 22, 24 · Lippincott 9e Ch 18 (lipoproteins and atherosclerosis)"
+    },
+    {
+      "id": "lipids-38",
+      "topic": "Cholesterol structure",
+      "type": "recall",
+      "difficulty": "hard",
+      "stem": "Which set of structural features correctly describes cholesterol?",
+      "options": [
+        "27 carbons; 3-OH; C5=C6 double bond; 8-carbon side chain at C17",
+        "27 carbons; 17-OH; C5=C6 double bond; 8-carbon side chain at C3",
+        "27 carbons; 3-OH; C9=C10 double bond; 8-carbon side chain at C17",
+        "21 carbons; 3-OH; C5=C6 double bond; 2-carbon side chain at C17",
+        "27 carbons; 3-OH; C5=C6 double bond; 8-carbon side chain at C13"
+      ],
+      "answer": 0,
+      "explain": "Slide 26 shows that cholesterol is built on a four-ring nucleus (rings A–D) called cyclopentanoperhydrophenanthrene and has 27 carbons in total. It has one hydroxyl group at C3, a double bond between C5 and C6, an 8-carbon branched side chain at C17, and methyl groups at C10 and C13. Lippincott describes the same features.",
+      "distractors": "C13 carries a methyl group (C18), not the side chain, and the hydroxyl is at C3, not C17. Option C misplaces the double bond, which lies between C5 and C6 in ring B. A 21-carbon steroid with a 3-OH, a C5=C6 double bond and a 2-carbon side chain is pregnenolone, the precursor of progesterone, formed when most of cholesterol's side chain is cleaved off (Lippincott).",
+      "source": "Slide 26 · Lippincott 9e Ch 18 (structure of cholesterol)"
+    },
+    {
+      "id": "lipids-39",
+      "topic": "Cholesterol vs cholesterol ester in lipoproteins",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "In plasma lipoproteins, cholesterol esters are buried in the core, while free cholesterol sits in the surface layer with phospholipids. Which structural difference best explains this?",
+      "options": [
+        "A fatty acid is attached to the C17 side chain, lengthening it",
+        "A fatty acid is esterified to the 3-OH, cholesterol's only polar group",
+        "The fatty acid saturates the C5=C6 double bond in ring B",
+        "A phosphate group is added at C3, as in phospholipids",
+        "The four-ring nucleus is opened into a straight hydrocarbon chain"
+      ],
+      "answer": 1,
+      "explain": "Slide 23 shows apoprotein, phospholipid and free cholesterol in the lipoprotein surface, with triglyceride and cholesterol ester in the core. The only polar group on cholesterol is the 3-OH (slide 26), which lets free cholesterol sit in the surface layer alongside the water-facing phospholipid heads. Cholesterol plus a fatty acid gives cholesterol ester (slides 4, 25): the fatty acid is attached to the 3-OH, which removes the polar group and makes the whole molecule hydrophobic, so it packs into the core with triglyceride (Lippincott).",
+      "distractors": "Adding a phosphate would make the molecule more polar, not less. Forming the ester leaves the ring nucleus, the C5=C6 double bond and the C17 side chain unchanged.",
+      "source": "Slides 4, 23, 25–26 · Lippincott 9e Ch 18 (lipoprotein structure; cholesteryl esters)"
+    },
+    {
+      "id": "lipids-40",
+      "topic": "Functions of cholesterol",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 34-year-old woman with primary adrenal insufficiency has low plasma cortisol and aldosterone and is started on hormone replacement. From which lipid does the body normally make both of these hormones?",
+      "options": [
+        "Arachidonic acid",
+        "Sphingosine",
+        "Cholesterol",
+        "Phosphatidylinositol",
+        "Linoleic acid"
+      ],
+      "answer": 2,
+      "explain": "Slide 27 lists cholesterol as the precursor of the steroid hormones: progesterone, glucocorticoids (e.g., cortisol), mineralocorticoids (e.g., aldosterone), androgens and estrogens. Cholesterol is also part of the structure of membranes and lipoproteins, and it is used to make bile acids, bile salts and vitamin D.",
+      "distractors": "Arachidonic acid, made from dietary linoleic acid, is the precursor of eicosanoids, not of steroids. Sphingosine is the backbone of sphingolipids.",
+      "source": "Slide 27 · Lippincott 9e Ch 18 (steroid hormones)"
+    }
+  ]
+}

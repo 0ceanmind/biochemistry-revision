@@ -1,0 +1,728 @@
+{
+  "lecture": "tca",
+  "title": "TCA Cycle",
+  "format": "Single best answer · 5 options",
+  "provenance": "Original exam-style items written from the lecture slides and Lippincott; modelled on the NUST/OMC MD-program SBA format (no public past papers were found).",
+  "questions": [
+    {
+      "id": "tca-01",
+      "topic": "PDH location & pyruvate entry",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Pyruvate formed from glucose in the cytosol must be converted to acetyl CoA before it can enter the citric acid cycle. In which compartment is the enzyme complex that performs this conversion located?",
+      "options": [
+        "Cytosol",
+        "Endoplasmic reticulum lumen",
+        "Mitochondrial intermembrane space",
+        "Peroxisomal matrix",
+        "Mitochondrial matrix"
+      ],
+      "answer": 4,
+      "explain": "The PDH complex, like the TCA cycle itself, is located in the mitochondrial matrix, so pyruvate must first cross from the cytosol into the mitochondrion (the lecture's TCA diagram shows pyruvate passing through the membrane before it becomes acetyl CoA). Only then can it be converted to acetyl CoA, the entry point of the cycle. Note: the slide 3 wording implies that the glycolytic enzymes are also in the matrix; glycolysis is cytosolic, as the lecture's own slide 14 and Lippincott show.",
+      "distractors": "The cytosol is where glycolysis produces pyruvate, not where pyruvate is oxidized to acetyl CoA. The intermembrane space lies outside the inner membrane and contains no PDH; the ER and peroxisomes play no part in this reaction.",
+      "source": "Slides 3, 13 and 14 · Lippincott: TCA cycle & PDH complex (location)"
+    },
+    {
+      "id": "tca-02",
+      "topic": "PDH complex: reaction & products",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "The pyruvate dehydrogenase (PDH) complex is the 'bridge' between glycolysis and the TCA cycle. Which option correctly describes the reaction it catalyses?",
+      "options": [
+        "Carboxylation of pyruvate to oxaloacetate, consuming ATP",
+        "Reduction of pyruvate to lactate, regenerating NAD⁺",
+        "Transamination of pyruvate to alanine, using glutamate",
+        "Oxidative decarboxylation of pyruvate to acetyl CoA, releasing CO₂ and NADH",
+        "Oxidative decarboxylation of pyruvate to acetyl CoA, releasing CO₂ and FADH₂"
+      ],
+      "answer": 3,
+      "explain": "The lecture states that the PDH complex catalyses oxidative decarboxylation, converting pyruvate (3C) into acetyl CoA (2C) and releasing CO₂ and NADH. The lost carbon leaves as CO₂, and the electrons removed are captured as NADH.",
+      "distractors": "FAD is a coenzyme of E3 but is reoxidized by NAD⁺ inside the complex, so the reduced carrier released is NADH, not FADH₂. Options A–C describe pyruvate carboxylase, lactate dehydrogenase and alanine transaminase, which are other fates of pyruvate.",
+      "source": "Slides 4, 5 and 6 · Lippincott: PDH complex"
+    },
+    {
+      "id": "tca-03",
+      "topic": "PDH complex: component enzymes",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "The PDH complex is a multienzyme complex of three enzymes. Which option correctly names E1, E2 and E3 as given in the lecture?",
+      "options": [
+        "E1 dehydrogenase; E2 decarboxylase; E3 transacetylase",
+        "E1 transacetylase; E2 dehydrogenase; E3 decarboxylase",
+        "E1 decarboxylase; E2 transacetylase; E3 dehydrogenase",
+        "E1 decarboxylase; E2 dehydrogenase; E3 transacetylase",
+        "E1 carboxylase; E2 transacetylase; E3 dehydrogenase"
+      ],
+      "answer": 2,
+      "explain": "Slide 5 lists E1 as the decarboxylase, E2 as the transacetylase and E3 as the dehydrogenase. The order follows the chemistry: E1 removes CO₂ from pyruvate, E2 transfers the acetyl group to CoA, and E3 reoxidizes the lipoamide, passing the electrons via FAD to NAD⁺ (Lippincott).",
+      "distractors": "Option D swaps E2 and E3. Option E is wrong because E1 removes CO₂ (a decarboxylase); adding CO₂ to pyruvate is the job of pyruvate carboxylase.",
+      "source": "Slide 5 · Lippincott: PDH complex (component enzymes)"
+    },
+    {
+      "id": "tca-04",
+      "topic": "PDH complex: coenzymes",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "A student uses the mnemonic 'tender loving care for nobody' to recall the five coenzymes of the PDH complex. Which of the following is one of these coenzymes?",
+      "options": [
+        "Lipoic acid",
+        "Biotin",
+        "Pyridoxal phosphate",
+        "Tetrahydrofolate",
+        "Methylcobalamin"
+      ],
+      "answer": 0,
+      "explain": "The mnemonic gives the five PDH coenzymes in order: thiamine pyrophosphate (TPP), lipoic acid, CoA, FAD and NAD⁺. Lipoic acid is the 'l' (loving) and is bound to the transacetylase, E2 (Lippincott).",
+      "distractors": "Biotin is the coenzyme of carboxylases such as pyruvate carboxylase, and pyridoxal phosphate serves transaminases. Tetrahydrofolate and cobalamin carry one-carbon groups; none of these has a role in PDH.",
+      "source": "Slides 5 and 6 · Lippincott: PDH complex coenzymes"
+    },
+    {
+      "id": "tca-05",
+      "topic": "PDH coenzymes & vitamins",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Four of the five coenzymes of the PDH complex are derived from B vitamins. Which pairing of coenzyme and vitamin precursor is correct?",
+      "options": [
+        "TPP – riboflavin (B2)",
+        "CoA – pantothenic acid (B5)",
+        "FAD – niacin (B3)",
+        "NAD⁺ – thiamine (B1)",
+        "Lipoic acid – biotin (B7)"
+      ],
+      "answer": 1,
+      "explain": "Coenzyme A is synthesized from pantothenic acid (B5). The other correct pairings are TPP from thiamine (B1), FAD from riboflavin (B2) and NAD⁺ from niacin (B3); lipoic acid is made in the body and is not a dietary vitamin (Lippincott). The slides name only thiamine explicitly, but SLO L.12.2 asks for the vitamins behind the coenzymes.",
+      "distractors": "Options A, C and D shuffle the correct vitamins (TPP–B1, FAD–B2, NAD⁺–B3). Biotin is the coenzyme of carboxylases, not the precursor of lipoic acid.",
+      "source": "Slides 2 and 5 · Lippincott: PDH complex coenzymes; Vitamins chapter"
+    },
+    {
+      "id": "tca-06",
+      "topic": "PDH coenzymes & vitamins",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 40-year-old man whose diet consists mainly of untreated maize presents with a scaly, hyperpigmented rash on sun-exposed skin, chronic diarrhoea and confusion. His condition reflects deficiency of the vitamin precursor of which PDH-complex coenzyme?",
+      "options": [
+        "FAD",
+        "NAD⁺",
+        "Thiamine pyrophosphate",
+        "Coenzyme A",
+        "Lipoic acid"
+      ],
+      "answer": 1,
+      "explain": "Dermatitis, diarrhoea and dementia on a maize-dependent diet indicate pellagra, i.e. niacin (B3) deficiency (Lippincott). Niacin forms NAD⁺, the final electron acceptor of E3 in the PDH complex and of the NAD⁺-linked dehydrogenases of the TCA cycle.",
+      "distractors": "TPP comes from thiamine, whose deficiency causes beriberi and Wernicke encephalopathy rather than photosensitive dermatitis. FAD comes from riboflavin and CoA from pantothenic acid; lipoic acid is not a dietary vitamin.",
+      "source": "Slide 5 · Lippincott: Vitamins (niacin, pellagra)"
+    },
+    {
+      "id": "tca-07",
+      "topic": "Thiamine & E1 of PDH",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 40-year-old woman receiving long-term parenteral nutrition without vitamin supplements develops lactic acidosis and high-output heart failure; both improve rapidly after intravenous thiamine. Which statement correctly describes the role of the coenzyme she lacked within the PDH complex?",
+      "options": [
+        "As TPP, it serves E1 (decarboxylase) in removing CO₂ from pyruvate",
+        "As TPP, it serves E3 (dehydrogenase) in passing electrons to NAD⁺",
+        "As TPP, it serves E2 (transacetylase) in transferring acetyl groups to CoA",
+        "As FAD, it serves E3 (dehydrogenase) in reoxidizing lipoamide",
+        "As lipoic acid, it serves E2 (transacetylase) as the acetyl carrier"
+      ],
+      "answer": 0,
+      "explain": "Thiamine is active as thiamine pyrophosphate (TPP), the coenzyme of E1 (pyruvate decarboxylase), which removes CO₂ from pyruvate (Lippincott). Without TPP, pyruvate cannot cross the PDH 'bridge' and is reduced to lactate, while the energy-hungry heart fails (wet beriberi, slide 9). The slides list the enzymes and coenzymes separately; the E1–TPP pairing comes from Lippincott.",
+      "distractors": "Lipoic acid (E2) and FAD (E3) are genuine PDH coenzymes, but neither is derived from thiamine. TPP does not act at E2 or E3.",
+      "source": "Slides 5, 6 and 9 · Lippincott: PDH complex (component enzymes & coenzymes)"
+    },
+    {
+      "id": "tca-08",
+      "topic": "PDH tissue distribution",
+      "type": "application",
+      "difficulty": "easy",
+      "stem": "The lecture states that all mammalian tissues containing mitochondria have the PDH complex. Which of the following cell types normally lacks the PDH complex and therefore depends on glycolysis alone for its ATP?",
+      "options": [
+        "Cardiac myocyte",
+        "Renal tubular cell",
+        "Cortical neuron",
+        "Mature erythrocyte",
+        "Hepatocyte"
+      ],
+      "answer": 3,
+      "explain": "The lecture states that all mammalian tissues that contain mitochondria have the PDH complex, especially the kidneys, brain and heart. Mature erythrocytes have no mitochondria, so they lack PDH and the TCA cycle and rely on anaerobic glycolysis, converting pyruvate to lactate (Lippincott).",
+      "distractors": "Kidney, brain and heart are the tissues the lecture highlights as especially rich in PDH. Hepatocytes are also rich in mitochondria and contain the complex.",
+      "source": "Slide 6 · Lippincott: TCA cycle & PDH complex"
+    },
+    {
+      "id": "tca-09",
+      "topic": "PDH regulation (textbook)",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "During a long daytime fast in Ramadan, a healthy man's liver oxidizes large amounts of fatty acids, so mitochondrial acetyl CoA and NADH rise. What is the expected effect on his hepatic PDH complex?",
+      "options": [
+        "PDH phosphatase is activated, converting PDH to its active form",
+        "PDH kinase is inhibited, keeping PDH dephosphorylated and active",
+        "Acetyl CoA allosterically activates PDH to replenish oxaloacetate",
+        "NADH activates PDH by supplying electrons to the E3 component",
+        "PDH kinase is activated, phosphorylating and inactivating PDH"
+      ],
+      "answer": 4,
+      "explain": "PDH is regulated by covalent modification: PDH kinase phosphorylates and inactivates E1, and the kinase is allosterically activated by ATP, acetyl CoA and NADH (Lippincott). When fatty-acid oxidation floods the liver with acetyl CoA and NADH, PDH is switched off, sparing pyruvate for gluconeogenesis. PDH regulation is listed in SLO L.12.2 but is not shown on the slides, so this item relies on Lippincott.",
+      "distractors": "Acetyl CoA activates pyruvate carboxylase, not PDH (C), and NADH is a product that inhibits rather than activates PDH (D). Options A and B describe conditions that activate PDH, such as high Ca²⁺ or high pyruvate.",
+      "source": "Slide 2 (SLO L.12.2) · Lippincott: Regulation of the PDH complex"
+    },
+    {
+      "id": "tca-10",
+      "topic": "PDH regulation (textbook)",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "During vigorous skeletal-muscle contraction, Ca²⁺ is released into the cytosol and also rises in the mitochondrial matrix. How does this Ca²⁺ affect the PDH complex?",
+      "options": [
+        "It activates PDH kinase, phosphorylating and inactivating PDH",
+        "It binds lipoic acid and blocks the transacetylase (E2)",
+        "It activates PDH phosphatase, converting PDH to its active form",
+        "It replaces TPP as the coenzyme of the decarboxylase (E1)",
+        "It inhibits PDH so that pyruvate is diverted to lactate"
+      ],
+      "answer": 2,
+      "explain": "Ca²⁺ is a strong activator of PDH phosphatase, which dephosphorylates and activates the PDH complex; this matches pyruvate oxidation to the energy demand of contracting muscle (Lippincott). It parallels the lecture's regulation slide, where Ca²⁺ also activates isocitrate dehydrogenase and the α-ketoglutarate dehydrogenase complex, so the 'bridge' and the cycle speed up together.",
+      "distractors": "Option A is the opposite effect: PDH kinase is stimulated by ATP, NADH and acetyl CoA, not by Ca²⁺. Ca²⁺ cannot replace or block the coenzymes TPP and lipoic acid.",
+      "source": "Slide 18 · Lippincott: Regulation of the PDH complex"
+    },
+    {
+      "id": "tca-11",
+      "topic": "PDH analogues: α-KG dehydrogenase",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "The α-ketoglutarate dehydrogenase complex is a structural and functional analogue of the PDH complex. By analogy with the PDH reaction, what does it produce from α-ketoglutarate?",
+      "options": [
+        "Succinate, GTP and CO₂",
+        "Isocitrate, NADH and CO₂",
+        "Succinyl CoA, FADH₂ and CO₂",
+        "Succinyl CoA, NADH and CO₂",
+        "Glutamate, NAD⁺ and H₂O"
+      ],
+      "answer": 3,
+      "explain": "Just as PDH converts pyruvate to acetyl CoA + CO₂ + NADH, the α-KG dehydrogenase complex oxidatively decarboxylates α-ketoglutarate (5C) to succinyl CoA (4C), releasing CO₂ and NADH (slide 16, row 4). It uses the same E1–E2–E3 architecture and the same five coenzymes as PDH (slide 7).",
+      "distractors": "Succinate + GTP is the next step, catalysed by succinyl CoA synthetase. As in PDH, the FAD of E3 is reoxidized by NAD⁺, so the released carrier is NADH, not FADH₂; option E describes glutamate dehydrogenase acting on α-KG.",
+      "source": "Slides 7, 14 and 16 · Lippincott: TCA cycle (α-KG dehydrogenase complex)"
+    },
+    {
+      "id": "tca-12",
+      "topic": "PDH analogues: ICDH vs α-KG DH",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Both isocitrate dehydrogenase and α-ketoglutarate dehydrogenase catalyse oxidative decarboxylations in the TCA cycle, yet severe thiamine deficiency directly impairs only the α-ketoglutarate step. Which feature best explains this?",
+      "options": [
+        "Isocitrate dehydrogenase is a single enzyme that uses NAD⁺/NADP⁺ and needs no TPP",
+        "Isocitrate dehydrogenase is activated by Ca²⁺, which compensates for lost thiamine",
+        "α-Ketoglutarate dehydrogenase uses biotin, which is depleted along with thiamine",
+        "Isocitrate dehydrogenase uses FAD, a coenzyme unaffected by thiamine status",
+        "α-Ketoglutarate dehydrogenase is the only TCA enzyme that releases CO₂"
+      ],
+      "answer": 0,
+      "explain": "The lecture's 'PDH complex analogues' table shows that α-KG dehydrogenase is an E1–E2–E3 complex using TPP, lipoic acid, CoA, FAD and NAD⁺, whereas isocitrate dehydrogenase is a single enzyme using only NAD⁺/NADP⁺. Thiamine deficiency therefore hits PDH and the α-keto acid dehydrogenase complexes (slide 9) but spares isocitrate dehydrogenase.",
+      "distractors": "Isocitrate dehydrogenase also releases CO₂ (slide 14), so E is false, and biotin is not a coenzyme of α-KG dehydrogenase. Ca²⁺ activates both enzymes but cannot substitute for a missing coenzyme.",
+      "source": "Slides 7, 9 and 14 · Lippincott: TCA cycle reactions"
+    },
+    {
+      "id": "tca-13",
+      "topic": "PDH analogues: BCKD complex",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 6-day-old Omani girl born to first-cousin parents has poor feeding, vomiting and lethargy, and her urine smells of maple syrup. Plasma leucine, isoleucine and valine are markedly raised. Which enzyme complex, an analogue of the PDH complex, is deficient?",
+      "options": [
+        "Pyruvate dehydrogenase (PDH) complex",
+        "α-Ketoglutarate dehydrogenase complex",
+        "Branched-chain α-keto acid dehydrogenase complex",
+        "Mitochondrial isocitrate dehydrogenase",
+        "Mitochondrial glutamate dehydrogenase"
+      ],
+      "answer": 2,
+      "explain": "The lecture lists the branched-chain α-keto acid dehydrogenase complex as a PDH analogue for branched-chain amino acid catabolism, with E1, E2, E3 and the same five coenzymes. Its deficiency causes maple syrup urine disease, an autosomal recessive disorder (Lippincott), so parental consanguinity raises the risk.",
+      "distractors": "PDH deficiency raises pyruvate, lactate and alanine rather than leucine, isoleucine and valine. α-KG dehydrogenase and isocitrate dehydrogenase are TCA-cycle enzymes and do not degrade branched-chain amino acids.",
+      "source": "Slide 7 · Lippincott: Branched-chain amino acid degradation (MSUD)"
+    },
+    {
+      "id": "tca-14",
+      "topic": "Lecture learning check",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 6-month-old boy is brought to the emergency department with progressive lethargy, poor feeding and rapid breathing. Examination shows generalized hypotonia and severe developmental delay. Plasma lactate is elevated and plasma alanine is markedly elevated. Which enzyme is most likely impaired?",
+      "options": [
+        "Citrate synthase",
+        "Pyruvate dehydrogenase complex",
+        "α-Ketoglutarate dehydrogenase complex",
+        "Isocitrate dehydrogenase",
+        "Malate dehydrogenase"
+      ],
+      "answer": 1,
+      "explain": "This is the lecture's own case. PDH deficiency raises blood pyruvate, lactate and alanine, is a major cause of congenital lactic acidosis in infants, and causes progressive neurological signs such as developmental delay and hypotonia (slide 8). Pyruvate that cannot cross the PDH 'bridge' is diverted to lactate and alanine; the rapid breathing is respiratory compensation for the lactic acidosis.",
+      "distractors": "Defects of the TCA-cycle enzymes in the other options would not specifically divert pyruvate to alanine. The combined rise in lactate and alanine points to the step that consumes pyruvate.",
+      "source": "Slides 8 and 20 · Lippincott: PDH complex deficiency"
+    },
+    {
+      "id": "tca-15",
+      "topic": "PDH deficiency: alanine",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 2-year-old boy with genetically confirmed PDH complex deficiency has raised plasma lactate and alanine. Which enzyme, shown on the lecture's amphibolic map, converts the accumulating pyruvate into alanine?",
+      "options": [
+        "Lactate dehydrogenase",
+        "Pyruvate carboxylase",
+        "Glutamate dehydrogenase",
+        "Malic enzyme",
+        "Alanine transaminase"
+      ],
+      "answer": 4,
+      "explain": "Enzyme 5 on the amphibolic map, Ala transaminase (ALT), converts pyruvate to alanine by transamination. When PDH is blocked, pyruvate accumulates and spills over into lactate and alanine, giving the raised pyruvate, lactate and alanine described for PDH deficiency (slide 8).",
+      "distractors": "Lactate dehydrogenase explains the rise in lactate, not alanine. Pyruvate carboxylase and malic enzyme convert pyruvate to oxaloacetate and malate, and glutamate dehydrogenase links α-ketoglutarate with glutamate.",
+      "source": "Slides 8 and 17 · Lippincott: PDH complex deficiency; Transamination"
+    },
+    {
+      "id": "tca-16",
+      "topic": "PDH deficiency: management",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 3-year-old girl with PDH complex deficiency has recurrent lactic acidosis that worsens after carbohydrate-rich meals. Which dietary approach is most rational?",
+      "options": [
+        "High-carbohydrate diet, to increase pyruvate flux into acetyl CoA",
+        "High-protein diet rich in alanine, to supply pyruvate for the cycle",
+        "Ketogenic (high-fat, low-carbohydrate) diet, supplying acetyl CoA without PDH",
+        "Fructose-based diet, because fructose metabolism avoids the PDH reaction",
+        "Frequent glucose drinks, to keep the brain supplied with its main fuel"
+      ],
+      "answer": 2,
+      "explain": "Fatty acids and ketone bodies generate acetyl CoA directly, without passing through the PDH 'bridge' (on the lecture map, acetyl CoA is also linked to lipid metabolism). A ketogenic (high-fat, low-carbohydrate) diet therefore fuels the TCA cycle and the brain while limiting the pyruvate that would otherwise become lactate. Lippincott notes there is no proven cure, but restricting dietary carbohydrate can reduce symptoms in some patients.",
+      "distractors": "Glucose, fructose and alanine are all converted to pyruvate, which still needs PDH to enter the cycle, so they worsen the lactic acidosis.",
+      "source": "Slides 8 and 17 · Lippincott: PDH complex deficiency"
+    },
+    {
+      "id": "tca-17",
+      "topic": "Thiamine deficiency: wet beriberi",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 50-year-old man whose diet has consisted mainly of polished white rice for months presents with exertional breathlessness, bilateral leg oedema, tachycardia and cardiomegaly. Investigations confirm high-output congestive heart failure. Deficiency of which vitamin is most likely?",
+      "options": [
+        "Thiamine (B1)",
+        "Riboflavin (B2)",
+        "Niacin (B3)",
+        "Pantothenic acid (B5)",
+        "Pyridoxine (B6)"
+      ],
+      "answer": 0,
+      "explain": "The lecture links thiamine deficiency to catastrophic energy failure in the heart and brain, and names congestive heart failure as wet beriberi. Thiamine (as TPP) is required by PDH and α-KG dehydrogenase, and Lippincott associates beriberi with diets based mainly on polished rice.",
+      "distractors": "Riboflavin, niacin and pantothenic acid supply FAD, NAD⁺ and CoA, but their deficiencies do not present as wet beriberi. Pyridoxine (as PLP) serves transaminases rather than PDH.",
+      "source": "Slide 9 · Lippincott: Vitamins (thiamine, beriberi)"
+    },
+    {
+      "id": "tca-18",
+      "topic": "Thiamine deficiency: Wernicke encephalopathy",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 45-year-old man with long-standing alcohol misuse is brought in confused, with an unsteady gait and nystagmus. Wernicke encephalopathy due to thiamine deficiency is suspected. Reduced activity of which pair of mitochondrial enzymes most directly explains the energy failure in his brain?",
+      "options": [
+        "Isocitrate dehydrogenase and malate dehydrogenase",
+        "Citrate synthase and succinate dehydrogenase",
+        "PDH complex and isocitrate dehydrogenase",
+        "Succinyl CoA synthetase and fumarase",
+        "PDH complex and α-ketoglutarate dehydrogenase complex"
+      ],
+      "answer": 4,
+      "explain": "Slide 9 states that thiamine deficiency affects PDH and the α-keto acid dehydrogenase complexes, both of which need TPP; the brain then cannot oxidize glucose-derived pyruvate or α-ketoglutarate. Accuracy note: slide 9 labels Wernicke-Korsakoff syndrome as 'dry beriberi', whereas Lippincott and standard texts use dry beriberi for peripheral neuropathy and treat Wernicke-Korsakoff as the CNS syndrome typical of alcohol misuse.",
+      "distractors": "Option C includes isocitrate dehydrogenase, a single enzyme that does not need TPP. None of the enzymes in options A, B or D is TPP-dependent.",
+      "source": "Slides 7 and 9 · Lippincott: Vitamins (thiamine, Wernicke-Korsakoff syndrome)"
+    },
+    {
+      "id": "tca-19",
+      "topic": "Thiamine deficiency: target organs",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 28-year-old pregnant woman with weeks of persistent vomiting and minimal food intake develops confusion and signs of heart failure attributed to thiamine deficiency. Why are the brain and heart selectively damaged?",
+      "options": [
+        "They are the only tissues that contain the PDH complex",
+        "They lack mitochondria and depend entirely on glycolysis",
+        "They oxidize branched-chain amino acids as their main fuel",
+        "They have the highest metabolic and glucose demands",
+        "They store most of the body's thiamine and lose it first"
+      ],
+      "answer": 3,
+      "explain": "Slide 9 describes thiamine deficiency as a catastrophic energy failure that selectively damages the tissues with the highest metabolic and glucose demands: the heart and the brain. These organs depend heavily on TPP-dependent PDH and α-KG dehydrogenase to oxidize glucose-derived pyruvate through the TCA cycle.",
+      "distractors": "Option A contradicts slide 6: PDH is present in all mitochondria-containing tissues, especially the kidneys, brain and heart. Option B describes red blood cells; the heart and brain are rich in mitochondria.",
+      "source": "Slides 6 and 9 · Lippincott: Vitamins (thiamine)"
+    },
+    {
+      "id": "tca-20",
+      "topic": "Lecture learning check",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 52-year-old man with chronic alcohol misuse and poor nutrition is found drowsy and confused; capillary glucose is 2.6 mmol/L. Before intravenous dextrose is started, the senior doctor insists on giving intravenous thiamine first. What is the best biochemical rationale?",
+      "options": [
+        "Thiamine is the coenzyme hexokinase needs to trap glucose in neurons",
+        "Glucose increases demand on TPP-dependent PDH and can precipitate Wernicke encephalopathy",
+        "Thiamine stimulates insulin release and prevents rebound hyperglycaemia",
+        "Thiamine is the coenzyme of isocitrate dehydrogenase, the rate-limiting TCA enzyme",
+        "Thiamine allows lactate dehydrogenase to clear lactate generated from glucose"
+      ],
+      "answer": 1,
+      "explain": "This converts the lecture's critical-thinking question. Alcoholic and malnourished patients have depleted thiamine stores; a glucose load drives glycolysis and increases flux through TPP-dependent PDH (and α-KG dehydrogenase), using up the remaining thiamine. Without TPP, pyruvate is diverted to lactate and brain ATP production fails, which can precipitate or worsen Wernicke encephalopathy, so thiamine is given before or with glucose.",
+      "distractors": "Hexokinase and lactate dehydrogenase do not use TPP, and thiamine has no role in insulin release. Isocitrate dehydrogenase is a single NAD⁺/NADP⁺-dependent enzyme that needs no thiamine (slide 7).",
+      "source": "Slides 9 and 10 · Lippincott: Vitamins (thiamine)"
+    },
+    {
+      "id": "tca-21",
+      "topic": "Amphibolic role",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "The lecture describes the TCA cycle as 'amphibolic'. What does this term mean?",
+      "options": [
+        "It functions in both catabolic and anabolic pathways",
+        "It takes place in both the cytosol and the mitochondria",
+        "It runs equally well in both directions",
+        "It oxidizes both glucose and acetyl CoA directly",
+        "It operates both with and without oxygen"
+      ],
+      "answer": 0,
+      "explain": "Slide 13 defines the cycle's dual function: it is catabolic (oxidizing acetyl CoA to CO₂ and feeding reduced coenzymes to the ETC) and anabolic (supplying intermediates for gluconeogenesis and for lipid, amino acid and heme synthesis, slide 17). 'Amphibolic' means both.",
+      "distractors": "The cycle is confined to the mitochondrial matrix, has irreversible regulated steps, and needs oxygen indirectly to regenerate NAD⁺ and FAD. Glucose is oxidized to pyruvate by glycolysis; the cycle itself oxidizes only acetyl CoA.",
+      "source": "Slides 13 and 17 · Lippincott: TCA cycle overview"
+    },
+    {
+      "id": "tca-22",
+      "topic": "TCA & oxidative phosphorylation",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 65-year-old man in cardiogenic shock has poor tissue perfusion and a blood lactate of 7 mmol/L. Why does TCA-cycle flux fall in his hypoxic tissues even though pyruvate is plentiful?",
+      "options": [
+        "Oxygen is a direct substrate required by citrate synthase",
+        "NADH is not reoxidized by the ETC, so the dehydrogenases run out of NAD⁺",
+        "Hypoxia removes thiamine pyrophosphate from the PDH complex",
+        "Accumulating lactate directly inhibits isocitrate dehydrogenase",
+        "Low oxygen inactivates succinyl CoA synthetase, blocking GTP formation"
+      ],
+      "answer": 1,
+      "explain": "The lecture places the TCA cycle as the second stage of aerobic respiration, proceeding in the presence of oxygen and feeding its reduced coenzymes to the ETC. No cycle reaction uses O₂ directly, but without O₂ the ETC cannot reoxidize NADH and FADH₂ (Lippincott); NAD⁺ runs out and the accumulating NADH also inhibits the regulated enzymes (slide 18), so flux falls and pyruvate is reduced to lactate.",
+      "distractors": "None of the cycle's enzymes uses O₂ as a substrate. Lactate is not among the regulators listed for isocitrate dehydrogenase, and hypoxia does not strip TPP from PDH.",
+      "source": "Slides 3, 13, 17 and 18 · Lippincott: TCA cycle; Electron transport chain"
+    },
+    {
+      "id": "tca-23",
+      "topic": "Cycle reactions: citrate synthase",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "In the first reaction of the TCA cycle, catalysed by citrate synthase, acetyl CoA combines with which compound to form six-carbon citrate?",
+      "options": [
+        "Pyruvate",
+        "Malate",
+        "Succinate",
+        "Oxaloacetate",
+        "α-Ketoglutarate"
+      ],
+      "answer": 3,
+      "explain": "Row 1 of the lecture's steps table shows oxaloacetate + acetyl CoA → citrate (Cn 6), catalysed by citrate synthase ('Synthase' on the TCA wheel). The 2-carbon acetyl group condenses with 4-carbon oxaloacetate, which is regenerated at the end of every turn (Lippincott).",
+      "distractors": "Pyruvate is carboxylated to oxaloacetate by pyruvate carboxylase but does not condense with acetyl CoA. Malate, succinate and α-ketoglutarate are later intermediates of the cycle.",
+      "source": "Slides 14, 16 and 18 · Lippincott: TCA cycle reactions"
+    },
+    {
+      "id": "tca-24",
+      "topic": "Cycle reactions: citrate → isocitrate",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A farm worker accidentally ingests a rodenticide containing fluoroacetate. In the body it is converted to a compound that inhibits the enzyme converting citrate to isocitrate. Which TCA-cycle intermediate is expected to accumulate?",
+      "options": [
+        "Isocitrate",
+        "Oxaloacetate",
+        "Citrate",
+        "α-Ketoglutarate",
+        "Succinate"
+      ],
+      "answer": 2,
+      "explain": "Blocking step 2 of the cycle (citrate → isocitrate, both 6 carbons on slide 16) causes the substrate, citrate, to build up. Lippincott explains that fluoroacetate is converted to fluorocitrate, which inhibits aconitase, the step-2 enzyme left unlabelled on the lecture's TCA wheel.",
+      "distractors": "Isocitrate and the intermediates after it fall, not rise, when the step that produces them is blocked.",
+      "source": "Slides 14 and 16 · Lippincott: TCA cycle (aconitase inhibition)"
+    },
+    {
+      "id": "tca-25",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "In the lecture's steps table, step 3 converts isocitrate by oxidative decarboxylation, releasing CO₂ and NADH. What is the product of this step and its number of carbons (Cn)?",
+      "options": [
+        "α-Ketoglutarate, 6 carbons",
+        "Succinyl CoA, 4 carbons",
+        "Succinate, 4 carbons",
+        "Oxaloacetate, 4 carbons",
+        "α-Ketoglutarate, 5 carbons"
+      ],
+      "answer": 4,
+      "explain": "Isocitrate dehydrogenase converts isocitrate (6C) to α-ketoglutarate (5C), releasing one carbon as CO₂ and producing NADH (slide 14). This completes row 3 of the lecture's fill-in table; isocitrate dehydrogenase is also one of the three regulated enzymes of the cycle (slide 18).",
+      "distractors": "Option A ignores the carbon lost as CO₂. Succinyl CoA (4C) is the product of the next step, catalysed by the α-KG dehydrogenase complex.",
+      "source": "Slides 14, 16 and 18 · Lippincott: TCA cycle reactions"
+    },
+    {
+      "id": "tca-26",
+      "topic": "Cycle reactions: reaction types",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which pairing of a TCA-cycle step with its reaction type, as given in the lecture's steps table, is correct?",
+      "options": [
+        "Succinyl CoA → succinate: oxidative decarboxylation",
+        "Isocitrate → α-ketoglutarate: hydration",
+        "Malate → oxaloacetate: condensation",
+        "Citrate → isocitrate: oxidation",
+        "Fumarate → malate: hydration"
+      ],
+      "answer": 4,
+      "explain": "Row 7 of the steps table states that fumarate is converted to malate by hydration, catalysed by fumarase. The same table gives isocitrate → α-ketoglutarate as an oxidative decarboxylation and malate → oxaloacetate as an oxidation.",
+      "distractors": "Succinyl CoA → succinate is a substrate-level phosphorylation producing GTP, and citrate → isocitrate is an isomerization with no oxidation (Lippincott). Condensation describes step 1 (oxaloacetate + acetyl CoA → citrate).",
+      "source": "Slide 16 · Lippincott: TCA cycle reactions"
+    },
+    {
+      "id": "tca-27",
+      "topic": "Cycle reactions: substrate-level phosphorylation",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which TCA-cycle enzyme forms GTP directly by substrate-level phosphorylation?",
+      "options": [
+        "Succinate dehydrogenase",
+        "Succinyl CoA synthetase",
+        "α-Ketoglutarate dehydrogenase complex",
+        "Malate dehydrogenase",
+        "Citrate synthase"
+      ],
+      "answer": 1,
+      "explain": "On the lecture's TCA wheel the only GTP is formed at succinyl CoA → succinate by the 'Synthetase'; the steps table calls the same enzyme 'Thiokinase' (succinate thiokinase). Cleavage of the high-energy thioester bond of succinyl CoA drives GTP formation without the ETC (Lippincott).",
+      "distractors": "The dehydrogenases produce NADH or FADH₂, which yield ATP only through oxidative phosphorylation. Citrate synthase releases free CoA and makes no nucleotide.",
+      "source": "Slides 14 and 16 · Lippincott: TCA cycle reactions"
+    },
+    {
+      "id": "tca-28",
+      "topic": "Products per turn",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "According to the lecture's TCA wheel, what is produced by one complete turn of the cycle (oxidation of one acetyl CoA)?",
+      "options": [
+        "3 NADH, 1 FADH₂, 1 GTP, 2 CO₂",
+        "2 NADH, 2 FADH₂, 1 GTP, 2 CO₂",
+        "3 NADH, 1 FADH₂, 2 GTP, 3 CO₂",
+        "4 NADH, 1 FADH₂, 1 GTP, 3 CO₂",
+        "3 NADH, 2 FADH₂, 1 GTP, 1 CO₂"
+      ],
+      "answer": 0,
+      "explain": "NADH is formed at isocitrate dehydrogenase, α-KG dehydrogenase and malate dehydrogenase (3); FADH₂ at succinate dehydrogenase (1); GTP at succinyl CoA synthetase (1); and CO₂ at the two oxidative decarboxylations (2).",
+      "distractors": "Option D is the yield per pyruvate, because it adds the NADH and CO₂ of the PDH reaction. The other options miscount the dehydrogenase or decarboxylation steps.",
+      "source": "Slide 14 · Lippincott: TCA cycle energetics"
+    },
+    {
+      "id": "tca-29",
+      "topic": "Lecture learning check",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "To answer the lecture's question on the total energy from glucose, a student first works out the yield per acetyl CoA. Using P/O ratios of 2.5 for NADH and 1.5 for FADH₂, about how many ATP (including GTP) are produced when one acetyl CoA is completely oxidized by the TCA cycle and oxidative phosphorylation?",
+      "options": [
+        "5",
+        "7.5",
+        "9",
+        "10",
+        "12.5"
+      ],
+      "answer": 3,
+      "explain": "One turn gives 3 NADH × 2.5 = 7.5, 1 FADH₂ × 1.5 = 1.5 and 1 GTP = 1, totalling 10 ATP per acetyl CoA (Lippincott). Adding glycolysis and the PDH reaction gives about 30–32 ATP per glucose; older texts use P/O ratios of 3 and 2 (12 per acetyl CoA, 36–38 per glucose). The slide poses this question without a number, so the convention must be stated.",
+      "distractors": "9 omits the GTP and 7.5 counts NADH only. 12.5 is the yield per pyruvate, because it adds the 2.5 ATP from the NADH made by PDH.",
+      "source": "Slides 14 and 15 · Lippincott: TCA cycle energetics"
+    },
+    {
+      "id": "tca-30",
+      "topic": "Energetics per glucose",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "One molecule of glucose is completely oxidized under aerobic conditions. How many NADH are generated by the PDH complex and the TCA cycle together (excluding glycolysis)?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "answer": 2,
+      "explain": "One glucose gives two pyruvate, and each PDH reaction yields one NADH (2 in total). The two acetyl CoA turn the cycle twice, producing 3 NADH per turn (6 in total), so PDH plus the TCA cycle give 8 NADH.",
+      "distractors": "4 is the yield per pyruvate, 6 counts the TCA cycle only, and 10 adds the 2 NADH from glycolysis.",
+      "source": "Slides 5, 14 and 15 · Lippincott: TCA cycle energetics"
+    },
+    {
+      "id": "tca-31",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "The citric acid cycle is regulated at three distinct points. One of the regulatory enzymes is isocitrate dehydrogenase. Which of the following are inhibitors of this enzyme?",
+      "options": [
+        "NADH and ATP",
+        "Calcium and NADH",
+        "ATP and citrate",
+        "Succinyl CoA and NADH",
+        "ADP and NADH"
+      ],
+      "answer": 0,
+      "explain": "On the lecture's regulation slide, isocitrate dehydrogenase is inhibited by NADH and ATP and activated by Ca²⁺ and ADP. A high energy charge (abundant ATP and NADH) signals that no further oxidation is needed. The slide prints calcium as 'Ca⁺'; the correct ion is Ca²⁺.",
+      "distractors": "Calcium and ADP are activators (B, E). Citrate inhibits citrate synthase (C), and succinyl CoA inhibits citrate synthase and α-KG dehydrogenase rather than isocitrate dehydrogenase (D).",
+      "source": "Slides 18 and 19 · Lippincott: Regulation of the TCA cycle"
+    },
+    {
+      "id": "tca-32",
+      "topic": "TCA regulation: succinyl CoA",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "According to the lecture's regulation slide, accumulation of succinyl CoA inhibits which pair of TCA-cycle enzymes?",
+      "options": [
+        "Citrate synthase and isocitrate dehydrogenase",
+        "Isocitrate dehydrogenase and α-ketoglutarate dehydrogenase complex",
+        "Citrate synthase and α-ketoglutarate dehydrogenase complex",
+        "Isocitrate dehydrogenase and malate dehydrogenase",
+        "α-Ketoglutarate dehydrogenase complex and succinate dehydrogenase"
+      ],
+      "answer": 2,
+      "explain": "Slide 18 shows succinyl CoA as an inhibitor of citrate synthase and of the α-KG dehydrogenase complex, the enzyme that produces it (product inhibition). Isocitrate dehydrogenase is regulated only by NADH and ATP (inhibitors) and Ca²⁺ and ADP (activators).",
+      "distractors": "Any option that includes isocitrate dehydrogenase is wrong, because succinyl CoA is not listed among its regulators. Malate and succinate dehydrogenases are not regulated steps in the lecture.",
+      "source": "Slide 18 · Lippincott: Regulation of the TCA cycle"
+    },
+    {
+      "id": "tca-33",
+      "topic": "TCA regulation: exercise",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "During sustained exercise, skeletal-muscle mitochondria experience a rise in both Ca²⁺ and ADP. According to the lecture, which TCA-cycle enzyme is activated by both of these signals?",
+      "options": [
+        "Citrate synthase",
+        "α-Ketoglutarate dehydrogenase complex",
+        "Succinate dehydrogenase",
+        "Malate dehydrogenase",
+        "Isocitrate dehydrogenase"
+      ],
+      "answer": 4,
+      "explain": "Slide 18 lists Ca²⁺ and ADP as activators of isocitrate dehydrogenase. Citrate synthase is activated by ADP only and the α-KG dehydrogenase complex by Ca²⁺ only, so only isocitrate dehydrogenase responds to both. The slide prints 'Ca⁺'; the correct ion is Ca²⁺.",
+      "distractors": "Citrate synthase and α-KG dehydrogenase each respond to only one of the two signals. Succinate and malate dehydrogenases are not among the three regulated steps.",
+      "source": "Slide 18 · Lippincott: Regulation of the TCA cycle"
+    },
+    {
+      "id": "tca-34",
+      "topic": "Biosynthetic role: citrate",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "After a carbohydrate-rich meal, high ATP and NADH slow isocitrate dehydrogenase in liver mitochondria, and citrate accumulates. According to the lecture's amphibolic map, what is the main biosynthetic use of this citrate once it leaves the cycle?",
+      "options": [
+        "Heme synthesis",
+        "Lipid synthesis",
+        "Gluconeogenesis",
+        "Glutamate synthesis",
+        "Aspartate synthesis"
+      ],
+      "answer": 1,
+      "explain": "The amphibolic map shows citrate leaving the cycle for lipid synthesis. Lippincott explains that citrate is exported to the cytosol and cleaved back to acetyl CoA, which is used for fatty acid synthesis when energy is plentiful.",
+      "distractors": "On the same map, heme comes from succinyl CoA, gluconeogenesis and aspartate from oxaloacetate, and glutamate from α-ketoglutarate.",
+      "source": "Slides 17 and 18 · Lippincott: TCA cycle; Fatty acid synthesis"
+    },
+    {
+      "id": "tca-35",
+      "topic": "Anaplerotic reactions",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 25-year-old bodybuilder has eaten several raw egg whites daily for months and develops biotin deficiency. Which reaction shown on the lecture's anaplerotic map is most directly impaired?",
+      "options": [
+        "Pyruvate → malate (malic enzyme)",
+        "Oxaloacetate ⇄ aspartate (ASP transaminase)",
+        "α-Ketoglutarate ⇄ glutamate (Glu dehydrogenase)",
+        "Pyruvate → oxaloacetate (pyruvate carboxylase)",
+        "Pyruvate → alanine (Ala transaminase)"
+      ],
+      "answer": 3,
+      "explain": "Raw egg white contains avidin, which binds biotin (Lippincott). Biotin is the coenzyme of carboxylases such as pyruvate carboxylase (enzyme 1 on the lecture map), the main anaplerotic reaction that replenishes oxaloacetate for the cycle and for gluconeogenesis.",
+      "distractors": "The transaminases use pyridoxal phosphate, and glutamate dehydrogenase and malic enzyme use NAD⁺/NADP⁺-type coenzymes; none of them needs biotin.",
+      "source": "Slide 17 · Lippincott: Anaplerotic reactions; Vitamins (biotin)"
+    },
+    {
+      "id": "tca-36",
+      "topic": "Biosynthetic role: intermediates",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which pairing of a TCA-cycle intermediate with a biosynthetic pathway it supplies, as shown on the lecture's amphibolic map, is correct?",
+      "options": [
+        "Citrate → heme synthesis",
+        "α-Ketoglutarate → aspartate synthesis",
+        "Oxaloacetate → glutamate synthesis",
+        "Succinyl CoA → heme synthesis",
+        "Fumarate → lipid synthesis"
+      ],
+      "answer": 3,
+      "explain": "The amphibolic map shows succinyl CoA feeding heme synthesis (spelled 'Heam' on the slide); Lippincott confirms that ALA synthase condenses succinyl CoA with glycine in the first step of heme synthesis. The other exits on the map are citrate → lipid synthesis, α-ketoglutarate → glutamate, and oxaloacetate → aspartate and gluconeogenesis.",
+      "distractors": "Options B and C swap the amino acids: α-ketoglutarate gives glutamate and oxaloacetate gives aspartate. Citrate supplies lipid synthesis, not heme.",
+      "source": "Slide 17 · Lippincott: TCA cycle; Heme synthesis"
+    },
+    {
+      "id": "tca-37",
+      "topic": "Anaplerosis: propionyl CoA",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Oxidation of odd-chain fatty acids yields propionyl CoA as well as acetyl CoA. According to the lecture's anaplerotic map, at which intermediate do the propionyl carbons enter the TCA cycle?",
+      "options": [
+        "Citrate",
+        "α-Ketoglutarate",
+        "Oxaloacetate",
+        "Fumarate",
+        "Succinyl CoA"
+      ],
+      "answer": 4,
+      "explain": "The lecture map links propionyl CoA to succinyl CoA. Lippincott describes the route: propionyl CoA → methylmalonyl CoA (biotin) → succinyl CoA (vitamin B12), so the propionyl portion of odd-chain fatty acids replenishes the cycle. The slide draws this link with two-way arrows, but physiologically it runs towards succinyl CoA.",
+      "distractors": "Acetyl CoA, not propionyl CoA, enters by condensing with oxaloacetate to form citrate. α-Ketoglutarate and oxaloacetate are the entry points for glutamate and aspartate.",
+      "source": "Slide 17 · Lippincott: Fatty acid oxidation (odd-chain); TCA cycle"
+    },
+    {
+      "id": "tca-38",
+      "topic": "Amphibolic links: glutamate dehydrogenase",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 4-year-old boy with a urea-cycle disorder has a markedly raised blood ammonia and encephalopathy. One proposed mechanism is that excess ammonia is fixed in the brain by a reversible reaction shown on the lecture's amphibolic map, draining a TCA-cycle intermediate. Which intermediate is depleted?",
+      "options": [
+        "Oxaloacetate",
+        "α-Ketoglutarate",
+        "Succinyl CoA",
+        "Citrate",
+        "Fumarate"
+      ],
+      "answer": 1,
+      "explain": "Enzyme 4 on the lecture map, glutamate dehydrogenase, interconverts α-ketoglutarate and glutamate. When ammonia is high, the reaction is driven towards glutamate (α-ketoglutarate + NH₃ → glutamate), withdrawing α-ketoglutarate from the cycle and reducing ATP production in neurons (Lippincott: glutamate dehydrogenase and ammonia metabolism).",
+      "distractors": "Oxaloacetate ⇄ aspartate is a transamination that takes its amino group from glutamate, not from free ammonia. Succinyl CoA, citrate and fumarate do not take up ammonia.",
+      "source": "Slide 17 · Lippincott: Glutamate dehydrogenase; Hyperammonemia"
+    },
+    {
+      "id": "tca-39",
+      "topic": "TCA, gluconeogenesis & fatty acid metabolism",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "In a 19-year-old with untreated type 1 diabetes, hepatic fatty-acid oxidation produces abundant acetyl CoA, yet much of it is converted to ketone bodies instead of being oxidized in the TCA cycle. Which change best explains this?",
+      "options": [
+        "Oxaloacetate is drawn off for gluconeogenesis, limiting citrate formation",
+        "Insulin deficiency directly inactivates citrate synthase in hepatocytes",
+        "Excess acetyl CoA is converted back to pyruvate by the PDH complex",
+        "The α-ketoglutarate dehydrogenase complex uses ketone bodies as coenzymes",
+        "Glucagon inhibits succinyl CoA synthetase and halts GTP production"
+      ],
+      "answer": 0,
+      "explain": "Acetyl CoA can enter the cycle only by condensing with oxaloacetate (step 1), and the amphibolic map shows oxaloacetate also leaving the cycle for gluconeogenesis. In insulin deficiency the liver performs intense gluconeogenesis, so oxaloacetate is withdrawn and the surplus acetyl CoA is channelled into ketone body synthesis (Lippincott). This shows how the cycle's amphibolic role links gluconeogenesis and fatty acid metabolism.",
+      "distractors": "PDH is irreversible (a one-way arrow on the lecture map), so acetyl CoA cannot be converted back to pyruvate. Insulin and glucagon are not listed as regulators of citrate synthase or succinyl CoA synthetase in the lecture.",
+      "source": "Slides 16 and 17 · Lippincott: Ketone bodies; Gluconeogenesis"
+    },
+    {
+      "id": "tca-40",
+      "topic": "PDH irreversibility & gluconeogenesis",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "Oxaloacetate can feed gluconeogenesis directly, but acetyl CoA derived from even-chain fatty acids cannot be converted to pyruvate for glucose synthesis. Which feature of the pathways in this lecture best explains this?",
+      "options": [
+        "Acetyl CoA is a potent inhibitor of pyruvate carboxylase",
+        "Acetyl CoA cannot leave the mitochondrion in any form",
+        "The PDH reaction is irreversible (pyruvate → acetyl CoA only)",
+        "Alanine transaminase consumes all pyruvate formed from acetyl CoA",
+        "Acetyl CoA is a substrate of malic enzyme rather than of PDH"
+      ],
+      "answer": 2,
+      "explain": "The PDH oxidative decarboxylation releases CO₂ and is irreversible; the lecture map draws pyruvate → acetyl CoA as a one-way arrow. Lippincott states that, because of this irreversibility, acetyl CoA cannot give rise to net glucose synthesis, whereas oxaloacetate is a direct gluconeogenic precursor.",
+      "distractors": "Acetyl CoA activates, rather than inhibits, pyruvate carboxylase, and it does leave the mitochondrion as citrate for lipid synthesis (slide 17). Options D and E describe reactions that do not occur.",
+      "source": "Slides 5 and 17 · Lippincott: Gluconeogenesis (substrates); PDH complex"
+    }
+  ]
+}

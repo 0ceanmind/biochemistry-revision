@@ -1,0 +1,908 @@
+{
+  "lecture": "amino-acids",
+  "title": "Amino Acids & Proteins",
+  "format": "Single best answer · 5 options",
+  "provenance": "Original exam-style items written from the lecture slides and Lippincott; modelled on the NUST/OMC MD-program SBA format (no public past papers were found).",
+  "questions": [
+    {
+      "id": "amino-acids-01",
+      "topic": "General structure of amino acids",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "According to the lecture, every α-amino acid has a central α-carbon (Cα). Which set of four groups is attached to this carbon?",
+      "options": [
+        "An amino group, a carboxyl group, a hydroxyl group and an R group",
+        "An amino group, a carboxyl group, a hydrogen atom and an R group",
+        "An amino group, a phosphate group, a hydrogen atom and an R group",
+        "Two amino groups, a carboxyl group and an R group",
+        "An amide group, a carboxyl group, a hydrogen atom and an R group"
+      ],
+      "answer": 1,
+      "explain": "Cα carries four groups: a basic amino group (–NH₂), an acidic carboxyl group (–COOH), a hydrogen atom (–H) and a variable side chain (R group). The R group is the only part that differs between amino acids, and it uniquely determines each one's identity and properties; in alanine, for example, R = –CH₃.",
+      "distractors": "A hydroxyl group is not one of the four Cα groups (it appears in the side chains of serine and threonine), and amide groups occur only in the side chains of asparagine and glutamine. A second amino group belongs to the side chain of basic amino acids such as lysine, not to Cα itself.",
+      "source": "Slide 3 (and 1) · Lippincott ch. 1, structure of amino acids"
+    },
+    {
+      "id": "amino-acids-02",
+      "topic": "Chirality – glycine",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "A student builds ball-and-stick models of alanine, leucine, serine, glycine and valine, then builds the mirror image of each. For which amino acid can the mirror image be superimposed exactly on the original model?",
+      "options": [
+        "Alanine",
+        "Leucine",
+        "Serine",
+        "Glycine",
+        "Valine"
+      ],
+      "answer": 3,
+      "explain": "A molecule is chiral when its α-carbon carries four different groups, which gives two non-superimposable mirror images (the D and L enantiomers). In glycine the R group is a hydrogen atom, so Cα carries two identical H atoms; glycine is therefore achiral and has no D/L forms. Every other standard amino acid has a chiral Cα.",
+      "distractors": "Alanine is tempting because it is small, but its Cα still carries four different groups (–NH₂, –COOH, –H and –CH₃), so it is chiral. Leucine, serine and valine are likewise chiral.",
+      "source": "Slide 4 · Lippincott ch. 1, optical properties of amino acids"
+    },
+    {
+      "id": "amino-acids-03",
+      "topic": "L-amino acids in proteins",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which form of amino acid is incorporated into human proteins during protein synthesis?",
+      "options": [
+        "L-isomers, because the enzymes of protein synthesis use only L-enantiomers",
+        "D-isomers, because they are more resistant to enzymatic breakdown",
+        "A racemic (50:50) mixture of D- and L-isomers",
+        "β-Amino acids, because their amino group lies on the β-carbon",
+        "Achiral isomers, because the α-carbon of protein amino acids is symmetrical"
+      ],
+      "answer": 0,
+      "explain": "Amino acids in proteins are almost always in the L-configuration, because the enzymes responsible for protein synthesis evolved to use only L-enantiomers. D-amino acids do occur in nature (for example in bacterial cell walls) but are not used in translation.",
+      "distractors": "D-amino acids are indeed more resistant to enzymes, but that is why they are added to peptide drugs, not why they are found in proteins. Protein amino acids are α-amino acids, and all except glycine have a chiral α-carbon.",
+      "source": "Slide 5 · Lippincott ch. 1, D and L forms"
+    },
+    {
+      "id": "amino-acids-04",
+      "topic": "D-amino acids in peptide drugs",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 45-year-old man with a growth-hormone-secreting pituitary tumour is treated with a synthetic analogue of the peptide hormone somatostatin. In this analogue, some of the L-amino acids of the natural peptide are replaced by D-amino acids, and the drug stays active in plasma far longer than natural somatostatin. What is the most likely reason for its longer half-life?",
+      "options": [
+        "D-amino acids carry a permanent positive charge that prevents renal filtration",
+        "D-amino acids form extra disulfide bonds that make the peptide rigid",
+        "D-amino acids make the whole peptide a zwitterion with no net charge at physiological pH",
+        "D-amino acids are achiral, so they cannot fit the active sites of degradative enzymes",
+        "D-amino acids are poorly recognised by proteases, so the peptide is degraded slowly"
+      ],
+      "answer": 4,
+      "explain": "The lecture states that D-amino acids are less susceptible to enzymatic processing than L-amino acids and are therefore more stable, which is why they are introduced into peptide drugs. Proteases are stereospecific for L-residues, so a peptide containing D-residues resists hydrolysis and remains active for longer.",
+      "distractors": "D-amino acids are chiral (they are the mirror images of the L-forms) and have the same charges and side-chain chemistry as their L-partners, so they add no charge and no extra disulfide bonds. Peptides contain ionised groups whether they are built from D- or L-residues.",
+      "source": "Slide 5 · Lippincott ch. 1, D and L forms"
+    },
+    {
+      "id": "amino-acids-05",
+      "topic": "Proline – imino acid",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which amino acid is called an 'imino acid' because its side chain forms a ring with its own α-amino nitrogen?",
+      "options": [
+        "Glycine",
+        "Histidine",
+        "Proline",
+        "Tryptophan",
+        "Phenylalanine"
+      ],
+      "answer": 2,
+      "explain": "In proline the side chain loops back and bonds to the α-nitrogen, forming a five-membered ring. The nitrogen is therefore a secondary amine carrying only one hydrogen, so proline is described as an imino acid. Once it is in a peptide bond this nitrogen has no hydrogen to donate, which is why proline disrupts the α-helix.",
+      "distractors": "Histidine, tryptophan and phenylalanine have rings in their side chains, but these rings do not involve the α-amino nitrogen, which remains a normal primary amino group. Glycine has no ring; its R group is a hydrogen atom.",
+      "source": "Slide 4 (and 22) · Lippincott ch. 1, non-polar side chains (proline)"
+    },
+    {
+      "id": "amino-acids-06",
+      "topic": "α- vs β-amino acids",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "How does β-alanine differ structurally from the α-alanine found in proteins?",
+      "options": [
+        "Its amino group is on the β-carbon, not on the α-carbon next to the carboxyl group",
+        "It is the D-enantiomer of α-alanine, with the same groups arranged as a mirror image",
+        "Its side chain is a hydrogen atom instead of a methyl group",
+        "Its side chain forms a five-membered ring with its amino nitrogen",
+        "It carries a second carboxyl group in place of its methyl side chain"
+      ],
+      "answer": 0,
+      "explain": "In α-amino acids, the type found in proteins, the amino and carboxyl groups are attached to the same carbon (Cα). In β-alanine (H₂N–CH₂–CH₂–COOH) the amino group is attached to the next carbon along, the β-carbon. The two molecules are structural isomers, not mirror images.",
+      "distractors": "Enantiomers (D and L) have the same groups on the same chiral carbon arranged as mirror images; they do not differ in which carbon carries the amino group. A hydrogen side chain describes glycine, and a ring that includes the amino nitrogen describes proline.",
+      "source": "Slide 6 · Lippincott ch. 1, structure of amino acids"
+    },
+    {
+      "id": "amino-acids-07",
+      "topic": "Non-standard amino acids and bioactive peptides",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "Carnosine, a dipeptide concentrated in skeletal muscle and brain, is built from histidine and β-alanine. β-Alanine is also part of pantothenic acid, a component of coenzyme A. Which statement about β-alanine is correct?",
+      "options": [
+        "It is incorporated into muscle proteins by ribosomes during translation",
+        "It is the L-enantiomer of the α-alanine found in proteins",
+        "It is an imino acid with a ring containing its amino nitrogen",
+        "Its amino group is attached to the α-carbon, adjacent to the carboxyl group",
+        "It is a non-standard amino acid that is not encoded by the genetic code"
+      ],
+      "answer": 4,
+      "explain": "β-Alanine carries its amino group on the β-carbon, so it is not one of the 20 standard α-amino acids encoded by the genetic code. Non-standard amino acids like this are not used by ribosomes, but they occur in biologically important molecules such as the dipeptide carnosine (β-alanyl-histidine) and pantothenic acid in coenzyme A. The slides give 'standard vs non-standard' only as a heading, so these details come from the textbook.",
+      "distractors": "Carnosine is made by a dedicated enzyme (carnosine synthase), not on ribosomes, so being part of a peptide does not mean β-alanine is used in translation. β-Alanine has no chiral carbon, so it has no L-form, and it is not an imino acid.",
+      "source": "Slides 6 and 13 · Lippincott ch. 1; vitamins chapter (pantothenic acid)"
+    },
+    {
+      "id": "amino-acids-08",
+      "topic": "Amphoteric nature",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Amino acids contain both a basic amino group and an acidic carboxyl group, so they can either accept or donate protons. Which term describes a compound that can act as either an acid or a base?",
+      "options": [
+        "Zwitterionic",
+        "Amphoteric",
+        "Chiral",
+        "Aliphatic",
+        "Chaotropic"
+      ],
+      "answer": 1,
+      "explain": "A compound that can act as either an acid or a base is amphoteric (Greek for 'both'). Amino acids are amphoteric because the –COOH group can donate a proton and the –NH₂ group can accept one. This property underlies their ability to buffer.",
+      "distractors": "'Zwitterionic' describes the dipolar ionic form (–NH₃⁺ and –COO⁻ on the same molecule, net charge zero), not the general ability to act as an acid or a base. 'Chaotropic' describes denaturing agents such as urea.",
+      "source": "Slide 7 · Lippincott ch. 1, acidic and basic properties of amino acids"
+    },
+    {
+      "id": "amino-acids-09",
+      "topic": "Zwitterion",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "In aqueous solution near neutral pH, alanine exists mainly as a zwitterion. Which description of this form is correct?",
+      "options": [
+        "⁺H₃N–CH(CH₃)–COOH, with a net charge of +1",
+        "H₂N–CH(CH₃)–COO⁻, with a net charge of −1",
+        "H₂N–CH(CH₃)–COOH, with no ionised groups",
+        "⁺H₃N–CH(CH₃)–COO⁻, with one positive and one negative group (net charge 0)",
+        "⁺H₃N–CH(CH₃)–COOH, with no net charge because the carboxyl is protonated"
+      ],
+      "answer": 3,
+      "explain": "A zwitterion (German 'hybrid ion') is a dipolar ion carrying an equal number of positively and negatively charged groups, so its overall charge is zero. In alanine the α-amino group is protonated (–NH₃⁺) and the α-carboxyl group is deprotonated (–COO⁻). Amino acids exist in this form in the solid state and largely in aqueous solution.",
+      "distractors": "⁺H₃N–CH(CH₃)–COOH is the cation that predominates at low pH (net +1), and H₂N–CH(CH₃)–COO⁻ is the anion that predominates at high pH (net −1). The fully un-ionised form is a convenient drawing but is negligible in solution.",
+      "source": "Slides 7–8 · Lippincott ch. 1, acidic and basic properties of amino acids"
+    },
+    {
+      "id": "amino-acids-10",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which chemical characteristic accounts for the ability of amino acids to act as buffers across distinct pH ranges?",
+      "options": [
+        "The hydrophobic nature of their aliphatic side chains",
+        "The continuous hydrolysis of internal peptide bonds",
+        "The presence of both weakly acidic and weakly basic groups",
+        "Their capacity to form rigid, inflexible cyclic structures",
+        "The presence of a central α-carbon atom"
+      ],
+      "answer": 2,
+      "explain": "This is the lecture's learning-check question. Amino acids are amphoteric: the weakly acidic carboxyl group and the weakly basic amino group can release or take up H⁺ and so resist changes in pH. Each ionisable group buffers best within about one pH unit of its pKa, which is why amino acids buffer in distinct pH ranges.",
+      "distractors": "Every amino acid has a central α-carbon, but this carbon does not ionise, so it cannot buffer. Aliphatic side chains are non-ionisable, and free amino acids have no internal peptide bonds to hydrolyse.",
+      "source": "Slide 10 (and 7) · Lippincott ch. 1, titration and buffers"
+    },
+    {
+      "id": "amino-acids-11",
+      "topic": "Net charge at different pH",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Glycine has pKa values of about 2.3 (α-COOH) and 9.6 (α-NH₃⁺). A glycine solution at pH 1.0 is placed in an electric field. Which statement best describes glycine under these conditions?",
+      "options": [
+        "It exists mainly as an anion and migrates toward the anode",
+        "It exists mainly as a zwitterion and does not migrate",
+        "It exists mainly as an anion and migrates toward the cathode",
+        "It exists mainly as a cation and migrates toward the anode",
+        "It exists mainly as a cation and migrates toward the cathode"
+      ],
+      "answer": 4,
+      "explain": "At pH 1.0, well below the pKa of the carboxyl group (2.3), both groups are protonated: ⁺H₃N–CH₂–COOH. This is the cation on the 'low pH' side of the lecture's ionisation scheme. With a net charge of +1, it moves toward the negative electrode (cathode).",
+      "distractors": "The zwitterion predominates between the two pKa values, around glycine's pI (about 6.0), and the anion predominates at high pH. A cation moves to the cathode, not to the anode.",
+      "source": "Slide 8 · Lippincott ch. 1, titration of amino acids"
+    },
+    {
+      "id": "amino-acids-12",
+      "topic": "Isoelectric point (pI)",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "An amino acid with a non-ionisable side chain has pK₁ = 2.4 (α-COOH) and pK₂ = 9.6 (α-NH₃⁺). During electrophoresis it shows no net movement toward either electrode at one particular pH. Which statement about this pH is correct?",
+      "options": [
+        "It is the isoelectric point, about 6.0, where the net charge is zero",
+        "It is pH 7.0, because the isoelectric point of every amino acid is neutral pH",
+        "It is pH 2.4, where the carboxyl group is half-dissociated",
+        "It is pH 9.6, where the amino group is half-deprotonated",
+        "It is the pH at which the amino acid has its greatest buffering capacity"
+      ],
+      "answer": 0,
+      "explain": "The isoelectric point (pI) is the pH at which an amino acid carries no net charge, so it does not migrate in an electric field. For an amino acid whose side chain does not ionise, pI = (pK₁ + pK₂)/2 = (2.4 + 9.6)/2 = 6.0. The slide's label 'Neutral pH (pI)' means electrically neutral (net charge zero), not pH 7; as the slide itself says, pI varies with the R group.",
+      "distractors": "At pH 2.4 or 9.6 the molecule is a 50:50 mixture of two forms with an average net charge of +½ or −½, so it still migrates; these are the pH values of maximum buffering, not the pI. The pI is not fixed at 7.0; it ranges from about 2.8 (aspartate) to about 10.8 (arginine).",
+      "source": "Slide 8 · Lippincott ch. 1, isoelectric point"
+    },
+    {
+      "id": "amino-acids-13",
+      "topic": "Net charge – acidic and basic amino acids",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "A mixture of aspartate, glycine and lysine is spotted at the centre of a paper strip and subjected to electrophoresis at pH 6.0. The pI of glycine is about 6.0. Which pattern is expected?",
+      "options": [
+        "All three amino acids migrate toward the anode",
+        "Aspartate migrates toward the cathode, lysine toward the anode, and glycine stays near the origin",
+        "Aspartate migrates toward the anode, lysine toward the cathode, and glycine stays near the origin",
+        "Glycine migrates toward the cathode, while aspartate and lysine stay near the origin",
+        "None of them migrates, because all amino acids are zwitterions at pH 6.0"
+      ],
+      "answer": 2,
+      "explain": "Aspartate has an extra carboxyl group in its side chain (acidic, a proton donor; pI ≈ 2.8), so at pH 6.0 it carries a net negative charge and moves to the anode (+). Lysine has an extra amino group (basic, a proton acceptor; pI ≈ 9.7), so it is net positive and moves to the cathode (−). Glycine is at its pI, has zero net charge and stays near the origin.",
+      "distractors": "All three have ionised α-groups at pH 6.0, but the ionised side chains of aspartate (–COO⁻) and lysine (–NH₃⁺) give them a net charge, so they do move. The second option reverses the electrodes.",
+      "source": "Slides 8 and 13 · Lippincott ch. 1, side-chain ionisation and pI"
+    },
+    {
+      "id": "amino-acids-14",
+      "topic": "Classification by R group – aromatic",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "Newborn screening detects a markedly raised blood phenylalanine in a 5-day-old Omani boy, and phenylketonuria is diagnosed. Using the lecture's classification by R-group structure, how is the side chain of phenylalanine classified?",
+      "options": [
+        "Classic (aliphatic)",
+        "Aromatic",
+        "Sulfur-containing",
+        "Hydroxyl-containing",
+        "Amidic neutral"
+      ],
+      "answer": 1,
+      "explain": "Phenylalanine's side chain is a benzyl group (–CH₂–C₆H₅) containing a benzene ring, so it belongs to the aromatic class. It contains only carbon and hydrogen and is non-polar and hydrophobic. In phenylketonuria, phenylalanine cannot be hydroxylated to tyrosine, so it accumulates.",
+      "distractors": "The lecture defines aliphatic side chains as containing only C and H in an open chain; phenylalanine's carbons form a ring, so it is aromatic rather than aliphatic. Its side chain has no sulfur, hydroxyl or amide group.",
+      "source": "Slide 11 · Lippincott ch. 1 (non-polar side chains); ch. 20 (phenylketonuria)"
+    },
+    {
+      "id": "amino-acids-15",
+      "topic": "Classification by R group – amides",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which pair of amino acids belongs to the 'amidic neutral' class, whose side chains end in an amide group (–CO–NH₂)?",
+      "options": [
+        "Aspartate and glutamate",
+        "Serine and threonine",
+        "Cysteine and methionine",
+        "Asparagine and glutamine",
+        "Lysine and arginine"
+      ],
+      "answer": 3,
+      "explain": "Asparagine and glutamine are the amides of aspartate and glutamate. Their side-chain –CO–NH₂ group does not ionise at physiological pH, so they are neutral, but it is polar and forms hydrogen bonds. The slide writes the amide as 'CO=NH₂'; the correct structure is –C(=O)–NH₂.",
+      "distractors": "Aspartate and glutamate are the carboxyl-containing (acidic) parents of these amides, and lysine and arginine are amino-containing (basic). Serine and threonine are hydroxyl-containing, and cysteine and methionine are sulfur-containing.",
+      "source": "Slide 11 · Lippincott ch. 1, uncharged polar side chains"
+    },
+    {
+      "id": "amino-acids-16",
+      "topic": "Aliphatic side chains and hydrophobicity",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "The lecture states that aliphatic amino acids are hydrophobic and that hydrophobicity increases with the number of carbon atoms in the side chain. Which amino acid in this list has the most hydrophobic side chain?",
+      "options": [
+        "Alanine",
+        "Leucine",
+        "Glycine",
+        "Serine",
+        "Aspartate"
+      ],
+      "answer": 1,
+      "explain": "Leucine's side chain is an open, branched chain of four carbons containing only C and H, so it is the most hydrophobic of these options. Alanine's side chain has one carbon (–CH₃) and glycine's is only a hydrogen atom, so they are much less hydrophobic.",
+      "distractors": "Alanine is aliphatic but has only one side-chain carbon. Serine (–CH₂OH) is polar uncharged and aspartate (–CH₂–COO⁻) is polar charged, so both are hydrophilic.",
+      "source": "Slide 11 (and 12) · Lippincott ch. 1, non-polar side chains"
+    },
+    {
+      "id": "amino-acids-17",
+      "topic": "Classification by polarity",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which amino acid has a polar but uncharged side chain at physiological pH?",
+      "options": [
+        "Serine",
+        "Valine",
+        "Lysine",
+        "Glutamate",
+        "Phenylalanine"
+      ],
+      "answer": 0,
+      "explain": "Serine's side chain (–CH₂–OH) contains an O–H bond. As in the lecture's N–H example, the electrons are pulled toward the more electronegative atom, creating partial charges (δ− and δ+) that let the side chain hydrogen-bond with water. It carries no formal charge, so serine is polar uncharged.",
+      "distractors": "Lysine (positive) and glutamate (negative) carry formal charges, so they are polar charged. The side chains of valine and phenylalanine contain only C and H, with evenly shared electrons, so they are non-polar.",
+      "source": "Slide 12 · Lippincott ch. 1, uncharged polar side chains"
+    },
+    {
+      "id": "amino-acids-18",
+      "topic": "Classification by chemical behaviour",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Amino acids with an extra amino group in their side chain behave as bases. Which option names such an amino acid and correctly describes how its side chain behaves?",
+      "options": [
+        "Glutamate; it donates protons",
+        "Aspartate; it accepts protons",
+        "Leucine; it donates protons",
+        "Lysine; it accepts protons",
+        "Serine; it accepts protons"
+      ],
+      "answer": 3,
+      "explain": "An extra amino group in the side chain makes an amino acid basic, i.e. a proton acceptor. Lysine's side-chain amino group accepts H⁺ to become –NH₃⁺, so lysine is positively charged at physiological pH. Arginine and histidine are the other basic amino acids.",
+      "distractors": "Glutamate and aspartate have an extra carboxyl group, so they are acidic proton donors; the first option describes glutamate's behaviour correctly, but glutamate is not a basic amino acid. The side chains of leucine and serine neither donate nor accept protons at physiological pH.",
+      "source": "Slide 13 · Lippincott ch. 1, side chains with basic groups"
+    },
+    {
+      "id": "amino-acids-19",
+      "topic": "Essential amino acids",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 2-year-old girl from a low-income family is fed almost entirely on a cereal-based diet that is low in lysine, and her growth is poor. Why must lysine be supplied in her diet?",
+      "options": [
+        "Lysine is achiral, so it cannot be produced by stereospecific enzymes",
+        "Lysine is a non-standard amino acid that is absent from body proteins",
+        "Lysine is the only amino acid that is purely glucogenic",
+        "Lysine is made by intestinal cells but cannot be absorbed into the blood",
+        "Lysine is an essential amino acid that human cells cannot synthesise"
+      ],
+      "answer": 4,
+      "explain": "Essential amino acids cannot be synthesised by human cells in adequate amounts and must come from the diet. They are histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan and valine; arginine becomes essential during periods of growth. Cereal proteins are typically low in lysine. Slide 13 names 'essential vs non-essential' only as a heading, so the list itself is textbook content.",
+      "distractors": "Lysine is a chiral, standard amino acid encoded by the genetic code and present in body proteins. It is one of the two purely ketogenic amino acids, not a purely glucogenic one.",
+      "source": "Slide 13 (heading) · Lippincott ch. 20, essential amino acids"
+    },
+    {
+      "id": "amino-acids-20",
+      "topic": "Glucogenic vs ketogenic amino acids",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 3-year-old boy with pyruvate dehydrogenase deficiency is started on a ketogenic diet. His dietitian asks which amino acids are degraded only to ketogenic products (acetyl-CoA or acetoacetate) and so cannot be used for gluconeogenesis. Which pair is correct?",
+      "options": [
+        "Alanine and serine",
+        "Isoleucine and phenylalanine",
+        "Leucine and lysine",
+        "Glutamate and aspartate",
+        "Glycine and proline"
+      ],
+      "answer": 2,
+      "explain": "Leucine and lysine are the only exclusively ketogenic amino acids: their carbon skeletons yield acetyl-CoA or acetoacetate, which cannot give a net synthesis of glucose. Isoleucine, phenylalanine, threonine, tryptophan and tyrosine are both glucogenic and ketogenic, and the remainder are glucogenic only. The slides list 'glucogenic vs ketogenic' only as a heading, so the members come from the textbook.",
+      "distractors": "Isoleucine and phenylalanine are tempting because they do produce ketogenic products, but they also yield glucogenic intermediates. Alanine, serine, glutamate, aspartate, glycine and proline are glucogenic only.",
+      "source": "Slide 13 (heading) · Lippincott ch. 20, glucogenic and ketogenic amino acids"
+    },
+    {
+      "id": "amino-acids-21",
+      "topic": "Peptide bond formation",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which reaction forms a peptide bond between two amino acids?",
+      "options": [
+        "Oxidation of the –SH groups of two cysteine side chains, releasing two hydrogen atoms",
+        "Reaction of the α-amino groups of both amino acids with release of ammonia",
+        "Addition of water across the α-carboxyl and α-amino groups of adjacent amino acids",
+        "Condensation of the α-carboxyl group of one amino acid with the α-amino group of the next, releasing water",
+        "Attraction between the side-chain carboxyl of aspartate and the side-chain amino group of lysine"
+      ],
+      "answer": 3,
+      "explain": "As drawn in the lecture, the –OH of one amino acid's carboxyl group and an –H of the next amino acid's amino group are removed as water, and a –CO–NH– (peptide) bond joins the two. Repeating this condensation builds the polypeptide backbone, which has a free amino group at the N-terminus and a free carboxyl group at the C-terminus.",
+      "distractors": "Oxidation of two cysteine –SH groups forms a disulfide bond, not a peptide bond. Adding water across the bond is hydrolysis, the reverse reaction, and an aspartate–lysine attraction is an ionic bond.",
+      "source": "Slide 14 · Lippincott ch. 2, peptide bond"
+    },
+    {
+      "id": "amino-acids-22",
+      "topic": "Peptide bond properties",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "X-ray structures of proteins show that the atoms around each peptide bond lie in a single plane, that there is no free rotation about the carbonyl carbon–nitrogen bond, and that the side chains of consecutive residues usually point to opposite sides of the backbone. Which property of the peptide bond best explains these observations?",
+      "options": [
+        "It is an ionic interaction between the –COO⁻ and –NH₃⁺ groups of neighbouring residues",
+        "It is a hydrogen bond between the C=O and N–H groups of adjacent residues",
+        "It has partial double-bond character and is usually in the trans configuration",
+        "It is a single bond with free rotation, usually in the cis configuration",
+        "It is a disulfide bridge that links the α-carbons of adjacent residues"
+      ],
+      "answer": 2,
+      "explain": "Resonance gives the C–N peptide bond partial double-bond character, so it is rigid and planar and cannot rotate freely. Peptide bonds are generally trans, because the cis arrangement brings the bulky groups on neighbouring α-carbons into steric clash; this matches the lecture's drawing of side chains alternating above and below the backbone. Rotation is possible only about the bonds to the α-carbons.",
+      "distractors": "A cis single bond would allow rotation and put neighbouring side chains on the same side. The peptide bond is covalent, not an ionic, hydrogen or disulfide bond, which is why it survives denaturation.",
+      "source": "Slide 14 · Lippincott ch. 2, characteristics of the peptide bond"
+    },
+    {
+      "id": "amino-acids-23",
+      "topic": "Peptides – counting bonds",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "The tetrapeptide Ala–Gly–Ser–Lys is synthesised from four free amino acids. How many peptide bonds does it contain, and how many water molecules are released during its formation?",
+      "options": [
+        "2 peptide bonds; 2 water molecules",
+        "3 peptide bonds; 4 water molecules",
+        "4 peptide bonds; 3 water molecules",
+        "4 peptide bonds; 4 water molecules",
+        "3 peptide bonds; 3 water molecules"
+      ],
+      "answer": 4,
+      "explain": "A chain of n amino acids contains n − 1 peptide bonds, and each bond is formed by a condensation that releases one water molecule. The lecture's tetrapeptide diagram shows four amino acids joined by three –CO–NH– bonds; here alanine is at the free N-terminus (H₂N–) and lysine at the free C-terminus (–COOH).",
+      "distractors": "Four peptide bonds would need a fifth amino acid. The number of water molecules released always equals the number of peptide bonds formed.",
+      "source": "Slide 14 · Lippincott ch. 2, peptide bond"
+    },
+    {
+      "id": "amino-acids-24",
+      "topic": "Primary structure",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which statement best defines the primary structure of a protein?",
+      "options": [
+        "The linear sequence of amino acids joined by peptide bonds, as dictated by the gene",
+        "The local folding of the backbone into α-helices and β-sheets by hydrogen bonds",
+        "The overall three-dimensional folding of a single polypeptide chain",
+        "The arrangement of two or more polypeptide subunits into a functional complex",
+        "The pattern of hydrogen bonds between neighbouring strands of a β-sheet"
+      ],
+      "answer": 0,
+      "explain": "The primary structure is the linear sequence of amino acid residues linked by peptide bonds, determined by the nucleotide sequence of the gene that codes for the protein. The lecture stresses that each higher level (secondary, tertiary, quaternary) builds on the one before it.",
+      "distractors": "Local α-helices and β-sheets, including β-strand hydrogen bonding, are secondary structure. The full three-dimensional fold of one chain is tertiary structure, and the assembly of several subunits is quaternary structure.",
+      "source": "Slides 17–18 · Lippincott ch. 2, primary structure"
+    },
+    {
+      "id": "amino-acids-25",
+      "topic": "Primary structure – sickle cell disease",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 9-year-old Omani boy has recurrent painful crises and chronic haemolytic anaemia. Testing confirms sickle cell disease caused by a point mutation that replaces glutamate with valine at position 6 of the β-globin chain. Which level of protein structure is directly altered by this mutation?",
+      "options": [
+        "Secondary structure",
+        "Primary structure",
+        "Tertiary structure",
+        "Quaternary structure",
+        "None; a single substitution leaves the structure unchanged"
+      ],
+      "answer": 1,
+      "explain": "The primary structure is the amino acid sequence dictated by the gene, so a DNA point mutation that substitutes valine for glutamate directly changes the primary structure of β-globin. Because each level builds on the one below, this single change has downstream effects: deoxygenated HbS molecules stick together through the hydrophobic valine and polymerise, distorting the red cells.",
+      "distractors": "Polymerisation of deoxy-HbS involves interactions between whole haemoglobin molecules, but it is a consequence of the sequence change, not the primary defect. Sickle cell disease itself shows that one substitution can transform a protein's behaviour.",
+      "source": "Slides 17–18 · Lippincott ch. 3, sickle cell anaemia"
+    },
+    {
+      "id": "amino-acids-26",
+      "topic": "Side-chain charge – HbS electrophoresis",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "An Omani couple attends premarital screening. Haemoglobin electrophoresis at alkaline pH (about 8.6) shows that one partner has, in addition to HbA, a band that moves more slowly toward the anode. This band is HbS (β6 Glu→Val). What best explains its slower migration?",
+      "options": [
+        "Valine's side chain adds an extra positive charge to each β-chain of the tetramer",
+        "HbS loses its quaternary structure and migrates as separate α- and β-chains",
+        "Valine forms extra disulfide bonds that make the HbS molecule larger and slower",
+        "HbS contains D-amino acids that resist movement through the electric field",
+        "Swapping acidic glutamate for uncharged valine removes a negative charge from each β-chain"
+      ],
+      "answer": 4,
+      "explain": "Glutamate has an extra side-chain carboxyl group that is ionised (–COO⁻) at alkaline pH, whereas valine has an uncharged, non-polar aliphatic side chain. HbS therefore has one fewer negative charge per β-chain (two per tetramer) than HbA. Being less negatively charged, it moves more slowly toward the positive anode.",
+      "distractors": "Valine's side chain carries no charge, so the substitution removes a negative charge rather than adding a positive one. HbS remains an α₂β₂ tetramer, valine cannot form disulfide bonds (only cysteine can), and human haemoglobin contains only L-amino acids.",
+      "source": "Slides 12–13 and 18 · Lippincott ch. 3, sickle cell anaemia (HbS electrophoresis)"
+    },
+    {
+      "id": "amino-acids-27",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which one of the following chemical bonds stabilises the secondary structure of proteins?",
+      "options": [
+        "Disulfide bridges",
+        "Hydrogen bonds",
+        "Ionic bonds",
+        "Hydrophobic interactions",
+        "Peptide bonds"
+      ],
+      "answer": 1,
+      "explain": "This is the lecture's quiz question. Secondary structures (the α-helix and β-sheet) are stabilised by hydrogen bonds between backbone C=O and N–H groups. In the lecture's bond table, hydrogen bonds are the only bond ticked for the secondary level.",
+      "distractors": "Disulfide bridges, ionic bonds and hydrophobic interactions stabilise tertiary and quaternary structure. Peptide bonds join the residues of the primary structure.",
+      "source": "Slide 29 (and 19, 25) · Lippincott ch. 2, secondary structure"
+    },
+    {
+      "id": "amino-acids-28",
+      "topic": "α-Helix hydrogen bonding",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "In an α-helix, the backbone carbonyl group (C=O) of residue n forms a hydrogen bond with which group?",
+      "options": [
+        "The side-chain hydroxyl group of residue n + 1",
+        "The backbone N–H group of residue n + 2",
+        "The backbone N–H group of residue n + 4",
+        "The backbone N–H group of a residue in a neighbouring strand",
+        "The side-chain carboxyl group of residue n + 4"
+      ],
+      "answer": 2,
+      "explain": "The α-helix is held together by hydrogen bonds between backbone C=O groups and backbone N–H groups four residues further along the same chain (n → n + 4). The lecture's diagram shows this as brackets from the 1st to the 5th and from the 2nd to the 6th peptide units. Side chains point outward and do not take part in this regular pattern.",
+      "distractors": "Hydrogen bonds between neighbouring strands describe the β-sheet, not the α-helix. Side chains that hydrogen-bond with the backbone actually disrupt the helix, as the lecture notes for serine, aspartate and asparagine.",
+      "source": "Slides 19–20 · Lippincott ch. 2, α-helix"
+    },
+    {
+      "id": "amino-acids-29",
+      "topic": "α-Helix geometry",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "The α-helix is a tightly coiled, right-handed spiral with its side chains extending outward. Approximately how many amino acid residues make up each turn of the helix?",
+      "options": [
+        "2.0",
+        "2.5",
+        "3.0",
+        "3.6",
+        "4.0"
+      ],
+      "answer": 3,
+      "explain": "Each turn of an α-helix contains about 3.6 amino acid residues. This geometry brings the C=O of residue n close to the N–H of residue n + 4, the hydrogen-bonding pattern taught in the lecture. The slides do not state the number of residues per turn; the value comes from Lippincott.",
+      "distractors": "4.0 is tempting because the hydrogen-bond partner lies four residues away, but with 3.6 residues per turn that bond spans slightly more than one turn. The smaller values do not describe the α-helix.",
+      "source": "Slide 20 · Lippincott ch. 2, α-helix"
+    },
+    {
+      "id": "amino-acids-30",
+      "topic": "Helix breakers – proline",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "A protein engineer replaces an alanine in the middle of an α-helical segment with proline, and the helix is disrupted at that point. What is the main reason?",
+      "options": [
+        "Proline's α-nitrogen is part of a ring and lacks the hydrogen needed for helix hydrogen bonding",
+        "Proline's side chain carries a negative charge that repels the neighbouring residues in the helix",
+        "Proline is achiral and therefore cannot adopt the right-handed helical twist",
+        "Proline forms a disulfide bond with the next residue, locking the chain straight",
+        "Proline's tiny side chain makes the backbone too flexible to hold a helix"
+      ],
+      "answer": 0,
+      "explain": "Proline's side chain forms a ring with its α-nitrogen. Once in a peptide bond, this nitrogen has no hydrogen to donate to the C=O four residues back, and the rigid ring also introduces a kink. The lecture notes that proline is therefore usually found at the beginning of a helix rather than in its middle.",
+      "distractors": "A tiny, highly flexible side chain describes glycine, which is also the only achiral amino acid. Proline's side chain is non-polar and uncharged, and only cysteine forms disulfide bonds.",
+      "source": "Slide 22 (and 4) · Lippincott ch. 2, amino acids that disrupt an α-helix"
+    },
+    {
+      "id": "amino-acids-31",
+      "topic": "Helix breakers – glycine",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Structural analysis of a protein shows that one amino acid is repeatedly found at sharp bends and kinks of the polypeptide chain, where the backbone must be highly flexible. Which amino acid is it most likely to be, and why?",
+      "options": [
+        "Glycine, because its tiny R group makes the chain highly flexible",
+        "Proline, because its aromatic ring makes the chain highly flexible",
+        "Valine, because its β-branched side chain allows free rotation",
+        "Leucine, because its long hydrophobic side chain stabilises bends",
+        "Lysine, because its positive charge pulls the backbone into a turn"
+      ],
+      "answer": 0,
+      "explain": "The lecture states that glycine's tiny R group makes it highly flexible, so it is usually found at sharp bends or kinks; the same flexibility disfavours the α-helix. Glycine's side chain is a single hydrogen atom, which places little restriction on backbone rotation.",
+      "distractors": "Proline also occurs in turns, but its ring is not aromatic and it makes the chain rigid rather than flexible. β-Branched side chains such as valine's are bulky and restrict backbone movement.",
+      "source": "Slide 22 (and 4) · Lippincott ch. 2, β-bends and α-helix disruption"
+    },
+    {
+      "id": "amino-acids-32",
+      "topic": "Helix breakers – β-branched amino acids",
+      "type": "recall",
+      "difficulty": "hard",
+      "stem": "Besides proline, glycine and amino acids with highly polar R groups, the lecture lists a fourth group of α-helix breakers whose side chains branch at the β-carbon. Which amino acids form this group?",
+      "options": [
+        "Serine, aspartate and asparagine",
+        "Lysine, arginine and histidine",
+        "Alanine, leucine and methionine",
+        "Phenylalanine, tyrosine and tryptophan",
+        "Threonine, valine and isoleucine"
+      ],
+      "answer": 4,
+      "explain": "Threonine, valine and isoleucine each carry two non-hydrogen substituents on their β-carbon. In the textbook explanation, this bulky branch so close to the backbone clashes sterically with the tightly packed α-helix; the slide lists the group without giving a reason.",
+      "distractors": "Serine, aspartate and asparagine are the 'highly polar' helix breakers that the question has already excluded. Alanine, leucine and methionine are not branched at the β-carbon and are common in helices.",
+      "source": "Slide 22 · Lippincott ch. 2, amino acids that disrupt an α-helix"
+    },
+    {
+      "id": "amino-acids-33",
+      "topic": "β-Sheet – parallel vs antiparallel",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which statement correctly compares parallel and antiparallel β-pleated sheets?",
+      "options": [
+        "Neighbouring strands run in opposite directions in parallel sheets and in the same direction in antiparallel sheets",
+        "Parallel sheets are held by hydrogen bonds, whereas antiparallel sheets are held by disulfide bonds",
+        "Both types are held by hydrogen bonds between side chains rather than between backbone groups",
+        "Neighbouring strands run in opposite directions in antiparallel sheets and in the same direction in parallel sheets",
+        "Both types can form only within a single polypeptide chain, never between separate chains"
+      ],
+      "answer": 3,
+      "explain": "In an antiparallel sheet, neighbouring strands run in opposite N→C directions; in a parallel sheet they run in the same direction. The lecture's diagram shows both: the top and middle strands run in opposite directions (straight hydrogen bonds), while the middle and bottom strands run the same way (slanted hydrogen bonds). In both types the hydrogen bonds link backbone C=O and N–H groups on adjacent strands.",
+      "distractors": "The first option reverses the definitions. β-Sheets are stabilised by backbone hydrogen bonds, not by disulfide or side-chain bonds, and the strands can come from one chain or from separate chains.",
+      "source": "Slides 20–21 · Lippincott ch. 2, β-sheet"
+    },
+    {
+      "id": "amino-acids-34",
+      "topic": "Proteins rich in β-sheet",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A surgeon closes a scalp laceration with silk sutures. Silk is made of the protein fibroin. According to the lecture, which secondary structure predominates in this protein?",
+      "options": [
+        "α-Helix",
+        "Triple helix",
+        "β-Pleated sheet",
+        "Random (unordered) coil",
+        "β-Bend (reverse turn)"
+      ],
+      "answer": 2,
+      "explain": "The lecture's 'Important' table lists β-keratin, fibroin (silk), porins and antibodies as proteins made mostly of β-sheet. In silk fibroin, extended strands are stacked side by side and hydrogen-bonded, which gives the fibre high tensile strength.",
+      "distractors": "The α-helix predominates in α-keratin, myoglobin, haemoglobin and GPCRs. The triple helix is characteristic of collagen.",
+      "source": "Slide 22 · Lippincott ch. 2, β-sheet"
+    },
+    {
+      "id": "amino-acids-35",
+      "topic": "Proteins rich in α-helix",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 58-year-old man with hypertension is started on a β-blocker that acts on the β₁-adrenergic receptor, a G-protein-coupled receptor (GPCR). According to the lecture, which secondary structure predominates in the receptor segments that span the plasma membrane?",
+      "options": [
+        "β-Pleated sheet",
+        "α-Helix",
+        "Triple helix",
+        "Random (unordered) coil",
+        "β-Bend (reverse turn)"
+      ],
+      "answer": 1,
+      "explain": "The lecture's table lists α-keratin, myoglobin, haemoglobin and GPCRs as proteins made mostly of α-helix. A GPCR crosses the membrane seven times, each time as an α-helix whose outward-pointing hydrophobic side chains face the lipid bilayer.",
+      "distractors": "β-Sheet predominates in β-keratin, silk fibroin, porins (membrane β-barrels) and antibodies, so being a membrane protein does not by itself imply β-sheet. The triple helix is found in collagen.",
+      "source": "Slide 22 · Lippincott ch. 2, α-helix"
+    },
+    {
+      "id": "amino-acids-36",
+      "topic": "Tertiary structure – disulfide bonds",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 16-year-old with type 1 diabetes uses recombinant human insulin, which consists of two polypeptide chains (A and B) linked by covalent bridges between sulfur atoms of specific side chains. If these bridges are reduced, the hormone loses its activity. Which amino acid forms these bridges?",
+      "options": [
+        "Methionine",
+        "Serine",
+        "Cysteine",
+        "Threonine",
+        "Histidine"
+      ],
+      "answer": 2,
+      "explain": "Disulfide bonds (–S–S–) form when the –SH groups of two cysteine residues are oxidised, creating cystine. In the lecture's table they are the only covalent bonds among the forces that stabilise tertiary and quaternary structure; the others (ionic, hydrogen, hydrophobic and van der Waals) are non-covalent. Reducing agents break disulfide bonds, which is why reduced insulin is inactive.",
+      "distractors": "Methionine also contains sulfur, but as a thioether (–S–CH₃) with no –SH group, so it cannot form disulfide bridges. Serine and threonine have –OH groups and histidine has an imidazole ring; none of them contains sulfur.",
+      "source": "Slides 23 and 25 · Lippincott ch. 2, disulfide bonds"
+    },
+    {
+      "id": "amino-acids-37",
+      "topic": "Tertiary structure – hydrophobic interactions",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "When a water-soluble globular protein such as myoglobin folds, where are side chains such as leucine, valine and phenylalanine mainly located, and what interaction results?",
+      "options": [
+        "On the surface, forming ionic bonds with water",
+        "On the surface, forming disulfide bonds with plasma proteins",
+        "In the interior, forming peptide bonds with one another",
+        "In the interior, away from water, forming hydrophobic interactions",
+        "In the interior, forming hydrogen bonds with backbone C=O groups"
+      ],
+      "answer": 3,
+      "explain": "Non-polar side chains are excluded from water and cluster in the interior of a globular protein, while polar and charged side chains face the aqueous surface. These hydrophobic interactions are one of the non-covalent forces that stabilise tertiary structure in the lecture's table, along with ionic bonds, hydrogen bonds and van der Waals forces, plus covalent disulfide bonds.",
+      "distractors": "The side chains of leucine, valine and phenylalanine contain only C and H, so they cannot form ionic, hydrogen or disulfide bonds. Peptide bonds link residues in the backbone, not side chains.",
+      "source": "Slides 11–12 and 23 · Lippincott ch. 2, hydrophobic interactions"
+    },
+    {
+      "id": "amino-acids-38",
+      "topic": "Tertiary structure – ionic bonds",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "In a folded enzyme, the side chain of aspartate-52 lies next to the side chain of lysine-87, and the two interact at physiological pH. A mutation that replaces aspartate-52 with alanine destabilises the tertiary structure. Which interaction has most likely been lost?",
+      "options": [
+        "A disulfide bond",
+        "An ionic bond (salt bridge)",
+        "A peptide bond",
+        "A hydrophobic interaction",
+        "A backbone hydrogen bond between C=O and N–H four residues apart"
+      ],
+      "answer": 1,
+      "explain": "At physiological pH aspartate's side-chain carboxyl group is ionised (–COO⁻, acidic) and lysine's side-chain amino group is protonated (–NH₃⁺, basic). The electrostatic attraction between them is an ionic bond (salt bridge), a non-covalent force that stabilises tertiary structure. Alanine's –CH₃ side chain is uncharged, so the salt bridge is lost.",
+      "distractors": "Disulfide bonds need two cysteine residues, and a side-chain substitution leaves the backbone peptide bonds intact. The n → n + 4 backbone hydrogen bond is an α-helix (secondary) feature that does not involve side chains.",
+      "source": "Slides 13, 23 and 25 · Lippincott ch. 2, ionic interactions"
+    },
+    {
+      "id": "amino-acids-39",
+      "topic": "Tertiary structure – myoglobin",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 25-year-old man develops dark urine after a crush injury, and myoglobin is detected in his urine. Myoglobin is a single polypeptide chain folded around a haem group. What is the highest level of structural organisation in myoglobin?",
+      "options": [
+        "Primary structure",
+        "Secondary structure",
+        "Quaternary structure, as a heterotetramer",
+        "Quaternary structure, as a homodimer",
+        "Tertiary structure"
+      ],
+      "answer": 4,
+      "explain": "Tertiary structure is the further folding of a single polypeptide chain into a three-dimensional shape, and the lecture gives myoglobin and albumin as examples. Quaternary structure requires more than one subunit, which myoglobin does not have. Its α-helical (secondary) segments are packed into a compact tertiary fold.",
+      "distractors": "The heterotetramer (α₂β₂) describes haemoglobin, which is often confused with myoglobin. Myoglobin does have primary and secondary structure, but neither is its highest level.",
+      "source": "Slides 23–24 · Lippincott ch. 3, myoglobin"
+    },
+    {
+      "id": "amino-acids-40",
+      "topic": "Quaternary structure – haemoglobin",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 6-year-old Omani girl with β-thalassaemia major needs regular blood transfusions because she cannot make enough β-globin chains. Normal adult haemoglobin (HbA) contains two α chains and two β chains. How is the quaternary structure of HbA classified?",
+      "options": [
+        "Heterotetramer",
+        "Homotetramer",
+        "Heterotrimer",
+        "Homodimer",
+        "Monomer with tertiary structure only"
+      ],
+      "answer": 0,
+      "explain": "A protein has quaternary structure when it contains more than one subunit. HbA has four subunits of two different types (α₂β₂), so it is a heterotetramer, the example used in the lecture. Proteins whose subunits are structurally identical are homomultimers.",
+      "distractors": "A homotetramer has four identical subunits, as in catalase. A heterotrimer has three chains that are not all identical, as in type I collagen (two α1 chains and one α2 chain).",
+      "source": "Slide 24 · Lippincott ch. 3, haemoglobin structure"
+    },
+    {
+      "id": "amino-acids-41",
+      "topic": "Quaternary structure – homomultimers",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which protein does the lecture give as an example of a homotetramer, made of four structurally identical subunits?",
+      "options": [
+        "Haemoglobin",
+        "Antibody (immunoglobulin)",
+        "Catalase",
+        "Collagen",
+        "Ferritin"
+      ],
+      "answer": 2,
+      "explain": "Catalase is the lecture's example of a homotetramer. A homomultimeric protein contains structurally identical subunits, whereas a heteromultimeric protein contains different subunits.",
+      "distractors": "Haemoglobin (α₂β₂) and antibodies (two heavy and two light chains) are heterotetramers. Collagen is given as a heterotrimer and ferritin as a 24-subunit heteropolymer.",
+      "source": "Slide 24 · Lippincott ch. 2, quaternary structure"
+    },
+    {
+      "id": "amino-acids-42",
+      "topic": "Bonds stabilising each level",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "According to the lecture's table of stabilising bonds, each of the following contributes to quaternary structure EXCEPT:",
+      "options": [
+        "Disulfide bonds",
+        "Peptide bonds",
+        "Hydrogen bonds",
+        "Ionic bonds",
+        "Hydrophobic interactions"
+      ],
+      "answer": 1,
+      "explain": "Quaternary structure, like tertiary structure, is stabilised by covalent disulfide bonds and by non-covalent hydrogen bonds, ionic bonds, hydrophobic interactions and van der Waals forces. Peptide bonds join the residues within each chain and define the primary structure; they do not hold subunits together. The slide's peptide-bond row has no tick at all, but the lecture's definitions make clear that peptide bonds belong to the primary level.",
+      "distractors": "Disulfide bonds are tempting to exclude because they are covalent, but the table ticks them for both the tertiary and quaternary levels; the inter-chain disulfides of antibodies are an example.",
+      "source": "Slide 25 (and 17–18, 24) · Lippincott ch. 2, quaternary structure"
+    },
+    {
+      "id": "amino-acids-43",
+      "topic": "Chaperones",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "During a high fever, a patient's cells increase production of heat-shock proteins such as Hsp70, which bind exposed hydrophobic regions of partially unfolded proteins. What is the main role of these proteins?",
+      "options": [
+        "They act as chaperones that help unfolded or misfolded proteins fold correctly",
+        "They hydrolyse peptide bonds to release free amino acids",
+        "They tag damaged proteins with ubiquitin for immediate destruction",
+        "They replace L-amino acids with D-amino acids to make proteins heat-stable",
+        "They form new disulfide bonds that fix proteins in their unfolded shape"
+      ],
+      "answer": 0,
+      "explain": "The lecture lists environmental stress such as heat as a cause of misfolding, along with genetic mutations, translation errors and aging. Chaperones are the cell's quality-control proteins: they bind unfolded or misfolded proteins and help them refold correctly. Many heat-shock proteins also help newly made chains to fold (textbook).",
+      "distractors": "Ubiquitin tagging is the next step only if chaperones fail, and chaperones do not carry it out themselves. Peptide-bond hydrolysis is the work of proteases and the proteasome.",
+      "source": "Slide 26 · Lippincott ch. 2, role of chaperones in protein folding"
+    },
+    {
+      "id": "amino-acids-44",
+      "topic": "Misfolding – ubiquitin–proteasome pathway",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 4-year-old boy with recurrent chest infections and a raised sweat chloride is homozygous for the ΔF508 CFTR mutation. The mutant CFTR protein misfolds in the endoplasmic reticulum, and chaperones fail to refold it. What is the most likely fate of the mutant protein?",
+      "options": [
+        "It reaches the apical membrane and functions as a fully active chloride channel",
+        "It converts normal proteins into an infectious β-sheet-rich form that spreads between cells",
+        "It is secreted into the airway lumen, where it forms extracellular amyloid plaques",
+        "It is secreted in sweat, which explains the raised sweat chloride",
+        "It is tagged with ubiquitin and degraded by the proteasome, so little reaches the membrane"
+      ],
+      "answer": 4,
+      "explain": "The lecture explains that when chaperones fail, a misfolded protein is tagged with ubiquitin and sent to the proteasome for degradation. Most ΔF508 CFTR (cystic fibrosis transmembrane conductance regulator) is handled this way, so too few chloride channels reach the apical membrane. This is why cystic fibrosis appears in the lecture's table of misfolding disorders.",
+      "distractors": "Conversion of normal protein into an infectious β-sheet-rich form describes prion disease, and extracellular amyloid plaques describe Alzheimer's disease. The raised sweat chloride reflects failure of chloride reabsorption through the missing channel, not secretion of CFTR itself.",
+      "source": "Slides 26–27 · Lippincott ch. 2 (protein misfolding); ch. 19 (ubiquitin–proteasome)"
+    },
+    {
+      "id": "amino-acids-45",
+      "topic": "Misfolding disorders – prion disease",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 62-year-old man develops rapidly progressive dementia with myoclonic jerks over a few months. MRI and CSF findings support Creutzfeldt–Jakob disease. How does the infectious form of the causative protein differ from the normal cellular form?",
+      "options": [
+        "It has a different amino acid sequence encoded by a viral gene",
+        "Its peptide bonds have switched from the trans to the cis configuration",
+        "It lacks disulfide bonds because its cysteines are replaced by serine",
+        "It has the same sequence, but α-helical regions are refolded into β-sheets",
+        "It is a β-amyloid fragment cut from a larger precursor protein"
+      ],
+      "answer": 3,
+      "explain": "Creutzfeldt–Jakob disease is caused by misfolded prion protein (PrP). The infectious form has the same primary structure as normal PrP, but α-helical regions are refolded into β-sheets; it aggregates and induces normal PrP to adopt the same abnormal shape. The disease shows that misfolding changes higher-order structure without changing the sequence.",
+      "distractors": "Prions contain no nucleic acid, so no viral gene is involved and the sequence is unchanged. β-Amyloid is the misfolded protein of Alzheimer's disease.",
+      "source": "Slide 27 · Lippincott ch. 2, prion disease"
+    },
+    {
+      "id": "amino-acids-46",
+      "topic": "Misfolding disorders – Alzheimer's disease",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 74-year-old woman has had progressive memory loss for 5 years. Brain tissue examined after her death shows extracellular plaques of an aggregated, misfolded protein. According to the lecture, which protein forms these plaques in Alzheimer's disease?",
+      "options": [
+        "α-Synuclein",
+        "Prion protein (PrP)",
+        "CFTR",
+        "Myoglobin",
+        "β-Amyloid"
+      ],
+      "answer": 4,
+      "explain": "The lecture's table of misfolding disorders pairs Alzheimer's disease with β-amyloid. Misfolded β-amyloid peptides aggregate into toxic fibrils and extracellular plaques, illustrating the lecture's point that misfolded proteins can form aggregates, fibrils or plaques. Neurofibrillary tangles of tau protein are also seen (textbook).",
+      "distractors": "α-Synuclein is the misfolded protein of Parkinson's disease, and the prion protein causes Creutzfeldt–Jakob disease. CFTR misfolding causes cystic fibrosis.",
+      "source": "Slide 27 (and 26) · Lippincott ch. 2, amyloid diseases"
+    },
+    {
+      "id": "amino-acids-47",
+      "topic": "Misfolding disorders – Parkinson's disease",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 68-year-old man presents with a resting tremor, rigidity and slowness of movement. In his disease, neurons contain intracellular inclusions (Lewy bodies) made of an aggregated, misfolded protein. Which protein is it?",
+      "options": [
+        "β-Amyloid",
+        "Prion protein (PrP)",
+        "α-Synuclein",
+        "CFTR",
+        "Catalase"
+      ],
+      "answer": 2,
+      "explain": "Parkinson's disease appears in the lecture's misfolding table with α-synuclein as the misfolded protein. Aggregated α-synuclein forms the Lewy bodies seen in dopaminergic neurons (textbook detail).",
+      "distractors": "β-Amyloid forms the plaques of Alzheimer's disease, and the prion protein causes Creutzfeldt–Jakob disease. CFTR is the misfolded protein in cystic fibrosis.",
+      "source": "Slide 27 · Lippincott ch. 2, protein misfolding"
+    },
+    {
+      "id": "amino-acids-48",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which level of protein structure is still present after a protein has been denatured?",
+      "options": [
+        "Primary structure",
+        "Secondary structure",
+        "Tertiary structure",
+        "Quaternary structure",
+        "None; the protein is broken down into free amino acids"
+      ],
+      "answer": 0,
+      "explain": "This is the lecture's learning-check question, reworded. Denaturation disrupts the weak interactions that stabilise a protein's higher-order structure but leaves the peptide bonds intact, so only the primary structure remains. The slide also says that denaturation breaks disulfide bonds; standard texts note that disulfide bonds are broken only when a reducing agent is added.",
+      "distractors": "Secondary, tertiary and quaternary structures are lost when a protein unfolds. Releasing free amino acids requires hydrolysis of peptide bonds (for example by proteases or strong acid), which is not denaturation.",
+      "source": "Slides 28 and 31 · Lippincott ch. 2, denaturation of proteins"
+    },
+    {
+      "id": "amino-acids-49",
+      "topic": "Denaturing agents",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "In a hospital research laboratory, a technician dissolves a patient's purified monoclonal immunoglobulin in 6 M guanidine hydrochloride to unfold it before analysis. According to the lecture, to which class of denaturing agents does guanidine hydrochloride belong, together with urea?",
+      "options": [
+        "Detergents",
+        "Chaotropic agents",
+        "Organic solvents",
+        "Physical factors",
+        "Proteolytic enzymes"
+      ],
+      "answer": 1,
+      "explain": "The lecture groups denaturing agents into chaotropic agents (urea and guanidine hydrochloride), detergents (sodium dodecyl sulfate, SDS), physical factors (extreme heat and changes in pH) and organic solvents (alcohols such as ethanol). Chaotropic agents disrupt the non-covalent interactions that hold the native fold together.",
+      "distractors": "SDS is the lecture's detergent example and ethanol its organic-solvent example. Proteolytic enzymes hydrolyse peptide bonds, which is digestion, not denaturation.",
+      "source": "Slide 28 · Lippincott ch. 2, denaturation of proteins"
+    },
+    {
+      "id": "amino-acids-50",
+      "topic": "Denaturation – disulfide bonds",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "A researcher incubates purified ribonuclease in 8 M urea. The enzyme unfolds and loses its activity, but analysis shows that its four intrachain disulfide bonds are still intact. Which additional agent must be added to break these disulfide bonds?",
+      "options": [
+        "Sodium dodecyl sulfate, an anionic detergent",
+        "Ethanol, an organic solvent",
+        "Guanidine hydrochloride, a chaotropic agent",
+        "β-Mercaptoethanol, a thiol reducing agent",
+        "Hydrochloric acid, added to lower the pH to 2"
+      ],
+      "answer": 3,
+      "explain": "A disulfide bond (–S–S–) is a covalent link formed by oxidation of two cysteine –SH groups, so it is broken only by reduction back to two –SH groups, using a thiol reducing agent such as β-mercaptoethanol (or dithiothreitol). Urea, guanidine hydrochloride, SDS, heat, pH change and ethanol disrupt non-covalent interactions but leave covalent bonds, including peptide bonds and disulfide bonds, intact. This is Anfinsen's classic ribonuclease experiment: urea plus β-mercaptoethanol unfold the enzyme completely, and when both are removed it refolds and regains activity (Harper; Lehninger). The lecture slide states that denaturation breaks disulfide bonds, but none of the denaturing agents it lists can do this alone.",
+      "distractors": "Guanidine hydrochloride is a chaotropic agent like urea, SDS is the lecture's detergent example and ethanol its organic-solvent example; all of them disrupt only non-covalent interactions. Lowering the pH changes side-chain ionisation and breaks ionic bonds, but it does not reduce disulfide bonds.",
+      "source": "Slide 28 (see accuracy note) · Lippincott ch. 2, denaturation of proteins; Harper, protein folding (Anfinsen experiment)"
+    }
+  ]
+}

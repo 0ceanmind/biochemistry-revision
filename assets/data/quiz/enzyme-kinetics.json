@@ -1,0 +1,908 @@
+{
+  "lecture": "enzyme-kinetics",
+  "title": "Enzyme Classification & Kinetics",
+  "format": "Single best answer · 5 options",
+  "provenance": "Original exam-style items written from the lecture slides and Lippincott; modelled on the NUST/OMC MD-program SBA format (no public past papers were found).",
+  "questions": [
+    {
+      "id": "enzyme-kinetics-01",
+      "topic": "Clinical significance of enzymes",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 38-year-old man presents with jaundice and fatigue and is diagnosed with acute viral hepatitis. His plasma alanine aminotransferase (ALT) activity is 25 times the upper reference limit. ALT normally functions inside hepatocytes. Which mechanism best explains the raised plasma ALT?",
+      "options": [
+        "Increased hepatic synthesis of ALT with active secretion into plasma",
+        "Reduced renal excretion of ALT caused by the infection",
+        "Leakage of intracellular ALT from injured hepatocytes into plasma",
+        "Activation of a circulating inactive precursor of ALT by viral proteases",
+        "Production of ALT by lymphocytes responding to the virus"
+      ],
+      "answer": 2,
+      "explain": "Slide 3 lists cell injury releasing intracellular enzymes into plasma as a key clinical use of enzymes, and enzyme activity supports diagnosis and disease monitoring. ALT works in the hepatocyte cytosol and has no function in plasma, so a large rise in plasma activity signals hepatocyte damage.",
+      "distractors": "Hepatocytes do not secrete ALT as a functional plasma enzyme, and ALT is not a zymogen activated in blood. The rise reflects cell damage, not increased production or reduced clearance.",
+      "source": "Slide 3 · Lippincott Ch 5: enzymes in clinical diagnosis"
+    },
+    {
+      "id": "enzyme-kinetics-02",
+      "topic": "Clinical significance — enzyme therapy",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 22-year-old woman reports bloating, abdominal cramps and watery diarrhoea within an hour of drinking milk. Her symptoms are prevented when she takes lactase tablets with dairy foods. Which statement best describes the enzyme in these tablets?",
+      "options": [
+        "A hydrolase that uses water to cleave the glycosidic bond of lactose",
+        "A lyase that cleaves lactose without water into glucose and galactose",
+        "An isomerase that converts lactose into an absorbable isomer",
+        "A ligase that uses ATP to join glucose and galactose",
+        "A transferase that moves a phosphate group from ATP onto lactose"
+      ],
+      "answer": 0,
+      "explain": "Slide 9 lists lactase with amylase as glycosidases: hydrolases that use water to cleave glycosidic bonds. Slide 22 gives lactase supplements as the therapeutic example of enzyme specificity, and slide 3 notes that enzymes are used therapeutically (substitution therapy): the tablet replaces the deficient brush-border enzyme.",
+      "distractors": "Lyases cleave bonds without water (e.g., decarboxylases), and ligases form bonds rather than break them. Lactose digestion is a hydrolysis.",
+      "source": "Slides 3, 9 and 22 · Lippincott Ch 5: hydrolases"
+    },
+    {
+      "id": "enzyme-kinetics-03",
+      "topic": "Intracellular localization of enzymes",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Enzymes are compartmentalised within the cell, so each pathway runs in a defined location. Which pathway is correctly matched with the location of its enzymes?",
+      "options": [
+        "Fatty acid oxidation — cytosol",
+        "Glycolysis — mitochondria",
+        "Pentose phosphate pathway — lysosome",
+        "TCA cycle — nucleus",
+        "Fatty acid synthesis — cytosol"
+      ],
+      "answer": 4,
+      "explain": "Slide 4 places glycolysis, the pentose phosphate pathway and fatty acid synthesis in the cytosol. The TCA cycle, fatty acid oxidation and pyruvate oxidation are in mitochondria, DNA and RNA synthesis in the nucleus, and degradation of complex macromolecules in lysosomes.",
+      "distractors": "Fatty acid oxidation is mitochondrial (it is fatty acid synthesis that is cytosolic), and glycolysis runs in the cytosol, not the mitochondria.",
+      "source": "Slide 4 · Lippincott Ch 5: location of enzymes within the cell"
+    },
+    {
+      "id": "enzyme-kinetics-04",
+      "topic": "Apoenzyme and holoenzyme",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "An enzyme is separated into a protein fraction and a small non-protein organic fraction. Neither fraction alone is catalytically active, but full activity returns when the two are recombined. What is the isolated protein fraction called?",
+      "options": [
+        "Holoenzyme",
+        "Apoenzyme",
+        "Coenzyme",
+        "Cofactor",
+        "Zymogen"
+      ],
+      "answer": 1,
+      "explain": "Slide 5: the protein component of an enzyme is the apoenzyme and the non-protein component is the coenzyme; together they make the active holoenzyme. Lippincott notes that the apoenzyme alone is inactive, which matches the experiment.",
+      "distractors": "The holoenzyme is the complete, active enzyme. A zymogen is an inactive precursor activated by proteolytic cleavage, not by adding back a small molecule.",
+      "source": "Slide 5 (and 30) · Lippincott Ch 5: holoenzymes"
+    },
+    {
+      "id": "enzyme-kinetics-05",
+      "topic": "IUBMB classification (OTHLIL)",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "An enzyme has the systematic number EC 4.1.1.1. Using the lecture mnemonic OTHLIL, what type of reaction does the first digit of this number indicate?",
+      "options": [
+        "Transfer of a functional group from one molecule to another",
+        "Hydrolytic cleavage of a bond",
+        "Intramolecular rearrangement converting one isomer into another",
+        "Non-hydrolytic cleavage of a bond",
+        "Joining of two molecules using energy from ATP"
+      ],
+      "answer": 3,
+      "explain": "IUBMB classes are defined by the reaction catalysed and numbered in OTHLIL order (slide 6): EC 1 oxidoreductases, 2 transferases, 3 hydrolases, 4 lyases, 5 isomerases, 6 ligases. EC 4 enzymes are lyases, which catalyse non-hydrolytic cleavage of C–C, C–S, C–N or C–O bonds, so one substrate commonly forms two products (slide 10). EC 4.1.1.1 is pyruvate decarboxylase (pyruvate → acetaldehyde + CO₂), the lecture's own lyase example.",
+      "distractors": "Hydrolytic cleavage is EC 3 (hydrolases) and intramolecular rearrangement is EC 5 (isomerases), the two classes on either side of EC 4 that are most often swapped with it when the mnemonic order is misremembered. Group transfer is EC 2 and ATP-driven joining is EC 6.",
+      "source": "Slides 6 and 10 · Lippincott Ch 5: enzyme nomenclature"
+    },
+    {
+      "id": "enzyme-kinetics-06",
+      "topic": "EC 1 Oxidoreductases",
+      "type": "application",
+      "difficulty": "easy",
+      "stem": "Lactate dehydrogenase catalyses: lactate + NAD⁺ ⇌ pyruvate + NADH + H⁺. Which statement correctly classifies this reaction?",
+      "options": [
+        "Hydrolase — water removes two hydrogen atoms from lactate",
+        "Oxidoreductase — lactate is oxidised while NAD⁺ is reduced",
+        "Oxidoreductase — lactate is reduced while NAD⁺ is oxidised",
+        "Transferase — a hydroxyl group is transferred from lactate to NAD⁺",
+        "Lyase — a C–H bond in lactate is cleaved without water"
+      ],
+      "answer": 1,
+      "explain": "Slide 7: oxidoreductases catalyse coupled oxidation–reduction in which one substrate is oxidised while another is reduced, using NAD⁺, NADP⁺, FAD or FMN. Lactate loses 2e⁻ and 2H⁺ and is oxidised to pyruvate, and NAD⁺ gains them and is reduced to NADH + H⁺. LDH is the slide's EC 1 example.",
+      "distractors": "Option C reverses the electron flow: the substrate that loses hydrogen (lactate) is the one oxidised. No water is consumed and no group passes to a second acceptor, so hydrolase and transferase do not fit.",
+      "source": "Slide 7 · Lippincott Ch 5: oxidoreductases"
+    },
+    {
+      "id": "enzyme-kinetics-07",
+      "topic": "EC 2 Transferases",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 50-year-old woman's liver-function panel shows a raised alanine aminotransferase (ALT). ALT catalyses: alanine + α-ketoglutarate ⇌ pyruvate + glutamate. To which IUBMB class does ALT belong, and which coenzyme does it require?",
+      "options": [
+        "Oxidoreductase; NAD⁺",
+        "Lyase; pyridoxal phosphate (PLP)",
+        "Transferase; thiamine pyrophosphate (TPP)",
+        "Ligase; biotin",
+        "Transferase; pyridoxal phosphate (PLP)"
+      ],
+      "answer": 4,
+      "explain": "ALT moves an amino group from alanine to α-ketoglutarate, so it is a transferase (EC 2). Slide 8 lists amino groups among the groups that transferases move. Slides 33–34 state that PLP, derived from vitamin B6, supports transamination (transfer of amino groups).",
+      "distractors": "TPP (B1) is used for decarboxylation and biotin for carboxylation. No oxidation occurs in transamination, so an NAD⁺-linked oxidoreductase is wrong.",
+      "source": "Slides 8, 33 and 34 · Lippincott: aminotransferases (PLP)"
+    },
+    {
+      "id": "enzyme-kinetics-08",
+      "topic": "EC 3 Hydrolases",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 35-year-old farmer is brought to the emergency department after spraying an organophosphate insecticide. He has pinpoint pupils, excessive salivation, sweating and bradycardia because acetylcholine is accumulating at synapses. The enzyme inhibited by the poison normally catalyses acetylcholine + H₂O → choline + acetate. To which enzyme class does it belong?",
+      "options": [
+        "Hydrolase",
+        "Lyase",
+        "Transferase",
+        "Oxidoreductase",
+        "Isomerase"
+      ],
+      "answer": 0,
+      "explain": "Acetylcholinesterase is a slide 9 example of a hydrolase: it uses water to cleave the ester bond of acetylcholine into choline and acetate. When organophosphates inhibit it, acetylcholine accumulates and causes cholinergic signs.",
+      "distractors": "Lyases also split one substrate into two products, but without adding water. Water as a reactant identifies a hydrolase, and no group passes to another acceptor and no redox occurs.",
+      "source": "Slide 9 · Lippincott Ch 5: hydrolases"
+    },
+    {
+      "id": "enzyme-kinetics-09",
+      "topic": "EC 4 Lyases",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 27-year-old man develops urticaria and wheezing minutes after a bee sting. The mediator released from his mast cells, histamine, is made from histidine by histidine decarboxylase, which releases CO₂. To which class does histidine decarboxylase belong?",
+      "options": [
+        "Hydrolase",
+        "Oxidoreductase",
+        "Lyase",
+        "Ligase",
+        "Transferase"
+      ],
+      "answer": 2,
+      "explain": "Histidine decarboxylase (histidine → histamine + CO₂) is a slide 10 example of a lyase. Lyases catalyse non-hydrolytic cleavage of C–C, C–S, C–N or C–O bonds, and one substrate commonly forms two products. Decarboxylases are the classic lyases.",
+      "distractors": "Hydrolases also give two products but need water, which is not a reactant here. Ligases join molecules using ATP, the opposite of a cleavage.",
+      "source": "Slide 10 · Lippincott Ch 5: lyases"
+    },
+    {
+      "id": "enzyme-kinetics-10",
+      "topic": "EC 5 Isomerases",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 2-week-old infant presents with vomiting, lethargy and severe metabolic acidosis. Urine organic acids show markedly raised methylmalonic acid, and deficiency of methylmalonyl-CoA mutase is confirmed. This enzyme normally converts methylmalonyl-CoA into succinyl-CoA. To which class does the deficient enzyme belong?",
+      "options": [
+        "Lyase",
+        "Ligase",
+        "Transferase",
+        "Isomerase",
+        "Hydrolase"
+      ],
+      "answer": 3,
+      "explain": "Slide 11 gives methylmalonyl-CoA mutase as an isomerase (EC 5). It rearranges atoms within a single molecule, converting methylmalonyl-CoA into its isomer succinyl-CoA. Its deficiency is an inborn error of metabolism in which the substrate builds up before the block (slides 3 and 49).",
+      "distractors": "The carboxyl-containing group moves within the same molecule, so this is not a transferase reaction, which needs a separate acceptor. No ATP is used, which excludes a ligase.",
+      "source": "Slides 11 and 49 · Lippincott Ch 5: isomerases; propionate metabolism"
+    },
+    {
+      "id": "enzyme-kinetics-11",
+      "topic": "EC 6 Ligases",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "Pyruvate carboxylase catalyses: pyruvate + HCO₃⁻ + ATP → oxaloacetate + ADP + Pᵢ, with biotin as coenzyme. A student argues that it is a hydrolase because ATP is hydrolysed. What is the correct class, and why?",
+      "options": [
+        "Ligase — it joins two molecules into one, powered by ATP hydrolysis",
+        "Hydrolase — water cleaves the terminal phosphate bond of ATP",
+        "Lyase — like the decarboxylases, it acts on a C–C bond involving CO₂",
+        "Transferase — a phosphate group is transferred from ATP to pyruvate",
+        "Oxidoreductase — pyruvate is oxidised as the carboxyl group is added"
+      ],
+      "answer": 0,
+      "explain": "Slide 12: ligases (ligare, 'to bind') join two molecules by forming a new bond, usually powered by ATP hydrolysis, and pyruvate carboxylase is the slide's example. Classification is based on the overall reaction catalysed (slide 6), which here joins pyruvate and bicarbonate into oxaloacetate. The coupled ATP hydrolysis only supplies the energy.",
+      "distractors": "Calling it a hydrolase mistakes the energy-supplying step for the overall reaction. Lyases such as decarboxylases remove CO₂ rather than add it, and no phosphate ends up on the product.",
+      "source": "Slides 6, 12 and 33 · Lippincott Ch 5: ligases"
+    },
+    {
+      "id": "enzyme-kinetics-12",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "D-Alanine is converted to L-alanine. Which enzyme class catalyses this reaction?",
+      "options": [
+        "Lyase",
+        "Oxidoreductase",
+        "Hydrolase",
+        "Isomerase",
+        "Transferase"
+      ],
+      "answer": 3,
+      "explain": "Converting one stereoisomer of a molecule into another is an intramolecular rearrangement, the defining reaction of isomerases (EC 5; slides 6 and 11). The enzyme that does this is a racemase.",
+      "distractors": "Nothing is cleaved, transferred to a second molecule or oxidised; the molecule only changes configuration. That rules out lyase, transferase and oxidoreductase.",
+      "source": "Slide 26 (and 6, 11) · Lippincott Ch 5: isomerases"
+    },
+    {
+      "id": "enzyme-kinetics-13",
+      "topic": "Lecture learning check",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "The reactions below come from the lecture exercise 'Identify the enzyme class for each reaction'. Which reaction is matched with its correct IUBMB class?",
+      "options": [
+        "Maltose + H₂O → glucose + glucose (maltase) — Lyase",
+        "Cytosine in DNA → 5-methylcytosine, with SAM → SAH (DNA methyltransferase) — Transferase",
+        "L-Malate + NAD⁺ ⇌ oxaloacetate + NADH + H⁺ (L-malate dehydrogenase) — Isomerase",
+        "Glucose 1-phosphate ⇌ glucose 6-phosphate — Ligase",
+        "Urea + H₂O → CO₂ + 2 NH₃ (urease) — Oxidoreductase"
+      ],
+      "answer": 1,
+      "explain": "DNA methyltransferases move a methyl group from SAM onto cytosine, so they are transferases (EC 2); methyl is one of the groups listed on slide 8. The correct classes for the others are: maltase and urease, hydrolases (water cleaves the bond); L-malate dehydrogenase, an oxidoreductase (NAD⁺ is reduced); and glucose 1-phosphate ⇌ glucose 6-phosphate, an isomerase.",
+      "distractors": "Maltase and urease both use water, which marks a hydrolase, not a lyase or oxidoreductase. The phosphoglucomutase reaction uses no ATP, so it cannot be a ligase.",
+      "source": "Slide 27 (and 8, 9, 11) · Lippincott Ch 5: enzyme classes"
+    },
+    {
+      "id": "enzyme-kinetics-14",
+      "topic": "Lecture learning check",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "During glycogen breakdown, glucose 1-phosphate is converted to glucose 6-phosphate. The phosphate group moves from carbon 1 to carbon 6 of the same glucose molecule, and no ATP is used. To which enzyme class does the enzyme belong?",
+      "options": [
+        "Transferase, because a phosphate group is moved to a new carbon",
+        "Hydrolase, because the C1 phosphate ester bond is broken",
+        "Ligase, because a new phosphate ester bond is formed at C6",
+        "Lyase, because a C–O bond is cleaved without water",
+        "Isomerase, because atoms are rearranged within one molecule"
+      ],
+      "answer": 4,
+      "explain": "Phosphoglucomutase (slide 11) is an isomerase. Glucose 1-phosphate and glucose 6-phosphate are isomers, and the enzyme catalyses an intramolecular rearrangement; IUBMB places it in EC 5.4, the intramolecular-transferase subclass of the isomerases. This is the unnamed reaction on the slide 27 learning check.",
+      "distractors": "A transferase moves a group to a different acceptor molecule (a kinase moves phosphate from ATP to glucose), whereas here the donor and acceptor are the same molecule. Ligases require ATP, which is not used.",
+      "source": "Slides 27 and 11 · Lippincott Ch 5: isomerases"
+    },
+    {
+      "id": "enzyme-kinetics-15",
+      "topic": "Activation energy",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which statement best defines the activation energy (Ea) of a reaction?",
+      "options": [
+        "The free-energy difference between the reactants and the products",
+        "The energy released when the enzyme–substrate complex forms",
+        "The energy difference between the ground state and the transition state",
+        "The heat energy needed to denature the enzyme",
+        "The minimum amount of ATP needed to drive the reaction forward"
+      ],
+      "answer": 2,
+      "explain": "Slide 13: a substrate must reach the transition state before it can form product, and the energy difference between the ground state and the transition state is the activation energy (Ea). Enzymes speed reactions by lowering this barrier (slide 14).",
+      "distractors": "The reactant–product difference is ΔG, which determines the direction and equilibrium of a reaction, not its rate, and enzymes do not change it.",
+      "source": "Slides 13 and 14 · Lippincott Ch 5: free energy of activation"
+    },
+    {
+      "id": "enzyme-kinetics-16",
+      "topic": "Activation energy and equilibrium",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "An uncatalysed reaction has an activation energy of 80 kJ/mol and an overall free-energy change (ΔG) of −30 kJ/mol. Adding an enzyme lowers the activation energy by 30 kJ/mol. Which set of values best describes the catalysed reaction?",
+      "options": [
+        "Ea 80 kJ/mol; ΔG −60 kJ/mol; equilibrium shifted toward products",
+        "Ea 50 kJ/mol; ΔG −60 kJ/mol; equilibrium shifted toward products",
+        "Ea 50 kJ/mol; ΔG −30 kJ/mol; equilibrium shifted toward products",
+        "Ea 30 kJ/mol; ΔG −30 kJ/mol; equilibrium position unchanged",
+        "Ea 50 kJ/mol; ΔG −30 kJ/mol; equilibrium position unchanged"
+      ],
+      "answer": 4,
+      "explain": "Slide 14: enzymes increase reaction speed by decreasing Ea, but the free-energy difference between reactants and products is the same for catalysed and uncatalysed reactions, and the final equilibrium does not change. Ea therefore falls from 80 to 50 kJ/mol, ΔG stays −30 kJ/mol, and equilibrium is simply reached faster.",
+      "distractors": "Option C is the commonest error: lowering the barrier speeds the forward and reverse reactions equally, so equilibrium cannot shift. Option D mistakes the 30 kJ/mol reduction for the new Ea.",
+      "source": "Slide 14 · Lippincott Ch 5: energy changes during the reaction"
+    },
+    {
+      "id": "enzyme-kinetics-17",
+      "topic": "Active site",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which statement correctly describes the active site of an enzyme?",
+      "options": [
+        "It makes up most of the enzyme's mass and has a flat surface",
+        "It is formed only by nonpolar amino acid side chains",
+        "It is a small three-dimensional pocket that binds substrate non-covalently",
+        "It binds substrate through covalent peptide bonds that are broken after catalysis",
+        "It is located on the coenzyme rather than on the protein part of the enzyme"
+      ],
+      "answer": 2,
+      "explain": "Slide 15 defines the active site as the region that specifically binds the substrate and catalyses the reaction. It occupies a small part of the enzyme, is a three-dimensional pocket, and binds substrate through weak, non-covalent interactions to form a temporary ES complex (slide 23).",
+      "distractors": "Slide 16 lists acidic, basic (Arg, Lys), polar and nonpolar groups at the active site, so it is not only nonpolar. Substrate binding is non-covalent, not through peptide bonds.",
+      "source": "Slides 15, 16 and 23 · Lippincott Ch 5: active sites"
+    },
+    {
+      "id": "enzyme-kinetics-18",
+      "topic": "Lock-and-key model",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "The Fischer (lock-and-key, or template) model describes the active site as a rigid, pre-formed shape into which a complementary substrate fits. What is the main limitation of this model?",
+      "options": [
+        "It fails to explain enzyme flexibility, conformational change and allostery",
+        "It fails to explain why enzymes bind only substrates of complementary shape",
+        "It fails to explain how a temporary enzyme–substrate complex is formed",
+        "It predicts that the enzyme is used up and must be resynthesised",
+        "It predicts that the enzyme shifts the final equilibrium toward products"
+      ],
+      "answer": 0,
+      "explain": "Slide 24 states that the lock-and-key model does not adequately explain enzyme flexibility, conformational change or allosteric regulation. It does explain specificity, since only a complementary key fits the lock, and it explains the ES complex (E + S ⇌ ES → E + P, slide 23).",
+      "distractors": "Specificity is exactly what the model explains well, so B is wrong. Neither binding model suggests that enzymes are consumed or that they shift equilibrium.",
+      "source": "Slides 23 and 24 · Lippincott Ch 5: active sites"
+    },
+    {
+      "id": "enzyme-kinetics-19",
+      "topic": "Induced-fit model",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Crystal structures of hexokinase show that its two lobes swing together around glucose when it binds, reshaping the active site so that catalytic groups are correctly aligned. Which model of enzyme action does this support, and what is that model's main significance?",
+      "options": [
+        "Lock-and-key model; the active site has a rigid, pre-formed shape",
+        "Lock-and-key model; it explains allosteric regulation",
+        "Induced-fit model; the substrate changes shape but the enzyme stays rigid",
+        "Induced-fit model; enzyme flexibility better explains enzyme regulation",
+        "Template model; it explains the conformational change on binding"
+      ],
+      "answer": 3,
+      "explain": "Slide 25: in Koshland's induced-fit model the active site is flexible, and substrate binding induces a conformational change that improves catalytic alignment. Because of this flexibility it better explains enzyme regulation. Hexokinase closing around glucose is a classic example.",
+      "distractors": "Lock-and-key and template are names for the same Fischer model (slide 24). It assumes a rigid site and fails to explain conformational change and allostery.",
+      "source": "Slide 25 · Lippincott Ch 5: induced fit"
+    },
+    {
+      "id": "enzyme-kinetics-20",
+      "topic": "Reaction specificity",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "In the liver, pyruvate can be converted to acetyl-CoA, lactate, oxaloacetate or alanine, and each conversion is catalysed by a different enzyme. Which type of enzyme specificity does this illustrate?",
+      "options": [
+        "Absolute specificity",
+        "Reaction specificity",
+        "Bond specificity",
+        "Group specificity",
+        "Stereospecificity"
+      ],
+      "answer": 1,
+      "explain": "Slide 18: in reaction specificity the same substrate undergoes different types of reaction, each catalysed by a different enzyme. Pyruvate is the slide's example: pyruvate dehydrogenase gives acetyl-CoA, lactate dehydrogenase gives lactate, pyruvate carboxylase gives oxaloacetate and a transaminase gives alanine.",
+      "distractors": "Absolute specificity describes one enzyme acting on only one substrate (e.g., urease and urea). The point here is one substrate with several enzyme-specific reactions.",
+      "source": "Slide 18 · Lippincott Ch 5: enzyme specificity"
+    },
+    {
+      "id": "enzyme-kinetics-21",
+      "topic": "Stereospecificity",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 48-year-old woman with short bowel syndrome becomes confused after a high-carbohydrate meal and has a high anion gap metabolic acidosis. Her plasma lactate, measured by the routine assay that uses an L-lactate–specific enzyme, is normal. A specialised assay later shows markedly raised D-lactate produced by gut bacteria. Why did the routine assay miss the D-lactate?",
+      "options": [
+        "The assay enzyme shows reaction specificity and forms only one product",
+        "The assay enzyme shows bond specificity for ester bonds",
+        "The acidic sample denatured the assay enzyme",
+        "The assay enzyme shows stereospecificity and acts only on the L-isomer",
+        "The assay enzyme shows group specificity for aromatic substrates"
+      ],
+      "answer": 3,
+      "explain": "Slide 19: enzymes recognise a particular stereoisomer. Lactate dehydrogenase forms L-lactate, not D-lactate, and human enzymes generally act on L-amino acids and D-sugars. An L-lactate–specific assay enzyme cannot detect the mirror-image D-isomer, so D-lactic acidosis is missed unless a D-lactate method is used.",
+      "distractors": "Denaturation would have prevented L-lactate measurement as well, yet a result was obtained. The other specificity types do not concern mirror-image isomers.",
+      "source": "Slide 19 · Lippincott Ch 5: enzyme specificity"
+    },
+    {
+      "id": "enzyme-kinetics-22",
+      "topic": "Group specificity",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "The peptide Gly–Ala–Phe–Glu–Tyr–Gly–Ser–Trp–Gly is digested with a protease. Analysis shows cleavage only on the carboxyl side of Phe, Tyr and Trp. Which enzyme was used?",
+      "options": [
+        "Pepsin",
+        "Chymotrypsin",
+        "Trypsin",
+        "Carboxypeptidase",
+        "Aminopeptidase"
+      ],
+      "answer": 1,
+      "explain": "Slide 20 (group specificity): chymotrypsin cleaves on the carboxyl side of the aromatic residues Phe, Tyr and Trp. Group-specific enzymes act on substrates that share a related structural feature, here an aromatic side chain.",
+      "distractors": "Pepsin also targets aromatic residues but cuts on their amino side. Trypsin targets basic residues, and the exopeptidases remove single residues from the ends of the chain.",
+      "source": "Slide 20 · Lippincott: digestion of dietary proteins"
+    },
+    {
+      "id": "enzyme-kinetics-23",
+      "topic": "Bond specificity",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 42-year-old man with chronic pancreatitis has bulky, pale, greasy stools. He is started on pancreatic enzyme replacement capsules with meals, and the lipase in them restores fat digestion. Which bond does the lipase cleave, and which type of specificity does this represent?",
+      "options": [
+        "Ester bonds — bond specificity",
+        "Glycosidic bonds — bond specificity",
+        "Peptide bonds — group specificity",
+        "Ester bonds — absolute specificity",
+        "Phosphodiester bonds — reaction specificity"
+      ],
+      "answer": 0,
+      "explain": "Slide 21 lists lipases (ester bonds), proteolytic enzymes (peptide bonds) and glycosidases (glycosidic bonds) as examples of bond specificity. Slide 9 gives pancreatic lipase as an ester-bond hydrolase. Giving the missing digestive enzyme by mouth is substitution therapy (slide 3).",
+      "distractors": "Lipase acts on the ester bonds of many different triacylglycerols, so it is not absolutely specific. Glycosidic bonds are the target of amylase and lactase.",
+      "source": "Slides 3, 9 and 21 · Lippincott Ch 5: enzyme specificity"
+    },
+    {
+      "id": "enzyme-kinetics-24",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Pepsin cleaves peptide bonds involving which amino acid residues?",
+      "options": [
+        "Basic residues (Lys, Arg), on their carboxyl side",
+        "Aromatic residues (Phe, Tyr, Trp), on their carboxyl side",
+        "Aromatic residues (Phe, Tyr, Trp), on their amino side",
+        "Acidic residues (Asp, Glu), on their amino side",
+        "The C-terminal residue only, released one at a time"
+      ],
+      "answer": 2,
+      "explain": "Slide 20: pepsin cleaves peptide bonds on the amino side of the aromatic residues Phe, Tyr and Trp; the scissors in the figure fall just before each aromatic residue. This is group specificity, since pepsin recognises a type of residue rather than one exact substrate.",
+      "distractors": "Carboxyl-side cleavage at aromatic residues is chymotrypsin, and stepwise removal of C-terminal residues is carboxypeptidase. In reality pepsin is less selective (it also favours Leu), but aromatic residues are its classic sites.",
+      "source": "Slide 28 (and 20) · Lippincott: digestion of dietary proteins"
+    },
+    {
+      "id": "enzyme-kinetics-25",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Trypsin preferentially cleaves peptide bonds involving which amino acid residues?",
+      "options": [
+        "Aromatic residues (Phe, Tyr, Trp), on their carboxyl side",
+        "Aromatic residues (Phe, Tyr, Trp), on their amino side",
+        "Acidic residues (Asp, Glu), on their carboxyl side",
+        "The N-terminal residue only, released one at a time",
+        "Basic residues (Lys, Arg), on their carboxyl side"
+      ],
+      "answer": 4,
+      "explain": "Trypsin is group-specific for basic residues and cleaves on their carboxyl side (slide 20). Standard texts, including Lippincott, limit trypsin's sites to lysine and arginine. The slide also lists His, and its figure draws the scissors on the amino side of His and Lys, so use the textbook rule (after Lys and Arg) in exams.",
+      "distractors": "Carboxyl-side cleavage at aromatic residues is chymotrypsin, and amino-side cleavage at aromatic residues is pepsin. Stepwise removal of N-terminal residues is aminopeptidase.",
+      "source": "Slide 28 (and 20) · Lippincott: digestion of dietary proteins (trypsin: Lys, Arg)"
+    },
+    {
+      "id": "enzyme-kinetics-26",
+      "topic": "Lecture learning check",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A hospital laboratory measures blood glucose with glucose oxidase and blood urea with urease. These enzymes are chosen because other compounds in plasma do not interfere with the measurements. Which type of specificity do both enzymes show?",
+      "options": [
+        "Absolute specificity",
+        "Group specificity",
+        "Bond specificity",
+        "Reaction specificity",
+        "Stereospecificity"
+      ],
+      "answer": 0,
+      "explain": "Slide 21: absolute specificity means catalysing one reaction involving one specific substrate. The slide's examples are urease acting on urea and glucose oxidase acting on β-D-glucose. Slide 22 notes that this is why glucose oxidase selectively measures glucose in diagnosis, which answers the slide 28 learning check.",
+      "distractors": "Stereospecificity cannot be the shared property, because urea has no stereoisomers. Group and bond specificity describe enzymes that act on many substrates sharing a feature or a bond type.",
+      "source": "Slide 28 (and 21, 22) · Lippincott Ch 5: enzyme specificity"
+    },
+    {
+      "id": "enzyme-kinetics-27",
+      "topic": "Coenzymes and cofactors",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "A purified enzyme loses all activity after dialysis against buffer. Adding back the dialysis fluid fully restores activity, even after that fluid has been boiled for 10 minutes. Which conclusion is best supported?",
+      "options": [
+        "The apoenzyme passed through the dialysis membrane and was then replaced",
+        "Boiling activated an inactive protein precursor present in the fluid",
+        "The fluid contained a second protein enzyme that catalyses the same reaction",
+        "Dialysis denatured the enzyme, and the boiled fluid refolded it",
+        "The enzyme needs a small, heat-stable, non-protein cofactor removed by dialysis"
+      ],
+      "answer": 4,
+      "explain": "Dialysis removes small molecules but keeps proteins, and boiling would destroy any protein in the fluid. The restoring factor must therefore be small, heat-stable and non-protein: a coenzyme (slide 30: small, heat-stable organic molecules, usually vitamin-derived) or a metal ion. Once it is returned, the apoenzyme left behind becomes an active holoenzyme again.",
+      "distractors": "Proteins (apoenzymes, precursors or a second enzyme) cannot cross a dialysis membrane and would be denatured by boiling, which excludes A–C. A boiled fluid cannot refold a denatured protein.",
+      "source": "Slide 30 · Lippincott Ch 5: holoenzymes and coenzymes"
+    },
+    {
+      "id": "enzyme-kinetics-28",
+      "topic": "Prosthetic groups and cosubstrates",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Lactate dehydrogenase binds NAD⁺ only transiently and releases NADH after each reaction. In contrast, succinate dehydrogenase keeps its FAD permanently bound throughout the catalytic cycle. Which term best describes the permanently bound FAD of succinate dehydrogenase?",
+      "options": [
+        "Cosubstrate",
+        "Metal cofactor",
+        "Apoenzyme",
+        "Prosthetic group",
+        "Holoenzyme"
+      ],
+      "answer": 3,
+      "explain": "Lippincott (Ch 5) divides coenzymes into cosubstrates, which bind transiently and leave in an altered form (e.g., NAD⁺), and prosthetic groups, which stay permanently bound and are returned to their original form (e.g., FAD). The slides call coenzymes 'cosubstrates' in general (slide 30) and do not use the term prosthetic group, so this item adds the textbook definition.",
+      "distractors": "Cosubstrate describes NAD⁺ in lactate dehydrogenase, not tightly bound FAD. A metal cofactor is an inorganic ion, and FAD is organic.",
+      "source": "Slides 30 and 32 · Lippincott Ch 5: coenzymes (cosubstrates vs prosthetic groups)"
+    },
+    {
+      "id": "enzyme-kinetics-29",
+      "topic": "Metal cofactors",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "A biochemist purifies two enzymes. Carbonic anhydrase keeps its Zn²⁺ firmly bound as an integral part of the protein throughout purification. A kinase loses its Mg²⁺ during purification, and Mg²⁺ must be added back to the assay. How should these two enzymes be classified?",
+      "options": [
+        "Carbonic anhydrase — metal-activated enzyme; kinase — metalloenzyme",
+        "Carbonic anhydrase — metalloenzyme; kinase — metal-activated enzyme",
+        "Both enzymes — metalloenzymes",
+        "Both enzymes — metal-activated enzymes",
+        "Carbonic anhydrase — coenzyme-dependent enzyme; kinase — metalloenzyme"
+      ],
+      "answer": 1,
+      "explain": "Slide 35: in metalloenzymes the metal binds tightly as an integral part of the enzyme (Zn²⁺, Fe²⁺, Cu²⁺, molybdenum; Zn²⁺ in carbonic anhydrase). In metal-activated enzymes the metal binds loosely and may dissociate readily (Mg²⁺ in kinase reactions).",
+      "distractors": "Option A reverses the two definitions. Zn²⁺ is an inorganic ion, not an organic coenzyme.",
+      "source": "Slide 35 · Lippincott Ch 5: cofactors"
+    },
+    {
+      "id": "enzyme-kinetics-30",
+      "topic": "Functional classification of coenzymes",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Coenzymes can be classified by function into those that transfer hydrogen or electrons and those that transfer other groups. Which coenzyme belongs to the hydrogen- or electron-transfer group used mainly by oxidoreductases?",
+      "options": [
+        "Pyridoxal phosphate (PLP)",
+        "Biotin",
+        "FAD",
+        "Thiamine pyrophosphate (TPP)",
+        "Tetrahydrofolate (THF)"
+      ],
+      "answer": 2,
+      "explain": "Slide 31: hydrogen- or electron-transfer coenzymes are used mainly by oxidoreductases (NAD⁺/NADH and FAD/FADH₂). Coenzymes for the transfer of other groups move amino, carbon or one-carbon groups (PLP, biotin, TPP).",
+      "distractors": "PLP transfers amino groups, biotin carries CO₂ and TPP is used in decarboxylation. THF (slide 8) carries one-carbon units, so all of these are group-transfer coenzymes.",
+      "source": "Slide 31 · Lippincott Ch 5: coenzymes"
+    },
+    {
+      "id": "enzyme-kinetics-31",
+      "topic": "Coenzymes in oxidation–reduction",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "In the TCA cycle, malate dehydrogenase converts malate to oxaloacetate, and succinate dehydrogenase converts succinate to fumarate. Which statement correctly describes the coenzymes in these two reactions?",
+      "options": [
+        "Both reactions reduce NAD⁺ to NADH + H⁺",
+        "Malate dehydrogenase reduces NAD⁺ to NADH + H⁺; succinate dehydrogenase reduces FAD to FADH₂",
+        "Malate dehydrogenase reduces FAD to FADH₂; succinate dehydrogenase reduces NAD⁺ to NADH + H⁺",
+        "Both reactions oxidise FADH₂ to FAD",
+        "Malate dehydrogenase uses PLP; succinate dehydrogenase uses biotin"
+      ],
+      "answer": 1,
+      "explain": "Slide 32: NAD⁺ accepts hydrogen and electrons to form NADH + H⁺ when the C–OH of malate is oxidised to the C=O of oxaloacetate. FAD accepts two hydrogen atoms to form FADH₂ when the –CH₂–CH₂– of succinate is oxidised to the –CH=CH– of fumarate. Both enzymes are oxidoreductases (EC 1).",
+      "distractors": "Option C swaps the two coenzymes. PLP and biotin are group-transfer coenzymes and play no part in these dehydrogenations.",
+      "source": "Slides 32 and 7 · Lippincott Ch 5: coenzymes; TCA cycle"
+    },
+    {
+      "id": "enzyme-kinetics-32",
+      "topic": "Vitamin-derived coenzymes",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 52-year-old man with chronic alcohol use disorder presents with confusion, ataxia and nystagmus. Intravenous thiamine is given before any glucose. Thiamine deficiency impairs enzymes that need its coenzyme form. Which coenzyme and main reaction type are affected?",
+      "options": [
+        "FAD; oxidation–reduction",
+        "Pyridoxal phosphate; transfer of amino groups",
+        "Thiamine pyrophosphate; decarboxylation reactions",
+        "Biotin; carboxylation reactions",
+        "NAD⁺; oxidation–reduction"
+      ],
+      "answer": 2,
+      "explain": "Slide 34: vitamin B1 (thiamine) forms thiamine pyrophosphate (TPP), whose main function is in decarboxylation reactions, such as those of pyruvate dehydrogenase and α-ketoglutarate dehydrogenase. Losing these TPP-dependent steps cuts glucose-derived energy production in the brain, causing Wernicke encephalopathy. Lippincott adds transketolase as another TPP-dependent enzyme.",
+      "distractors": "Pyridoxine (B6) gives PLP for transamination, niacin (B3) gives NAD⁺ and riboflavin (B2) gives FAD. None of these is the vitamin missing in this patient.",
+      "source": "Slide 34 · Lippincott: vitamins (thiamine)"
+    },
+    {
+      "id": "enzyme-kinetics-33",
+      "topic": "Coenzymes in group transfer",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 30-year-old bodybuilder who has eaten many raw egg whites daily for months develops hair loss, a scaly rash around the eyes and nose, and lethargy. Avidin in raw egg white binds biotin and prevents its absorption. Which enzyme activity is most directly impaired?",
+      "options": [
+        "Lactate dehydrogenase, an NAD⁺-dependent oxidoreductase",
+        "Alanine aminotransferase, a PLP-dependent transferase",
+        "Pyruvate dehydrogenase, a TPP-dependent decarboxylating enzyme",
+        "Succinate dehydrogenase, an FAD-dependent oxidoreductase",
+        "Pyruvate carboxylase, an ATP-dependent ligase"
+      ],
+      "answer": 4,
+      "explain": "Slides 33–34: biotin's function is carboxylation, and it carries CO₂ in the pyruvate carboxylase reaction (pyruvate + HCO₃⁻ + ATP → oxaloacetate + ADP + Pᵢ), a ligase. Biotin deficiency caused by excess raw egg white (avidin) therefore impairs carboxylases such as pyruvate carboxylase.",
+      "distractors": "LDH needs NAD⁺ (niacin), ALT needs PLP (B6), pyruvate dehydrogenase needs TPP (B1) and succinate dehydrogenase needs FAD (riboflavin). None of them depends on biotin.",
+      "source": "Slides 33 and 34 · Lippincott: vitamins (biotin)"
+    },
+    {
+      "id": "enzyme-kinetics-34",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "The lecture's learning-check table asks for the vitamin source and main function of four coenzymes. Which row is completed correctly?",
+      "options": [
+        "NAD⁺/NADP⁺ — riboflavin (B2) — oxidation–reduction",
+        "FMN/FAD — niacin (B3) — oxidation–reduction",
+        "PLP — thiamine (B1) — decarboxylation",
+        "PLP — pyridoxine (B6) — transfer of amino groups",
+        "Biotin — pyridoxine (B6) — carboxylation"
+      ],
+      "answer": 3,
+      "explain": "Slide 34: B1 thiamine → TPP (decarboxylation); B2 riboflavin → FMN/FAD (oxidation–reduction); B3 niacin → NAD/NADP (oxidation–reduction); B6 pyridoxine → PLP (transfer of amino groups); biotin → biotin (carboxylation). These pairs are the answers to the slide 50 learning-check table.",
+      "distractors": "Options A and B swap riboflavin and niacin, the most common error. Biotin is its own vitamin and works in carboxylation; it does not come from B6.",
+      "source": "Slide 50 (and 34) · Lippincott: vitamins"
+    },
+    {
+      "id": "enzyme-kinetics-35",
+      "topic": "Effect of enzyme concentration",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "In an assay with saturating substrate, doubling the amount of enzyme doubles the reaction velocity. The full v₀ versus [S] curve is then measured with twice the original enzyme concentration. How will Vmax and Km change?",
+      "options": [
+        "Vmax doubles; Km is unchanged",
+        "Vmax doubles; Km halves",
+        "Vmax is unchanged; Km halves",
+        "Vmax is unchanged; Km doubles",
+        "Vmax and Km both double"
+      ],
+      "answer": 0,
+      "explain": "Slide 37: when substrate is abundant, velocity is directly proportional to enzyme concentration, so Vmax (the rate with every active site saturated) doubles when the enzyme is doubled. Slide 42: Km does not change when enzyme concentration changes, because it is a property of the enzyme–substrate pair.",
+      "distractors": "Adding more enzyme molecules does not change each molecule's affinity for its substrate, so any option that alters Km is wrong.",
+      "source": "Slides 37 and 42 · Lippincott Ch 5: enzyme concentration; Km"
+    },
+    {
+      "id": "enzyme-kinetics-36",
+      "topic": "First-order and zero-order kinetics",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "An enzyme that follows Michaelis–Menten kinetics has a Km of 10 mmol/L. In experiment 1, [S] is raised from 0.1 to 0.2 mmol/L. In experiment 2, [S] is raised from 200 to 400 mmol/L. Which statement best describes the change in v₀?",
+      "options": [
+        "v₀ nearly doubles in both experiments",
+        "v₀ rises only slightly in experiment 1 but nearly doubles in experiment 2",
+        "v₀ nearly doubles in experiment 1 but rises only slightly in experiment 2",
+        "v₀ rises only slightly in both experiments",
+        "v₀ nearly doubles in experiment 1 but falls in experiment 2"
+      ],
+      "answer": 2,
+      "explain": "Slides 38–39: at low [S] (region A, far below Km) velocity rises almost proportionally with [S] (first-order kinetics), so going from 0.1 to 0.2 mmol/L nearly doubles v₀ (about 0.010 → 0.020 Vmax). At very high [S] (region C) v₀ approaches Vmax and is zero-order with respect to [S], so going from 200 to 400 mmol/L only raises v₀ from about 0.95 to 0.98 Vmax.",
+      "distractors": "Option B reverses the two regions. Excess substrate saturates the active sites; it does not denature the enzyme or lower velocity.",
+      "source": "Slides 38 and 39 · Lippincott Ch 5: order of reaction"
+    },
+    {
+      "id": "enzyme-kinetics-37",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Why does increasing substrate concentration have little effect on reaction velocity at Vmax?",
+      "options": [
+        "The substrate has been completely depleted",
+        "The enzyme has been denatured",
+        "Product formation has completely stopped",
+        "All enzyme active sites are nearly saturated",
+        "The enzyme concentration has increased"
+      ],
+      "answer": 3,
+      "explain": "Slides 38–40: as [S] rises, active sites fill until nearly all are occupied; velocity then approaches Vmax and becomes zero-order with respect to [S]. In the slide 40 analogy (cluster D) every enzyme is occupied and excess free substrate surrounds it, so more substrate cannot speed the reaction.",
+      "distractors": "At Vmax substrate is in excess, not depleted, and product forms at the maximal rate rather than stopping. More enzyme would raise Vmax, not explain the plateau.",
+      "source": "Slide 52 (and 38–40) · Lippincott Ch 5: substrate concentration"
+    },
+    {
+      "id": "enzyme-kinetics-38",
+      "topic": "Effect of temperature",
+      "type": "application",
+      "difficulty": "easy",
+      "stem": "A laboratory's PCR uses a DNA polymerase from a thermophilic bacterium at about 70 °C, a temperature at which most human enzymes rapidly lose activity. Why does a human enzyme's activity fall when the temperature rises well above its optimum?",
+      "options": [
+        "Fewer molecular collisions occur at higher temperature",
+        "Heat disrupts the enzyme's structure, causing denaturation",
+        "The activation energy of the reaction increases with temperature",
+        "The equilibrium of the reaction shifts toward the reactants",
+        "The substrate becomes saturating, so velocity reaches a plateau"
+      ],
+      "answer": 1,
+      "explain": "Slide 47: rising temperature increases molecular collisions and velocity up to the optimum. Above the optimum, heat disrupts enzyme structure and activity falls rapidly. Human enzymes work best near 37 °C, whereas enzymes from thermophilic bacteria can stay active at around 70 °C. (The reproduced graph peaks nearer 50 °C; use the text value for human enzymes.)",
+      "distractors": "Collisions increase, not decrease, with temperature; that explains the rising limb of the curve. Saturation causes a plateau, not a fall in activity.",
+      "source": "Slide 47 · Lippincott Ch 5: temperature"
+    },
+    {
+      "id": "enzyme-kinetics-39",
+      "topic": "Effect of pH",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "Pepsin digests dietary protein in the stomach but becomes inactive when gastric contents enter the duodenum and are neutralised by pancreatic bicarbonate. Which explanation best accounts for this loss of activity?",
+      "options": [
+        "Pepsin's Km for protein falls sharply at neutral pH",
+        "Bicarbonate hydrolyses the peptide bonds of pepsin",
+        "The duodenum contains no protein for pepsin to act on",
+        "Neutral pH shifts the equilibrium of peptide hydrolysis toward synthesis",
+        "The pH change alters ionisation of pepsin's groups and can disrupt its structure"
+      ],
+      "answer": 4,
+      "explain": "Slide 48: each enzyme has an optimum pH at which its activity is highest, and marked pH changes alter ionisation and may disrupt enzyme structure. Pepsin has an acidic optimum (about pH 2 in Lippincott), suited to the stomach, so it loses activity at the near-neutral pH of the duodenum.",
+      "distractors": "Enzymes and pH changes in the gut do not reverse the direction of hydrolysis, and partly digested protein is plentiful in the duodenum. A falling Km would mean higher affinity, not lost activity.",
+      "source": "Slide 48 · Lippincott Ch 5: pH"
+    },
+    {
+      "id": "enzyme-kinetics-40",
+      "topic": "Effect of product concentration",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 6-month-old boy has developmental delay, fair skin and a musty body odour. His plasma phenylalanine is markedly raised because phenylalanine hydroxylase, which converts phenylalanine to tyrosine, is deficient. Which general principle from the lecture best explains the raised phenylalanine?",
+      "options": [
+        "Substrate accumulates upstream of a deficient enzyme in a pathway",
+        "Accumulating product of a reaction speeds up the enzyme that forms it",
+        "A deficient enzyme shifts the equilibrium of its reaction toward the substrate",
+        "Low enzyme concentration increases the Km of the remaining enzyme",
+        "Cell injury releases phenylalanine hydroxylase into the plasma"
+      ],
+      "answer": 0,
+      "explain": "Slide 49: if an enzyme is deficient, its substrate or an upstream intermediate may accumulate, disrupting the pathway and contributing to an inborn error of metabolism (slide 3). In phenylketonuria the block at phenylalanine hydroxylase makes phenylalanine build up.",
+      "distractors": "Accumulating product slows (not speeds) a reversible reaction (slide 49), and Km does not change with enzyme concentration (slide 42).",
+      "source": "Slides 49 and 3 · Lippincott: phenylketonuria"
+    },
+    {
+      "id": "enzyme-kinetics-41",
+      "topic": "Michaelis–Menten equation",
+      "type": "application",
+      "difficulty": "easy",
+      "stem": "An enzyme has a Vmax of 120 µmol/min and a Km of 4 mmol/L. When [S] = 4 mmol/L, what are the initial velocity (v₀) and the approximate fraction of active sites occupied?",
+      "options": [
+        "30 µmol/min; 25% of sites occupied",
+        "40 µmol/min; 33% of sites occupied",
+        "60 µmol/min; 100% of sites occupied",
+        "120 µmol/min; 100% of sites occupied",
+        "60 µmol/min; 50% of sites occupied"
+      ],
+      "answer": 4,
+      "explain": "Slide 41: v₀ = Vmax[S]/(Km + [S]) = 120 × 4/(4 + 4) = 60 µmol/min, which is ½Vmax. Slide 42: Km is the [S] at which v₀ = ½Vmax, and at Km approximately 50% of active sites are occupied.",
+      "distractors": "Option C has the right velocity but confuses Km with saturation. Near-100% occupancy is approached only when [S] is far above Km.",
+      "source": "Slides 41 and 42 · Lippincott Ch 5: Michaelis–Menten equation"
+    },
+    {
+      "id": "enzyme-kinetics-42",
+      "topic": "Michaelis–Menten calculation",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "For an enzyme that obeys Michaelis–Menten kinetics, what fraction of Vmax is reached when [S] equals 3 × Km?",
+      "options": [
+        "0.75 Vmax",
+        "0.67 Vmax",
+        "0.50 Vmax",
+        "0.33 Vmax",
+        "0.25 Vmax"
+      ],
+      "answer": 0,
+      "explain": "Substitute [S] = 3Km into v₀ = Vmax[S]/(Km + [S]) (slide 41): v₀ = 3Km·Vmax/(Km + 3Km) = ¾Vmax = 0.75 Vmax. Tripling [S] above Km does not triple velocity, because active sites are already filling (region B, slide 39).",
+      "distractors": "0.25 Vmax is the fraction of sites still free (Km/(Km + [S])), 0.67 Vmax would apply at [S] = 2Km, and 0.50 Vmax applies only at [S] = Km.",
+      "source": "Slides 41 and 39 · Lippincott Ch 5: Michaelis–Menten equation"
+    },
+    {
+      "id": "enzyme-kinetics-43",
+      "topic": "Michaelis–Menten calculation",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "A clinical laboratory is designing a kinetic assay for an enzyme with a Km of 2 mmol/L. To keep the measured rate nearly independent of small variations in substrate, the assay must run at 90% of Vmax. Which substrate concentration gives v₀ = 0.9 Vmax?",
+      "options": [
+        "1.8 mmol/L",
+        "9 mmol/L",
+        "18 mmol/L",
+        "36 mmol/L",
+        "180 mmol/L"
+      ],
+      "answer": 2,
+      "explain": "Set v₀ = 0.9 Vmax in v₀ = Vmax[S]/(Km + [S]) (slide 41): 0.9(Km + [S]) = [S], so [S] = 9Km = 9 × 2 = 18 mmol/L. Near Vmax the reaction approaches zero-order kinetics with respect to [S] (slide 39), which is why assays use high substrate concentrations.",
+      "distractors": "1.8 mmol/L (0.9 × Km) treats the fraction as a multiple of Km and gives under 50% of Vmax. 180 mmol/L (90 × Km) gives about 99% of Vmax.",
+      "source": "Slides 41 and 39 · Lippincott Ch 5: Michaelis–Menten equation"
+    },
+    {
+      "id": "enzyme-kinetics-44",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which statement correctly interprets the kinetics of hexokinase and glucokinase?",
+      "options": [
+        "Glucokinase has a lower Km and higher affinity for glucose",
+        "Hexokinase has a lower Km and higher affinity for glucose",
+        "Hexokinase has a higher Km and lower affinity for glucose",
+        "Both enzymes have the same Km for glucose",
+        "Substrate affinity increases as Km increases"
+      ],
+      "answer": 1,
+      "explain": "Slides 43–44: hexokinase has a low Km (high affinity) and is active in most tissues, even at fasting glucose levels. Glucokinase has a high Km (lower affinity) and works mainly in liver and pancreatic β cells when glucose is high. For many enzymes a lower Km indicates higher affinity (slide 42).",
+      "distractors": "Options A and C swap the two enzymes, and E inverts the relationship between Km and affinity.",
+      "source": "Slide 51 (and 42–44) · Lippincott: hexokinase vs glucokinase"
+    },
+    {
+      "id": "enzyme-kinetics-45",
+      "topic": "Hexokinase vs glucokinase",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "During an overnight fast (blood glucose about 4.5 mmol/L), the brain keeps phosphorylating glucose at nearly its maximal rate, whereas the liver phosphorylates little glucose. After a carbohydrate-rich meal, portal blood glucose rises to about 12 mmol/L and hepatic glucose phosphorylation increases markedly. Which property best explains this difference?",
+      "options": [
+        "Hexokinase has a high Km and works only after meals; glucokinase has a low Km and is saturated during fasting",
+        "Both enzymes have the same Km, but the liver makes less glucokinase during an overnight fast",
+        "Glucokinase has a lower Vmax than hexokinase, so it cannot phosphorylate glucose at fasting levels",
+        "Hexokinase has a low Km and is near-saturated during fasting; glucokinase has a high Km, so its rate rises with glucose",
+        "The meal lowers the Km of glucokinase, so its affinity for glucose rises after eating"
+      ],
+      "answer": 3,
+      "explain": "Slides 44–45: hexokinase (low Km, high affinity; the 'strong magnet') is active in most tissues even at fasting glucose and is close to its Vmax there. Glucokinase (high Km, lower affinity; the 'weak magnet') in liver and β cells is far from saturated at fasting levels, so its rate climbs as glucose rises after a meal; it also has the higher Vmax.",
+      "distractors": "Glucokinase has the higher Vmax (slide 44 graph), not the lower one. Km is a fixed property of the enzyme that a meal does not change.",
+      "source": "Slides 44 and 45 · Lippincott: hexokinase vs glucokinase"
+    },
+    {
+      "id": "enzyme-kinetics-46",
+      "topic": "Km and glucokinase",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 14-year-old girl has mild, stable fasting hyperglycaemia (6.8 mmol/L), and several relatives have the same finding. Genetic testing shows a heterozygous mutation that raises the Km of glucokinase in pancreatic β cells without changing its Vmax. What is the most likely consequence of this mutation?",
+      "options": [
+        "β-cell glucose phosphorylation rises at fasting glucose, causing excess insulin release and hypoglycaemia",
+        "β-cell glucokinase becomes saturated at lower glucose, so insulin release no longer rises after meals",
+        "Hexokinase in brain and muscle loses affinity for glucose, so peripheral glucose uptake falls",
+        "More glucose is needed for the same β-cell glucose phosphorylation, raising the threshold for insulin release",
+        "The maximal rate of β-cell glucose phosphorylation halves, even at very high glucose levels"
+      ],
+      "answer": 3,
+      "explain": "A higher Km means lower affinity, so more glucose is needed to reach half-maximal activity (slides 42–43). Glucokinase acts as the β-cell glucose sensor, being active mainly when glucose is high (slide 44). Raising its Km pushes up the glucose level at which β cells phosphorylate enough glucose to release insulin, so blood glucose settles at a higher set-point; this is the mechanism of glucokinase-related MODY.",
+      "distractors": "A higher Km makes saturation harder, not easier, and the stem says Vmax is unchanged. The mutation affects glucokinase, not hexokinase in other tissues.",
+      "source": "Slides 42–44 · Lippincott: glucokinase as the β-cell glucose sensor"
+    },
+    {
+      "id": "enzyme-kinetics-47",
+      "topic": "Lineweaver–Burk plot",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "On a Lineweaver–Burk (double-reciprocal) plot of 1/v₀ against 1/[S], what does the intercept on the x-axis represent?",
+      "options": [
+        "1/Vmax",
+        "−1/Km",
+        "Km/Vmax",
+        "−Km",
+        "Vmax/Km"
+      ],
+      "answer": 1,
+      "explain": "Slide 46: 1/v₀ = (Km/Vmax)(1/[S]) + 1/Vmax. The y-intercept is 1/Vmax, the x-intercept is −1/Km (on the negative side of the axis) and the slope is Km/Vmax.",
+      "distractors": "1/Vmax is the y-intercept and Km/Vmax is the slope. The x-intercept is the negative reciprocal of Km, not Km itself.",
+      "source": "Slide 46 · Lippincott Ch 5: Lineweaver–Burk plot (Fig. 5.11)"
+    },
+    {
+      "id": "enzyme-kinetics-48",
+      "topic": "Lineweaver–Burk calculation",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "A Lineweaver–Burk plot for an enzyme crosses the y-axis at 0.02 min/µmol and the x-axis at −0.5 L/mmol. What are Vmax and Km?",
+      "options": [
+        "Vmax 0.02 µmol/min; Km 0.5 mmol/L",
+        "Vmax 0.02 µmol/min; Km 2 mmol/L",
+        "Vmax 50 µmol/min; Km 0.5 mmol/L",
+        "Vmax 50 µmol/min; Km −2 mmol/L",
+        "Vmax 50 µmol/min; Km 2 mmol/L"
+      ],
+      "answer": 4,
+      "explain": "Slide 46: y-intercept = 1/Vmax, so Vmax = 1/0.02 = 50 µmol/min. x-intercept = −1/Km, so −1/Km = −0.5 and Km = 2 mmol/L.",
+      "distractors": "Options A–C forget to take the reciprocal of one or both intercepts. Km is a concentration and cannot be negative; the minus sign belongs to the intercept (−1/Km).",
+      "source": "Slide 46 · Lippincott Ch 5: Lineweaver–Burk plot"
+    },
+    {
+      "id": "enzyme-kinetics-49",
+      "topic": "Lineweaver–Burk calculation",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "A Lineweaver–Burk plot has a y-intercept of 0.05 min/µmol and a slope of 0.1 mmol·L⁻¹·min·µmol⁻¹. What is the Km of the enzyme?",
+      "options": [
+        "0.005 mmol/L",
+        "0.5 mmol/L",
+        "2 mmol/L",
+        "10 mmol/L",
+        "20 mmol/L"
+      ],
+      "answer": 2,
+      "explain": "Slide 46: y-intercept = 1/Vmax, so Vmax = 1/0.05 = 20 µmol/min. The slope is Km/Vmax, so Km = slope × Vmax = 0.1 × 20 = 2 mmol/L. Equivalently, Km = slope ÷ y-intercept.",
+      "distractors": "20 is the Vmax value, not Km. 0.5 mmol/L inverts the ratio (y-intercept ÷ slope), and 10 mmol/L is just the reciprocal of the slope.",
+      "source": "Slide 46 · Lippincott Ch 5: Lineweaver–Burk plot"
+    },
+    {
+      "id": "enzyme-kinetics-50",
+      "topic": "Importance of the Lineweaver–Burk plot",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Why is the Lineweaver–Burk plot useful when analysing enzyme kinetic data?",
+      "options": [
+        "It linearises the Michaelis–Menten hyperbola, so Km and Vmax come from its intercepts",
+        "It turns a linear rate plot into a hyperbola, so saturation is easier to see",
+        "It lets Vmax be read directly from the plateau of a curved plot",
+        "It identifies the optimum temperature and pH of the enzyme from one plot",
+        "It measures the activation energy of the catalysed reaction from its slope"
+      ],
+      "answer": 0,
+      "explain": "Slide 46: the double-reciprocal plot converts the Michaelis–Menten curve into a straight line, with y-intercept 1/Vmax and x-intercept −1/Km. On the hyperbola Vmax is approached but never quite reached, so the straight line gives Km and Vmax more reliably (Lippincott). Lippincott also uses the plot to tell types of inhibition apart, which this lecture does not cover.",
+      "distractors": "Reading Vmax from the plateau is the weakness of the hyperbolic plot that the Lineweaver–Burk plot overcomes. The plot gives no information about temperature or pH optima or about activation energy.",
+      "source": "Slide 46 · Lippincott Ch 5: Lineweaver–Burk plot"
+    }
+  ]
+}

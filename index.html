@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Biochemistry Revision</title>
+  <meta name="description" content="Eleven biochemistry lectures rebuilt as interactive 3D keynotes, with an exam-style question bank for every chapter.">
+  <meta property="og:title" content="Biochemistry, alive.">
+  <meta property="og:description" content="Interactive 3D revision keynotes and exam-style MCQs for MD biochemistry.">
+  <link rel="icon" href="assets/img/icon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="assets/css/hub.css">
+  <script>try{var t=localStorage.getItem('biochem.theme');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+  <script src="vendor/gsap/gsap.min.js"></script>
+  <script type="importmap">
+    { "imports": { "three": "./vendor/three/three.module.js", "three/addons/": "./vendor/three/addons/" } }
+  </script>
+  <script type="module">
+    import { bootHub } from './assets/js/core/hub.js';
+    bootHub();
+  </script>
+</head>
+<body></body>
+</html>

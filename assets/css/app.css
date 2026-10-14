@@ -1,0 +1,234 @@
+/* ==========================================================================
+   Biochemistry Revision — design system
+   Apple-inspired: quiet surfaces, one accent per lecture, big type.
+   ========================================================================== */
+
+@font-face {
+  font-family: "Inter Var";
+  src: url("../fonts/InterVariable.woff2") format("woff2-variations"),
+       url("../fonts/InterVariable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JB Mono";
+  src: url("../fonts/jetbrains-mono-latin-wght-normal.woff2") format("woff2-variations");
+  font-weight: 100 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JB Mono";
+  src: url("../fonts/jetbrains-mono-greek-wght-normal.woff2") format("woff2-variations");
+  font-weight: 100 800;
+  font-display: swap;
+  unicode-range: U+0370-03FF;
+}
+
+:root {
+  --font: "Inter Var", -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", system-ui, sans-serif;
+  --mono: "JB Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --ease: cubic-bezier(.22, 1, .36, 1);
+  --ease-io: cubic-bezier(.65, 0, .35, 1);
+
+  /* Dark (default, best on projectors) */
+  --bg: #000000;
+  --bg-2: #0b0b0e;
+  --surface: rgba(255, 255, 255, .055);
+  --surface-2: rgba(255, 255, 255, .09);
+  --surface-3: rgba(255, 255, 255, .14);
+  --line: rgba(255, 255, 255, .12);
+  --line-2: rgba(255, 255, 255, .22);
+  --fg: #f5f5f7;
+  --fg-2: #a1a1a6;
+  --fg-3: #6e6e73;
+  --glass: rgba(22, 22, 26, .78);
+  --shadow: 0 40px 120px rgba(0, 0, 0, .6);
+  --shadow-sm: 0 12px 40px rgba(0, 0, 0, .45);
+
+  /* Lecture accent (overridden per lecture) */
+  --a1: #0a84ff;
+  --a2: #bf5af2;
+  --ink: color-mix(in oklab, var(--a1) 82%, white);   /* accent for text */
+  --grad: linear-gradient(120deg, var(--a1), var(--a2));
+
+  /* Biochemical visual language — consistent across every lecture */
+  --atp: #ffd60a;      /* ATP / energy            */
+  --nadh: #64d2ff;     /* NADH / NADPH            */
+  --fadh: #bf5af2;     /* FADH2                   */
+  --co2: #98989d;      /* CO2 / waste             */
+  --elec: #5ac8fa;     /* electrons               */
+  --prot: #ff9f0a;     /* protons H+              */
+  --act: #30d158;      /* activation / stimulates */
+  --inh: #ff453a;      /* inhibition / deficiency */
+  --o2: #ff6961;
+  --c-carbon: #b8b8bf;
+  --ok: #30d158;
+  --bad: #ff453a;
+  --warn: #ffd60a;
+
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --bg: #fbfbfd;
+  --bg-2: #f2f2f5;
+  --surface: rgba(0, 0, 0, .035);
+  --surface-2: rgba(0, 0, 0, .06);
+  --surface-3: rgba(0, 0, 0, .1);
+  --line: rgba(0, 0, 0, .1);
+  --line-2: rgba(0, 0, 0, .2);
+  --fg: #1d1d1f;
+  --fg-2: #515154;
+  --fg-3: #86868b;
+  --glass: rgba(255, 255, 255, .86);
+  --shadow: 0 40px 120px rgba(0, 0, 0, .14);
+  --shadow-sm: 0 12px 40px rgba(0, 0, 0, .1);
+  --ink: color-mix(in oklab, var(--a1) 78%, black);
+
+  --atp: #c98a00;
+  --nadh: #0a84c6;
+  --fadh: #8e3cc4;
+  --co2: #6e6e73;
+  --elec: #0a7bd6;
+  --prot: #d97400;
+  --act: #1f9d45;
+  --inh: #d70015;
+  --o2: #d63b33;
+  --c-carbon: #4a4a50;
+  --ok: #1f9d45;
+  --bad: #d70015;
+  --warn: #b38600;
+
+  color-scheme: light;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font);
+  font-feature-settings: "cv11", "ss01", "ss03";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  transition: background-color .5s var(--ease), color .5s var(--ease);
+}
+button { font: inherit; color: inherit; }
+a { color: inherit; }
+b, strong { font-weight: 650; color: var(--fg); }
+.ink { color: var(--ink); }
+.grad-text {
+  background: var(--grad);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.mono { font-family: var(--mono); }
+.muted { color: var(--fg-2); }
+
+/* Semantic chips used inside text, diagrams and tips */
+.chip {
+  display: inline-flex; align-items: center; gap: .35em;
+  padding: .12em .55em; border-radius: 999px;
+  font-size: .82em; font-weight: 600; letter-spacing: .01em;
+  background: var(--surface-2); border: 1px solid var(--line);
+  white-space: nowrap; vertical-align: .08em;
+}
+.chip.atp  { color: var(--atp);  border-color: color-mix(in oklab, var(--atp) 40%, transparent); background: color-mix(in oklab, var(--atp) 12%, transparent); }
+.chip.nadh { color: var(--nadh); border-color: color-mix(in oklab, var(--nadh) 40%, transparent); background: color-mix(in oklab, var(--nadh) 12%, transparent); }
+.chip.fadh { color: var(--fadh); border-color: color-mix(in oklab, var(--fadh) 40%, transparent); background: color-mix(in oklab, var(--fadh) 12%, transparent); }
+.chip.act  { color: var(--act);  border-color: color-mix(in oklab, var(--act) 40%, transparent);  background: color-mix(in oklab, var(--act) 12%, transparent); }
+.chip.inh  { color: var(--inh);  border-color: color-mix(in oklab, var(--inh) 40%, transparent);  background: color-mix(in oklab, var(--inh) 12%, transparent); }
+.chip.acc  { color: var(--ink);  border-color: color-mix(in oklab, var(--a1) 40%, transparent);   background: color-mix(in oklab, var(--a1) 12%, transparent); }
+
+/* ---------- Hover detail card (global, lives outside the stage) ---------- */
+.tip {
+  position: fixed; left: 0; top: 0; z-index: 1000;
+  max-width: calc(620px * var(--s, 1));
+  padding: calc(26px * var(--s, 1)) calc(30px * var(--s, 1));
+  border-radius: calc(26px * var(--s, 1));
+  background: var(--glass);
+  -webkit-backdrop-filter: saturate(180%) blur(28px);
+  backdrop-filter: saturate(180%) blur(28px);
+  border: 1px solid var(--line-2);
+  box-shadow: var(--shadow);
+  color: var(--fg);
+  font-size: calc(27px * var(--s, 1));
+  line-height: 1.42;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(6px) scale(.97);
+  transform-origin: var(--tip-origin, top left);
+  transition: opacity .22s var(--ease), transform .32s var(--ease);
+}
+.tip.on { opacity: 1; transform: none; }
+.tip .tip-kicker {
+  font-size: .7em; font-weight: 650; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--ink); margin-bottom: .45em;
+}
+.tip .tip-title { font-size: 1.16em; font-weight: 650; letter-spacing: -.01em; margin-bottom: .35em; }
+.tip .tip-body { color: var(--fg-2); }
+.tip .tip-body b { color: var(--fg); }
+.tip ul { margin: .3em 0 0; padding: 0; list-style: none; }
+.tip li { position: relative; padding-left: 1em; margin: .28em 0; color: var(--fg-2); }
+.tip li::before {
+  content: ""; position: absolute; left: 0; top: .62em; width: .38em; height: .38em; border-radius: 50%;
+  background: var(--grad);
+}
+.tip .tip-row { display: flex; flex-wrap: wrap; gap: .4em; margin-top: .6em; }
+.tip .tip-src { margin-top: .7em; font-size: .72em; color: var(--fg-3); }
+
+/* Elements that carry hover detail */
+[data-tip], .has-tip { cursor: help; }
+
+/* ---------- Generic buttons ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: .5em;
+  height: 44px; padding: 0 20px; border-radius: 999px;
+  border: 1px solid var(--line-2); background: var(--surface);
+  color: var(--fg); font-weight: 560; font-size: 15px; letter-spacing: -.005em;
+  cursor: pointer; text-decoration: none;
+  transition: background .25s var(--ease), transform .25s var(--ease), border-color .25s var(--ease);
+}
+.btn:hover { background: var(--surface-2); border-color: var(--line-2); }
+.btn:active { transform: scale(.97); }
+.btn.primary { background: var(--fg); color: var(--bg); border-color: transparent; }
+.btn.primary:hover { background: color-mix(in oklab, var(--fg) 88%, var(--bg)); }
+.btn.accent { background: var(--grad); color: #fff; border-color: transparent; }
+.btn svg { width: 18px; height: 18px; }
+
+.kbd {
+  display: inline-flex; min-width: 1.8em; height: 1.8em; padding: 0 .45em;
+  align-items: center; justify-content: center; border-radius: .45em;
+  font: 600 .78em var(--font); border: 1px solid var(--line-2); background: var(--surface);
+}
+
+/* Big HTML label used over 3D */
+.lbl3d {
+  font-family: var(--font); font-size: 26px; font-weight: 620; letter-spacing: -.01em;
+  color: var(--fg); padding: 8px 16px; border-radius: 999px;
+  background: var(--glass); border: 1px solid var(--line-2);
+  -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
+  white-space: nowrap; pointer-events: auto; user-select: none;
+  transition: opacity .4s var(--ease);
+}
+.lbl3d.plain { background: none; border: 0; padding: 0; -webkit-backdrop-filter: none; backdrop-filter: none; text-shadow: 0 2px 12px var(--bg); }
+.lbl3d.sm { font-size: 22px; padding: 6px 12px; }
+.lbl3d.acc { color: var(--ink); border-color: color-mix(in oklab, var(--a1) 55%, transparent); }
+
+/* 3D canvas host */
+.three-host { position: absolute; inset: 0; }
+.three-host canvas { display: block; width: 100% !important; height: 100% !important; outline: none; }
+.three-host .labels { position: absolute; inset: 0; pointer-events: none; }
+.three-host .labels > * { pointer-events: auto; }
+.hint3d {
+  position: absolute; right: 8px; bottom: 0; font-size: 22px; color: var(--fg-3);
+  display: flex; align-items: center; gap: 10px; pointer-events: none;
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}

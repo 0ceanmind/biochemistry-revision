@@ -1,0 +1,818 @@
+{
+  "lecture": "heme",
+  "title": "Heme Metabolism",
+  "format": "Single best answer · 5 options",
+  "provenance": "Original exam-style items written from the lecture slides, Lippincott and Marks; modelled on the NUST/OMC MD-program SBA format (no public past papers were found).",
+  "questions": [
+    {
+      "id": "heme-01",
+      "topic": "Heme structure",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Heme consists of protoporphyrin IX with a central ferrous ion. Through which atoms does protoporphyrin IX bind the Fe²⁺?",
+      "options": [
+        "The four central nitrogen atoms of the pyrrole rings",
+        "The carboxylate oxygens of the two propionate side chains",
+        "The carbon atoms of the four methine bridges",
+        "The terminal carbons of the two vinyl side chains",
+        "The carbon atoms of the four methyl side chains"
+      ],
+      "answer": 0,
+      "explain": "Heme is an asymmetric metalloporphyrin: four pyrrole rings joined by methine (=CH–) bridges, with Fe²⁺ held in the centre. The lecture states that protoporphyrin IX binds Fe²⁺ through its central nitrogen atoms, one from each pyrrole ring. The methyl, vinyl and propionate side chains point outwards from the ring edge.",
+      "distractors": "The side chains (methyl, vinyl, propionate) lie on the outer rim and make heme asymmetric; they do not hold the iron. The methine bridges link the pyrrole rings to one another, not to Fe²⁺.",
+      "source": "Slide 4 · Lippincott Ch 21 (Structure of porphyrins)"
+    },
+    {
+      "id": "heme-02",
+      "topic": "Sites of heme synthesis",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which pair of tissues does the lecture identify as the major sites of heme biosynthesis?",
+      "options": [
+        "Kidney and spleen",
+        "Skeletal muscle and heart",
+        "Liver and bone marrow",
+        "Spleen and lymph nodes",
+        "Intestinal mucosa and kidney"
+      ],
+      "answer": 2,
+      "explain": "The liver and bone marrow are the major sites of heme synthesis. In bone marrow, erythroid precursors make heme for hemoglobin; textbooks estimate this at about 85% of total heme synthesis. In the liver, most heme is used for cytochromes, especially cytochrome P450.",
+      "distractors": "The spleen is a major site of heme degradation, where macrophages break down aged red cells; it is not a major site of synthesis. Muscle needs heme for myoglobin, but it is not a major synthetic site.",
+      "source": "Slide 6 · Lippincott Ch 21 (Heme biosynthesis)"
+    },
+    {
+      "id": "heme-03",
+      "topic": "Subcellular compartments of heme synthesis",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Mature circulating erythrocytes are packed with hemoglobin but cannot synthesize new heme. Which statement best explains this?",
+      "options": [
+        "They lack the cytosolic enzymes δ-ALA dehydratase and hydroxymethylbilane synthase",
+        "They lack mitochondria, which are needed for the first step and the last three steps",
+        "They cannot take up glycine, the amino acid that supplies nitrogen to the ring",
+        "They cannot generate NADPH, which the porphyrinogen oxidases require",
+        "They lack ferrochelatase, which is expressed only in hepatocytes"
+      ],
+      "answer": 1,
+      "explain": "Heme synthesis runs mitochondria → cytosol → mitochondria. Step 1 (δ-ALA synthase) and steps 6–8 (coproporphyrinogen oxidase, protoporphyrinogen oxidase and ferrochelatase) are mitochondrial. Mature red cells have lost their mitochondria, so they cannot make δ-ALA or insert Fe²⁺. Their heme is made earlier, by erythroid precursors in the bone marrow.",
+      "distractors": "The cytosolic enzymes are not what is missing; δ-ALA dehydratase activity can even be measured in red cells. Ferrochelatase is abundant in erythroid precursors, not only in liver, and the lecture does not list NADPH as a requirement for heme synthesis.",
+      "source": "Slides 5, 6 and 7 · Lippincott Ch 21 (Heme biosynthesis)"
+    },
+    {
+      "id": "heme-04",
+      "topic": "Step 1: δ-ALA synthase",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "The first reaction of heme synthesis takes place in the mitochondria and is catalysed by δ-ALA synthase. Which two compounds condense in this reaction?",
+      "options": [
+        "Glycine and acetyl-CoA",
+        "Serine and succinyl-CoA",
+        "Alanine and succinyl-CoA",
+        "Glycine and succinyl-CoA",
+        "Glycine and malonyl-CoA"
+      ],
+      "answer": 3,
+      "explain": "δ-ALA synthase condenses glycine with succinyl-CoA (the 'active' succinate) to form δ-aminolevulinic acid (δ-ALA), releasing CO₂ and CoA-SH. The reaction needs pyridoxal phosphate (vitamin B6). Succinyl-CoA comes from the TCA cycle, which is one reason this step is mitochondrial.",
+      "distractors": "Acetyl-CoA and malonyl-CoA are fatty-acid precursors, and serine and alanine are not substrates of δ-ALA synthase. Only glycine and succinyl-CoA appear as starting materials on the lecture pathway.",
+      "source": "Slides 6 and 7 · Lippincott Ch 21 (Formation of δ-ALA)"
+    },
+    {
+      "id": "heme-05",
+      "topic": "PLP requirement of δ-ALA synthase",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 62-year-old woman who lives alone on a very restricted diet has fatigue and a hypochromic, microcytic anaemia. Serum ferritin is normal, but plasma pyridoxal phosphate is low. Reduced activity of which reaction of heme synthesis best explains her anaemia?",
+      "options": [
+        "Condensation of two δ-ALA molecules to form porphobilinogen",
+        "Decarboxylation of uroporphyrinogen III to coproporphyrinogen III",
+        "Oxidation of protoporphyrinogen IX to protoporphyrin IX",
+        "Insertion of Fe²⁺ into protoporphyrin IX",
+        "Condensation of glycine with succinyl-CoA to form δ-ALA"
+      ],
+      "answer": 4,
+      "explain": "Pyridoxal phosphate (vitamin B6) is the coenzyme of δ-ALA synthase, which catalyses the first and rate-limiting step: glycine + succinyl-CoA → δ-ALA. B6 deficiency slows this step, so less heme is made and hemoglobin synthesis falls. The result is a hypochromic, microcytic anaemia even though iron stores are normal; textbooks call this a sideroblastic anaemia.",
+      "distractors": "δ-ALA dehydratase (porphobilinogen formation) and ferrochelatase (Fe²⁺ insertion) are the lead-sensitive steps, but they do not use PLP. The lecture gives no B6 requirement for the decarboxylase or oxidase steps.",
+      "source": "Slides 6, 7 and 8 · Lippincott Ch 21 (Formation of δ-ALA)"
+    },
+    {
+      "id": "heme-06",
+      "topic": "Regulation: drug-induced AIP attack",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 27-year-old woman known to carry acute intermittent porphyria is prescribed phenobarbital for epilepsy by a doctor unaware of her diagnosis. Two weeks later she is admitted with severe abdominal pain, vomiting and limb weakness, and urinary δ-ALA and porphobilinogen are markedly raised. Phenobarbital strongly induces hepatic cytochrome P450. What is the most likely mechanism by which the drug precipitated her attack?",
+      "options": [
+        "It directly inhibits hydroxymethylbilane synthase, deepening the existing block",
+        "It inhibits δ-ALA dehydratase, so δ-ALA accumulates in the hepatocyte",
+        "Induced cytochrome P450 uses up heme, relieving repression of δ-ALA synthase",
+        "It raises hepatic free heme, which allosterically activates δ-ALA synthase",
+        "It inhibits uroporphyrinogen decarboxylase, so uroporphyrins accumulate"
+      ],
+      "answer": 2,
+      "explain": "Cytochrome P450 is a heme protein, and the liver uses most of its heme to make it. When phenobarbital induces P450 synthesis, the new apoprotein takes up the hepatocyte's free heme. Heme normally holds δ-ALA synthase down (slide 8: as heme levels rise, the rate of heme synthesis decreases), so the fall in free heme lifts this feedback and δ-ALA synthase activity rises. More δ-ALA and porphobilinogen are made and pile up behind the partial hydroxymethylbilane synthase block, precipitating the attack. Drug induction of hepatic ALAS1 is textbook content (Lippincott), not on the slides; IV hemin and glucose are used in treatment because they restore the repression.",
+      "distractors": "Phenobarbital does not act on the pathway enzymes themselves; the attack comes from increased flux into a partly blocked pathway. A δ-ALA dehydratase block would not raise porphobilinogen, and a uroporphyrinogen decarboxylase block gives the PCT pattern of uroporphyrins with photosensitivity. Heme suppresses δ-ALA synthase; it does not activate it.",
+      "source": "Slides 8 and 11 · Lippincott Ch 21 (Regulation of heme synthesis; Acute porphyrias)"
+    },
+    {
+      "id": "heme-07",
+      "topic": "Subcellular compartments of heme synthesis",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Heme synthesis begins and ends in the mitochondria, with intermediate steps in the cytosol. Which of the following enzymes acts in the cytosol?",
+      "options": [
+        "δ-ALA synthase",
+        "δ-ALA dehydratase",
+        "Coproporphyrinogen oxidase",
+        "Protoporphyrinogen oxidase",
+        "Ferrochelatase"
+      ],
+      "answer": 1,
+      "explain": "δ-ALA is made in the mitochondria and then moves to the cytosol. There δ-ALA dehydratase joins two δ-ALA molecules to form porphobilinogen (step 2). The lecture figure caption states that ALA synthase occurs in the mitochondria, whereas ALA dehydratase is present in the cytosol.",
+      "distractors": "δ-ALA synthase (step 1) is mitochondrial. Coproporphyrinogen oxidase, protoporphyrinogen oxidase and ferrochelatase are steps 6, 7 and 8, the final mitochondrial steps.",
+      "source": "Slides 5, 6 and 7 · Lippincott Ch 21 (Heme biosynthesis)"
+    },
+    {
+      "id": "heme-08",
+      "topic": "Step 4: ring closure",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which enzyme converts the linear tetrapyrrole hydroxymethylbilane into the cyclic type III isomer, uroporphyrinogen III?",
+      "options": [
+        "Hydroxymethylbilane synthase (porphobilinogen deaminase)",
+        "Uroporphyrinogen decarboxylase",
+        "Coproporphyrinogen oxidase",
+        "δ-ALA dehydratase",
+        "Uroporphyrinogen III synthase (cosynthase)"
+      ],
+      "answer": 4,
+      "explain": "In step 4, in the cytosol, uroporphyrinogen III synthase (also called uroporphyrinogen III cosynthase) closes hydroxymethylbilane into a ring. Ring IV is flipped during this step, which gives the type III isomer. The step before it (step 3) is hydroxymethylbilane synthase, which joins four porphobilinogen molecules and releases 4 NH₃. Slide 5's phrase 'complete the ring' for steps 6–8 is loose: the ring is closed at step 4, and steps 6–8 modify side chains, oxidise the bridges and insert iron.",
+      "distractors": "Hydroxymethylbilane synthase makes the linear tetrapyrrole but does not cyclise it. Uroporphyrinogen decarboxylase and coproporphyrinogen oxidase act only on the ring after it has formed.",
+      "source": "Slides 6, 7 and 8 · Lippincott Ch 21 (Formation of uroporphyrinogen)"
+    },
+    {
+      "id": "heme-09",
+      "topic": "Step 5: acetate → methyl (A → M)",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "In a hepatocyte culture, the enzyme that decarboxylates the four acetate side chains of the ring to methyl groups, releasing 4 CO₂, is inhibited. Which intermediate accumulates as the substrate of the blocked enzyme?",
+      "options": [
+        "Porphobilinogen",
+        "Hydroxymethylbilane",
+        "Uroporphyrinogen III",
+        "Coproporphyrinogen III",
+        "Protoporphyrinogen IX"
+      ],
+      "answer": 2,
+      "explain": "Uroporphyrinogen decarboxylase (step 5) converts acetate side chains to methyl groups (the slide mnemonic 'A → M'), turning uroporphyrinogen III into coproporphyrinogen III. Blocking it makes uroporphyrinogen III build up, and this is oxidised to uroporphyrins. That is the biochemical lesion of porphyria cutanea tarda. Slide 7's text says 'acetyl groups', but these are acetate side chains, as the slide's own legend (A = acetate) shows.",
+      "distractors": "Coproporphyrinogen III, with methyl and propionate side chains, is the product of the blocked reaction, not its substrate. Porphobilinogen and hydroxymethylbilane come before ring closure and are not the direct substrate.",
+      "source": "Slides 7 and 12 · Lippincott Ch 21 (Formation of uroporphyrinogen; Porphyria cutanea tarda)"
+    },
+    {
+      "id": "heme-10",
+      "topic": "Step 6: propionate → vinyl (P → V)",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "An investigator blocks the mitochondrial reaction in which two of the four propionate side chains are oxidatively decarboxylated to vinyl groups (P → V). Which intermediate accumulates?",
+      "options": [
+        "Coproporphyrinogen III",
+        "Uroporphyrinogen III",
+        "Protoporphyrinogen IX",
+        "Protoporphyrin IX",
+        "Hydroxymethylbilane"
+      ],
+      "answer": 0,
+      "explain": "Coproporphyrinogen III is transported into the mitochondrion. There coproporphyrinogen oxidase (step 6) converts two propionates to vinyl groups, releasing 2 CO₂ and forming protoporphyrinogen IX. Blocking step 6 therefore makes its substrate, coproporphyrinogen III, accumulate. The slide text calls these 'propionyl' side chains, but they are propionate groups (legend P = propionate).",
+      "distractors": "Protoporphyrinogen IX is the product of step 6, and protoporphyrin IX forms later, at step 7 (protoporphyrinogen oxidase). Uroporphyrinogen III is the substrate of the earlier step 5 and is unaffected.",
+      "source": "Slide 7 · Lippincott Ch 21 (Formation of heme)"
+    },
+    {
+      "id": "heme-11",
+      "topic": "Step 7: porphyrinogen → porphyrin",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "Porphyrinogens such as protoporphyrinogen IX are colourless, whereas porphyrins such as protoporphyrin IX are coloured. Which chemical change, catalysed by protoporphyrinogen oxidase, converts the porphyrinogen into the porphyrin?",
+      "options": [
+        "Decarboxylation of the acetate side chains to methyl groups",
+        "Conversion of two propionate side chains to vinyl groups",
+        "Closure of the linear tetrapyrrole into a ring",
+        "Oxidation of the methylene bridges that link the pyrrole rings",
+        "Insertion of Fe²⁺ into the centre of the ring"
+      ],
+      "answer": 3,
+      "explain": "In step 7, protoporphyrinogen oxidase oxidises the methylene (–CH₂–) bridges to methenyl (=CH–) bridges, turning protoporphyrinogen IX into protoporphyrin IX. The same oxidation happens non-enzymatically in porphyria urine, where porphyrinogens become coloured porphyrins on standing or in light. Protoporphyrinogen oxidase is the enzyme deficient in variegate porphyria.",
+      "distractors": "A → M is step 5 and P → V is step 6; both act on porphyrinogens without making a porphyrin. Ring closure is step 4, and Fe²⁺ insertion (step 8) acts on the finished porphyrin.",
+      "source": "Slides 7 and 13 · Lippincott Ch 21 (Formation of heme)"
+    },
+    {
+      "id": "heme-12",
+      "topic": "Step 8: ferrochelatase",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which enzyme catalyses the final step of heme synthesis, inserting Fe²⁺ into protoporphyrin IX inside the mitochondrion?",
+      "options": [
+        "Ferrochelatase",
+        "Protoporphyrinogen oxidase",
+        "Heme oxygenase",
+        "Coproporphyrinogen oxidase",
+        "δ-ALA synthase"
+      ],
+      "answer": 0,
+      "explain": "Ferrochelatase (step 8) inserts Fe²⁺ into protoporphyrin IX in the mitochondria to form heme. It is one of the two lead-sensitive enzymes, which is why lead poisoning raises protoporphyrin and causes anaemia.",
+      "distractors": "Heme oxygenase works in the opposite direction: it opens the heme ring during degradation and releases Fe²⁺. Protoporphyrinogen oxidase (step 7) makes the protoporphyrin IX that ferrochelatase then uses.",
+      "source": "Slides 6, 7 and 11 · Lippincott Ch 21 (Formation of heme)"
+    },
+    {
+      "id": "heme-13",
+      "topic": "Lead poisoning",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 42-year-old man who works in a car-battery recycling workshop has colicky abdominal pain, weakness when extending his wrists, and fatigue. He is anaemic, his skin is normal, and his blood lead level is markedly raised. Which pair of heme-pathway intermediates is most likely to be increased?",
+      "options": [
+        "δ-ALA and porphobilinogen",
+        "Uroporphyrin and coproporphyrin",
+        "Porphobilinogen and uroporphyrin",
+        "Hydroxymethylbilane and protoporphyrinogen IX",
+        "δ-ALA and protoporphyrin"
+      ],
+      "answer": 4,
+      "explain": "Lead inhibits δ-ALA dehydratase (step 2) and ferrochelatase (step 8). The substrate in front of each block builds up: δ-ALA before step 2 and protoporphyrin before step 8. The lecture lists the result as abdominal and neurological features with anaemia and no photosensitivity.",
+      "distractors": "Raised δ-ALA with raised porphobilinogen is the AIP pattern; porphobilinogen cannot accumulate when its own forming enzyme, δ-ALA dehydratase, is inhibited. Raised uroporphyrins point to PCT.",
+      "source": "Slides 9 and 11 · Lippincott Ch 21 (Lead poisoning)"
+    },
+    {
+      "id": "heme-14",
+      "topic": "Heme structure",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Heme is described as an asymmetric metalloporphyrin. What is the structural basis of this asymmetry?",
+      "options": [
+        "The single Fe²⁺ ion coordinated at the centre of the porphyrin ring",
+        "The arrangement of methyl, vinyl and propionate side chains around the ring",
+        "The methine bridges that link the four pyrrole rings to one another",
+        "The presence of five pyrrole rings of unequal size and shape",
+        "Covalent attachment of the porphyrin ring to the globin polypeptide"
+      ],
+      "answer": 1,
+      "explain": "The lecture states that the asymmetry comes from the methyl, vinyl and propionate side chains around the ring. Protoporphyrin IX carries four methyl, two vinyl and two propionate groups. The two propionates sit next to each other on rings III and IV, so the pattern is not symmetrical.",
+      "distractors": "The central Fe²⁺ and the four methine bridges are symmetrical features of the core ring. Heme has four pyrrole rings, not five, and in hemoglobin it is not covalently attached to globin.",
+      "source": "Slide 4 · Lippincott Ch 21 (Structure of porphyrins)"
+    },
+    {
+      "id": "heme-15",
+      "topic": "Acute intermittent porphyria",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 26-year-old Omani woman develops severe colicky abdominal pain, vomiting, limb weakness and confusion during prolonged daytime fasting in Ramadan. Her skin is normal and she has no photosensitivity. Her urine darkens on standing, and urinary δ-ALA and porphobilinogen are markedly increased. Deficiency of which enzyme is most likely?",
+      "options": [
+        "Uroporphyrinogen decarboxylase",
+        "Protoporphyrinogen oxidase",
+        "Hydroxymethylbilane synthase",
+        "δ-ALA dehydratase",
+        "Ferrochelatase"
+      ],
+      "answer": 2,
+      "explain": "This is acute intermittent porphyria: hydroxymethylbilane synthase (porphobilinogen deaminase) deficiency. It raises δ-ALA and porphobilinogen and causes acute abdominal and neurological features without photosensitivity. The block lies before the tetrapyrrole ring forms, so only linear precursors accumulate and the skin is spared. Fasting is a recognised trigger; textbooks explain that it lifts glucose repression of hepatic δ-ALA synthase.",
+      "distractors": "A δ-ALA dehydratase block would not raise porphobilinogen, because porphobilinogen is its product. Uroporphyrinogen decarboxylase and protoporphyrinogen oxidase defects build up cyclic porphyrins, which the lecture links to photosensitivity.",
+      "source": "Slides 8, 11 and 12 · Lippincott Ch 21 (Acute intermittent porphyria)"
+    },
+    {
+      "id": "heme-16",
+      "topic": "Porphyria cutanea tarda (opening case)",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 36-year-old woman who recently began daily morning walks outdoors presents with recurrent painless blisters and fragile skin on the backs of both hands. She has no abdominal pain or neurological symptoms. Her urine turns reddish-brown after standing, and urinary uroporphyrins are elevated. Which enzyme is most likely deficient?",
+      "options": [
+        "δ-ALA dehydratase",
+        "Hydroxymethylbilane synthase",
+        "Protoporphyrinogen oxidase",
+        "Ferrochelatase",
+        "Uroporphyrinogen decarboxylase"
+      ],
+      "answer": 4,
+      "explain": "This is the lecture's opening case: porphyria cutanea tarda, the most common porphyria. Uroporphyrinogen decarboxylase deficiency makes uroporphyrins accumulate. These cyclic porphyrins cause photosensitivity and blistering on sun-exposed skin. δ-ALA and porphobilinogen are not raised, so there are no abdominal or neurological attacks.",
+      "distractors": "Protoporphyrinogen oxidase deficiency (variegate porphyria) is also photosensitive, but it adds the abdominal and neurological attacks she lacks. Hydroxymethylbilane synthase deficiency (AIP) causes attacks with no skin lesions.",
+      "source": "Slides 3, 12 and 13 · Lippincott Ch 21 (Porphyria cutanea tarda)"
+    },
+    {
+      "id": "heme-17",
+      "topic": "PCT: mechanism of photosensitivity",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 45-year-old man with porphyria cutanea tarda notices that the blisters and erosions on the backs of his hands and on his face get worse after hours outdoors in the sun. Which mechanism best explains this skin damage?",
+      "options": [
+        "Light-activated porphyrins in the skin generate reactive oxygen species",
+        "Accumulated δ-ALA acts as a toxin on cutaneous nerve endings",
+        "Unconjugated bilirubin deposited in the dermis absorbs sunlight",
+        "Porphobilinogen polymerises in the skin into a toxic pigment",
+        "Heme deficiency in keratinocytes impairs collagen synthesis"
+      ],
+      "answer": 0,
+      "explain": "On exposure to light, porphyrins generate reactive oxygen species that damage the skin. That is why the lesions, with itching and burning, appear on sun-exposed areas such as the backs of the hands and the face. The lecture's rule is that defects causing cyclic porphyrins to accumulate cause photosensitivity.",
+      "distractors": "δ-ALA and porphobilinogen are linear precursors; they are not raised in PCT, and the lecture links them to neurovisceral features, not photosensitivity. Bilirubin causes jaundice, not light-induced blisters.",
+      "source": "Slides 12 and 13 · Lippincott Ch 21 (Porphyrias)"
+    },
+    {
+      "id": "heme-18",
+      "topic": "PCT: urine colour",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 50-year-old woman with porphyria cutanea tarda brings a urine sample that looked almost normal when passed but turned reddish-brown after standing by a window. Which process best explains the colour change?",
+      "options": [
+        "Conjugated bilirubin in the urine is oxidised to green biliverdin",
+        "Urobilinogen in the urine is converted to stercobilin by light",
+        "Hemoglobin from intravascular hemolysis is oxidised to methemoglobin",
+        "Colourless porphyrinogens in the urine are oxidised to coloured porphyrins",
+        "Porphobilinogen in the urine is cyclised to uroporphyrinogen III"
+      ],
+      "answer": 3,
+      "explain": "The lecture states that porphyrinogens in urine are oxidised to coloured porphyrins on standing or exposure to light. That is why PCT urine darkens to red-orange or reddish-brown. Slide 10 uses the looser phrase 'porphyrin precursors exposed to light and air'; the more precise slide 13 wording is the one keyed here.",
+      "distractors": "Stercobilin forms in the gut and colours faeces, not urine. Hemoglobinuria from hemolysis is already coloured when passed and is not a feature of porphyria.",
+      "source": "Slides 10 and 13 · Lippincott Ch 21 (Porphyrias)"
+    },
+    {
+      "id": "heme-19",
+      "topic": "Variegate porphyria",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 34-year-old man has recurrent attacks of severe abdominal pain with muscle weakness and anxiety. Between attacks he also develops fragile, blistering skin on his sun-exposed forearms and face. Which enzyme deficiency best accounts for both the acute attacks and the photosensitivity?",
+      "options": [
+        "Hydroxymethylbilane synthase",
+        "Uroporphyrinogen decarboxylase",
+        "δ-ALA dehydratase",
+        "Protoporphyrinogen oxidase",
+        "Ferrochelatase"
+      ],
+      "answer": 3,
+      "explain": "Variegate ('mixed') porphyria is caused by protoporphyrinogen oxidase deficiency (step 7, mitochondria). The lecture lists abdominal, neurological and photosensitivity features together. The cyclic porphyrin intermediates that accumulate explain the skin lesions. Textbooks add that δ-ALA and porphobilinogen also rise during attacks, which explains the neurovisceral features.",
+      "distractors": "Hydroxymethylbilane synthase deficiency (AIP) causes attacks without photosensitivity. Uroporphyrinogen decarboxylase deficiency (PCT) causes skin lesions without attacks.",
+      "source": "Slides 9 and 12 · Lippincott Ch 21 (Porphyrias)"
+    },
+    {
+      "id": "heme-20",
+      "topic": "Photosensitivity rule in porphyrias",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "A patient with a porphyria has blistering of sun-exposed skin but no abdominal or neurological attacks. Using the lecture's rule linking accumulated intermediates to photosensitivity, which compound is most likely accumulating?",
+      "options": [
+        "δ-Aminolevulinic acid",
+        "Uroporphyrin",
+        "Porphobilinogen",
+        "Biliverdin",
+        "Unconjugated bilirubin"
+      ],
+      "answer": 1,
+      "explain": "The lecture's rule has two parts. Defects before tetrapyrrole-ring formation raise δ-ALA and porphobilinogen and cause no photosensitivity. Defects that make cyclic porphyrins accumulate cause photosensitivity. Uroporphyrin is a cyclic porphyrin, raised in PCT, and it generates reactive oxygen species in light-exposed skin.",
+      "distractors": "δ-ALA and porphobilinogen are linear precursors that build up in AIP and lead poisoning, giving neurovisceral features without photosensitivity. Biliverdin and unconjugated bilirubin are linear tetrapyrroles from heme degradation; they colour bruises and cause jaundice, not light-induced blistering.",
+      "source": "Slides 11, 12 and 13 · Lippincott Ch 21 (Porphyrias)"
+    },
+    {
+      "id": "heme-21",
+      "topic": "Porphyria: definition and term",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "The word 'porphyria' comes from the Greek porphyra. What does this term refer to?",
+      "options": [
+        "Purple, after the red-purple colour urine develops in light and air",
+        "Blister, after the bullous lesions that form on sun-exposed skin",
+        "Pain, after the colicky abdominal attacks of acute porphyrias",
+        "Iron, after the metal that ferrochelatase inserts into the ring",
+        "Yellow, after the skin discoloration caused by accumulated pigment"
+      ],
+      "answer": 0,
+      "explain": "Porphyra means purple. It refers to the red-purple or port-wine colour that urine can develop when accumulated intermediates are exposed to light and air. Porphyrias are disorders caused by defects in enzymes of heme synthesis, which lead to accumulation of specific pathway intermediates.",
+      "distractors": "Blistering and abdominal pain are features of some porphyrias, but neither is the meaning of the name. Yellow discoloration describes jaundice from bilirubin, not porphyria.",
+      "source": "Slide 10 · Lippincott Ch 21 (Porphyrias)"
+    },
+    {
+      "id": "heme-22",
+      "topic": "Lead poisoning vs acute intermittent porphyria",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 30-year-old man has recurrent colicky abdominal pain and weakness in both arms. There are no skin lesions. The differential diagnosis is acute intermittent porphyria versus lead poisoning. According to the lecture, which additional finding most favours lead poisoning?",
+      "options": [
+        "Absence of photosensitivity",
+        "Raised urinary δ-ALA",
+        "Raised urinary porphobilinogen",
+        "Darkening of the urine on standing",
+        "Anaemia"
+      ],
+      "answer": 4,
+      "explain": "In the lecture, lead poisoning and AIP share abdominal and neurological features, raised δ-ALA and no photosensitivity; only lead lists anaemia. Lead also inhibits ferrochelatase, so Fe²⁺ is not inserted into protoporphyrin and less heme is available for hemoglobin. Protoporphyrin rises as a result; textbooks note that it is largely zinc protoporphyrin.",
+      "distractors": "Absence of photosensitivity and raised δ-ALA occur in both disorders, so neither discriminates. Raised porphobilinogen favours AIP, because lead blocks δ-ALA dehydratase, the enzyme that forms porphobilinogen. Urine that darkens on standing is a classic AIP feature (from the excess porphobilinogen), so it does not favour lead either.",
+      "source": "Slides 9 and 11 · Lippincott Ch 21 (Lead poisoning; Acute intermittent porphyria)"
+    },
+    {
+      "id": "heme-23",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Learning check: Which option correctly identifies the rate-limiting enzyme of heme synthesis and its required coenzyme?",
+      "options": [
+        "δ-ALA dehydratase — pyridoxal phosphate",
+        "Ferrochelatase — ascorbate (vitamin C)",
+        "δ-ALA synthase — pyridoxal phosphate",
+        "δ-ALA synthase — thiamine pyrophosphate",
+        "Hydroxymethylbilane synthase — biotin"
+      ],
+      "answer": 2,
+      "explain": "δ-ALA synthase is the first, rate-limiting enzyme of heme synthesis. It requires pyridoxal phosphate (vitamin B6) to condense glycine with succinyl-CoA in the mitochondria.",
+      "distractors": "δ-ALA dehydratase is the next, lead-sensitive enzyme; it is not rate-limiting and does not use PLP. Thiamine pyrophosphate is the coenzyme of oxidative decarboxylations such as pyruvate dehydrogenase, not of δ-ALA synthase.",
+      "source": "Slides 6, 7, 8 and 14 · Lippincott Ch 21 (Formation of δ-ALA)"
+    },
+    {
+      "id": "heme-24",
+      "topic": "Lecture learning check",
+      "type": "application",
+      "difficulty": "easy",
+      "stem": "Learning check: The free heme concentration in a hepatocyte rises above the cell's needs. How does heme regulate its own synthesis?",
+      "options": [
+        "It acts on δ-ALA synthase, the first rate-limiting enzyme, so heme synthesis slows",
+        "It inhibits ferrochelatase, the final enzyme, so protoporphyrin IX accumulates",
+        "It stimulates δ-ALA dehydratase, so δ-ALA is removed more rapidly",
+        "It inhibits uroporphyrinogen decarboxylase, so uroporphyrins accumulate",
+        "It binds glycine, reducing the substrate available for the first reaction"
+      ],
+      "answer": 0,
+      "explain": "Heme regulates its own synthesis through mechanisms that act on δ-ALA synthase, the first rate-limiting enzyme. As heme levels rise, the rate of heme synthesis falls (feedback inhibition). Textbooks add that in liver, heme represses ALAS1 synthesis and blocks the enzyme's import into mitochondria.",
+      "distractors": "Feedback acts at the committed first step; blocking a late enzyme would waste intermediates and make them accumulate. Heme does not regulate the pathway by binding its substrates.",
+      "source": "Slides 8 and 14 · Lippincott Ch 21 (Regulation of heme synthesis)"
+    },
+    {
+      "id": "heme-25",
+      "topic": "Lecture learning check",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "Learning check: A 4-year-old girl has anaemia, irritability and abdominal colic. Her mother applies traditional kohl to the child's eyes daily, and her blood lead level is high. Which two enzymes of heme synthesis are inhibited by lead?",
+      "options": [
+        "δ-ALA synthase and ferrochelatase",
+        "δ-ALA dehydratase and ferrochelatase",
+        "δ-ALA dehydratase and uroporphyrinogen decarboxylase",
+        "Hydroxymethylbilane synthase and protoporphyrinogen oxidase",
+        "δ-ALA synthase and δ-ALA dehydratase"
+      ],
+      "answer": 1,
+      "explain": "Lead inhibits δ-ALA dehydratase (step 2, cytosol) and ferrochelatase (step 8, mitochondria). As a result, δ-ALA and protoporphyrin rise, and the child has abdominal and neurological features and anaemia without photosensitivity. Some traditional kohl preparations contain lead and are a recognised source of exposure in children in the region.",
+      "distractors": "δ-ALA synthase is the rate-limiting enzyme controlled by heme feedback; it is not a lead target. Hydroxymethylbilane synthase and protoporphyrinogen oxidase are the enzymes deficient in AIP and variegate porphyria.",
+      "source": "Slides 7, 9, 11 and 14 · Lippincott Ch 21 (Lead poisoning)"
+    },
+    {
+      "id": "heme-26",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Learning check: The lecture's table lists each disorder with its enzyme defect and clinical features. Which row is correctly completed? (AIP, acute intermittent porphyria; PCT, porphyria cutanea tarda; VP, variegate porphyria)",
+      "options": [
+        "AIP — uroporphyrinogen decarboxylase — photosensitivity and blistering",
+        "PCT — hydroxymethylbilane synthase — acute abdominal and neurological attacks",
+        "VP — protoporphyrinogen oxidase — abdominal, neurological and photosensitivity",
+        "Lead poisoning — δ-ALA synthase and ferrochelatase — photosensitivity and anaemia",
+        "VP — ferrochelatase — photosensitivity without acute attacks"
+      ],
+      "answer": 2,
+      "explain": "Variegate porphyria is protoporphyrinogen oxidase deficiency, and it combines abdominal and neurological attacks with photosensitivity. The correct rows for the others are: AIP, hydroxymethylbilane synthase, with acute abdominal and neurological features and no photosensitivity; PCT, uroporphyrinogen decarboxylase, with photosensitivity and blistering; lead, which inhibits δ-ALA dehydratase and ferrochelatase and causes abdominal and neurological features and anaemia without photosensitivity.",
+      "distractors": "Options A and B swap the AIP and PCT enzymes and features. Lead does not inhibit δ-ALA synthase or cause photosensitivity, and ferrochelatase is not the VP enzyme.",
+      "source": "Slides 11, 12 and 14 · Lippincott Ch 21 (Porphyrias)"
+    },
+    {
+      "id": "heme-27",
+      "topic": "Fate of hemoglobin",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 19-year-old Omani man with sickle cell disease has ongoing destruction of red cells. When macrophages break down the hemoglobin from these cells, which component is converted to an excretory product rather than being reused?",
+      "options": [
+        "Globin, which is converted to bilirubin",
+        "Fe²⁺, which is excreted in bile",
+        "Globin amino acids, which are excreted as urobilin",
+        "The porphyrin ring, which is converted to bilirubin",
+        "Fe²⁺, which is converted to biliverdin"
+      ],
+      "answer": 3,
+      "explain": "Red cells normally survive about 120 days before macrophages in the spleen, liver and bone marrow remove them; in sickle cell disease this happens sooner. Hemoglobin is split three ways. Globin becomes amino acids that are reused, iron is recycled, and the porphyrin ring is converted to biliverdin and then bilirubin, which is excreted in bile.",
+      "distractors": "Iron is conserved and recycled, not excreted in bile, and it is released from the ring rather than becoming biliverdin. Globin yields reusable amino acids, not bile pigments.",
+      "source": "Slide 17 · Lippincott Ch 21 (Degradation of heme); Marks Ch 44"
+    },
+    {
+      "id": "heme-28",
+      "topic": "Bruise colour and heme breakdown",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A footballer has a large bruise on his thigh after a collision. Over the next several days, the centre of the bruise turns green before becoming yellow. Which pigment is responsible for the green colour?",
+      "options": [
+        "Oxyhemoglobin",
+        "Deoxyhemoglobin",
+        "Biliverdin",
+        "Bilirubin",
+        "Hemosiderin"
+      ],
+      "answer": 2,
+      "explain": "Bruise colour tracks heme breakdown: heme → biliverdin (green) → bilirubin (yellow-orange). The green stage means that tissue macrophages have taken up the leaked hemoglobin and heme oxygenase has opened the porphyrin ring of its heme.",
+      "distractors": "Bilirubin causes the later yellow stage, and hemosiderin (iron stored in macrophages) gives the final brownish tinge. Oxy- and deoxyhemoglobin account for the early red and blue-purple colours.",
+      "source": "Slides 16 and 19 · Lippincott Ch 21 (Degradation of heme)"
+    },
+    {
+      "id": "heme-29",
+      "topic": "Heme oxygenase: CO production",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Patients with brisk hemolysis produce more endogenous carbon monoxide (CO) than healthy people, and their carboxyhemoglobin may be slightly raised. Which reaction is the source of this CO?",
+      "options": [
+        "Reduction of biliverdin by biliverdin reductase",
+        "Condensation of glycine and succinyl-CoA by δ-ALA synthase",
+        "Decarboxylation of uroporphyrinogen III by uroporphyrinogen decarboxylase",
+        "Conjugation of bilirubin by UDP-glucuronosyltransferase",
+        "Opening of the porphyrin ring by heme oxygenase"
+      ],
+      "answer": 4,
+      "explain": "Heme oxygenase uses O₂ and NADPH to open the porphyrin ring, producing green biliverdin, CO and Fe²⁺. More hemolysis means more heme is degraded, so more CO is released. The lecture notes that CO acts as a signalling molecule; textbooks add that this reaction is the body's main endogenous source of CO.",
+      "distractors": "δ-ALA synthase and uroporphyrinogen decarboxylase belong to heme synthesis and release CO₂, not CO. Biliverdin reductase and UGT1A1 act after the ring has already been opened.",
+      "source": "Slide 19 · Lippincott Ch 21 (Formation of bilirubin)"
+    },
+    {
+      "id": "heme-30",
+      "topic": "Heme degradation: cofactors",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Heme oxygenase and biliverdin reductase act one after the other in macrophages to convert heme into bilirubin. Which coenzyme do both enzymes require?",
+      "options": [
+        "NADH",
+        "NADPH",
+        "FAD",
+        "Pyridoxal phosphate",
+        "UDP-glucuronic acid"
+      ],
+      "answer": 1,
+      "explain": "Heme oxygenase needs NADPH and O₂ to open the ring, forming biliverdin, CO and Fe²⁺. Biliverdin reductase then uses NADPH to reduce the central methine bridge of green biliverdin to a methylene bridge, giving yellow-orange bilirubin. That product leaves the macrophage as unconjugated bilirubin.",
+      "distractors": "Pyridoxal phosphate is the coenzyme of δ-ALA synthase in heme synthesis. UDP-glucuronic acid is the glucuronate donor for UGT1A1 in the hepatocyte, not a cofactor of the macrophage enzymes.",
+      "source": "Slide 19 · Lippincott Ch 21 (Formation of bilirubin)"
+    },
+    {
+      "id": "heme-31",
+      "topic": "Albumin binding and kernicterus",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 5-day-old neonate with raised unconjugated bilirubin is given a drug that binds strongly to plasma albumin. Within hours the baby becomes lethargic and develops abnormal muscle tone. What is the most likely mechanism of this neurological deterioration?",
+      "options": [
+        "Free unconjugated bilirubin, displaced from albumin, crosses the blood–brain barrier",
+        "Inhibition of UGT1A1 causes neurotoxic conjugated bilirubin to accumulate in plasma",
+        "Blockade of MRP2 causes conjugated bilirubin to deposit in the basal ganglia",
+        "Bilirubin is oxidised back to biliverdin, which then enters the brain",
+        "Stimulation of heme oxygenase releases carbon monoxide that damages neurons"
+      ],
+      "answer": 0,
+      "explain": "Unconjugated bilirubin is lipid-soluble and travels non-covalently bound to albumin. A drug that displaces it raises free unconjugated bilirubin, which can cross the neonatal blood–brain barrier and cause kernicterus. Textbook examples of such drugs are sulfonamides and ceftriaxone.",
+      "distractors": "Conjugated bilirubin is water-soluble and is not the form that causes kernicterus. An MRP2 defect causes Dubin–Johnson syndrome, a benign conjugated hyperbilirubinemia.",
+      "source": "Slide 20 · Lippincott Ch 21 (Uptake of bilirubin by the liver)"
+    },
+    {
+      "id": "heme-32",
+      "topic": "Conjugation of bilirubin",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Hepatocytes make bilirubin water-soluble before secreting it into bile. If hepatic UDP-glucuronic acid were severely depleted, which compound normally produced inside the hepatocyte would fail to form?",
+      "options": [
+        "Bilirubin–albumin complex",
+        "Biliverdin",
+        "Urobilinogen",
+        "Bilirubin diglucuronide",
+        "Stercobilin"
+      ],
+      "answer": 3,
+      "explain": "UDP-glucuronosyltransferase (UGT1A1) transfers glucuronic acid from 2 UDP-glucuronic acid to bilirubin, forming bilirubin diglucuronide (conjugated bilirubin) and releasing 2 UDP. Conjugation increases water solubility so that bilirubin can be excreted in bile. Without UDP-glucuronic acid, it cannot happen.",
+      "distractors": "The bilirubin–albumin complex forms in plasma and biliverdin in macrophages, both before the hepatocyte stage. Urobilinogen and stercobilin are made by intestinal bacteria, not inside the hepatocyte.",
+      "source": "Slide 21 · Lippincott Ch 21 (Formation of bilirubin diglucuronide)"
+    },
+    {
+      "id": "heme-33",
+      "topic": "Crigler–Najjar syndrome",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 2-month-old infant has had severe jaundice since the first days of life. Serum bilirubin is almost entirely unconjugated, while hemoglobin, reticulocyte count and liver enzymes are normal. Which protein is most likely deficient?",
+      "options": [
+        "UDP-glucuronosyltransferase (UGT1A1)",
+        "Multidrug resistance–associated protein 2 (MRP2)",
+        "Heme oxygenase",
+        "Biliverdin reductase",
+        "Albumin"
+      ],
+      "answer": 0,
+      "explain": "Persistent unconjugated hyperbilirubinemia without hemolysis points to failed hepatic conjugation. UGT1A1 deficiency causes Crigler–Najjar syndrome. Unconjugated bilirubin cannot be turned into the water-soluble diglucuronide and cannot enter bile, so it builds up in plasma and carries a risk of kernicterus.",
+      "distractors": "An MRP2 defect (Dubin–Johnson syndrome) raises conjugated, not unconjugated, bilirubin. A lack of heme oxygenase or biliverdin reductase would reduce bilirubin formation, not cause it to accumulate.",
+      "source": "Slides 21 and 22 · Lippincott Ch 21 (Jaundice)"
+    },
+    {
+      "id": "heme-34",
+      "topic": "Dubin–Johnson syndrome and bilirubin steps",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 22-year-old man is found to have mild, fluctuating jaundice. Serum bilirubin is raised and mainly conjugated; liver enzymes and blood count are normal, and imaging shows no bile-duct obstruction. A liver biopsy shows dark pigment in otherwise normal hepatocytes. Which step of bilirubin metabolism is defective?",
+      "options": [
+        "Heme breakdown and bilirubin formation",
+        "Plasma transport and hepatic uptake",
+        "Conjugation in the liver",
+        "Secretion into bile",
+        "Intestinal conversion and excretion"
+      ],
+      "answer": 3,
+      "explain": "Conjugated hyperbilirubinemia with no obstruction, normal liver enzymes and a darkly pigmented liver indicates Dubin–Johnson syndrome. An MRP2 defect impairs the ATP-dependent transport of conjugated bilirubin into the bile canaliculi, step 4 of the lecture's five-step framework. Conjugation still works, so conjugated bilirubin builds up and refluxes into the blood. The dark liver pigment is a textbook feature, not on the slides.",
+      "distractors": "A conjugation defect would make unconjugated bilirubin accumulate, as in Crigler–Najjar syndrome. Increased heme breakdown would mainly raise unconjugated bilirubin, and imaging has excluded obstruction.",
+      "source": "Slides 18, 22 and 24 · Lippincott Ch 21 (Jaundice)"
+    },
+    {
+      "id": "heme-35",
+      "topic": "Intestinal conversion of bilirubin",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "A patient on a prolonged course of oral broad-spectrum antibiotics has a marked reduction in colonic bacteria. Which change in bilirubin metabolism is most likely?",
+      "options": [
+        "Reduced conjugation of bilirubin by hepatic UGT1A1",
+        "Reduced secretion of conjugated bilirubin by MRP2",
+        "Increased formation of stercobilin, darkening the faeces",
+        "Increased excretion of urobilinogen in the urine",
+        "Reduced conversion of conjugated bilirubin to urobilinogen"
+      ],
+      "answer": 4,
+      "explain": "In the intestine, bacteria convert conjugated bilirubin to urobilinogen. Most of this becomes stercobilin, which colours faeces brown, and a small reabsorbed fraction is excreted in urine as urobilin. With fewer bacteria, less urobilinogen forms, so less stercobilin and less urinary urobilinogen are produced.",
+      "distractors": "UGT1A1 conjugation and MRP2 secretion are hepatic steps that do not depend on gut flora. Stercobilin and urinary urobilinogen both come from bacterial urobilinogen, so they would fall, not rise.",
+      "source": "Slide 23 · Lippincott Ch 21 (Formation of urobilins in the intestine)"
+    },
+    {
+      "id": "heme-36",
+      "topic": "Fate of urobilinogen",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Most urobilinogen formed in the intestine is converted to a pigment excreted in faeces, while a small reabsorbed fraction is excreted by the kidney. Which pair correctly names the pigments that make faeces brown and urine yellow?",
+      "options": [
+        "Faeces: urobilin; urine: stercobilin",
+        "Faeces: biliverdin; urine: bilirubin",
+        "Faeces: stercobilin; urine: unconjugated bilirubin",
+        "Faeces: stercobilin; urine: urobilin",
+        "Faeces: conjugated bilirubin; urine: urobilinogen"
+      ],
+      "answer": 3,
+      "explain": "Most urobilinogen becomes stercobilin, which gives faeces their brown colour. A small amount is reabsorbed and excreted as urobilin, which gives urine its yellow colour. Some reabsorbed urobilinogen also returns to the liver in the enterohepatic circulation.",
+      "distractors": "Option A reverses the two pigments. Unconjugated bilirubin is albumin-bound and water-insoluble, so it does not colour normal urine.",
+      "source": "Slide 23 · Lippincott Ch 21 (Formation of urobilins in the intestine)"
+    },
+    {
+      "id": "heme-37",
+      "topic": "Obstructive hyperbilirubinemia",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 58-year-old woman has progressive painless jaundice, itching and pale, clay-coloured stools. Ultrasound shows a mass in the head of the pancreas compressing the common bile duct. Which option correctly pairs the mechanism of her hyperbilirubinemia with the explanation for her stool colour?",
+      "options": [
+        "Increased bilirubin production during hemolysis — more urobilinogen reaches the urine",
+        "Obstruction of bile flow — less stercobilin is formed in the intestine",
+        "Obstruction of bile flow — more stercobilin is formed in the intestine",
+        "Impaired hepatic uptake — more stercobilin is formed in the intestine",
+        "Impaired hepatic secretion by MRP2 — more urobilinogen is formed in the intestine"
+      ],
+      "answer": 1,
+      "explain": "The lecture lists three causes of hyperbilirubinemia: increased production during hemolysis; impaired hepatic uptake, conjugation or secretion; and obstruction of bile flow. Here the pancreatic mass blocks the common bile duct, so conjugated bilirubin cannot reach the intestine and bacteria make little urobilinogen or stercobilin. The lecture states that reduced stercobilin indicates biliary obstruction and pale stools.",
+      "distractors": "Increased urinary urobilinogen is the lecture's clue for hemolysis, not obstruction. No option in which more stercobilin reaches the gut can explain pale stools.",
+      "source": "Slides 23 and 24 · Lippincott Ch 21 (Jaundice)"
+    },
+    {
+      "id": "heme-38",
+      "topic": "Hemolytic (pre-hepatic) jaundice: G6PD deficiency",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 6-year-old Omani boy with known G6PD deficiency becomes pale and tired, with yellow eyes, two days after eating fava beans. His hemoglobin has fallen and serum unconjugated bilirubin is raised. Which additional laboratory finding is most expected?",
+      "options": [
+        "Increased urinary urobilinogen",
+        "Reduced faecal stercobilin with pale stools",
+        "Increased urinary uroporphyrins",
+        "Absent urinary urobilinogen",
+        "Increased urinary porphobilinogen"
+      ],
+      "answer": 0,
+      "explain": "Oxidant-induced hemolysis increases heme breakdown and bilirubin production, the first cause of hyperbilirubinemia in the lecture. The liver conjugates and excretes the extra bilirubin, so the gut makes more urobilinogen, and more of it is reabsorbed and excreted in urine. The lecture's clue is that increased urinary urobilinogen indicates hemolysis. The G6PD and fava-bean link comes from Marks Ch 44, not from these slides.",
+      "distractors": "Reduced stercobilin with pale stools indicates biliary obstruction. Raised uroporphyrins or porphobilinogen point to porphyrias, which are disorders of heme synthesis, not hemolysis.",
+      "source": "Slides 23 and 24 · Lippincott Ch 21 (Jaundice); Marks Ch 44 (G6PD deficiency)"
+    },
+    {
+      "id": "heme-39",
+      "topic": "Lecture learning check",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "Learning check: A 12-year-old boy with hereditary spherocytosis has an enlarged spleen and mild jaundice. Where does most of the heme from his destroyed red cells undergo breakdown?",
+      "options": [
+        "Hepatocytes of the liver parenchyma",
+        "Macrophages of the spleen, liver and bone marrow",
+        "Renal proximal tubular epithelial cells",
+        "Circulating neutrophils in the peripheral blood",
+        "Epithelial cells of the intestinal mucosa"
+      ],
+      "answer": 1,
+      "explain": "Macrophages of the reticuloendothelial system in the spleen, liver and bone marrow engulf aged or damaged red cells. Inside them, heme oxygenase and biliverdin reductase convert heme to unconjugated bilirubin. In hereditary spherocytosis the spleen does most of this work, which is why it enlarges.",
+      "distractors": "Hepatocytes take up and conjugate bilirubin that has already been formed; most red-cell heme is not degraded there. The intestine converts conjugated bilirubin to urobilinogen but does not break down heme.",
+      "source": "Slides 17, 19, 23 and 25 · Lippincott Ch 21 (Degradation of heme)"
+    },
+    {
+      "id": "heme-40",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Learning check: Which enzyme opens the porphyrin ring of heme to form biliverdin?",
+      "options": [
+        "Biliverdin reductase",
+        "Ferrochelatase",
+        "Heme oxygenase",
+        "UDP-glucuronosyltransferase",
+        "Protoporphyrinogen oxidase"
+      ],
+      "answer": 2,
+      "explain": "Heme oxygenase requires NADPH and O₂. It opens the porphyrin ring to give green biliverdin and releases CO and Fe²⁺. The iron is recycled, and the CO acts as a signalling molecule.",
+      "distractors": "Biliverdin reductase acts next, reducing biliverdin to bilirubin. Ferrochelatase and protoporphyrinogen oxidase are enzymes of heme synthesis, not degradation.",
+      "source": "Slides 19 and 25 · Lippincott Ch 21 (Formation of bilirubin)"
+    },
+    {
+      "id": "heme-41",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Learning check: Which proteins carry bilirubin in plasma and inside hepatocytes, respectively?",
+      "options": [
+        "Ligandin; albumin",
+        "Haptoglobin; ferritin",
+        "Transferrin; MRP2",
+        "Albumin; transferrin",
+        "Albumin; ligandin"
+      ],
+      "answer": 4,
+      "explain": "Unconjugated bilirubin is lipid-soluble, so albumin carries it non-covalently in plasma. At the liver it dissociates from albumin and is taken up by hepatocytes. Inside the hepatocyte the protein ligandin binds it until it is conjugated.",
+      "distractors": "Option A reverses the pair. Haptoglobin binds free hemoglobin, transferrin carries iron, and MRP2 is the canalicular exporter of conjugated bilirubin, not an intracellular carrier.",
+      "source": "Slides 20 and 25 · Lippincott Ch 21 (Uptake of bilirubin by the liver)"
+    },
+    {
+      "id": "heme-42",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Learning check: Which enzyme conjugates bilirubin in the liver?",
+      "options": [
+        "Lysosomal β-glucuronidase (GUSB)",
+        "UDP-glucuronosyltransferase (UGT1A1)",
+        "Arylamine N-acetyltransferase (NAT2)",
+        "Biliverdin reductase (BVR)",
+        "Heme oxygenase (HO-1)"
+      ],
+      "answer": 1,
+      "explain": "UDP-glucuronosyltransferase (UGT1A1) adds two glucuronic acids from UDP-glucuronic acid to bilirubin, forming water-soluble bilirubin diglucuronide (conjugated bilirubin). UGT1A1 deficiency causes Crigler–Najjar syndrome.",
+      "distractors": "β-Glucuronidase does the opposite and removes glucuronate; textbooks describe bacterial β-glucuronidase deconjugating bilirubin in the gut. Biliverdin reductase and heme oxygenase act earlier, in macrophages.",
+      "source": "Slides 21 and 26 · Lippincott Ch 21 (Formation of bilirubin diglucuronide)"
+    },
+    {
+      "id": "heme-43",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Learning check: Which transporter secretes conjugated bilirubin from the hepatocyte into the bile canaliculi?",
+      "options": [
+        "Ligandin",
+        "UGT1A1",
+        "Albumin",
+        "Ferroportin",
+        "MRP2"
+      ],
+      "answer": 4,
+      "explain": "MRP2 (multidrug resistance–associated protein 2) actively transports conjugated bilirubin into the bile canaliculi; the step is ATP-dependent. Unconjugated bilirubin cannot enter bile because it is water-insoluble. An MRP2 defect causes Dubin–Johnson syndrome.",
+      "distractors": "Ligandin binds bilirubin inside the hepatocyte and UGT1A1 conjugates it; neither exports it into bile. Ferroportin exports iron, not bilirubin.",
+      "source": "Slides 22 and 26 · Lippincott Ch 21 (Secretion of bilirubin into bile)"
+    },
+    {
+      "id": "heme-44",
+      "topic": "Lecture learning check",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Learning check: Which statement correctly contrasts unconjugated bilirubin (UCB) with conjugated bilirubin (CB) by solubility and transport?",
+      "options": [
+        "UCB is water-soluble and enters bile freely; CB is lipid-soluble and needs albumin",
+        "UCB is covalently bound to albumin; CB is held inside hepatocytes by ligandin",
+        "UCB is lipid-soluble and albumin-bound; CB is water-soluble and secreted by MRP2",
+        "UCB is secreted into bile by MRP2; CB is reabsorbed and excreted as stercobilin",
+        "UCB and CB are both water-soluble, but only CB is carried by albumin"
+      ],
+      "answer": 2,
+      "explain": "UCB is lipid-soluble (water-insoluble). It is carried non-covalently on albumin in plasma, bound to ligandin inside hepatocytes, and cannot enter bile. CB (bilirubin diglucuronide) is water-soluble and is actively secreted into the bile canaliculi by ATP-dependent MRP2.",
+      "distractors": "Option A reverses the solubilities. Option B is wrong twice: albumin binds UCB non-covalently, and ligandin binds UCB, not CB.",
+      "source": "Slides 20, 21, 22 and 26 · Lippincott Ch 21 (Bilirubin metabolism)"
+    },
+    {
+      "id": "heme-45",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Learning check: Which option correctly names the defective protein in Crigler–Najjar syndrome and in Dubin–Johnson syndrome?",
+      "options": [
+        "Crigler–Najjar: MRP2; Dubin–Johnson: UGT1A1",
+        "Crigler–Najjar: heme oxygenase; Dubin–Johnson: biliverdin reductase",
+        "Crigler–Najjar: ligandin; Dubin–Johnson: albumin",
+        "Crigler–Najjar: UGT1A1; Dubin–Johnson: MRP2",
+        "Crigler–Najjar: UGT1A1; Dubin–Johnson: ligandin"
+      ],
+      "answer": 3,
+      "explain": "In Crigler–Najjar syndrome, UGT1A1 is deficient, so bilirubin cannot be conjugated and unconjugated bilirubin accumulates. In Dubin–Johnson syndrome, MRP2 is defective, so conjugated bilirubin is not secreted into bile and conjugated hyperbilirubinemia results. Slide 26 calls both 'enzyme' defects, but MRP2 is a transporter, not an enzyme.",
+      "distractors": "Option A swaps the two defects. Ligandin and albumin are binding proteins, and no syndrome in the lecture is linked to either.",
+      "source": "Slides 21, 22 and 26 · Lippincott Ch 21 (Jaundice)"
+    }
+  ]
+}

@@ -1,0 +1,908 @@
+{
+  "lecture": "enzyme-inhibition",
+  "title": "Enzyme Inhibition & Regulation",
+  "format": "Single best answer · 5 options",
+  "provenance": "Original exam-style items written from the lecture slides and Lippincott; modelled on the NUST/OMC MD-program SBA format (no public past papers were found).",
+  "questions": [
+    {
+      "id": "enzyme-inhibition-01",
+      "topic": "Competitive inhibition: ACE inhibitors (clinical case)",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 52-year-old man has repeated blood-pressure readings of 160/98 mmHg and is diagnosed with hypertension. He is prescribed enalapril, and at follow-up his blood pressure is 135/85 mmHg. According to the lecture, how does enalapril act on its target enzyme?",
+      "options": [
+        "It is a noncompetitive inhibitor that binds an allosteric site on angiotensin-converting enzyme",
+        "It is a competitive inhibitor of angiotensin-converting enzyme",
+        "It is a suicide inhibitor that angiotensin-converting enzyme converts into a reactive intermediate",
+        "It is a competitive inhibitor of renin",
+        "It represses the synthesis of angiotensin-converting enzyme"
+      ],
+      "answer": 1,
+      "explain": "Enalapril is the lecture's opening case, and ACE inhibitors appear in the competitive-inhibitor table with angiotensin-converting enzyme as the target. A competitive inhibitor resembles the substrate and binds reversibly at the active site, so less product is formed and his blood pressure falls. The slide 15 classification exercise also places enalapril under competitive inhibition.",
+      "distractors": "Binding at an allosteric site describes noncompetitive inhibition, and conversion to a reactive intermediate describes suicide inhibitors such as allopurinol. Renin inhibition is a different drug class (e.g., aliskiren), and enalapril does not change how much ACE is made.",
+      "source": "Slides 3, 7, 15 · Lippincott ch. 5 (enzyme inhibitors as drugs)"
+    },
+    {
+      "id": "enzyme-inhibition-02",
+      "topic": "Competitive inhibition: kinetics (clinical case)",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "A 52-year-old man's hypertension is controlled with enalapril. Suppose ACE activity were measured in vitro across a range of angiotensin I concentrations, with and without enalaprilat (the active form of enalapril). Which change in the kinetic constants of ACE would be expected in the presence of the drug?",
+      "options": [
+        "Km unchanged; Vmax decreased",
+        "Km decreased; Vmax decreased",
+        "Km decreased; Vmax unchanged",
+        "Km increased; Vmax unchanged",
+        "Km unchanged; Vmax increased"
+      ],
+      "answer": 3,
+      "explain": "A competitive inhibitor competes with the substrate for the active site, so more substrate is needed to reach half-maximal velocity and the apparent Km rises. Because a high enough [S] displaces the inhibitor, the enzyme still reaches the same Vmax. The lecture summary is 'apparent Km increases, while Vmax remains unchanged' (Lippincott Fig. 5.12).",
+      "distractors": "Km unchanged with a lower Vmax is the noncompetitive pattern (slide 9). None of the inhibitors taught in the lecture lowers Km or raises Vmax.",
+      "source": "Slides 3, 6 · Lippincott ch. 5 (competitive inhibition, Fig. 5.12)"
+    },
+    {
+      "id": "enzyme-inhibition-03",
+      "topic": "ACE inhibition and blood pressure (clinical case)",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 52-year-old man with hypertension (160/98 mmHg) is treated with enalapril, and his blood pressure falls to 135/85 mmHg. He asks how the tablet works. Which mechanism best explains the effect of enalapril?",
+      "options": [
+        "Less angiotensin II is formed from angiotensin I, so arterioles dilate",
+        "Renin is blocked, so less angiotensinogen is cleaved to form angiotensin I",
+        "Angiotensin II receptors on arteriolar smooth muscle are blocked directly",
+        "Cardiac β1-adrenergic receptors are blocked, so cardiac output falls",
+        "HMG-CoA reductase is inhibited, so cholesterol and arterial stiffness fall"
+      ],
+      "answer": 0,
+      "explain": "The lecture states that ACE inhibitors treat hypertension by causing vasodilation and lowering blood pressure. Lippincott gives the link: ACE cleaves angiotensin I to form angiotensin II, a potent vasoconstrictor, so blocking ACE lowers angiotensin II and the vessels dilate. Enalapril itself is a prodrug converted to the active inhibitor enalaprilat (textbook detail, not on the slides).",
+      "distractors": "Renin inhibitors, angiotensin-receptor blockers and β-blockers are other antihypertensive classes that do not act on ACE. HMG-CoA reductase is the statin target in the lecture table, not the target of enalapril.",
+      "source": "Slides 3, 7 · Lippincott ch. 5 (enzyme inhibitors as drugs: ACE inhibitors)"
+    },
+    {
+      "id": "enzyme-inhibition-04",
+      "topic": "Competitive inhibition: mechanism",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which description best fits a competitive inhibitor as taught in the lecture?",
+      "options": [
+        "It is converted by the enzyme into a reactive intermediate that then binds the enzyme irreversibly",
+        "It binds reversibly at an allosteric site, and adding excess substrate cannot overcome its effect",
+        "It is the end product of a pathway and inhibits the first regulatory enzyme of that pathway",
+        "It binds noncovalently at a regulatory site and makes the velocity–substrate curve sigmoidal",
+        "It resembles the substrate, binds reversibly at the active site and is overcome by excess substrate"
+      ],
+      "answer": 4,
+      "explain": "Competitive inhibitors are substrate look-alikes that bind reversibly at the active site, forming an EI complex (E + I ⇌ EI) that cannot make product. Because substrate and inhibitor compete for the same site, increasing [S] overcomes the inhibition. This is why the apparent Km rises while Vmax is unchanged.",
+      "distractors": "Option A describes suicide (mechanism-based) inhibition and option B describes noncompetitive inhibition. Options C and D describe feedback inhibition and allosteric regulation, which are regulatory mechanisms rather than competitive inhibition.",
+      "source": "Slide 5 · Lippincott ch. 5 (competitive inhibition)"
+    },
+    {
+      "id": "enzyme-inhibition-05",
+      "topic": "Competitive inhibition: Lineweaver–Burk plot",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "An enzyme is assayed with and without drug Z, and the data are drawn as a Lineweaver–Burk plot (1/v₀ versus 1/[S]). The line with drug Z is steeper, both lines cross the y-axis at the same point, and the x-intercept with drug Z lies closer to the origin. Which conclusion is correct?",
+      "options": [
+        "Drug Z lowers Vmax and leaves Km unchanged",
+        "Drug Z binds the enzyme at a site distinct from the active site",
+        "Drug Z raises the apparent Km and leaves Vmax unchanged",
+        "Drug Z is converted into a reactive intermediate that inactivates the enzyme",
+        "Drug Z lowers Km, raising the enzyme's apparent affinity for substrate"
+      ],
+      "answer": 2,
+      "explain": "On a Lineweaver–Burk plot the y-intercept is 1/Vmax and the x-intercept is −1/Km. A shared y-intercept means Vmax is unchanged, and an x-intercept closer to the origin means −1/Km is smaller in magnitude, so the apparent Km is larger. Lines that intersect on the y-axis are the signature of competitive inhibition (Lippincott Fig. 5.12B).",
+      "distractors": "A lower Vmax with unchanged Km would give a higher y-intercept and a shared x-intercept (noncompetitive, slide 9), and binding at a separate site is the noncompetitive mechanism. An x-intercept closer to the origin means a higher, not lower, Km.",
+      "source": "Slide 6 · Lippincott ch. 5 (Fig. 5.12, Lineweaver–Burk plot)"
+    },
+    {
+      "id": "enzyme-inhibition-06",
+      "topic": "Competitive inhibition: meaning of apparent Km",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "In the presence of a competitive inhibitor, an enzyme's apparent Km rises while its Vmax is unchanged. What does the rise in apparent Km mean in practical terms?",
+      "options": [
+        "A higher substrate concentration is needed to reach half of Vmax",
+        "The maximal rate is reduced even at a saturating substrate concentration",
+        "The enzyme molecules have been permanently inactivated by the inhibitor",
+        "The velocity–substrate curve has become sigmoidal rather than hyperbolic",
+        "The enzyme now binds its substrate more tightly than it did before"
+      ],
+      "answer": 0,
+      "explain": "Km is the substrate concentration that gives half-maximal velocity. With a competitive inhibitor present, the substrate must outcompete the inhibitor for the active site, so a higher [S] is needed to reach Vmax/2 and the Km marker moves to the right on the v₀–[S] plot. The enzyme's apparent affinity for substrate is reduced, but Vmax is still reached at high [S].",
+      "distractors": "A reduced maximal rate is the noncompetitive effect, and permanent inactivation is suicide inhibition. Sigmoidal curves belong to allosteric enzymes, and a higher Km means weaker, not tighter, apparent binding.",
+      "source": "Slide 6 · Lippincott ch. 5 (Km; competitive inhibition)"
+    },
+    {
+      "id": "enzyme-inhibition-07",
+      "topic": "Competitive inhibition: statins",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 55-year-old woman with a raised LDL-cholesterol level is started on atorvastatin. Which statement best describes how this drug lowers her cholesterol?",
+      "options": [
+        "It inhibits HMG-CoA reductase noncompetitively at an allosteric site",
+        "It acts as a suicide inhibitor of HMG-CoA synthase",
+        "It competitively inhibits acetyl-CoA carboxylase",
+        "It represses synthesis of the hepatic LDL receptor",
+        "It competitively inhibits HMG-CoA reductase"
+      ],
+      "answer": 4,
+      "explain": "Statins head the lecture's table of competitive inhibitors: the target is HMG-CoA reductase and the relevance is lowering cholesterol. Lippincott describes statins as structural analogues that competitively inhibit HMG-CoA reductase, the rate-limiting enzyme of cholesterol synthesis. The same enzyme is the lecture's example of feedback inhibition by cholesterol.",
+      "distractors": "Statins are not classified as noncompetitive or suicide inhibitors, and HMG-CoA synthase and acetyl-CoA carboxylase are not their targets. Statins do not repress the LDL receptor; by lowering hepatic cholesterol they increase LDL-receptor expression (textbook).",
+      "source": "Slides 7, 23 · Lippincott ch. 5 (enzyme inhibitors as drugs: statins)"
+    },
+    {
+      "id": "enzyme-inhibition-08",
+      "topic": "Competitive inhibition: methotrexate",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 6-year-old boy with acute lymphoblastic leukaemia is treated with methotrexate as part of his chemotherapy. The anticancer effect of methotrexate results mainly from which action?",
+      "options": [
+        "Suicide inhibition of thymidylate synthase",
+        "Competitive inhibition of dihydrofolate reductase",
+        "Noncompetitive inhibition of dihydrofolate reductase",
+        "Suicide inhibition of xanthine oxidase",
+        "Competitive inhibition of ribonucleotide reductase"
+      ],
+      "answer": 1,
+      "explain": "The lecture lists methotrexate as a competitive inhibitor of dihydrofolate reductase (DHFR), used as an anticancer drug. Methotrexate is a folate analogue that occupies the DHFR active site, so rapidly dividing cells cannot regenerate the tetrahydrofolate needed for nucleotide synthesis (textbook detail).",
+      "distractors": "Suicide inhibition of thymidylate synthase describes 5-fluorouracil (textbook), and xanthine oxidase is the allopurinol target. Methotrexate is classified as competitive, not noncompetitive, and it does not target ribonucleotide reductase.",
+      "source": "Slide 7 · Lippincott ch. 5 (competitive inhibition); nucleotide metabolism (methotrexate and DHFR)"
+    },
+    {
+      "id": "enzyme-inhibition-09",
+      "topic": "Competitive inhibition: malonate",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Malonate is the classical experimental inhibitor used to demonstrate inhibition of a TCA-cycle enzyme. Which enzyme does it inhibit, and by which type of inhibition?",
+      "options": [
+        "Succinate dehydrogenase, by noncompetitive inhibition",
+        "Malate dehydrogenase, by competitive inhibition",
+        "Succinate dehydrogenase, by competitive inhibition",
+        "Cytochrome c oxidase, by noncompetitive inhibition",
+        "Isocitrate dehydrogenase, by suicide inhibition"
+      ],
+      "answer": 2,
+      "explain": "The lecture lists malonate with succinate dehydrogenase as the classical experimental example of competitive inhibition in the TCA cycle, and the slide 15 exercise classifies it as competitive. Malonate resembles succinate (both are dicarboxylic acids), so it binds the active site reversibly and its effect is overcome by raising the succinate concentration.",
+      "distractors": "Malonate does not inhibit malate dehydrogenase or isocitrate dehydrogenase. Cytochrome c oxidase is the target of cyanide in the lecture, not of malonate.",
+      "source": "Slides 7, 15 · Lippincott ch. 5 (competitive inhibition)"
+    },
+    {
+      "id": "enzyme-inhibition-10",
+      "topic": "Lecture learning check",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 38-year-old man is brought to the emergency department with blurred vision and severe metabolic acidosis after drinking a homemade alcoholic drink contaminated with methanol. He is treated with intravenous ethanol. What is the biochemical basis of this treatment?",
+      "options": [
+        "Ethanol competitively inhibits alcohol dehydrogenase",
+        "Ethanol irreversibly inhibits methanol absorption",
+        "Ethanol increases the renal excretion of formic acid",
+        "Ethanol noncompetitively inhibits aldehyde dehydrogenase",
+        "Ethanol converts methanol into a nontoxic metabolite"
+      ],
+      "answer": 0,
+      "explain": "This is the lecture's learning-check item (slide 14). Ethanol is listed with alcohol dehydrogenase as the competitive inhibitor used as an antidote for methanol poisoning. Ethanol competes with methanol for the ADH active site, so less methanol is oxidised to its toxic products, formaldehyde and formic acid (textbook), and the unchanged methanol can be eliminated.",
+      "distractors": "Ethanol does not act on absorption or on renal formate excretion, and it does not chemically convert methanol. Aldehyde dehydrogenase is the wrong enzyme and noncompetitive is the wrong type.",
+      "source": "Slides 7, 14 · Lippincott ch. 5 (competitive inhibition)"
+    },
+    {
+      "id": "enzyme-inhibition-11",
+      "topic": "Competitive inhibition: overcome by substrate",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A man with methanol poisoning is started on intravenous ethanol, and his formic acid level stabilises. Hours later the ethanol infusion is accidentally stopped while more methanol is still being absorbed from his gut, and formic acid begins to rise again. Which principle best explains this?",
+      "options": [
+        "Ethanol had irreversibly inactivated ADH, and newly synthesised enzyme is now active",
+        "The rising methanol level has converted the inhibition from competitive to noncompetitive",
+        "Ethanol has induced synthesis of ADH, increasing the amount of enzyme in the liver",
+        "A higher methanol-to-ethanol ratio lets methanol outcompete ethanol for the ADH active site",
+        "Ethanol was converted by ADH into a reactive intermediate that has now been used up"
+      ],
+      "answer": 3,
+      "explain": "Ethanol protects by competitive inhibition: it competes with methanol, the substrate, for the active site of alcohol dehydrogenase. Competitive inhibition depends on the relative concentrations of substrate and inhibitor and is overcome by increasing [S], so a rising methanol level with a falling ethanol level lets methanol reoccupy the active site and formic acid production resumes. This is why the antidote must be kept at an adequate level.",
+      "distractors": "Ethanol's inhibition is reversible, not irreversible or mechanism-based, and changing [S] does not change the inhibition type. Enzyme induction is a slow change in enzyme amount and is not the lecture's explanation for the ethanol antidote.",
+      "source": "Slides 5, 7 · Lippincott ch. 5 (competitive inhibition)"
+    },
+    {
+      "id": "enzyme-inhibition-12",
+      "topic": "Comparing competitive and noncompetitive kinetics",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Two reversible inhibitors, P and Q, are tested on the same enzyme. On Lineweaver–Burk plots, the lines with and without P intersect on the y-axis, whereas the lines with and without Q intersect on the x-axis. Which statement is correct?",
+      "options": [
+        "P and Q both bind at the active site of the enzyme",
+        "P lowers Vmax, whereas Q raises the apparent Km",
+        "Inhibition by P, but not by Q, can be overcome by increasing [S]",
+        "Q resembles the substrate, whereas P binds at a separate site",
+        "P acts irreversibly, whereas Q acts reversibly"
+      ],
+      "answer": 2,
+      "explain": "Lines meeting on the y-axis share 1/Vmax, so P leaves Vmax unchanged and raises the apparent Km: P is competitive, and its effect is overcome by raising [S]. Lines meeting on the x-axis share −1/Km, so Q leaves Km unchanged and lowers Vmax: Q is noncompetitive, and adding substrate cannot overcome it.",
+      "distractors": "Option B reverses the two kinetic effects and option D reverses the two mechanisms. The stem states that both inhibitors are reversible, and only the competitive inhibitor (P) binds the active site.",
+      "source": "Slides 6, 8, 9 · Lippincott ch. 5 (Figs. 5.12 and 5.14)"
+    },
+    {
+      "id": "enzyme-inhibition-13",
+      "topic": "Noncompetitive inhibition: Lineweaver–Burk plot",
+      "type": "recall",
+      "difficulty": "hard",
+      "stem": "Which description of the Lineweaver–Burk plot matches noncompetitive inhibition, compared with the uninhibited enzyme?",
+      "options": [
+        "Lines meet on the y-axis; the inhibited line's x-intercept lies closer to the origin",
+        "Lines meet on the y-axis; the inhibited line is less steep",
+        "Lines meet on the x-axis; the inhibited line has a lower y-intercept",
+        "Lines meet on the x-axis at −1/Vmax; the inhibited line has a higher y-intercept",
+        "Lines meet on the x-axis at −1/Km; the inhibited line has a higher y-intercept"
+      ],
+      "answer": 4,
+      "explain": "A noncompetitive inhibitor leaves Km unchanged, so both lines share the x-intercept −1/Km and meet on the x-axis. It lowers Vmax, so 1/Vmax (the y-intercept) rises and the inhibited line is steeper. The lecture summary is 'Km remains unchanged; Vmax decreases' (Lippincott Fig. 5.14B).",
+      "distractors": "Lines meeting on the y-axis with the x-intercept moving toward the origin is the competitive pattern. The x-intercept is −1/Km, not −1/Vmax, and a lower Vmax gives a higher, not lower, y-intercept.",
+      "source": "Slide 9 · Lippincott ch. 5 (Fig. 5.14, Lineweaver–Burk plot)"
+    },
+    {
+      "id": "enzyme-inhibition-14",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "A noncompetitive inhibitor is included in the reaction of an enzyme with its substrate. Which statement is correct?",
+      "options": [
+        "Adding sufficient substrate will overcome the inhibition",
+        "Km will decrease owing to reduced enzyme–substrate affinity",
+        "The inhibitor and the substrate bind to different sites on the enzyme",
+        "The velocity–substrate curve will become sigmoidal",
+        "Vmax will remain the same as for the uninhibited reaction"
+      ],
+      "answer": 2,
+      "explain": "This is the lecture's learning-check item (slide 14). A noncompetitive inhibitor binds reversibly at a site other than the active site (the slide calls it the allosteric site), so substrate and inhibitor can be bound at the same time as an ESI complex. Substrate affinity is unchanged (Km unchanged) but catalysis is reduced (Vmax decreased).",
+      "distractors": "Because the inhibitor does not compete for the active site, extra substrate cannot overcome it, and Vmax falls rather than staying the same. Km is unchanged, and sigmoidal curves are a feature of allosteric enzymes, not of noncompetitive inhibition.",
+      "source": "Slides 8, 9, 14 · Lippincott ch. 5 (noncompetitive inhibition)"
+    },
+    {
+      "id": "enzyme-inhibition-15",
+      "topic": "Noncompetitive inhibition: experimental data",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "A research student tests compound X on a purified enzyme that shows hyperbolic kinetics. X lowers the maximal velocity to 40% of the control value, yet the [S] giving half of the new maximal velocity equals the control Km. Raising [S] tenfold does not restore activity, but removing X by dialysis restores it fully. Which conclusion is best supported?",
+      "options": [
+        "X resembles the substrate and competes with it for the active site",
+        "X binds reversibly at a site other than the active site, leaving substrate binding unaffected",
+        "X is converted by the enzyme into a reactive intermediate that inactivates it permanently",
+        "X reduces the enzyme's affinity for its substrate, raising the apparent Km",
+        "X is a positive allosteric effector that lowers the enzyme's K₀.₅"
+      ],
+      "answer": 1,
+      "explain": "A lower Vmax with an unchanged Km, no rescue by excess substrate and full recovery once the inhibitor is removed together describe reversible noncompetitive inhibition. The inhibitor binds a site other than the active site, so substrate still binds normally ('substrate affinity unchanged') but the ESI complex makes less product.",
+      "distractors": "A competitive inhibitor would raise the apparent Km and be overcome by excess substrate. A suicide inhibitor would not be removed by dialysis, and a positive effector would increase, not decrease, activity.",
+      "source": "Slides 8, 9 · Lippincott ch. 5 (noncompetitive inhibition)"
+    },
+    {
+      "id": "enzyme-inhibition-16",
+      "topic": "Noncompetitive inhibitors: fluoride",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A nurse collects a fasting blood sample from a patient with diabetes into a grey-top tube containing sodium fluoride, because the sample will reach the laboratory several hours later. Why is fluoride added?",
+      "options": [
+        "It competitively inhibits hexokinase, so glucose cannot be phosphorylated",
+        "It activates glucose-6-phosphatase, so glucose is released from red cells",
+        "It inhibits pyruvate kinase, so lactate cannot accumulate in the sample",
+        "It inhibits enolase, so blood cells cannot consume glucose by glycolysis",
+        "It inhibits cytochrome c oxidase, so red cells cannot oxidise glucose"
+      ],
+      "answer": 3,
+      "explain": "The lecture lists fluoride as an inhibitor of enolase that inhibits glycolysis and is used to preserve glucose in blood samples. Without it, the red and white cells in the tube keep using glucose by glycolysis, falsely lowering the result. The lecture classifies fluoride as noncompetitive; textbooks describe its action at enolase differently, but this question does not depend on that classification.",
+      "distractors": "Fluoride's target in the lecture is enolase, not hexokinase or pyruvate kinase, and it does not activate glucose-6-phosphatase. Cytochrome c oxidase is the cyanide target, and red cells have no mitochondria in any case (textbook).",
+      "source": "Slide 10 · Lippincott (glycolysis: enolase and fluoride)"
+    },
+    {
+      "id": "enzyme-inhibition-17",
+      "topic": "Noncompetitive inhibitors: cyanide",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A firefighter is rescued from a building in which plastics were burning. He is confused and hypotensive with severe lactic acidosis, and cyanide poisoning is suspected. Which enzyme is the main target of cyanide?",
+      "options": [
+        "Cytochrome c oxidase in the electron transport chain",
+        "Enolase in the glycolytic pathway of the cytosol",
+        "Succinate dehydrogenase in the mitochondrial TCA cycle",
+        "Alcohol dehydrogenase in the cytosol of hepatocytes",
+        "Xanthine oxidase in the pathway of purine degradation"
+      ],
+      "answer": 0,
+      "explain": "The lecture lists cyanide as an inhibitor of cytochrome c oxidase that blocks the electron transport chain and ATP production. With oxidative phosphorylation blocked, cells depend on anaerobic glycolysis, which explains his lactic acidosis (textbook). The lecture classifies cyanide as noncompetitive; some textbooks classify it differently, but the target enzyme is not in doubt.",
+      "distractors": "Enolase is the fluoride target and succinate dehydrogenase the malonate target. Alcohol dehydrogenase and xanthine oxidase are the targets of ethanol and allopurinol.",
+      "source": "Slide 10 · Lippincott (oxidative phosphorylation: inhibitors of the electron transport chain)"
+    },
+    {
+      "id": "enzyme-inhibition-18",
+      "topic": "Suicide inhibition: mechanism",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which statement best defines suicide (mechanism-based) inhibition?",
+      "options": [
+        "A substrate analogue binds reversibly at the active site and is displaced by excess substrate",
+        "The enzyme converts the inhibitor into a reactive intermediate that irreversibly inactivates it",
+        "A pathway end product binds the first enzyme of the pathway and reduces its activity",
+        "An inhibitor binds reversibly at a second site and lowers Vmax without changing Km",
+        "A protein kinase adds a phosphate group to the enzyme and switches it to an inactive form"
+      ],
+      "answer": 1,
+      "explain": "In suicide inhibition the enzyme recognises the inhibitor as a substrate and converts it into a reactive intermediate. That intermediate binds irreversibly and inactivates the enzyme, so no product forms (E + I ⇌ EI → E–I*, inactive). Because the enzyme's own catalytic mechanism creates the inhibitor, it is also called mechanism-based inhibition.",
+      "distractors": "Options A and D describe competitive and noncompetitive inhibition, which are reversible. Options C and E describe feedback inhibition and covalent modification, which are regulatory mechanisms rather than suicide inhibition.",
+      "source": "Slide 11 · Lippincott ch. 5 (enzyme inhibition)"
+    },
+    {
+      "id": "enzyme-inhibition-19",
+      "topic": "Suicide inhibition: allopurinol in gout",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 48-year-old man has recurrent attacks of a red, hot, swollen big-toe joint. His serum uric acid is raised, and fluid aspirated from the joint shows urate crystals. He is started on allopurinol. How does allopurinol reduce his uric acid level?",
+      "options": [
+        "It blocks tubular reabsorption of urate, increasing renal uric acid excretion",
+        "It binds an allosteric site on xanthine oxidase as a noncompetitive inhibitor",
+        "It converts uric acid already formed into the more soluble compound allantoin",
+        "It inhibits adenosine deaminase, so less hypoxanthine is formed from purines",
+        "Xanthine oxidase converts it to oxypurinol, which then inactivates the same enzyme"
+      ],
+      "answer": 4,
+      "explain": "Gout results from urate crystal deposition in joints, and allopurinol lowers uric acid production. Xanthine oxidase converts allopurinol into oxypurinol (alloxanthine), which inhibits the same enzyme, so the lecture classifies allopurinol as a suicide (mechanism-based) inhibitor. Textbooks add that oxypurinol binds very tightly to the enzyme's reduced molybdenum centre and that allopurinol is itself a hypoxanthine analogue; the suicide label follows the lecture and Lippincott.",
+      "distractors": "Increasing urate excretion describes uricosuric drugs such as probenecid, and converting urate to allantoin describes uricase (rasburicase), not allopurinol. Allopurinol is not an allosteric noncompetitive inhibitor and does not target adenosine deaminase.",
+      "source": "Slides 12, 13 · Lippincott (purine degradation: gout and allopurinol)"
+    },
+    {
+      "id": "enzyme-inhibition-20",
+      "topic": "Suicide inhibition: effect on purine metabolites",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "A 50-year-old man with gout has taken allopurinol for several weeks. Compared with before treatment, which pattern of purine metabolites is expected in his plasma and urine?",
+      "options": [
+        "Uric acid ↑, xanthine ↓, hypoxanthine ↓",
+        "Uric acid ↓, xanthine ↓, hypoxanthine ↓",
+        "Uric acid unchanged, xanthine ↑, hypoxanthine ↑",
+        "Uric acid ↓, xanthine ↑, hypoxanthine ↑",
+        "Uric acid ↓, xanthine ↓, hypoxanthine ↑"
+      ],
+      "answer": 3,
+      "explain": "Xanthine oxidase catalyses both hypoxanthine → xanthine and xanthine → uric acid, and the lecture's diagram shows allopurinol blocking both steps. Less uric acid is therefore formed, and its precursors hypoxanthine and xanthine accumulate; textbooks note that both are more soluble than urate and are excreted in the urine.",
+      "distractors": "Option E would only occur if just the first step were blocked; because xanthine → uric acid is also blocked, xanthine accumulates too. A falling precursor pool (options A and B) or an unchanged uric acid level (option C) does not fit inhibition of xanthine oxidase.",
+      "source": "Slide 13 · Lippincott (purine degradation: allopurinol)"
+    },
+    {
+      "id": "enzyme-inhibition-21",
+      "topic": "Suicide inhibition: β-lactam antibiotics",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 7-year-old girl with streptococcal tonsillitis is prescribed amoxicillin, a β-lactam antibiotic. According to the lecture, how does this drug act?",
+      "options": [
+        "Competitive inhibition of bacterial dihydrofolate reductase, blocking tetrahydrofolate formation",
+        "Noncompetitive inhibition of bacterial enolase, blocking glycolysis",
+        "Suicide inhibition of bacterial transpeptidases, blocking cell-wall synthesis",
+        "Suicide inhibition of bacterial xanthine oxidase, blocking purine breakdown",
+        "Noncompetitive inhibition of bacterial cytochrome oxidase, blocking ATP production"
+      ],
+      "answer": 2,
+      "explain": "The lecture lists β-lactam antibiotics as suicide inhibitors of bacterial transpeptidases, inhibiting bacterial cell-wall synthesis to treat bacterial infections, and the slide 15 exercise places them under suicide inhibition. The transpeptidase acts on the β-lactam as if it were its normal substrate and becomes irreversibly inactivated (Lippincott: β-lactams such as penicillin and amoxicillin inhibit enzymes of bacterial cell-wall synthesis).",
+      "distractors": "Inhibition of bacterial DHFR describes trimethoprim (textbook), not β-lactams. Enolase, xanthine oxidase and cytochrome oxidase are the lecture's targets of fluoride, allopurinol and cyanide.",
+      "source": "Slides 12, 15 · Lippincott ch. 5 (enzyme inhibitors as drugs: β-lactam antibiotics)"
+    },
+    {
+      "id": "enzyme-inhibition-22",
+      "topic": "Suicide inhibition: irreversibility",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "A purified enzyme is incubated with compound Y. Inhibition increases with incubation time and occurs only if the enzyme is catalytically active. Activity does not return after Y is removed by dialysis or when substrate is added in large excess, and a Y-derived group is found covalently attached in the active site. Which type of inhibition is this?",
+      "options": [
+        "Suicide (mechanism-based) inhibition",
+        "Competitive inhibition",
+        "Noncompetitive inhibition",
+        "Feedback (end-product) inhibition",
+        "Negative allosteric regulation"
+      ],
+      "answer": 0,
+      "explain": "The enzyme must act on Y (catalytic activity is required), and the result is a covalent, permanent loss of activity that neither dialysis nor excess substrate reverses. This matches the lecture's definition of suicide inhibition: the enzyme converts the inhibitor into a reactive intermediate that binds irreversibly and inactivates it (E + I ⇌ EI → E–I*).",
+      "distractors": "Competitive and noncompetitive inhibitors bind reversibly, so dialysis would restore activity, and competitive inhibition would also be overcome by excess substrate. Feedback inhibitors and negative allosteric effectors bind noncovalently at a regulatory site.",
+      "source": "Slide 11 · Lippincott ch. 5 (enzyme inhibition)"
+    },
+    {
+      "id": "enzyme-inhibition-23",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "In the lecture's classification exercise, agents are assigned to competitive, noncompetitive or suicide inhibition. Which agent is assigned to the same category as allopurinol?",
+      "options": [
+        "Malonate, acting on succinate dehydrogenase",
+        "Enalapril, acting on angiotensin-converting enzyme",
+        "Methotrexate, acting on dihydrofolate reductase",
+        "Ethanol, acting on alcohol dehydrogenase",
+        "β-Lactam antibiotics, acting on bacterial transpeptidases"
+      ],
+      "answer": 4,
+      "explain": "Allopurinol (converted by xanthine oxidase into an inhibitor of that enzyme) and β-lactam antibiotics (which inactivate bacterial transpeptidases) are the lecture's two examples of suicide inhibition. In the slide 15 matching exercise both belong to 'C. Suicide inhibition'.",
+      "distractors": "Malonate, enalapril (an ACE inhibitor), methotrexate and ethanol all appear in the lecture's competitive-inhibitor table. They bind reversibly at the active site and are overcome by excess substrate.",
+      "source": "Slides 7, 12, 15 · Lippincott ch. 5 (enzyme inhibitors as drugs)"
+    },
+    {
+      "id": "enzyme-inhibition-24",
+      "topic": "Lecture learning check",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "A velocity-versus-[S] graph shows an uninhibited curve and two inhibited curves. Curve A rises more slowly but approaches the same Vmax, reaching half of Vmax at a higher [S] (Km₂ > Km₁). Curve B levels off at a lower Vmax but reaches half of its own maximum at the same [S] as the uninhibited curve (Km₁). How should the curves be identified?",
+      "options": [
+        "Curve A: noncompetitive; Curve B: competitive",
+        "Curve A: competitive; Curve B: noncompetitive",
+        "Curve A: suicide; Curve B: competitive",
+        "Both curves: competitive, at two different inhibitor concentrations",
+        "Both curves: noncompetitive, at two different inhibitor concentrations"
+      ],
+      "answer": 1,
+      "explain": "This is the lecture's image-based learning check (slide 16). Curve A has a higher Km but the same Vmax ('Km increased, Vmax unaffected'), the competitive signature. Curve B has the same Km but a lower Vmax ('Km unaffected, Vmax reduced'), the noncompetitive signature; on Lineweaver–Burk plots these would intersect on the y-axis and the x-axis respectively.",
+      "distractors": "Option A swaps the two patterns. A competitive inhibitor never lowers Vmax and a noncompetitive inhibitor never changes Km, so one inhibitor type cannot produce both curves, and a suicide inhibitor does not leave Vmax unchanged.",
+      "source": "Slide 16 · Lippincott ch. 5 (Figs. 5.12 and 5.14)"
+    },
+    {
+      "id": "enzyme-inhibition-25",
+      "topic": "Comparing the three inhibition types",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which feature is shared by competitive and noncompetitive inhibitors, as taught in the lecture, but not by suicide inhibitors?",
+      "options": [
+        "They bind at the enzyme's active site",
+        "Their effect is overcome by increasing [S]",
+        "They leave Vmax unchanged",
+        "Their inhibition of the enzyme is reversible",
+        "They resemble the structure of the substrate"
+      ],
+      "answer": 3,
+      "explain": "The lecture states that competitive inhibitors bind reversibly at the active site and noncompetitive inhibitors bind reversibly at an allosteric site. Suicide inhibitors differ because the enzyme converts them into a reactive intermediate that binds irreversibly and permanently inactivates the enzyme.",
+      "distractors": "Binding the active site, resembling the substrate, leaving Vmax unchanged and being overcome by excess substrate are features of competitive inhibitors only. Noncompetitive inhibitors bind elsewhere, lower Vmax and are not overcome by substrate.",
+      "source": "Slides 5, 8, 11 · Lippincott ch. 5 (enzyme inhibition)"
+    },
+    {
+      "id": "enzyme-inhibition-26",
+      "topic": "Allosteric enzymes: definition",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which statement correctly describes how effectors regulate an allosteric enzyme?",
+      "options": [
+        "They bind noncovalently at a regulatory site separate from the active site, changing conformation",
+        "They bind covalently at the active site and permanently change the enzyme's catalytic activity",
+        "They cleave a peptide segment from an inactive precursor, irreversibly activating the enzyme",
+        "They alter only the amount of enzyme synthesised, not the activity of each enzyme molecule",
+        "They are attached and removed as phosphate groups by protein kinases and phosphatases"
+      ],
+      "answer": 0,
+      "explain": "Allosteric enzymes have a regulatory (allosteric) site distinct from the active site, where effectors bind noncovalently and change the enzyme's conformation and activity: a negative effector distorts the active site and inhibits, and a positive effector helps it take the correct conformation and activates. Slide 20 calls these effects 'negative/positive cooperativity'; in Lippincott, cooperativity means substrate binding at one site changing binding at other sites (the cause of the sigmoidal curve), so effector action is better called allosteric inhibition or activation.",
+      "distractors": "A covalent, permanent change and peptide cleavage describe suicide inhibition and proteolytic activation. Changing enzyme amount is induction or repression, and adding or removing phosphate is covalent modification.",
+      "source": "Slides 19, 20 · Lippincott ch. 5 (regulation: allosteric enzymes)"
+    },
+    {
+      "id": "enzyme-inhibition-27",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which regulatory mechanism typically produces a sigmoidal velocity–substrate curve?",
+      "options": [
+        "Proteolytic activation",
+        "Compartmentalization",
+        "Allosteric regulation",
+        "Enzyme induction",
+        "Covalent modification"
+      ],
+      "answer": 2,
+      "explain": "This is the lecture's learning-check item (slide 29). Allosteric enzymes show a sigmoidal velocity–substrate curve due to cooperativity and do not follow classical Michaelis–Menten kinetics, so the substrate concentration giving half-maximal velocity is called K₀.₅ rather than Km.",
+      "distractors": "Proteolytic activation, compartmentalization, induction and covalent modification determine whether an enzyme is active, where it works or how much of it is present. None of them is the lecture's cause of a sigmoidal curve.",
+      "source": "Slides 21, 29 · Lippincott ch. 5 (allosteric enzymes)"
+    },
+    {
+      "id": "enzyme-inhibition-28",
+      "topic": "Allosteric kinetics: effect on K₀.₅",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "An allosteric enzyme shows a sigmoidal velocity–substrate curve. When metabolite M is added, the curve shifts to the right, but at very high [S] the enzyme still reaches the same Vmax. Which statement best describes metabolite M?",
+      "options": [
+        "M is a positive effector that lowers K₀.₅",
+        "M is a negative effector that lowers Vmax without changing K₀.₅",
+        "M is a positive effector that raises Vmax without changing K₀.₅",
+        "M is a negative effector that converts the curve into a hyperbola",
+        "M is a negative effector that raises K₀.₅ without changing Vmax"
+      ],
+      "answer": 4,
+      "explain": "For allosteric enzymes, K₀.₅ is the substrate concentration needed for half-maximal velocity. A rightward shift with the same plateau means more substrate is needed to reach half of Vmax, so K₀.₅ has risen while Vmax is unchanged. Slide 21 (panel B) shows this for a negative effector, whereas a positive effector shifts the curve left and lowers K₀.₅.",
+      "distractors": "A change in plateau height (options B and C) corresponds to slide 21 panel A, where Vmax changes and K₀.₅ does not. Effectors alter K₀.₅ or Vmax; they do not turn the curve into a Michaelis–Menten hyperbola.",
+      "source": "Slide 21 · Lippincott ch. 5 (allosteric enzymes: effects of effectors)"
+    },
+    {
+      "id": "enzyme-inhibition-29",
+      "topic": "Allosteric kinetics: effect on Vmax",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "An allosteric enzyme is studied at a fixed enzyme concentration. With metabolite H present, the sigmoidal curve plateaus at a higher maximal velocity than the control, but each curve reaches half of its own maximum at the same substrate concentration. Which description of H is correct?",
+      "options": [
+        "Negative effector; raises K₀.₅; Vmax unchanged",
+        "Positive effector; raises Vmax; K₀.₅ unchanged",
+        "Positive effector; lowers K₀.₅; Vmax unchanged",
+        "Negative effector; lowers Vmax; K₀.₅ unchanged",
+        "Positive effector; lowers both K₀.₅ and Vmax"
+      ],
+      "answer": 1,
+      "explain": "A higher plateau means Vmax has increased, and the same half-maximal substrate concentration means K₀.₅ is unchanged. Slide 21 (panel A) shows exactly this: a positive effector raises Vmax and a negative effector lowers it, while K₀.₅ stays the same. The fixed enzyme concentration rules out a change in the amount of enzyme.",
+      "distractors": "Option C describes panel B (a positive effector shifting the curve left), which changes K₀.₅ rather than Vmax. Option D is the panel-A effect of a negative effector, which would lower the plateau.",
+      "source": "Slide 21 · Lippincott ch. 5 (allosteric enzymes: effects of effectors)"
+    },
+    {
+      "id": "enzyme-inhibition-30",
+      "topic": "Feed-forward activation",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which of the following is the lecture's example of feed-forward activation?",
+      "options": [
+        "Heme inhibiting ALA synthase",
+        "Cholesterol inhibiting HMG-CoA reductase",
+        "Insulin increasing glucokinase synthesis",
+        "Fructose 1,6-bisphosphate activating pyruvate kinase",
+        "Phosphorylation activating glycogen phosphorylase"
+      ],
+      "answer": 3,
+      "explain": "In feed-forward activation an early metabolite activates an enzyme later in the pathway. In glycolysis, fructose 1,6-bisphosphate, formed at an early step, activates pyruvate kinase, which catalyses the later step phosphoenolpyruvate → pyruvate.",
+      "distractors": "Heme–ALA synthase and cholesterol–HMG-CoA reductase are the lecture's feedback (end-product) inhibition examples. Insulin-driven glucokinase synthesis is enzyme induction, and phosphorylation of glycogen phosphorylase is covalent modification.",
+      "source": "Slide 22 · Lippincott (glycolysis: regulation of pyruvate kinase)"
+    },
+    {
+      "id": "enzyme-inhibition-31",
+      "topic": "Feedback inhibition vs feed-forward activation",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Heme inhibits ALA synthase, the first enzyme of heme synthesis, whereas fructose 1,6-bisphosphate activates pyruvate kinase, a later enzyme of glycolysis. Which statement correctly contrasts these two examples?",
+      "options": [
+        "Heme is an end product inhibiting an early enzyme; fructose 1,6-bisphosphate is an early metabolite activating a later one",
+        "Both are feedback inhibition, because in each case the regulator is a product formed within its own pathway",
+        "Heme exerts feed-forward activation, whereas fructose 1,6-bisphosphate exerts feedback inhibition on its target",
+        "Heme acts by covalent modification of its target, whereas fructose 1,6-bisphosphate acts by proteolytic activation",
+        "Both are enzyme induction, because each regulator increases the amount of its target enzyme that is synthesised"
+      ],
+      "answer": 0,
+      "explain": "In feedback (end-product) inhibition the end product inhibits an early regulatory enzyme, preventing unnecessary product formation; heme inhibiting ALA synthase is the lecture's example. In feed-forward activation an early metabolite activates a later enzyme, as fructose 1,6-bisphosphate does for pyruvate kinase. Lippincott adds that heme also lowers ALA synthase mainly by decreasing its synthesis, but the lecture presents it as end-product feedback inhibition.",
+      "distractors": "Option C reverses the two terms, and option B ignores direction (an end product acting backward versus an early metabolite acting forward). Neither example involves covalent modification, proteolytic activation or an increase in enzyme amount.",
+      "source": "Slides 22, 23 · Lippincott (heme synthesis: regulation of ALA synthase; glycolysis)"
+    },
+    {
+      "id": "enzyme-inhibition-32",
+      "topic": "HMG-CoA reductase: feedback and drug inhibition",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "A 50-year-old man with hypercholesterolaemia starts simvastatin. His doctor explains that the drug's target enzyme is also controlled naturally by the body. Which statement correctly describes these two controls of HMG-CoA reductase, as taught in the lecture?",
+      "options": [
+        "Cholesterol is a competitive inhibitor of the enzyme, whereas statins act by feedback inhibition",
+        "Cholesterol activates the enzyme by feed-forward activation, whereas statins are suicide inhibitors",
+        "Cholesterol, the end product, causes feedback inhibition, whereas statins are competitive inhibitors",
+        "Cholesterol and statins both bind an allosteric site and act as noncompetitive inhibitors",
+        "Cholesterol acts by compartmentalizing the enzyme, whereas statins act by covalent modification"
+      ],
+      "answer": 2,
+      "explain": "HMG-CoA reductase appears twice in the lecture: in the feedback-inhibition table, where cholesterol (the end product of cholesterol synthesis) inhibits it, and in the competitive-inhibitor table, where statins inhibit it to lower cholesterol. Lippincott notes that cholesterol physiologically controls the enzyme mainly by reducing its gene expression (SREBP) and speeding its degradation; the lecture groups this end-product control under feedback inhibition, and no option here depends on that distinction.",
+      "distractors": "Option A swaps the two mechanisms, and cholesterol never activates its own rate-limiting enzyme. Statins are not classed as suicide or noncompetitive inhibitors, and neither cholesterol nor statins act by compartmentalization or covalent modification.",
+      "source": "Slides 7, 23 · Lippincott (cholesterol synthesis: regulation of HMG-CoA reductase)"
+    },
+    {
+      "id": "enzyme-inhibition-33",
+      "topic": "Proteolytic activation: zymogens",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which zymogen is correctly matched with its active enzyme and its site or system?",
+      "options": [
+        "Trypsinogen → trypsin; stomach",
+        "Plasminogen → plasmin; coagulation",
+        "Prothrombin → thrombin; fibrinolysis",
+        "Chymotrypsinogen → chymotrypsin; stomach",
+        "Pepsinogen → pepsin; stomach"
+      ],
+      "answer": 4,
+      "explain": "The lecture's zymogen table pairs pepsinogen → pepsin with the stomach, trypsinogen → trypsin and chymotrypsinogen → chymotrypsin with the pancreas, prothrombin → thrombin with coagulation, and plasminogen → plasmin with fibrinolysis. Each is activated when proteolytic cleavage removes a peptide segment, irreversibly activating the enzyme.",
+      "distractors": "Trypsinogen and chymotrypsinogen are pancreatic, not gastric, zymogens. Plasminogen belongs to fibrinolysis and prothrombin to coagulation, so options B and C swap the two systems.",
+      "source": "Slide 24 · Lippincott (protein digestion: zymogens; blood clotting)"
+    },
+    {
+      "id": "enzyme-inhibition-34",
+      "topic": "Proteolytic activation: clinical",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 45-year-old man presents with severe epigastric pain after heavy alcohol intake and is diagnosed with acute pancreatitis. Its pathogenesis involves premature conversion of trypsinogen to trypsin inside the pancreas. Which statement best describes this type of enzyme regulation?",
+      "options": [
+        "Reversible phosphorylation of trypsinogen by a protein kinase",
+        "Noncovalent binding of an allosteric activator to trypsinogen",
+        "Increased transcription of the trypsinogen gene (enzyme induction)",
+        "Irreversible removal of a peptide segment by proteolytic cleavage",
+        "Transfer of trypsinogen from the cytosol into the mitochondria"
+      ],
+      "answer": 3,
+      "explain": "Trypsinogen is a zymogen, an inactive precursor. Proteolytic cleavage removes a peptide segment and irreversibly activates it to trypsin, which is why activation inside the pancreas, instead of in the intestine, leads to digestion of the gland itself (textbook). Textbooks state that enteropeptidase normally removes a short N-terminal hexapeptide from trypsinogen, so the residue numbers on the slide diagram should be read as schematic.",
+      "distractors": "Phosphorylation and allosteric binding are reversible switches that do not cleave the protein, and induction increases the amount of enzyme rather than activating an existing precursor. Movement between compartments is not how zymogens are activated.",
+      "source": "Slide 24 · Lippincott (protein digestion: zymogen activation)"
+    },
+    {
+      "id": "enzyme-inhibition-35",
+      "topic": "Compartmentalization",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Fatty acid synthesis takes place in the cytosol, whereas fatty acid oxidation takes place in the mitochondria. What is the main advantage of this separation, as taught in the lecture?",
+      "options": [
+        "It allows both pathways to share the same set of enzymes",
+        "It prevents futile cycling and permits independent regulation of each pathway",
+        "It irreversibly activates the enzymes of each pathway",
+        "It increases the amount of each enzyme synthesised in its compartment",
+        "It allows fatty acid synthesis to activate fatty acid oxidation by feed-forward"
+      ],
+      "answer": 1,
+      "explain": "Compartmentalization places opposing metabolic pathways in different cellular compartments. The lecture's example is anabolic fatty acid synthesis in the cytosol versus catabolic fatty acid oxidation in the mitochondria; the separation prevents futile cycling (making and breaking the same molecule at the same time) and lets each pathway be regulated independently.",
+      "distractors": "The two pathways use different enzymes, and compartmentalization neither activates enzymes irreversibly (proteolytic activation) nor changes enzyme amount (induction). Feed-forward activation is an allosteric effect within a single pathway.",
+      "source": "Slide 25 · Lippincott ch. 5 (regulation); fatty acid metabolism"
+    },
+    {
+      "id": "enzyme-inhibition-36",
+      "topic": "Lecture learning check",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Match each example with its regulatory mechanism: (i) trypsinogen is converted to trypsin; (ii) fatty acid synthesis occurs in the cytosol, whereas fatty acid oxidation occurs in the mitochondria; (iii) insulin increases glucokinase synthesis. Which option is correct?",
+      "options": [
+        "(i) proteolytic activation; (ii) compartmentalization; (iii) enzyme induction",
+        "(i) proteolytic activation; (ii) enzyme induction; (iii) compartmentalization",
+        "(i) compartmentalization; (ii) proteolytic activation; (iii) enzyme induction",
+        "(i) enzyme induction; (ii) compartmentalization; (iii) proteolytic activation",
+        "(i) covalent modification; (ii) compartmentalization; (iii) enzyme induction"
+      ],
+      "answer": 0,
+      "explain": "This is the lecture's matching exercise (slide 30). Trypsinogen → trypsin is proteolytic activation of a zymogen; separating fatty acid synthesis (cytosol) from oxidation (mitochondria) is compartmentalization; and insulin increasing the synthesis of glucokinase, a hepatic glycolytic enzyme, is enzyme induction.",
+      "distractors": "Options B–D mix up the three mechanisms. Option E is wrong because trypsinogen activation is an irreversible proteolytic cleavage, not the reversible addition of a chemical group.",
+      "source": "Slides 24, 25, 26, 30 · Lippincott ch. 5 (regulation of enzyme activity)"
+    },
+    {
+      "id": "enzyme-inhibition-37",
+      "topic": "Induction and repression: fasting",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 30-year-old hiker lost in the desert has had no food for three days, and his plasma glucagon is high. Which long-term change in his hepatic glycolytic enzymes is described in the lecture for this state?",
+      "options": [
+        "Increased synthesis of the enzymes (induction), promoting glucose use by the liver",
+        "Proteolytic activation of the enzymes from their inactive zymogen precursors",
+        "Transfer of the enzymes from the cytosol into the mitochondrial matrix",
+        "Feed-forward activation of the enzymes by fructose 1,6-bisphosphate",
+        "Decreased synthesis of the enzymes (repression), sparing glucose for other tissues"
+      ],
+      "answer": 4,
+      "explain": "Induction and repression are long-term regulation of enzyme synthesis. During fasting, glucagon decreases the synthesis of hepatic glycolytic enzymes, reducing hepatic glycolysis and conserving glucose for other tissues. In the fed state the reverse happens: insulin increases their synthesis (for example, glucokinase).",
+      "distractors": "Increased synthesis (option A) is the insulin-driven fed-state response. Glycolytic enzymes are not zymogens, glycolysis stays in the cytosol, and feed-forward activation is a rapid allosteric effect rather than a long-term change in enzyme amount.",
+      "source": "Slide 26 · Lippincott ch. 5 (induction and repression of enzyme synthesis)"
+    },
+    {
+      "id": "enzyme-inhibition-38",
+      "topic": "Speed of regulation: covalent modification vs induction",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "Two hepatic responses are observed: (1) within minutes of an epinephrine surge during a sudden fright, glycogen phosphorylase activity rises; (2) over several days on a high-carbohydrate diet, the amount of hepatic glucokinase increases. Which mechanisms best explain responses (1) and (2)?",
+      "options": [
+        "(1) enzyme induction; (2) reversible covalent modification",
+        "(1) feed-forward activation; (2) proteolytic activation",
+        "(1) reversible covalent modification; (2) enzyme induction",
+        "(1) proteolytic activation; (2) compartmentalization",
+        "(1) reversible covalent modification; (2) enzyme repression"
+      ],
+      "answer": 2,
+      "explain": "Hormones control the rapid, reversible switch of covalent modification: epinephrine promotes phosphorylation of glycogen phosphorylase, converting it to the active a form within minutes. A rise in the amount of glucokinase over days is long-term regulation by enzyme induction (increased gene expression), driven by insulin in the fed state.",
+      "distractors": "Option A reverses the time scales, because induction is slow and covalent modification is fast. Option E is wrong because an increase in enzyme amount is induction, not repression.",
+      "source": "Slides 26, 27, 28 · Lippincott ch. 5 (regulation of enzyme activity)"
+    },
+    {
+      "id": "enzyme-inhibition-39",
+      "topic": "Covalent modification: kinases and phosphatases",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which statement about the phosphorylation and dephosphorylation of enzymes is correct?",
+      "options": [
+        "Protein phosphatases add phosphate groups to enzymes using ATP",
+        "Protein kinases remove phosphate groups from enzymes by hydrolysis",
+        "The phosphate group is held at a regulatory site by noncovalent bonds",
+        "Protein kinases transfer phosphate from ATP; phosphatases remove it by hydrolysis",
+        "Phosphorylation always activates an enzyme, and dephosphorylation always inactivates it"
+      ],
+      "answer": 3,
+      "explain": "Reversible covalent modification adds or removes a chemical group, most commonly phosphate. Protein kinases transfer phosphate from ATP to the enzyme (Enzyme–OH → Enzyme–OPO₃²⁻, releasing ADP), and phosphoprotein phosphatases remove it by hydrolysis, releasing inorganic phosphate; hormones control this rapid switch.",
+      "distractors": "Options A and B swap the roles of the two enzymes, and option C describes allosteric effectors, whereas phosphate is attached covalently. Option E is false because phosphorylation inactivates glycogen synthase but activates glycogen phosphorylase, so the slide's 'one enzyme for activation and another for inactivation' is best read as one enzyme adds the phosphate and another removes it.",
+      "source": "Slides 27, 28 · Lippincott ch. 5 (covalent modification)"
+    },
+    {
+      "id": "enzyme-inhibition-40",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which statement about the regulation of glycogen phosphorylase is correct?",
+      "options": [
+        "It is activated by dephosphorylation catalysed by phosphorylase phosphatase",
+        "Its phosphorylated form, phosphorylase a, is the active form",
+        "Insulin activates it by promoting its phosphorylation",
+        "It is activated by irreversible removal of a peptide segment",
+        "It is phosphorylated by a protein phosphatase using ATP"
+      ],
+      "answer": 1,
+      "explain": "This converts the lecture's true/false item (slide 29): 'Glycogen phosphorylase is activated by phosphorylation' is true. Phosphorylase kinase phosphorylates the inactive b form to give the active a form, which glucagon and epinephrine use to promote glycogenolysis; phosphorylase phosphatase removes the phosphate and inactivates it.",
+      "distractors": "Dephosphorylation inactivates phosphorylase, and insulin favours the dephosphorylated state. Glycogen phosphorylase is not a zymogen, and phosphatases remove rather than add phosphate.",
+      "source": "Slides 28, 29 · Lippincott (glycogen metabolism: regulation of glycogen phosphorylase)"
+    },
+    {
+      "id": "enzyme-inhibition-41",
+      "topic": "Reciprocal regulation of glycogen metabolism",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 22-year-old student skips breakfast and lunch before an exam, and her plasma glucagon rises. In her liver, which combination describes glycogen phosphorylase and glycogen synthase?",
+      "options": [
+        "Phosphorylase phosphorylated and active; synthase phosphorylated and inactive",
+        "Phosphorylase dephosphorylated and active; synthase phosphorylated and inactive",
+        "Phosphorylase phosphorylated and inactive; synthase dephosphorylated and active",
+        "Phosphorylase phosphorylated and active; synthase phosphorylated and active",
+        "Phosphorylase dephosphorylated and inactive; synthase dephosphorylated and active"
+      ],
+      "answer": 0,
+      "explain": "Glucagon (and epinephrine) promote glycogenolysis through phosphorylation. Phosphorylation activates glycogen phosphorylase (a form) but inactivates glycogen synthase (b form), so glycogen breakdown rises while glycogen synthesis stops. This reciprocal regulation prevents the liver from making and breaking glycogen at the same time.",
+      "distractors": "Option E is the insulin (fed-state) pattern, with both enzymes dephosphorylated. Options B and C attach the wrong activity to the phosphorylation state of phosphorylase, and option D ignores that phosphorylation inactivates glycogen synthase.",
+      "source": "Slide 28 · Lippincott (glycogen metabolism: hormonal regulation)"
+    },
+    {
+      "id": "enzyme-inhibition-42",
+      "topic": "Covalent modification: applied",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "In a research mouse, the serine residues of hepatic glycogen synthase that are normally phosphorylated are replaced by alanine, so the enzyme cannot be phosphorylated. What happens to this mutant enzyme when glucagon rises during fasting?",
+      "options": [
+        "It is converted to the phosphorylated b form and becomes inactive as usual",
+        "It is irreversibly activated instead by proteolytic removal of a peptide",
+        "It is inactivated by dephosphorylation catalysed by a protein phosphatase",
+        "It is converted into a more active form by phosphorylase kinase",
+        "It stays in the dephosphorylated a form and is not switched off by glucagon"
+      ],
+      "answer": 4,
+      "explain": "Glycogen synthase is active when dephosphorylated (a form) and is inactivated when a protein kinase phosphorylates it (b form). Glucagon normally switches it off by triggering this phosphorylation; if the target serines cannot accept a phosphate, the enzyme remains in the active, dephosphorylated form during fasting.",
+      "distractors": "Option A is the normal response, which the mutation prevents. Dephosphorylation activates rather than inactivates glycogen synthase, and option D fails because phosphorylation inactivates glycogen synthase and this mutant cannot be phosphorylated at all.",
+      "source": "Slides 27, 28 · Lippincott (glycogen metabolism: regulation of glycogen synthase)"
+    },
+    {
+      "id": "enzyme-inhibition-43",
+      "topic": "Plasma enzymes: principle of release",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 60-year-old man with crushing chest pain has an acute myocardial infarction confirmed by ECG and troponin. His plasma creatine kinase (CK) activity is raised and is measured serially over the next few days. What best explains the rise in plasma CK?",
+      "options": [
+        "Increased hepatic synthesis of CK in response to stress hormones",
+        "Activation of an inactive CK precursor circulating in the plasma",
+        "Release of intracellular CK from necrotic heart-muscle cells into the blood",
+        "Reduced renal excretion of CK caused by a low cardiac output",
+        "Phosphorylation of plasma CK by protein kinases, raising its activity"
+      ],
+      "answer": 2,
+      "explain": "Tissue injury releases intracellular enzymes into the circulation, increasing their plasma activity: normal cell turnover releases only small amounts, whereas cell necrosis releases many. CK comes from muscle, here damaged heart muscle, and the lecture notes that serial measurements help assess disease progression and response to treatment.",
+      "distractors": "Plasma CK comes from damaged cells, not from hepatic synthesis or a circulating precursor. Changes in renal excretion or phosphorylation are not the lecture's explanation for raised plasma enzyme activity.",
+      "source": "Slides 31, 33 · Lippincott ch. 5 (enzymes in clinical diagnosis)"
+    },
+    {
+      "id": "enzyme-inhibition-44",
+      "topic": "Plasma enzymes: liver (ALT)",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 24-year-old man develops fatigue, nausea and yellow eyes a month after a trip during which he drank untreated water, and acute viral hepatitis is suspected. Which plasma enzyme is the most specific marker of liver-cell damage?",
+      "options": [
+        "Aspartate aminotransferase (AST)",
+        "Creatine kinase (CK)",
+        "Lipase",
+        "Alanine aminotransferase (ALT)",
+        "Lactate dehydrogenase (LDH)"
+      ],
+      "answer": 3,
+      "explain": "The lecture's table lists ALT with the liver as its main tissue source and liver damage or disease as its significance. Acute hepatitis damages hepatocytes, which release ALT into the blood, so ALT is the most liver-specific enzyme among the options.",
+      "distractors": "AST also rises in hepatitis but comes from both liver and muscle, so it is less specific, and LDH is a general marker of cell death. CK points to muscle and lipase to the pancreas.",
+      "source": "Slide 32 · Lippincott ch. 5 (enzymes in clinical diagnosis: ALT)"
+    },
+    {
+      "id": "enzyme-inhibition-45",
+      "topic": "Plasma enzymes: obstructive jaundice",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 55-year-old woman has deepening jaundice, itching, dark urine and pale stools. Ultrasound shows a stone obstructing a dilated common bile duct. Which plasma enzyme pattern is most expected?",
+      "options": [
+        "Markedly raised CK, with normal ALP and GGT",
+        "Raised ALP, GGT and 5′-nucleotidase",
+        "Raised ALP, with normal GGT and 5′-nucleotidase",
+        "Raised ALT only, with normal ALP, GGT and 5′-nucleotidase",
+        "Raised LDH only, with normal ALP, GGT and 5′-nucleotidase"
+      ],
+      "answer": 1,
+      "explain": "Biliary obstruction raises the hepatobiliary enzymes. The lecture lists ALP (liver, bile ducts and bone), GGT (liver and bile ducts) and 5′-nucleotidase (liver) as markers of hepatobiliary disease and obstructive jaundice, and a rise in all three points to a hepatobiliary source.",
+      "distractors": "A raised ALP with normal GGT and 5′-nucleotidase points to bone rather than the biliary tree. CK is a muscle marker, and an isolated rise in ALT or LDH without the obstructive enzymes does not fit bile-duct obstruction.",
+      "source": "Slide 32 · Lippincott ch. 5 (enzymes in clinical diagnosis)"
+    },
+    {
+      "id": "enzyme-inhibition-46",
+      "topic": "Plasma enzymes: ALP from bone vs liver",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 72-year-old man has pelvic bone pain and has noticed that his hats no longer fit; X-rays show thickened, deformed bones. His serum ALP is markedly raised, while GGT, 5′-nucleotidase and ALT are normal. What is the best interpretation of the raised ALP?",
+      "options": [
+        "Hepatobiliary obstruction, because ALP is produced mainly by the bile-duct epithelium",
+        "Hepatocellular injury, because ALP is the most liver-specific plasma enzyme",
+        "Skeletal-muscle injury, because ALP is released from damaged muscle fibres",
+        "Haemolysis, because ALP is released from lysed red blood cells",
+        "Bone disease, because the hepatobiliary markers GGT and 5′-nucleotidase are normal"
+      ],
+      "answer": 4,
+      "explain": "In the lecture ALP has three main sources: liver, bile ducts and bone. Plasma GGT and 5′-nucleotidase rise mainly in hepatobiliary disease (the lecture lists the liver and bile ducts as their sources), so normal values make a hepatobiliary cause unlikely and point to bone as the source of the raised ALP. His picture fits a bone disorder such as Paget disease (textbook).",
+      "distractors": "Hepatobiliary obstruction would raise GGT and 5′-nucleotidase as well as ALP, and ALT, not ALP, is the liver-specific enzyme. Muscle injury is signalled by CK and haemolysis by LDH.",
+      "source": "Slide 32 · Lippincott ch. 5 (enzymes in clinical diagnosis: ALP)"
+    },
+    {
+      "id": "enzyme-inhibition-47",
+      "topic": "Lecture learning check",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 65-year-old woman presents with bone pain, and bone disease is suspected. Which plasma enzyme is most likely to be elevated?",
+      "options": [
+        "Alanine aminotransferase",
+        "Alkaline phosphatase",
+        "Amylase",
+        "Creatine kinase",
+        "Gamma-glutamyl transferase"
+      ],
+      "answer": 1,
+      "explain": "This is the lecture's learning-check item (slide 35). Alkaline phosphatase (ALP) is the only enzyme in the lecture whose tissue sources include bone, and it is listed as a marker of liver and bone diseases.",
+      "distractors": "ALT and GGT are liver and hepatobiliary enzymes, amylase is pancreatic, and CK is a marker of muscle damage.",
+      "source": "Slides 32, 35 · Lippincott ch. 5 (enzymes in clinical diagnosis)"
+    },
+    {
+      "id": "enzyme-inhibition-48",
+      "topic": "Lecture learning check",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 55-year-old man presents with severe epigastric pain radiating to the back, vomiting and abdominal tenderness. Acute pancreatitis is suspected. Which plasma enzyme is most specific for pancreatic injury?",
+      "options": [
+        "Alanine aminotransferase",
+        "Alkaline phosphatase",
+        "Lipase",
+        "Creatine kinase",
+        "Lactate dehydrogenase"
+      ],
+      "answer": 2,
+      "explain": "This is the lecture's learning-check item (slide 34). Amylase and lipase are the pancreatic enzymes in the lecture's table, and lipase is the only one offered here. Textbooks add that lipase is more pancreas-specific than amylase, because amylase is also released from the salivary glands.",
+      "distractors": "ALT and ALP point to liver, hepatobiliary or bone disease, CK points to muscle, and LDH is a general, non-specific marker of cell death.",
+      "source": "Slides 33, 34 · Lippincott ch. 5 (enzymes in clinical diagnosis)"
+    },
+    {
+      "id": "enzyme-inhibition-49",
+      "topic": "Plasma enzymes: muscle (CK)",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 62-year-old man started high-dose simvastatin two months ago. He now has diffuse muscle aches, weakness and dark urine. Which plasma enzyme would best confirm muscle damage?",
+      "options": [
+        "Creatine kinase (CK)",
+        "Alanine aminotransferase (ALT)",
+        "Gamma-glutamyl transferase (GGT)",
+        "Lipase",
+        "5′-Nucleotidase (5′-NT)"
+      ],
+      "answer": 0,
+      "explain": "Statins, the lecture's competitive inhibitors of HMG-CoA reductase, can injure muscle as a side effect (textbook). The lecture lists CK with muscle as its main source and muscle damage or injury as its significance, so a raised CK confirms muscle damage; the dark urine suggests myoglobin released from damaged muscle (textbook).",
+      "distractors": "ALT, GGT and 5′-nucleotidase are liver or hepatobiliary markers; ALT is also checked in patients on statins, but for liver injury rather than muscle injury. Lipase points to the pancreas.",
+      "source": "Slides 7, 33 · Lippincott ch. 5 (enzymes in clinical diagnosis)"
+    },
+    {
+      "id": "enzyme-inhibition-50",
+      "topic": "Plasma enzymes: haemolysis (LDH)",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 6-year-old Omani boy with known G6PD deficiency develops pallor, jaundice and dark urine two days after eating fava beans. His blood film shows bite cells, consistent with acute haemolysis. Which plasma enzyme is expected to rise because of red-cell destruction?",
+      "options": [
+        "Alanine aminotransferase (ALT)",
+        "Lipase",
+        "Gamma-glutamyl transferase (GGT)",
+        "Lactate dehydrogenase (LDH)",
+        "Creatine kinase (CK)"
+      ],
+      "answer": 3,
+      "explain": "LDH is present in red blood cells, liver, muscle and most other cells, so the lecture describes it as a general marker of cell death, particularly in haemolysis. When red cells lyse, their LDH enters the plasma and its activity rises.",
+      "distractors": "ALT and GGT are liver and hepatobiliary enzymes, lipase is pancreatic and CK is a muscle enzyme; none of them is the lecture's marker of red-cell destruction.",
+      "source": "Slide 33 · Lippincott ch. 5 (enzymes in clinical diagnosis); pentose phosphate pathway (G6PD deficiency)"
+    }
+  ]
+}

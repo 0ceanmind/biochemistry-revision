@@ -1,0 +1,818 @@
+{
+  "lecture": "iron-b12-folate",
+  "title": "Iron, Vitamin B12 & Folic Acid",
+  "format": "Single best answer · 5 options",
+  "provenance": "Original exam-style items written from the lecture slides and Lippincott; modelled on the NUST/OMC MD-program SBA format (no public past papers were found).",
+  "questions": [
+    {
+      "id": "iron-b12-folate-01",
+      "topic": "Body iron compounds",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Adult body iron (about 3–4 g) is present in heme and non-heme compounds. Which of the following is a non-heme iron protein?",
+      "options": [
+        "Hemoglobin",
+        "Myoglobin",
+        "Cytochrome c",
+        "Transferrin",
+        "Catalase"
+      ],
+      "answer": 3,
+      "explain": "The lecture divides body iron into heme iron (hemoglobin, myoglobin, cytochromes) and non-heme iron (Fe-S proteins, transferrin, ferritin). Transferrin carries Fe³⁺ bound directly to the protein, not inside a porphyrin (heme) ring.",
+      "distractors": "Hemoglobin, myoglobin and cytochrome c are the heme compounds listed on the slide, and catalase is also a heme enzyme, so none of them is a non-heme iron protein.",
+      "source": "Slide 3 · Lippincott ch. 29 (Iron)"
+    },
+    {
+      "id": "iron-b12-folate-02",
+      "topic": "Dietary iron: inhibitors of absorption",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 24-year-old Omani woman follows a strict vegetarian diet based on cereals, pulses and green leafy vegetables. She has fatigue, and her blood film shows small, pale red cells, although her calculated iron intake is adequate. Which dietary factor most likely limits her iron absorption?",
+      "options": [
+        "Ascorbic acid in the fresh vegetables",
+        "Phytates in the cereals and pulses",
+        "Cysteine in the plant proteins",
+        "Hydrochloric acid secreted in response to meals",
+        "Ferrous iron released from the vegetables"
+      ],
+      "answer": 1,
+      "explain": "Plant foods supply non-heme iron, which the lecture says is less absorbed because of phytates and oxalates. Phytates (and phosphate) bind iron in the gut lumen and reduce its uptake, so a plant-based diet can cause iron deficiency (microcytic hypochromic anemia) even when intake looks adequate.",
+      "distractors": "Ascorbic acid, cysteine, HCl and the ferrous form are all listed as factors that increase iron absorption, so none of them explains her deficiency.",
+      "source": "Slides 3–4 and 8 · Lippincott ch. 29 (Iron absorption)"
+    },
+    {
+      "id": "iron-b12-folate-03",
+      "topic": "Iron absorption: vitamin C",
+      "type": "application",
+      "difficulty": "easy",
+      "stem": "A woman with iron deficiency is told to take her ferrous sulfate tablet with a glass of fresh orange juice and not with an antacid. What is the main biochemical basis of the orange-juice advice?",
+      "options": [
+        "Ascorbic acid increases the iron-binding capacity of transferrin",
+        "Ascorbic acid stimulates parietal cells to secrete intrinsic factor",
+        "Ascorbic acid oxidises Fe²⁺ to Fe³⁺ so that it can enter via HCP",
+        "Ascorbic acid releases iron from hemosiderin in the liver",
+        "Ascorbic acid keeps iron in the Fe²⁺ form taken up by DMT-1"
+      ],
+      "answer": 4,
+      "explain": "In the intestinal lumen, ferric iron (Fe³⁺) is reduced to ferrous iron (Fe²⁺), a step aided by vitamin C. Only Fe²⁺ crosses the apical membrane, through DMT-1. Ascorbic acid is therefore listed among the factors that increase iron absorption, and antacids among those that decrease it.",
+      "distractors": "C reverses the chemistry: vitamin C is a reducing agent, and HCP carries heme, not inorganic iron. B confuses iron absorption with vitamin B12 absorption, which needs intrinsic factor.",
+      "source": "Slides 4–5 · Lippincott ch. 29 (Iron absorption)"
+    },
+    {
+      "id": "iron-b12-folate-04",
+      "topic": "Iron absorption: gastric acid and antacids",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 68-year-old man has taken antacids several times a day for years for dyspepsia. He eats a mixed diet that includes meat, but now has a microcytic hypochromic anemia with a low serum ferritin. Which mechanism best explains his reduced iron absorption?",
+      "options": [
+        "Low gastric acidity, so less dietary iron stays soluble as Fe²⁺",
+        "Loss of intrinsic factor, which is required for iron uptake in the ileum",
+        "Increased hepatic release of ferritin, which blocks DMT-1 in the gut",
+        "Increased loss of iron in the stool through a regulated excretory pathway",
+        "Inhibition of ceruloplasmin, which carries Fe²⁺ across the apical membrane"
+      ],
+      "answer": 0,
+      "explain": "The lecture lists HCl as a factor that increases iron absorption and antacids and achlorhydria as factors that decrease it. An acidic, reducing environment helps keep non-heme iron soluble and in the ferrous state needed for DMT-1 uptake, so long-term acid neutralisation lowers absorption and leads to iron deficiency.",
+      "distractors": "Intrinsic factor is needed for vitamin B12, not iron. Ceruloplasmin acts in blood, oxidising Fe²⁺ to Fe³⁺ for transferrin, and iron has no regulated excretory pathway.",
+      "source": "Slides 4–5 and 11 · Lippincott ch. 29 (Iron absorption)"
+    },
+    {
+      "id": "iron-b12-folate-05",
+      "topic": "Heme vs non-heme iron absorption",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Two meals contain equal amounts of iron: meal 1 is red meat and liver, and meal 2 is cereals and pulses. More iron is absorbed from meal 1. Which feature of the iron in meal 1 best explains this?",
+      "options": [
+        "It is ferric (Fe³⁺) iron, the form preferred by DMT-1",
+        "It is bound to ferritin, which is absorbed intact",
+        "It is heme iron, taken up by the heme carrier protein (HCP)",
+        "It requires intrinsic factor for uptake in the ileum",
+        "It binds transferrin while still in the intestinal lumen"
+      ],
+      "answer": 2,
+      "explain": "Animal foods such as meat and liver supply heme iron, which the lecture states is better absorbed. Heme enters the mucosal cell through HCP and Fe²⁺ is released inside the cell, so it avoids the phytates and oxalates that reduce non-heme iron uptake from plant foods.",
+      "distractors": "DMT-1 carries Fe²⁺, not Fe³⁺, and transferrin is a plasma carrier, not a luminal one. Intrinsic factor is specific to vitamin B12.",
+      "source": "Slides 3 and 5 · Lippincott ch. 29 (Iron absorption)"
+    },
+    {
+      "id": "iron-b12-folate-06",
+      "topic": "Iron export and plasma transport",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which sequence correctly describes the movement of iron from the intestinal mucosal cell into the plasma transport pool?",
+      "options": [
+        "Fe³⁺ exits via DMT-1 → reduced by ceruloplasmin → binds ferritin in plasma",
+        "Fe²⁺ exits via ferroportin → oxidised to Fe³⁺ by ceruloplasmin → binds transferrin",
+        "Fe²⁺ exits via HCP → binds transferrin directly as Fe²⁺ → carried to marrow",
+        "Heme exits via ferroportin → binds hemosiderin → carried to the liver",
+        "Fe³⁺ exits via ferroportin → reduced to Fe²⁺ by vitamin C → binds transferrin"
+      ],
+      "answer": 1,
+      "explain": "On the absorption diagram, Fe²⁺ leaves the mucosal cell through the basolateral exporter ferroportin. In blood, ceruloplasmin oxidises Fe²⁺ to Fe³⁺, and Fe³⁺ is then carried bound to transferrin. Textbooks add that hephaestin, a copper ferroxidase on the enterocyte's basolateral membrane, works alongside ferroportin, with ceruloplasmin as its plasma counterpart; the slide shows only ceruloplasmin.",
+      "distractors": "DMT-1 and HCP are apical uptake transporters, not exporters. Transferrin binds Fe³⁺ (not Fe²⁺), and ceruloplasmin is an oxidase, not a reductase.",
+      "source": "Slide 5 · Lippincott ch. 29 (Iron transport)"
+    },
+    {
+      "id": "iron-b12-folate-07",
+      "topic": "Iron storage",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "In the liver, spleen, bone marrow and intestinal cells, iron is stored mainly in a protein that can hold up to about 4500 Fe³⁺ atoms per molecule. Which protein is this?",
+      "options": [
+        "Transferrin",
+        "Ceruloplasmin",
+        "Myoglobin",
+        "Ferritin",
+        "Divalent metal transporter-1"
+      ],
+      "answer": 3,
+      "explain": "Ferritin is the main storage form of iron and holds up to about 4500 Fe³⁺ per molecule. The lecture lists the liver, intestine, spleen and bone marrow as storage sites, and ferritin and hemosiderin as the storage forms.",
+      "distractors": "Transferrin carries Fe³⁺ in plasma rather than storing it, and ceruloplasmin is the plasma ferroxidase. DMT-1 is an apical transporter in the mucosal cell.",
+      "source": "Slides 5–6 · Lippincott ch. 29 (Iron storage)"
+    },
+    {
+      "id": "iron-b12-folate-08",
+      "topic": "Iron excretion and physiological loss",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 19-year-old university student has heavy menstrual periods, fatigue and a low serum ferritin. Her diet is adequate. Which statement best explains why women of reproductive age are especially prone to iron deficiency?",
+      "options": [
+        "Each period loses 20–30 mg of iron, beyond the basal loss of about 1 mg/day",
+        "Estrogen switches on a regulated urinary pathway for iron excretion each cycle",
+        "Women lack the HFE protein that the intestine needs in order to absorb iron",
+        "Estrogen blocks DMT-1, so dietary ferrous iron cannot enter mucosal cells",
+        "The liver cannot synthesise ferritin to store iron until after menopause"
+      ],
+      "answer": 0,
+      "explain": "Iron is a 'one way element': very little is excreted (about 1 mg/day, of which 0.7 mg/day is in stool). The lecture adds the physiological losses of women, menstruation (20–30 mg per cycle) and delivery, so heavy periods can easily exceed what the diet replaces.",
+      "distractors": "There is no regulated excretory pathway for iron, so B is wrong. HFE mutation is linked to iron overload (hemochromatosis), not to normal female physiology.",
+      "source": "Slide 7 · Lippincott ch. 29 (Iron)"
+    },
+    {
+      "id": "iron-b12-folate-09",
+      "topic": "Iron overload: multiple transfusions",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 14-year-old Omani boy with β-thalassemia major has received regular blood transfusions since infancy. His serum iron, serum ferritin and transferrin saturation are all raised. Which statement best explains why his body iron keeps increasing?",
+      "options": [
+        "Transfused red cells suppress ferritin synthesis, releasing iron into plasma",
+        "Repeated transfusions raise TIBC, so more iron is absorbed from the gut",
+        "Transfusions destroy ceruloplasmin, so Fe²⁺ is trapped in the plasma",
+        "Transfused iron is held on transferrin, which cannot release it to tissues",
+        "The body has no regulated route to excrete the iron in transfused red cells"
+      ],
+      "answer": 4,
+      "explain": "Iron is a 'one way element': only about 1 mg/day is lost and there is no regulated excretory pathway. Iron released from every transfused unit therefore accumulates, and the lecture lists multiple transfusions as a cause of raised serum iron.",
+      "distractors": "TIBC is decreased, not increased, in iron overload. Excess iron is stored as ferritin and hemosiderin, not held on transferrin, which is only a transport protein.",
+      "source": "Slides 7 and 11 · Lippincott ch. 29 (Iron)"
+    },
+    {
+      "id": "iron-b12-folate-10",
+      "topic": "Iron studies: iron deficiency anemia",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 35-year-old woman has fatigue and pallor. Her blood film shows small, pale (microcytic hypochromic) red cells. Which set of iron studies is most consistent with iron deficiency anemia?",
+      "options": [
+        "Serum iron ↑, ferritin ↑, TIBC ↓, transferrin saturation ↑",
+        "Serum iron ↓, ferritin ↑, TIBC ↓, transferrin saturation ↓",
+        "Serum iron ↓, ferritin ↓, TIBC ↑, transferrin saturation ↓",
+        "Serum iron ↑, ferritin normal, TIBC normal, transferrin saturation ↑",
+        "Serum iron normal, ferritin ↑, TIBC ↑, transferrin saturation normal"
+      ],
+      "answer": 2,
+      "explain": "In iron deficiency, serum iron falls, ferritin falls because stores are depleted, TIBC rises because more transferrin is free to bind iron, and transferrin saturation falls. This matches the microcytic hypochromic anemia the lecture links to iron deficiency.",
+      "distractors": "A is the iron-overload (hemochromatosis) pattern and B is the chronic disease/inflammation pattern, in which ferritin is raised. D fits hemolysis or sideroblastic anemia.",
+      "source": "Slides 8 and 11 · Lippincott ch. 29 (Iron)"
+    },
+    {
+      "id": "iron-b12-folate-11",
+      "topic": "Iron studies: serum ferritin",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "A low value of which laboratory test is the most specific marker of depleted iron stores?",
+      "options": [
+        "Serum ferritin",
+        "Serum iron",
+        "Total iron-binding capacity (TIBC)",
+        "Transferrin saturation",
+        "Serum ceruloplasmin"
+      ],
+      "answer": 0,
+      "explain": "The lecture's interpretation table lists decreased serum ferritin in iron deficiency as the most specific marker of depleted iron stores, because ferritin reflects the size of the storage pool.",
+      "distractors": "Serum iron and transferrin saturation also fall in chronic disease, inflammation and pregnancy, so they are less specific. TIBC rises in iron deficiency but also in pregnancy.",
+      "source": "Slide 11 · Lippincott ch. 29 (Iron)"
+    },
+    {
+      "id": "iron-b12-folate-12",
+      "topic": "Transferrin saturation calculation",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "A patient's serum iron is 40 µg/dL and TIBC is 500 µg/dL. Using the formula taught in the lecture, what is the transferrin saturation, and what does it suggest (reference range 20–50%)?",
+      "options": [
+        "0.08%; low, suggesting iron deficiency",
+        "1250%; high, suggesting iron overload",
+        "20%; normal iron status",
+        "46%; normal iron status",
+        "8%; low, suggesting iron deficiency"
+      ],
+      "answer": 4,
+      "explain": "Transferrin saturation = (serum iron ÷ TIBC) × 100 = (40 ÷ 500) × 100 = 8%, well below 20%. Together with a TIBC above the 250–450 µg/dL range, this suggests iron deficiency. Both values must be in the same units before dividing.",
+      "distractors": "0.08% leaves out the ×100 step, and 1250% inverts the ratio (TIBC ÷ serum iron). Neither 20% nor 46% follows from these numbers.",
+      "source": "Slides 10–11 · Lippincott ch. 29 (Iron)"
+    },
+    {
+      "id": "iron-b12-folate-13",
+      "topic": "Iron studies: chronic disease",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 55-year-old woman with long-standing active rheumatoid arthritis has a mild anemia. Her iron studies show low serum iron, raised serum ferritin, low TIBC and low transferrin saturation. Which interpretation best fits these results?",
+      "options": [
+        "Iron deficiency anemia with depleted iron stores",
+        "Anemia of chronic disease due to chronic inflammation",
+        "Hereditary hemochromatosis caused by an HFE mutation",
+        "The expected physiological pattern of pregnancy",
+        "Acute iron poisoning from an overdose of iron tablets"
+      ],
+      "answer": 1,
+      "explain": "The lecture's table lists decreased serum iron, TIBC and transferrin saturation in chronic disease and chronic inflammation, while serum ferritin rises in inflammation. A raised ferritin with a low TIBC argues against simple iron deficiency.",
+      "distractors": "In iron deficiency, ferritin is low and TIBC is high. Hemochromatosis and iron poisoning raise serum iron and transferrin saturation, and pregnancy raises TIBC.",
+      "source": "Slide 11 · Lippincott ch. 29 (Iron)"
+    },
+    {
+      "id": "iron-b12-folate-14",
+      "topic": "Hemosiderosis vs hemochromatosis",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which feature best distinguishes hemochromatosis from hemosiderosis?",
+      "options": [
+        "In hemochromatosis iron is stored as ferritin; in hemosiderosis it stays on transferrin",
+        "Hemochromatosis results from iron deficiency; hemosiderosis results from iron excess",
+        "Hemochromatosis is confined to the bone marrow; hemosiderosis affects liver and heart",
+        "Hemochromatosis causes tissue injury; hemosiderosis raises stores without injury",
+        "Hemochromatosis lowers transferrin saturation; hemosiderosis raises it"
+      ],
+      "answer": 3,
+      "explain": "Both are iron-excess states. The lecture defines hemosiderosis as an increase in iron stores as hemosiderin without tissue injury, and hemochromatosis as excessive deposition of iron in tissues associated with tissue injury.",
+      "distractors": "Both conditions are forms of iron excess, not deficiency. Hemochromatosis raises transferrin saturation and damages the liver, pancreas and heart, not just the marrow.",
+      "source": "Slides 8–9 · Lippincott ch. 29 (Iron overload)"
+    },
+    {
+      "id": "iron-b12-folate-15",
+      "topic": "Hereditary hemochromatosis: genetics",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 50-year-old man has darkening of the skin, newly diagnosed diabetes mellitus and hepatomegaly. His serum ferritin and transferrin saturation are markedly raised, and his brother has a similar illness. Mutation of which gene, with which inheritance pattern, is most likely?",
+      "options": [
+        "HFE gene, autosomal dominant",
+        "Transferrin gene, X-linked recessive",
+        "HFE gene, autosomal recessive",
+        "Ceruloplasmin gene, autosomal dominant",
+        "Ferritin gene, X-linked dominant"
+      ],
+      "answer": 2,
+      "explain": "Hyperpigmentation plus hyperglycemia ('bronze diabetes'), liver involvement and high iron studies indicate hereditary hemochromatosis. The lecture states that it is autosomal recessive and caused by mutations in the HFE gene, and that iron damages the liver, pancreas and heart.",
+      "distractors": "A names the correct gene but the wrong inheritance pattern. The transferrin, ceruloplasmin and ferritin genes are not the cause the lecture gives for hereditary hemochromatosis.",
+      "source": "Slide 9 · Lippincott ch. 29 (Hemochromatosis)"
+    },
+    {
+      "id": "iron-b12-folate-16",
+      "topic": "Hemochromatosis: mechanism and treatment",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 45-year-old man with hereditary hemochromatosis asks why iron builds up in his body and how it can be removed. Which combination of explanation and treatment is most accurate?",
+      "options": [
+        "Urinary iron excretion fails; treated by restricting dietary iron alone",
+        "Ferritin cannot store iron, so it enters tissues; treated with high-dose vitamin C",
+        "Excess gut absorption with no excretory route; treated with phlebotomy or chelators",
+        "Overactive ceruloplasmin traps iron in plasma; treated with copper supplements",
+        "Absent transferrin lets free iron enter tissues; treated with transferrin infusion"
+      ],
+      "answer": 2,
+      "explain": "Iron is a 'one way element' with no regulated excretory pathway, so the overload of hereditary hemochromatosis must come from excessive intestinal absorption (textbooks explain that HFE mutation lowers hepcidin, so ferroportin stays active and absorption is inappropriately high). The excess can only be removed by phlebotomy (removing iron-rich red cells) or by iron chelators, the two treatments given in the lecture.",
+      "distractors": "There is no regulated urinary excretion of iron that could fail (A), and vitamin C would increase absorption (B). Transferrin and ceruloplasmin are not the defect in HFE-related disease.",
+      "source": "Slides 7 and 9 · Lippincott ch. 29 (Hemochromatosis)"
+    },
+    {
+      "id": "iron-b12-folate-17",
+      "topic": "Daily requirements (RDA)",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which ranking of the adult recommended dietary allowance (RDA) of these three nutrients, from highest to lowest, is correct?",
+      "options": [
+        "Iron > folic acid > vitamin B12",
+        "Folic acid > iron > vitamin B12",
+        "Vitamin B12 > iron > folic acid",
+        "Iron > vitamin B12 > folic acid",
+        "Folic acid > vitamin B12 > iron"
+      ],
+      "answer": 0,
+      "explain": "The lecture gives an adult iron RDA of 10–20 mg/day (40 mg/day in pregnancy), folic acid 400 µg/day and vitamin B12 only 1–2 µg/day. Iron is needed in milligram amounts, folate in hundreds of micrograms and B12 in a few micrograms. Other authorities quote slightly different values, but the order is the same.",
+      "distractors": "Rankings that put B12 above folate ignore that its requirement is the smallest, in the low microgram range. Placing folate above iron confuses micrograms with milligrams.",
+      "source": "Slides 3, 13 and 21 · Lippincott ch. 28–29 (RDAs)"
+    },
+    {
+      "id": "iron-b12-folate-18",
+      "topic": "Folic acid structure",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Folic acid (vitamin B9) is built from three components. Which combination is correct?",
+      "options": [
+        "Corrin ring, cobalt and dimethylbenzimidazole",
+        "Pteridine ring, ribose and adenine",
+        "Porphyrin ring, Fe²⁺ and globin",
+        "Pteridine ring, p-aminobenzoate and glutamate",
+        "Isoalloxazine ring, ribitol and phosphate"
+      ],
+      "answer": 3,
+      "explain": "The lecture states that folic acid consists of a pteridine nucleus, p-aminobenzoic acid (PABA) and glutamate. The figure shows that the glutamate can be a polyglutamate chain (n residues).",
+      "distractors": "A describes vitamin B12 (a corrin ring with central cobalt) and C describes hemoglobin. E is the flavin structure of the riboflavin coenzymes.",
+      "source": "Slide 13 · Lippincott ch. 28 (Folic acid)"
+    },
+    {
+      "id": "iron-b12-folate-19",
+      "topic": "Folate absorption, transport and storage",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which statement about the absorption, transport and storage of folic acid is correct?",
+      "options": [
+        "It is absorbed in the terminal ileum as a complex with intrinsic factor",
+        "It is absorbed mainly in the upper jejunum, and tissue stores are limited",
+        "It is stored in the liver in amounts that last several years",
+        "It is carried in plasma mainly by transcobalamin II",
+        "It is activated to tetrahydrofolate in the stomach before absorption"
+      ],
+      "answer": 1,
+      "explain": "The lecture states that folate is absorbed mainly in the upper jejunum, carried in blood by β-globulins and converted to its active coenzyme forms in the liver. Tissue storage is limited, so deficiency can develop rapidly.",
+      "distractors": "Intrinsic factor, ileal absorption, transcobalamin II and liver stores lasting years are all features of vitamin B12, not folate. Activation happens in the liver, not the stomach.",
+      "source": "Slide 14 · Lippincott ch. 28 (Folic acid)"
+    },
+    {
+      "id": "iron-b12-folate-20",
+      "topic": "Folate vs B12: body stores",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "A 40-year-old man starts a severely restricted diet that contains almost no folate and no vitamin B12. His stores were normal at the start. Which deficiency is likely to appear first, and why?",
+      "options": [
+        "Vitamin B12, because like other water-soluble vitamins it is not stored",
+        "Vitamin B12, because intrinsic factor secretion stops when intake stops",
+        "Both together, because they are used in the same methionine synthase reaction",
+        "Folate, because it is rapidly excreted bound to transcobalamin II",
+        "Folate, because its stores are limited, whereas B12 is stored in the liver"
+      ],
+      "answer": 4,
+      "explain": "Folate has limited tissue storage, so deficiency can develop rapidly. B12 is the exception among water-soluble vitamins: the liver stores about 2–5 mg, enough for several years, so B12 deficiency appears much later.",
+      "distractors": "A is the trap: B12 is the water-soluble vitamin that is stored. Sharing the methionine synthase reaction does not make their stores equal, and transcobalamin II carries B12, not folate.",
+      "source": "Slides 14 and 23 · Lippincott ch. 28 (Folic acid; Vitamin B12)"
+    },
+    {
+      "id": "iron-b12-folate-21",
+      "topic": "Folate activation: dihydrofolate reductase",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Dietary folic acid is converted to its active coenzyme form in two reduction steps. Which enzyme and cofactor catalyse these steps?",
+      "options": [
+        "Methionine synthase, using methylcobalamin",
+        "Dihydrofolate reductase, using NADPH",
+        "Thymidylate synthase, using NAD⁺",
+        "Methylmalonyl-CoA mutase, using deoxyadenosylcobalamin",
+        "Dihydrofolate reductase, using FADH₂"
+      ],
+      "answer": 1,
+      "explain": "Folic acid is reduced to dihydrofolic acid and then to tetrahydrofolic acid (THF), the active coenzyme. Dihydrofolate reductase catalyses both steps, and each uses NADPH + H⁺ (giving NADP⁺).",
+      "distractors": "E names the right enzyme but the wrong cofactor. Methionine synthase and methylmalonyl-CoA mutase are the two B12-dependent enzymes.",
+      "source": "Slide 15 · Lippincott ch. 28 (Folic acid)"
+    },
+    {
+      "id": "iron-b12-folate-22",
+      "topic": "Methotrexate",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 48-year-old woman with rheumatoid arthritis takes methotrexate once weekly. She develops mouth ulcers and a macrocytic anemia. Which mechanism best explains these adverse effects?",
+      "options": [
+        "Irreversible inhibition of methionine synthase, trapping folate as N⁵-methyl-THF",
+        "Blockade of intrinsic factor, causing vitamin B12 malabsorption",
+        "Competitive inhibition of dihydrofolate reductase, reducing THF for DNA synthesis",
+        "Inhibition of DMT-1, causing iron deficiency in dividing cells",
+        "Increased breakdown of folate polyglutamates in the jejunum"
+      ],
+      "answer": 2,
+      "explain": "Methotrexate is a folic acid analogue that competitively inhibits dihydrofolate reductase, so THF is not formed. Without THF derivatives, rapidly dividing cells (marrow precursors, oral mucosa) cannot make purines and thymidine monophosphate, which gives a megaloblastic (macrocytic) anemia. The same action is used to treat psoriasis, rheumatoid arthritis and neoplastic diseases.",
+      "distractors": "The folate trap (A) is caused by B12 deficiency at methionine synthase, not by methotrexate. Iron deficiency would give a microcytic, not macrocytic, anemia.",
+      "source": "Slides 15 and 18 · Lippincott ch. 28 (Folic acid; methotrexate)"
+    },
+    {
+      "id": "iron-b12-folate-23",
+      "topic": "Methotrexate vs B12 deficiency",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "Methotrexate therapy and vitamin B12 deficiency can both cause megaloblastic anemia. Which feature do the two mechanisms share?",
+      "options": [
+        "Both directly inhibit dihydrofolate reductase",
+        "Both trap folate as N⁵-methyl-THF at methionine synthase",
+        "Both block the conversion of methylmalonyl-CoA to succinyl-CoA",
+        "Both reduce secretion of intrinsic factor by parietal cells",
+        "Both reduce the THF available for purine and dTMP synthesis"
+      ],
+      "answer": 4,
+      "explain": "Methotrexate competitively inhibits dihydrofolate reductase, so THF is not formed from folate. In B12 deficiency, methyl-THF cannot pass its methyl group to B12 and folate is trapped as methyl-THF (the folate trap). Either way, too little THF is available for purine and thymidine monophosphate synthesis, so DNA synthesis is impaired and megaloblasts form.",
+      "distractors": "A is true only of methotrexate and B only of B12 deficiency. The mutase reaction (C) depends on B12 alone and is not affected by methotrexate.",
+      "source": "Slides 15, 27 and 28 · Lippincott ch. 28 (Folic acid; Vitamin B12)"
+    },
+    {
+      "id": "iron-b12-folate-24",
+      "topic": "THF derivatives: purine synthesis",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which tetrahydrofolate derivative supplies carbon for purine nucleotide synthesis?",
+      "options": [
+        "N¹⁰-formyl-THF",
+        "N⁵-methyl-THF",
+        "N⁵,N¹⁰-methylene-THF",
+        "Methylcobalamin",
+        "Dihydrofolate"
+      ],
+      "answer": 0,
+      "explain": "The lecture's pathway shows three THF derivatives: N¹⁰-formyl-THF for purine nucleotide synthesis, N⁵,N¹⁰-methylene-THF for thymidine monophosphate synthesis (and serine from glycine), and N⁵-methyl-THF for methionine synthesis from homocysteine.",
+      "distractors": "N⁵,N¹⁰-methylene-THF is used for dTMP, not purines, and N⁵-methyl-THF supplies the methyl group for methionine via B12. Dihydrofolate is an intermediate on the way to THF.",
+      "source": "Slide 15 · Lippincott ch. 28 (Folic acid)"
+    },
+    {
+      "id": "iron-b12-folate-25",
+      "topic": "THF derivatives: dTMP synthesis",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Thymidine monophosphate (dTMP) is required for DNA synthesis in dividing cells. Which folate coenzyme provides the one-carbon unit for its synthesis, and in which other reaction does the same coenzyme take part?",
+      "options": [
+        "N¹⁰-formyl-THF; methionine synthesis from homocysteine",
+        "N⁵-methyl-THF; purine nucleotide synthesis",
+        "N¹⁰-formyl-THF; serine synthesis from glycine",
+        "N⁵,N¹⁰-methylene-THF; serine synthesis from glycine",
+        "N⁵,N¹⁰-methylene-THF; methionine synthesis from homocysteine"
+      ],
+      "answer": 3,
+      "explain": "On the folate pathway slide, N⁵,N¹⁰-methylene-THF is used for thymidine monophosphate synthesis and for serine synthesis from glycine. Lack of this derivative slows DNA synthesis, which underlies megaloblastic anemia.",
+      "distractors": "E pairs the right coenzyme with the wrong reaction: methionine synthesis uses N⁵-methyl-THF. N¹⁰-formyl-THF is used for purines.",
+      "source": "Slide 15 · Lippincott ch. 28 (Folic acid)"
+    },
+    {
+      "id": "iron-b12-folate-26",
+      "topic": "Folate and homocysteine",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "A 60-year-old man with a poor diet has megaloblastic anemia, raised plasma homocysteine and a normal serum vitamin B12 level. Lack of which folate coenzyme best explains the raised homocysteine?",
+      "options": [
+        "N¹⁰-formyl-THF, which supplies carbon for purine synthesis",
+        "N⁵,N¹⁰-methylene-THF, which supplies carbon for dTMP synthesis",
+        "Dihydrofolate, which methylates homocysteine directly",
+        "Methylcobalamin, which is formed from folic acid in the liver",
+        "N⁵-methyl-THF, which supplies the methyl group for methionine"
+      ],
+      "answer": 4,
+      "explain": "N⁵-methyl-THF passes its methyl group, through methylcobalamin and methionine synthase, to homocysteine to form methionine. In folate deficiency this methyl supply fails and homocysteine accumulates. The lecture lists lowering plasma homocysteine as a folate function and hyperhomocysteinemia as a folate-deficiency disorder.",
+      "distractors": "A and B are real THF derivatives, but they serve purine and dTMP synthesis, not homocysteine remethylation. Methylcobalamin is a B12 coenzyme, not a folate derivative.",
+      "source": "Slides 15, 17, 24 and 27 · Lippincott ch. 28 (Folic acid)"
+    },
+    {
+      "id": "iron-b12-folate-27",
+      "topic": "One-carbon metabolism: carrier sites",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Tetrahydrofolate carries one-carbon units such as formyl, formimino, methenyl, methylene, hydroxymethyl and methyl groups. At which positions of THF are these units attached?",
+      "options": [
+        "N¹ and N³ of the pteridine ring",
+        "The α-carboxyl group of glutamate",
+        "C⁶ and C⁷ of the pteridine ring",
+        "N⁵, N¹⁰, or bridging both N⁵ and N¹⁰",
+        "The C⁹ methylene carbon only"
+      ],
+      "answer": 3,
+      "explain": "The lecture states that one-carbon compounds are attached to the 5th nitrogen, the 10th nitrogen, or both the 5th and 10th nitrogens of THF. This gives derivatives such as N⁵-methyl-THF, N¹⁰-formyl-THF and N⁵,N¹⁰-methylene-THF.",
+      "distractors": "N¹, N³, C⁶, C⁷ and C⁹ are not the carrier positions, and the glutamate tail does not carry one-carbon units.",
+      "source": "Slide 16 · Lippincott ch. 28 (Folic acid)"
+    },
+    {
+      "id": "iron-b12-folate-28",
+      "topic": "Megaloblastic anemia: mechanism",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Bone marrow from a patient with folate deficiency shows large red cell precursors whose nuclei look immature compared with their cytoplasm. Which explanation best accounts for this appearance?",
+      "options": [
+        "Excess heme synthesis enlarges the cytoplasm faster than the nucleus",
+        "DNA synthesis is impaired by lack of thymidine, while RNA and protein synthesis continue",
+        "RNA synthesis fails, so the cytoplasm cannot mature while DNA replication continues",
+        "Lack of iron prevents hemoglobin synthesis, producing small, pale cells",
+        "Methylmalonyl-CoA accumulates in the nucleus and blocks mitosis"
+      ],
+      "answer": 1,
+      "explain": "Folate is needed to form thymidine, so DNA replication becomes slow and defective and nuclear maturation is delayed. RNA and protein synthesis are relatively unaffected, so the cytoplasm keeps growing while the nucleus lags. The result is large megaloblastic cells (nuclear–cytoplasmic asynchrony).",
+      "distractors": "C reverses the defect: DNA synthesis fails, not RNA synthesis. D describes the microcytic hypochromic anemia of iron deficiency, the opposite cell size.",
+      "source": "Slide 18 · Lippincott ch. 28 (Folic acid)"
+    },
+    {
+      "id": "iron-b12-folate-29",
+      "topic": "Folate deficiency in pregnancy",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 26-year-old woman, 30 weeks pregnant, eats meat and dairy products daily but very few green leafy vegetables or pulses. She has fatigue, a macrocytic anemia with hypersegmented neutrophils, raised plasma homocysteine and a normal serum vitamin B12. She has no numbness, gait change or memory problems. Deficiency of which nutrient is most likely?",
+      "options": [
+        "Folic acid",
+        "Vitamin B12",
+        "Iron",
+        "Copper",
+        "Vitamin C"
+      ],
+      "answer": 0,
+      "explain": "Megaloblastic (macrocytic) anemia with raised homocysteine occurs in both folate and B12 deficiency. Here the normal serum B12, the lack of neuropsychiatric features, a diet poor in folate sources (green leafy vegetables, pulses) and the high demand of pregnancy, with limited folate stores, all point to folate deficiency.",
+      "distractors": "B12 deficiency would usually show a low serum B12 and may add neuropsychiatric symptoms, and her diet contains animal sources of B12. Iron deficiency gives a microcytic hypochromic, not macrocytic, picture.",
+      "source": "Slides 13, 14, 17 and 29 · Lippincott ch. 28 (Folic acid)"
+    },
+    {
+      "id": "iron-b12-folate-30",
+      "topic": "Neural tube defects",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 27-year-old woman in Sohar is planning another pregnancy. Her first child was born with spina bifida. When should folic acid supplementation be given to reduce the risk of a neural tube defect in her next pregnancy?",
+      "options": [
+        "Only in the third trimester, when fetal growth is fastest",
+        "Only after delivery, during breastfeeding",
+        "Before conception and throughout the first trimester",
+        "From the second trimester, after the anomaly scan",
+        "Only if she develops anemia during the pregnancy"
+      ],
+      "answer": 2,
+      "explain": "Folate is essential for normal fetal neural tube development in early pregnancy. The lecture states that folic acid supplementation before conception and during the first trimester significantly reduces the risk of neural tube defects such as spina bifida and anencephaly.",
+      "distractors": "The neural tube forms in early pregnancy, so starting in the second or third trimester, or waiting until anemia appears, is too late to prevent the defect.",
+      "source": "Slide 19 · Lippincott ch. 28 (Folic acid)"
+    },
+    {
+      "id": "iron-b12-folate-31",
+      "topic": "Vitamin B12 structure",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Vitamin B12 (cobalamin) has which characteristic structure?",
+      "options": [
+        "A corrin ring with a central cobalt atom",
+        "A porphyrin ring with a central iron atom",
+        "A pteridine ring linked to PABA and glutamate",
+        "A corrin ring with a central magnesium atom",
+        "A porphyrin ring with a central cobalt atom"
+      ],
+      "answer": 0,
+      "explain": "The lecture states that vitamin B12 is made up of a corrin ring linked to a cobalt atom in the centre (shown as Co³⁺ in the figure), hence the name cobalamin.",
+      "distractors": "A porphyrin ring with iron is heme, and pteridine–PABA–glutamate is folic acid. D and E each get either the ring or the metal wrong.",
+      "source": "Slide 21 · Lippincott ch. 28 (Vitamin B12)"
+    },
+    {
+      "id": "iron-b12-folate-32",
+      "topic": "B12 sources: vegan diet",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 32-year-old man has followed a strict vegan diet (no meat, fish, eggs or dairy) for many years. His diet is rich in green leafy vegetables and pulses. Which vitamin is he most at risk of lacking?",
+      "options": [
+        "Folic acid",
+        "Vitamin C",
+        "Vitamin B12",
+        "Vitamin K",
+        "Vitamin A"
+      ],
+      "answer": 2,
+      "explain": "The lecture states that dietary sources of B12 are of animal origin only (liver, meat, eggs, milk, dairy products, fish). Intestinal flora produce only small amounts, which do not protect against deficiency. A strict vegan is therefore at risk of B12 deficiency even though his folate intake is good.",
+      "distractors": "Folic acid is plentiful in green leafy vegetables and pulses, so it is unlikely to be lacking in this diet.",
+      "source": "Slides 13 and 21 · Lippincott ch. 28 (Vitamin B12)"
+    },
+    {
+      "id": "iron-b12-folate-33",
+      "topic": "Pernicious anemia: mechanism",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 58-year-old woman has megaloblastic anemia and a low serum vitamin B12. Her diet includes meat and dairy products every day. Investigations show autoimmune destruction of her gastric parietal cells. Which mechanism best explains her B12 deficiency?",
+      "options": [
+        "Loss of gastric HCl, which is needed to reduce B12 to its active form",
+        "Lack of intrinsic factor, so B12 cannot be absorbed in the ileum",
+        "Failure of the liver to synthesise transcobalamin II",
+        "Loss of the liver's ability to store vitamin B12",
+        "Increased excretion of vitamin B12 in the urine"
+      ],
+      "answer": 1,
+      "explain": "Pernicious anemia is B12 deficiency due to malabsorption caused by lack of intrinsic factor, which is produced by gastric parietal cells. Autoimmune destruction of parietal cells (or gastrectomy) removes IF, so the B12–IF complex cannot form and B12 is not absorbed in the ileum.",
+      "distractors": "Transcobalamin II and liver storage act after absorption and are not the defect here. Acid does not 'reduce' B12; the key gastric product lost is intrinsic factor.",
+      "source": "Slides 22, 25 and 26 · Lippincott ch. 28 (Vitamin B12)"
+    },
+    {
+      "id": "iron-b12-folate-34",
+      "topic": "B12 absorption: the ileum",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 30-year-old man with Crohn disease had his terminal ileum removed. Several years later he develops megaloblastic anemia. Deficiency of which vitamin is most likely, and why?",
+      "options": [
+        "Folic acid, because it is absorbed only in the terminal ileum",
+        "Folic acid, because the ileum makes the β-globulin that carries it",
+        "Vitamin B12, because intrinsic factor is produced in the ileum",
+        "Vitamin B12, because the ileum is the main storage site for B12",
+        "Vitamin B12, because the B12–IF complex is absorbed in the ileum"
+      ],
+      "answer": 4,
+      "explain": "B12 combines with intrinsic factor, and the B12–IF complex is absorbed in the ileum, where B12 is transferred to transcobalamin II. Removing the terminal ileum prevents this absorption. Because the liver stores B12 for years, the anemia appears only after a delay.",
+      "distractors": "IF is made by gastric parietal cells, not the ileum, and B12 is stored in the liver. Folate is absorbed mainly in the upper jejunum, which is intact.",
+      "source": "Slides 14, 22 and 23 · Lippincott ch. 28 (Vitamin B12)"
+    },
+    {
+      "id": "iron-b12-folate-35",
+      "topic": "B12 transport in plasma",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "After ileal cells take up the B12–intrinsic factor complex, intrinsic factor is released. Which protein then carries vitamin B12 in the plasma?",
+      "options": [
+        "Transferrin",
+        "Albumin",
+        "Ceruloplasmin",
+        "Transcobalamin II",
+        "Ferritin"
+      ],
+      "answer": 3,
+      "explain": "In the ileal cells, intrinsic factor is released and B12 is transferred to the plasma transport protein transcobalamin II (TC II), which delivers it to the tissues.",
+      "distractors": "Transferrin and ferritin handle iron, and ceruloplasmin is the plasma ferroxidase that oxidises Fe²⁺. Folate, not B12, is carried by β-globulins.",
+      "source": "Slide 22 · Lippincott ch. 28 (Vitamin B12)"
+    },
+    {
+      "id": "iron-b12-folate-36",
+      "topic": "B12 storage: post-gastrectomy",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 62-year-old Omani man had a total gastrectomy for gastric cancer. He was well for the first year, but several years later he developed megaloblastic anemia with numbness in his feet. Why did these problems take so long to appear?",
+      "options": [
+        "Folate stores in the liver last several years and delayed the anemia",
+        "The ileum slowly lost its receptors for the B12–IF complex after surgery",
+        "Transcobalamin II levels fall only gradually after gastrectomy",
+        "The liver stores enough vitamin B12 to last several years",
+        "Dietary B12 is absorbed normally until the ileum atrophies"
+      ],
+      "answer": 3,
+      "explain": "Gastrectomy removes the parietal cells that make intrinsic factor, so B12 can no longer be absorbed. Unlike other water-soluble vitamins, B12 is stored in the liver (about 2–5 mg), enough for several years, so deficiency appears only after these stores run out.",
+      "distractors": "Folate has limited storage, so it cannot explain a delay of years. The cause of malabsorption is loss of intrinsic factor, not a change in the ileum.",
+      "source": "Slides 23 and 26 · Lippincott ch. 28 (Vitamin B12)"
+    },
+    {
+      "id": "iron-b12-folate-37",
+      "topic": "B12 coenzyme: methylcobalamin",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which coenzyme form of vitamin B12 is required by methionine synthase for the conversion of homocysteine to methionine?",
+      "options": [
+        "Deoxyadenosylcobalamin",
+        "Methylcobalamin",
+        "Cyanocobalamin",
+        "Hydroxocobalamin",
+        "Pyridoxal phosphate"
+      ],
+      "answer": 1,
+      "explain": "The lecture lists two coenzyme forms of B12. Methylcobalamin is the coenzyme of methionine synthase: it transfers its CH₃ group to homocysteine, forming methionine. Deoxyadenosylcobalamin is the coenzyme of methylmalonyl-CoA mutase.",
+      "distractors": "Deoxyadenosylcobalamin serves methylmalonyl-CoA mutase, not methionine synthase. Cyanocobalamin is the form given by injection in treatment, not the coenzyme itself.",
+      "source": "Slide 24 · Lippincott ch. 28 (Vitamin B12)"
+    },
+    {
+      "id": "iron-b12-folate-38",
+      "topic": "B12 coenzyme: deoxyadenosylcobalamin",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which reaction requires deoxyadenosylcobalamin as its coenzyme?",
+      "options": [
+        "Methylmalonyl-CoA → succinyl-CoA",
+        "Homocysteine → methionine",
+        "Dihydrofolate → tetrahydrofolate",
+        "Glycine → serine",
+        "Folic acid → dihydrofolate"
+      ],
+      "answer": 0,
+      "explain": "Deoxyadenosylcobalamin is the coenzyme of methylmalonyl-CoA mutase, which rearranges methylmalonyl-CoA into succinyl-CoA (an H atom and the –CO–SCoA group exchange positions).",
+      "distractors": "Homocysteine → methionine uses the other B12 coenzyme, methylcobalamin. The folate reductions use dihydrofolate reductase with NADPH, and serine synthesis from glycine uses N⁵,N¹⁰-methylene-THF.",
+      "source": "Slide 24 · Lippincott ch. 28 (Vitamin B12)"
+    },
+    {
+      "id": "iron-b12-folate-39",
+      "topic": "B12 deficiency: metabolic markers",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 65-year-old man has megaloblastic anemia, tingling in his feet, raised plasma homocysteine and raised urinary methylmalonic acid. Deficiency of which coenzyme(s) explains both of these metabolic abnormalities?",
+      "options": [
+        "Tetrahydrofolate and its N⁵-methyl derivative",
+        "N⁵,N¹⁰-methylene-THF used for dTMP synthesis",
+        "Methylcobalamin and deoxyadenosylcobalamin",
+        "NADPH for the dihydrofolate reductase steps",
+        "N¹⁰-formyl-THF and dihydrofolate"
+      ],
+      "answer": 2,
+      "explain": "Raised homocysteine reflects failure of methionine synthase (methylcobalamin). Raised methylmalonic acid reflects failure of methylmalonyl-CoA mutase (deoxyadenosylcobalamin), so methylmalonyl-CoA builds up. Only vitamin B12 deficiency impairs both enzymes; folate deficiency raises homocysteine but leaves the mutase intact.",
+      "distractors": "Folate coenzymes (A, B, E) are needed for homocysteine remethylation and DNA synthesis, but they play no part in the methylmalonyl-CoA mutase reaction, so they cannot explain the methylmalonic acid.",
+      "source": "Slides 24 and 29 · Lippincott ch. 28 (Vitamin B12)"
+    },
+    {
+      "id": "iron-b12-folate-40",
+      "topic": "Folate trap: trapped form",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "In vitamin B12 deficiency, the methionine synthase reaction cannot proceed. In which form does folate accumulate in cells as a result?",
+      "options": [
+        "Tetrahydrofolate (THF)",
+        "N¹⁰-formyl-THF",
+        "Dihydrofolate",
+        "N⁵,N¹⁰-methylene-THF",
+        "N⁵-methyl-THF"
+      ],
+      "answer": 4,
+      "explain": "Methionine synthase transfers the methyl group from N⁵-methyl-THF to B12 (forming methylcobalamin), which then methylates homocysteine to methionine. Without B12, N⁵-methyl-THF cannot be converted back to THF, so folate is 'trapped' as methyl-THF: the folate trap.",
+      "distractors": "THF is the form that becomes scarce, not the one that accumulates. N¹⁰-formyl-THF and N⁵,N¹⁰-methylene-THF are made from THF, so they fall as THF falls.",
+      "source": "Slides 27–28 · Lippincott ch. 28 (Vitamin B12; folate trap)"
+    },
+    {
+      "id": "iron-b12-folate-41",
+      "topic": "Folate trap: megaloblastic anemia",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "A patient with pernicious anemia has megaloblastic changes in the bone marrow even though his dietary folate intake is adequate. Which sequence best explains this?",
+      "options": [
+        "No B12 → dihydrofolate reductase stops → folic acid is not reduced → purine synthesis fails",
+        "No B12 → methylmalonyl-CoA accumulates → thymidine is degraded → DNA synthesis fails",
+        "No B12 → N⁵-methyl-THF cannot form THF → less THF for purine and dTMP → DNA synthesis fails",
+        "No B12 → folate is not absorbed in the jejunum → no THF forms → DNA synthesis fails",
+        "No B12 → homocysteine accumulates → RNA synthesis stops → cytoplasm fails to grow"
+      ],
+      "answer": 2,
+      "explain": "In B12 deficiency, methyl-THF cannot be converted to THF, so folate is trapped as methyl-THF and a functional folate deficiency results. Because THF is required for purine and thymidine monophosphate synthesis, DNA synthesis is impaired and megaloblastic anemia develops. This is why the lecture says the anemia is treated with both B12 and folic acid.",
+      "distractors": "B12 does not act on dihydrofolate reductase (the methotrexate target), and jejunal folate absorption does not need B12. In megaloblastic anemia, RNA and protein synthesis continue normally.",
+      "source": "Slides 27–28 · Lippincott ch. 28 (Vitamin B12; folate trap)"
+    },
+    {
+      "id": "iron-b12-folate-42",
+      "topic": "B12 vs folate deficiency: neurological features",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 70-year-old woman has megaloblastic anemia and raised plasma homocysteine. She also has numbness of the feet, an unsteady gait and memory loss. Which deficiency best explains the whole clinical picture?",
+      "options": [
+        "Folate deficiency",
+        "Iron deficiency",
+        "Iron overload",
+        "Vitamin C deficiency",
+        "Vitamin B12 deficiency"
+      ],
+      "answer": 4,
+      "explain": "Megaloblastic anemia and hyperhomocysteinemia occur in both folate and B12 deficiency, but the lecture lists neuropsychiatric symptoms only for B12 deficiency. Numbness, gait disturbance and memory loss together with megaloblastic anemia therefore point to vitamin B12 deficiency.",
+      "distractors": "Folate deficiency causes megaloblastic anemia, neural tube defects and hyperhomocysteinemia, but no neuropsychiatric features are listed for it. Iron disorders do not cause megaloblastic anemia.",
+      "source": "Slides 17 and 25 · Lippincott ch. 28 (Vitamin B12)"
+    },
+    {
+      "id": "iron-b12-folate-43",
+      "topic": "B12 deficiency: diagnostic tests",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "A patient has megaloblastic anemia and a low serum vitamin B12. The physician wants to know whether the deficiency is due to failure to absorb B12 or to inadequate dietary intake. Of the diagnostic tests listed in the lecture, which one is designed to answer this question?",
+      "options": [
+        "Schilling test",
+        "Serum B12 level",
+        "Peripheral blood smear",
+        "Plasma homocysteine",
+        "Serum ferritin"
+      ],
+      "answer": 0,
+      "explain": "The lecture's diagnostic table gives each test a purpose: serum B12 measures the B12 level, the peripheral smear confirms megaloblastic anemia, raised homocysteine shows that homocysteine cannot be converted to methionine, and the Schilling test evaluates B12 absorption. Only the Schilling test separates malabsorption (e.g., pernicious anemia, with no intrinsic factor) from dietary deficiency.",
+      "distractors": "The low serum B12 is already known and does not reveal its cause. The smear and homocysteine confirm megaloblastic change or a functional block, not the absorption defect.",
+      "source": "Slides 29–30 · Lippincott ch. 28 (Vitamin B12)"
+    },
+    {
+      "id": "iron-b12-folate-44",
+      "topic": "Pernicious anemia: treatment",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 55-year-old woman is diagnosed with pernicious anemia caused by autoimmune destruction of her gastric parietal cells. Which treatment plan is most appropriate?",
+      "options": [
+        "Oral folic acid alone until the hemoglobin returns to normal",
+        "Lifelong vitamin B12 therapy, such as intramuscular cyanocobalamin",
+        "A short course of oral B12 at the normal dietary amount",
+        "Increased intake of meat, eggs and dairy products",
+        "Oral iron with ascorbic acid for three months"
+      ],
+      "answer": 1,
+      "explain": "In pernicious anemia, intrinsic factor is permanently absent, so B12 cannot be absorbed by the normal route. The lecture states that it requires lifelong treatment with high-dose B12, such as intramuscular cyanocobalamin, which does not depend on intrinsic factor.",
+      "distractors": "Dietary B12, even in larger amounts, and normal-dose oral B12 cannot be absorbed without intrinsic factor. Folic acid alone may improve the anemia but does not correct the B12 deficiency.",
+      "source": "Slide 26 · Lippincott ch. 28 (Vitamin B12)"
+    },
+    {
+      "id": "iron-b12-folate-45",
+      "topic": "Folic acid alone in B12 deficiency",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 60-year-old man with megaloblastic anemia is given folic acid alone, without his B12 status being checked. His hemoglobin improves, but over the next months the tingling in his legs and his memory problems get worse. Pernicious anemia is later confirmed. Which explanation is most accurate?",
+      "options": [
+        "Folic acid was converted to a toxic analogue that directly damaged his nerves",
+        "Folic acid inhibited dihydrofolate reductase in neurons, blocking myelin formation",
+        "Folic acid restored intrinsic factor secretion, which corrected only the anemia",
+        "Folate restored THF for DNA synthesis, but B12-dependent nerve damage continued",
+        "Folic acid raised plasma homocysteine, which then caused the neurological damage"
+      ],
+      "answer": 3,
+      "explain": "Large amounts of folic acid can supply enough THF to get round the folate trap and restore DNA synthesis, so the megaloblastic anemia improves. However, the B12-dependent reactions remain deficient, and the neuropsychiatric damage of B12 deficiency progresses. This is why the lecture states that megaloblastic anemia is treated with both vitamin B12 and folic acid.",
+      "distractors": "Folic acid does not inhibit dihydrofolate reductase (methotrexate does) and cannot restore intrinsic factor, which is lost in pernicious anemia. Folate does not raise homocysteine; the lecture lists lowering plasma homocysteine as one of its functions.",
+      "source": "Slides 25 and 28 · Lippincott ch. 28 (Vitamin B12; folate trap)"
+    }
+  ]
+}

@@ -1,0 +1,908 @@
+{
+  "lecture": "carbohydrates",
+  "title": "Carbohydrate Chemistry & GAGs",
+  "format": "Single best answer · 5 options",
+  "provenance": "Original exam-style items written from the lecture slides and Lippincott; modelled on the NUST/OMC MD-program SBA format (no public past papers were found).",
+  "questions": [
+    {
+      "id": "carbohydrates-01",
+      "topic": "Definition of carbohydrates",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which of the following best describes the chemical nature of carbohydrates?",
+      "options": [
+        "Esters of long-chain fatty acids with glycerol",
+        "Polyhydroxy aldehydes or ketones of C, H and O",
+        "Polymers of amino acids linked by peptide bonds",
+        "Nitrogenous bases linked to a phosphorylated pentose",
+        "Fused-ring compounds built from isoprene units"
+      ],
+      "answer": 1,
+      "explain": "Carbohydrates (saccharides) are organic compounds made of carbon, hydrogen and oxygen that are chemically polyhydroxy aldehydes or ketones. Glucose carries an aldehyde group and fructose a ketone group, and both have many hydroxyl groups (C₆H₁₂O₆). Standard textbooks extend the definition to compounds that yield these on hydrolysis (di-, oligo- and polysaccharides).",
+      "distractors": "Option A describes triacylglycerols, C describes proteins and E describes steroids (lipids). Option D describes nucleotides; their pentose is a carbohydrate component, but the molecule as a whole is not a carbohydrate.",
+      "source": "Slides 3 and 4 · Lippincott: Introduction to Carbohydrates"
+    },
+    {
+      "id": "carbohydrates-02",
+      "topic": "Glucose as the chief fuel",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Glucose is the chief fuel molecule in humans. Which of the following cells is almost exclusively dependent on glucose for its energy supply?",
+      "options": [
+        "Hepatocyte",
+        "Cardiac myocyte",
+        "Adipocyte",
+        "Erythrocyte",
+        "Resting skeletal muscle fibre"
+      ],
+      "answer": 3,
+      "explain": "The lecture states that the brain and erythrocytes are almost exclusively dependent on glucose. Erythrocytes have no mitochondria, so they cannot oxidise fatty acids or ketone bodies and rely on anaerobic glycolysis throughout life. The brain, by contrast, can adapt to use ketone bodies during prolonged fasting.",
+      "distractors": "Cardiac myocytes and resting skeletal muscle obtain much of their energy from fatty acid oxidation. Hepatocytes and adipocytes also readily use fatty acids, so none of them depends almost exclusively on glucose.",
+      "source": "Slide 3 · Lippincott: Introduction to Carbohydrates; Glycolysis (RBC metabolism)"
+    },
+    {
+      "id": "carbohydrates-03",
+      "topic": "Classification by number of units",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "The carbohydrate chain attached to a membrane glycoprotein consists of eight monosaccharide residues joined by glycosidic bonds. Using the classification taught in this course, how is this chain best classified?",
+      "options": [
+        "Oligosaccharide",
+        "Disaccharide",
+        "Homopolysaccharide",
+        "Heteropolysaccharide",
+        "Glycosaminoglycan"
+      ],
+      "answer": 0,
+      "explain": "Carbohydrates are classified by number of sugar units: 1 = monosaccharide, 2 = disaccharide, 3–10 = oligosaccharide and >10 = polysaccharide. A chain of eight residues therefore falls in the oligosaccharide range, whether its residues are identical or different. Textbooks vary on the upper cut-off, but this course uses 3–10.",
+      "distractors": "The homo/hetero distinction applies only to polysaccharides (>10 units), so C and D are wrong whatever the sugar composition. Glycosaminoglycans are long polysaccharides of repeating disaccharide units.",
+      "source": "Slides 5 and 22 · Lippincott: Introduction to Carbohydrates"
+    },
+    {
+      "id": "carbohydrates-04",
+      "topic": "Homo- vs heteropolysaccharides",
+      "type": "application",
+      "difficulty": "easy",
+      "stem": "Complete acid hydrolysis of a purified polysaccharide of about 200 residues yields a mixture of glucose, galactose and mannose. How is this polymer best classified?",
+      "options": [
+        "Homopolysaccharide",
+        "Oligosaccharide",
+        "Heteropolysaccharide",
+        "Disaccharide",
+        "Monosaccharide derivative"
+      ],
+      "answer": 2,
+      "explain": "Polysaccharides (glycans) have more than 10 units and are classified by the type(s) of monosaccharide they contain. A homopolysaccharide has one kind of monomer, and a heteropolysaccharide has more than one. With about 200 residues and three different monomers, this polymer is a heteropolysaccharide, like the glucose–galactose–mannose chain drawn on the classification slide.",
+      "distractors": "A homopolysaccharide (e.g., glycogen, dextran, inulin) yields a single monosaccharide on hydrolysis. With 200 residues the chain is far beyond the oligosaccharide range (3–10).",
+      "source": "Slides 5 and 22 · Lippincott: Introduction to Carbohydrates"
+    },
+    {
+      "id": "carbohydrates-05",
+      "topic": "Properties of monosaccharides",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which of the following statements about monosaccharides is correct?",
+      "options": [
+        "They are non-reducing because their carbonyl group is unavailable",
+        "They are poorly soluble in water because they have few hydroxyl groups",
+        "They consist of three to ten sugar units joined by glycosidic bonds",
+        "They are the largest carbohydrates and serve mainly as structural polymers",
+        "They cannot be hydrolysed into simpler carbohydrates"
+      ],
+      "answer": 4,
+      "explain": "Monosaccharides are the simplest carbohydrates. They cannot be hydrolysed further and are the building blocks of all other carbohydrates. They are also completely water-soluble, because their many hydroxyl groups hydrogen-bond with water, and all of them are reducing sugars, because they have a free aldehyde or ketone group. Their general formula is (CH₂O)n with n ≥ 3.",
+      "distractors": "Option A is the reverse of the lecture's rule that all monosaccharides are reducing. Option B is also reversed: the many OH groups make monosaccharides highly soluble. Option C defines an oligosaccharide.",
+      "source": "Slide 6 · Lippincott: Introduction to Carbohydrates"
+    },
+    {
+      "id": "carbohydrates-06",
+      "topic": "Trioses to heptoses",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Monosaccharides are named according to their number of carbon atoms. Which of the following pairs a class with a correct example?",
+      "options": [
+        "Triose — erythrose",
+        "Heptose — sedoheptulose",
+        "Tetrose — ribose",
+        "Pentose — galactose",
+        "Hexose — glyceraldehyde"
+      ],
+      "answer": 1,
+      "explain": "The lecture's table gives: triose = glyceraldehyde (C₃H₆O₃), tetrose = erythrose (C₄H₈O₄), pentose = ribose (C₅H₁₀O₅), hexose = glucose and galactose (C₆H₁₂O₆) and heptose = sedoheptulose (C₇H₁₄O₇). Sedoheptulose is a seven-carbon ketose, and its phosphate is an intermediate of the pentose phosphate pathway.",
+      "distractors": "Each wrong option swaps in an example from another class. Erythrose is a tetrose, ribose a pentose, galactose a hexose and glyceraldehyde a triose.",
+      "source": "Slide 7 · Lippincott: Introduction to Carbohydrates (classification)"
+    },
+    {
+      "id": "carbohydrates-07",
+      "topic": "Aldoses vs ketoses",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Glucose and fructose share the molecular formula C₆H₁₂O₆. Which feature distinguishes fructose from glucose?",
+      "options": [
+        "It has a ketone group at C2 instead of an aldehyde group at C1",
+        "It has an aldehyde group at C1 instead of a ketone group at C2",
+        "It has the opposite orientation of the hydroxyl group at C4",
+        "It is the non-superimposable mirror image of glucose",
+        "It has the opposite orientation of the hydroxyl group at the anomeric carbon"
+      ],
+      "answer": 0,
+      "explain": "Glucose is an aldose, with an aldehyde (H–C=O) at C1. Fructose is a ketose, with a ketone (C=O) at C2. Because they have the same formula but different carbonyl groups, they are aldose–ketose isomers (isomerism type: 'presence of aldehyde or ketone group').",
+      "distractors": "Option B reverses the two sugars. Option C describes galactose (a C4 epimer of glucose), D describes L-glucose (an enantiomer) and E describes anomers.",
+      "source": "Slides 4, 12 and 14 · Lippincott: Introduction to Carbohydrates (isomers)"
+    },
+    {
+      "id": "carbohydrates-08",
+      "topic": "Chiral carbons",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "A chiral (asymmetric) carbon is one attached to four different groups. How many chiral carbons are present in the open-chain (Fischer projection) form of D-glucose?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "explain": "In open-chain glucose, C2, C3, C4 and C5 each carry H, OH and two different carbon-containing groups, so all four are chiral. C1 (the aldehyde carbon, CHO) and C6 (CH₂OH, which carries two H atoms) are not chiral. Four chiral centres allow 2⁴ = 16 aldohexose stereoisomers. On cyclisation, C1 becomes a fifth chiral carbon, the anomeric carbon.",
+      "distractors": "Five is the count for the cyclic (ring) form, in which C1 has become the anomeric carbon. Six counts every carbon, ignoring the requirement for four different groups.",
+      "source": "Slides 8, 4 and 9 · Lippincott: Introduction to Carbohydrates (isomers)"
+    },
+    {
+      "id": "carbohydrates-09",
+      "topic": "C2 epimers",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which monosaccharide is the C2 epimer of D-glucose?",
+      "options": [
+        "D-Galactose",
+        "D-Fructose",
+        "L-Glucose",
+        "D-Ribose",
+        "D-Mannose"
+      ],
+      "answer": 4,
+      "explain": "Epimers differ only in the orientation of the hydroxyl group at one specific chiral carbon. D-mannose has its C2 hydroxyl on the left in the Fischer projection, whereas D-glucose has it on the right, and every other carbon is identical. Mannose and glucose are therefore C2 epimers.",
+      "distractors": "Galactose is the C4 epimer of glucose (a common mix-up), fructose is its aldose–ketose isomer and L-glucose its enantiomer. Ribose is a pentose, so it is not even an isomer of glucose.",
+      "source": "Slides 13 and 14 · Lippincott: Introduction to Carbohydrates (epimers)"
+    },
+    {
+      "id": "carbohydrates-10",
+      "topic": "C4 epimers",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 2-week-old breast-fed infant has vomiting, jaundice and bilateral lens opacities. Classic galactosaemia is diagnosed, and galactose is found to accumulate in the blood. Structurally, how is galactose related to glucose?",
+      "options": [
+        "C2 epimer",
+        "Anomer",
+        "Enantiomer",
+        "C4 epimer",
+        "Aldose–ketose isomer"
+      ],
+      "answer": 3,
+      "explain": "D-galactose and D-glucose differ only in the orientation of the hydroxyl group at C4 (on the left in galactose), so they are C4 epimers. In metabolism the two sugars are interconverted, as their UDP-derivatives, by a 4-epimerase (UDP-hexose 4-epimerase). Breast milk contains lactose (glucose + galactose), which is why the infant is exposed.",
+      "distractors": "The C2 epimer of glucose is mannose. Anomers differ at the anomeric carbon (α vs β), and the enantiomer of D-glucose is L-glucose. Galactose is an aldose, like glucose, so they are not aldose–ketose isomers.",
+      "source": "Slides 13 and 17 · Lippincott: Introduction to Carbohydrates; Monosaccharide and Disaccharide Metabolism (galactose)"
+    },
+    {
+      "id": "carbohydrates-11",
+      "topic": "Epimers (mannose vs galactose)",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "A student argues: 'Mannose is an epimer of glucose, and galactose is an epimer of glucose, so mannose and galactose must be epimers of each other.' Which statement best evaluates this claim?",
+      "options": [
+        "Correct; epimer relationships are transitive between sugars",
+        "Incorrect; they differ in configuration at both C2 and C4",
+        "Correct; they are C3 epimers of each other",
+        "Incorrect; mannose is a ketose whereas galactose is an aldose",
+        "Incorrect; they are non-superimposable mirror images"
+      ],
+      "answer": 1,
+      "explain": "Epimers differ at only one specific chiral carbon. Compared with glucose, mannose differs at C2 and galactose differs at C4. So mannose and galactose differ from each other at two carbons (C2 and C4), which makes them isomers (diastereomers) but not epimers. Lippincott makes exactly this point.",
+      "distractors": "Epimerism is not transitive, because a second change adds a second difference. Both sugars are aldohexoses, and they are not mirror images, since only two of their four chiral centres differ.",
+      "source": "Slides 13 and 14 · Lippincott: Introduction to Carbohydrates (epimers)"
+    },
+    {
+      "id": "carbohydrates-12",
+      "topic": "Anomers and the anomeric carbon",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "α-D-Glucose and β-D-glucose differ from each other only in the orientation of the hydroxyl group at which carbon?",
+      "options": [
+        "C1, the anomeric carbon",
+        "C2, the carbon next to the carbonyl group",
+        "C4, the carbon at which galactose differs",
+        "C5, the reference carbon for the D/L label",
+        "C6, the terminal CH₂OH carbon"
+      ],
+      "answer": 0,
+      "explain": "When glucose cyclises, the C5 oxygen attacks the C1 carbonyl, and the former carbonyl carbon (C1) becomes a new chiral centre called the anomeric carbon. α and β glucose are anomers: they differ only in the orientation of the OH at this anomeric carbon.",
+      "distractors": "C2 and C4 differences produce epimers (mannose and galactose). C5 is the carbon used to assign the D/L configuration, and C6 is not chiral.",
+      "source": "Slides 9 and 14 · Lippincott: Introduction to Carbohydrates (cyclization, anomers)"
+    },
+    {
+      "id": "carbohydrates-13",
+      "topic": "Anomer proportions in solution",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Crystalline α-D-glucose is dissolved in water and left to reach equilibrium at room temperature. Which of the following best describes the solution at equilibrium?",
+      "options": [
+        "Entirely α-D-glucose, because the anomers cannot interconvert",
+        "Mostly α-D-glucose (about 64%), with about 36% β-D-glucose",
+        "Equal amounts (50%) of α- and β-D-glucose",
+        "Mostly β-D-glucose (about 64%), with about 36% α-D-glucose",
+        "Mostly open-chain glucose, with small amounts of the ring forms"
+      ],
+      "answer": 3,
+      "explain": "In solution, the ring forms open and re-close through the open-chain form, so α and β interconvert spontaneously. Lippincott calls this process mutarotation. At equilibrium the cyclic forms predominate (the slide gives about 99%), and β-glucose (64%) outnumbers α-glucose (36%). The open-chain form is actually well below 1% (textbook).",
+      "distractors": "Option B reverses the slide's proportions. Option E reverses ring and open chain. Option A is wrong because anomers interconvert in water without any enzyme.",
+      "source": "Slide 9 · Lippincott: Introduction to Carbohydrates (anomers, mutarotation)"
+    },
+    {
+      "id": "carbohydrates-14",
+      "topic": "Haworth projection: α vs β",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "In the Haworth projection of D-glucopyranose, which feature identifies the β-anomer?",
+      "options": [
+        "The anomeric OH points down, on the opposite side from the CH₂OH group",
+        "The OH on C4 points up instead of down",
+        "The ring is closed through the C4 oxygen instead of the C5 oxygen",
+        "The CH₂OH group (C6) points down instead of up",
+        "The anomeric OH points up, on the same side as the CH₂OH group"
+      ],
+      "answer": 4,
+      "explain": "On the slide, α-glucose has its C1 (anomeric) OH pointing down and its H up, while β-glucose has its OH pointing up. In a Haworth projection of a D-sugar, the CH₂OH (C6) points up. So the β anomeric OH is cis to (on the same side as) the CH₂OH, and the α anomeric OH is trans to it (Lippincott).",
+      "distractors": "Option A describes the α-anomer. Option B would make a different sugar (galactose). Closing the ring through the C4 oxygen would give a five-membered furanose, not a β-anomer.",
+      "source": "Slide 9 · Lippincott: Introduction to Carbohydrates (Haworth projections)"
+    },
+    {
+      "id": "carbohydrates-15",
+      "topic": "Anomeric carbon of a ketose",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "Fructose also cyclises in solution, when one of its hydroxyl groups reacts with its carbonyl group. Which carbon becomes the anomeric carbon of cyclic fructose?",
+      "options": [
+        "C1",
+        "C2",
+        "C3",
+        "C5",
+        "C6"
+      ],
+      "answer": 1,
+      "explain": "Cyclisation converts the carbonyl carbon into the new chiral anomeric carbon. In the aldose glucose this is C1, but in the ketose fructose the carbonyl (ketone) group is at C2. C2 therefore becomes the anomeric carbon. Lippincott states this directly: the anomeric carbon is C1 for an aldose and C2 for a ketose.",
+      "distractors": "C1 is the anomeric carbon of aldoses such as glucose, so it is tempting by analogy, but in fructose C1 is a CH₂OH group. C5 (or C6) provides the ring-forming hydroxyl oxygen, not the anomeric carbon.",
+      "source": "Slides 9, 4 and 12 · Lippincott: Introduction to Carbohydrates (cyclization)"
+    },
+    {
+      "id": "carbohydrates-16",
+      "topic": "D/L configuration",
+      "type": "recall",
+      "difficulty": "hard",
+      "stem": "What does the prefix 'D' in the names D-glucose and D-fructose indicate?",
+      "options": [
+        "The sugar rotates plane-polarised light to the right (it is dextrorotatory)",
+        "The anomeric hydroxyl lies below the plane of the Haworth ring",
+        "The hydroxyl on the chiral carbon nearest the carbonyl group points right in the Fischer projection",
+        "The hydroxyl on the chiral carbon farthest from the carbonyl group points right in the Fischer projection",
+        "The sugar is the predominant anomer of its ring form in aqueous solution"
+      ],
+      "answer": 3,
+      "explain": "D and L describe configuration, not optical rotation. The label is read from the hydroxyl on the chiral carbon farthest from the carbonyl carbon (the penultimate carbon, C5 in both glucose and fructose). If that OH is on the right in the Fischer projection the sugar is D; if it is on the left the sugar is L (Lippincott). The slide labels the forms 'D (dextro)' and 'L (levo)', which conflates configuration with optical rotation. Rotation is measured experimentally and written (+) or (−): D-glucose is dextrorotatory, but D-fructose is levorotatory (hence its old name, levulose).",
+      "distractors": "Option A is the 'dextro' trap from the slide wording: it happens to be true of D-glucose but is false for D-fructose, so it cannot be what 'D' means. Option C names the wrong reference carbon. Options B and E describe the α-anomer and the β-anomer, which are independent of the D/L label.",
+      "source": "Slide 10 (see accuracy note) · Lippincott: Introduction to Carbohydrates (enantiomers)"
+    },
+    {
+      "id": "carbohydrates-17",
+      "topic": "Enantiomers",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "L-Glucose is the enantiomer of D-glucose. Compared with open-chain D-glucose, which is the complete set of carbons at which L-glucose has the opposite configuration?",
+      "options": [
+        "C2, C3 and C4",
+        "C4",
+        "C5",
+        "C2 and C5",
+        "C2, C3, C4 and C5"
+      ],
+      "answer": 4,
+      "explain": "Enantiomers are non-superimposable mirror images. Every chiral centre (C2–C5 in open-chain glucose) is inverted, exactly as the lecture's mirror figure of D- and L-glucose shows. The summary slide describes enantiomers by the 'chiral carbon adjacent to the terminal carbon', but that is only the carbon used to assign the D/L label. Inverting C5 alone would give L-idose, a diastereomer, not L-glucose.",
+      "distractors": "'C5' alone is the summary-table trap described above: inverting only C5 gives L-idose. Inverting C2, C3 and C4 but not C5 gives D-idose, another diastereomer, because the D/L reference carbon is unchanged. Inverting C4 alone gives galactose (an epimer). C1 is not chiral in the open chain; in the ring, the orientation of the C1 OH distinguishes anomers, not enantiomers.",
+      "source": "Slides 10 and 14 (see accuracy note) · Lippincott: Introduction to Carbohydrates (enantiomers)"
+    },
+    {
+      "id": "carbohydrates-18",
+      "topic": "Amino sugars",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 60-year-old woman with knee osteoarthritis buys an over-the-counter glucosamine supplement marketed as a 'cartilage building block'. Chemically, glucosamine is formed from glucose by which change?",
+      "options": [
+        "Oxidation of a hydroxyl group to a carboxyl group",
+        "Reduction of the carbonyl carbon to an alcohol group",
+        "Replacement of the C2 hydroxyl group by an amino group",
+        "Covalent attachment of the sugar to a non-sugar molecule",
+        "Condensation with a second sugar via a glycosidic bond"
+      ],
+      "answer": 2,
+      "explain": "Amino sugars form when a hydroxyl group (at C2 in hexoses) is replaced by an amino group (NH₃⁺). Glucosamine and galactosamine are essential components of glycosaminoglycans, which build cartilage proteoglycans. In GAGs the amino group is usually N-acetylated (Lippincott).",
+      "distractors": "Option A produces an acidic sugar (e.g., glucuronic acid), B a sugar alcohol (e.g., sorbitol), D a glycoside and E a disaccharide.",
+      "source": "Slides 15 and 28 · Lippincott: Introduction to Carbohydrates; Glycosaminoglycans (structure)"
+    },
+    {
+      "id": "carbohydrates-19",
+      "topic": "Acidic sugars",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 3-day-old neonate has physiological jaundice because hepatic conjugation of bilirubin with glucuronic acid is still immature. To which class of monosaccharide derivatives does glucuronic acid itself belong?",
+      "options": [
+        "Acidic sugar, carrying a negatively charged carboxyl group",
+        "Amino sugar, carrying a positively charged amino group",
+        "Sugar alcohol, formed by reduction of the carbonyl carbon",
+        "Glycoside, in which a sugar is bound to a non-sugar molecule",
+        "Ketose, carrying a ketone group at C2"
+      ],
+      "answer": 0,
+      "explain": "Acidic sugars form when a hydroxyl group is oxidised to a carboxyl group, which is negatively charged (COO⁻) at physiological pH. Glucuronic acid (from oxidation of C6 of glucose; Lippincott) is the classic example, and with iduronic acid it is one of the sugar acids of GAGs. Conjugation with glucuronic acid makes bilirubin water-soluble for excretion in bile.",
+      "distractors": "Option D is tempting because the conjugate (bilirubin glucuronide) is a sugar linked to a non-sugar, but glucuronic acid itself is not a glycoside. Amino sugars (B) are glucosamine and galactosamine.",
+      "source": "Slides 15 and 28 · Lippincott: Introduction to Carbohydrates; Heme degradation (bilirubin conjugation)"
+    },
+    {
+      "id": "carbohydrates-20",
+      "topic": "Glycosides",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 72-year-old man with chronic heart failure and atrial fibrillation is started on oral digoxin. To which class of sugar derivatives does digoxin belong?",
+      "options": [
+        "Sugar alcohol",
+        "Amino sugar",
+        "Acidic sugar",
+        "Homopolysaccharide",
+        "Glycoside"
+      ],
+      "answer": 4,
+      "explain": "A glycoside is a sugar covalently attached to a non-sugar molecule. Digoxin, used to treat heart failure, is the lecture's example of a cardiac glycoside: sugar residues linked to a steroid non-sugar part, which textbooks call the aglycone. The aminoglycoside antibiotics streptomycin and gentamicin are also glycosides.",
+      "distractors": "Sugar alcohols (sorbitol, mannitol) are formed by reducing the carbonyl group, and amino and acidic sugars are modified monosaccharides. None of these contains a non-sugar partner.",
+      "source": "Slide 15 · Lippincott: Introduction to Carbohydrates (glycosides)"
+    },
+    {
+      "id": "carbohydrates-21",
+      "topic": "Sugar alcohols: mannitol",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 25-year-old man with a severe head injury develops signs of raised intracranial pressure, and intravenous mannitol is given. Which statement correctly classifies mannitol and describes how it is formed?",
+      "options": [
+        "Acidic sugar; a hydroxyl group of mannose is oxidised to a carboxyl group",
+        "Amino sugar; the C2 hydroxyl of mannose is replaced by an amino group",
+        "Glycoside; mannose is covalently attached to a non-sugar molecule",
+        "Sugar alcohol; the carbonyl carbon of mannose is reduced to an alcohol group",
+        "Homopolysaccharide; mannose units are joined by glycosidic bonds"
+      ],
+      "answer": 3,
+      "explain": "Sugar alcohols form when the carbonyl carbon is reduced to an alcohol group. Mannitol, the sugar alcohol of mannose, is highly osmotic and is used to reduce intracranial pressure. Given IV, it stays in the plasma and draws water out of the brain tissue osmotically.",
+      "distractors": "Oxidation of a hydroxyl group gives an acidic sugar, and replacing the C2 hydroxyl with an amino group gives an amino sugar. Mannitol is a single reduced monosaccharide, not a glycoside or a polymer.",
+      "source": "Slide 15 · Lippincott: Introduction to Carbohydrates; Monosaccharide and Disaccharide Metabolism (sugar alcohols)"
+    },
+    {
+      "id": "carbohydrates-22",
+      "topic": "Sorbitol and diabetic cataract",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 58-year-old Omani man with poorly controlled type 2 diabetes (HbA1c 11%) reports gradually blurring vision. Slit-lamp examination shows bilateral lens opacities. Intracellular accumulation of which compound in the lens most directly contributes to this complication?",
+      "options": [
+        "Mannitol",
+        "Sorbitol",
+        "Galactitol",
+        "Fructose",
+        "Glycogen"
+      ],
+      "answer": 1,
+      "explain": "In diabetes, excess glucose is reduced to the sugar alcohol sorbitol, and sorbitol accumulation in the lens causes cataract. Lippincott explains the mechanism. Aldose reductase (NADPH) forms sorbitol, but the lens has little sorbitol dehydrogenase to remove it, and sorbitol cannot easily cross membranes. The trapped sorbitol draws in water osmotically, so the lens fibres swell and become opaque.",
+      "distractors": "Galactitol causes cataract in galactosaemia, not in diabetes. Mannitol is a therapeutic sugar alcohol and is not formed from glucose. Fructose does not accumulate, because sorbitol dehydrogenase activity in the lens is low.",
+      "source": "Slides 16 and 15 · Lippincott: Monosaccharide and Disaccharide Metabolism (sorbitol pathway)"
+    },
+    {
+      "id": "carbohydrates-23",
+      "topic": "Glycosidic bond",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which statement correctly describes how a glycosidic bond between two monosaccharides is formed and broken?",
+      "options": [
+        "Formed by hydrolysis, which adds water; broken by condensation, which releases water",
+        "Formed by oxidation, which removes hydrogen; broken by reduction, which adds hydrogen",
+        "Formed by condensation, which releases water; broken by enzymatic hydrolysis, which adds water",
+        "Formed by phosphorylation, which adds phosphate; broken by phosphatases, which remove it",
+        "Formed by transamination, which adds an amino group; broken by deamination, which removes it"
+      ],
+      "answer": 2,
+      "explain": "A glycosidic bond forms by condensation (dehydration) between a hydroxyl group on each sugar. One molecule of water is released and the sugars are left joined by an oxygen bridge. The reverse reaction is hydrolysis: an enzyme adds water back across the bond and separates the two monosaccharides.",
+      "distractors": "Option A reverses the two processes. The other options describe redox, phosphate-transfer and amino-transfer reactions, none of which forms the C–O–C glycosidic link.",
+      "source": "Slides 17 and 18 · Lippincott: Introduction to Carbohydrates (glycosidic bonds)"
+    },
+    {
+      "id": "carbohydrates-24",
+      "topic": "Disaccharide composition",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 24-year-old man reports bloating, abdominal cramps and loose stools about an hour after drinking milk, but not after other foods. Lactase deficiency is suspected. Which monosaccharides make up the disaccharide he cannot digest?",
+      "options": [
+        "Glucose + galactose",
+        "Glucose + glucose",
+        "Glucose + fructose",
+        "Galactose + fructose",
+        "Galactose + mannose"
+      ],
+      "answer": 0,
+      "explain": "Lactose, the sugar of milk, is glucose + galactose. Maltose is glucose + glucose and sucrose is glucose + fructose. In lactase deficiency, undigested lactose reaches the colon, where bacteria ferment it to gas and its osmotic effect draws in water (Lippincott).",
+      "distractors": "Glucose + glucose is maltose, and glucose + fructose is sucrose (table sugar). Neither is the milk sugar.",
+      "source": "Slide 17 · Lippincott: Introduction to Carbohydrates (digestion; lactose intolerance)"
+    },
+    {
+      "id": "carbohydrates-25",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which one of the following is a non-reducing sugar?",
+      "options": [
+        "Glucose",
+        "Maltose",
+        "Sucrose",
+        "Fructose",
+        "Lactose"
+      ],
+      "answer": 2,
+      "explain": "All monosaccharides (glucose, fructose) are reducing sugars because they have a free aldehyde or ketone group. Among the common disaccharides, maltose and lactose are reducing, but sucrose is non-reducing. (Converted from the lecture's Session 1 quiz, Q1.)",
+      "distractors": "Fructose is a ketose but still a reducing sugar, as are all monosaccharides. Maltose and lactose keep a free anomeric carbon on their glucose unit. Textbooks note another non-reducing disaccharide, trehalose, so the slide's 'except sucrose, all disaccharides are reducing' is a simplification.",
+      "source": "Slides 19, 17 and 6 · Lippincott: Introduction to Carbohydrates (reducing sugars)"
+    },
+    {
+      "id": "carbohydrates-26",
+      "topic": "Why sucrose is non-reducing",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "Maltose and lactose give a positive test for reducing sugars, but sucrose does not. What is the best structural explanation?",
+      "options": [
+        "Fructose is a ketose, and ketoses cannot act as reducing sugars",
+        "Sucrose is a polysaccharide, and polysaccharides are non-reducing",
+        "Sucrose loses all of its hydroxyl groups during condensation",
+        "Both anomeric carbons form the glycosidic bond, leaving no free carbonyl group",
+        "Sucrose is a glycoside in which glucose is bound to a non-sugar molecule"
+      ],
+      "answer": 3,
+      "explain": "Reducing power needs a free aldehyde or ketone group, which in a cyclic sugar means a free anomeric carbon whose ring can open. In sucrose, the glycosidic bond joins C1 of glucose to C2 of fructose (α1→β2). Both anomeric carbons are locked, so neither ring can open (Lippincott). Maltose and lactose each keep one free anomeric carbon on their glucose unit.",
+      "distractors": "Option A is wrong because fructose itself is a reducing sugar, as are all monosaccharides. Option B is wrong because sucrose is a disaccharide (2 units), and C is wrong because condensation removes only one water molecule.",
+      "source": "Slides 6 and 17 · Lippincott: Introduction to Carbohydrates (reducing sugars)"
+    },
+    {
+      "id": "carbohydrates-27",
+      "topic": "Lecture learning check",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "What is the molecular formula of lactose?",
+      "options": [
+        "C₆H₁₂O₆",
+        "C₁₂H₂₄O₁₂",
+        "C₁₂H₂₂O₁₂",
+        "C₁₂H₂₄O₁₁",
+        "C₁₂H₂₂O₁₁"
+      ],
+      "answer": 4,
+      "explain": "Lactose is glucose + galactose, each C₆H₁₂O₆. Forming the glycosidic bond is a condensation that releases one H₂O: C₁₂H₂₄O₁₂ − H₂O = C₁₂H₂₂O₁₁. Maltose and sucrose have the same formula. (Converted from the lecture's Session 1 'Critical Thinking' Q2.)",
+      "distractors": "C₁₂H₂₄O₁₂ simply adds two hexoses and forgets the water lost in condensation. C₆H₁₂O₆ is a single hexose.",
+      "source": "Slides 21, 17 and 18 · Lippincott: Introduction to Carbohydrates (disaccharides)"
+    },
+    {
+      "id": "carbohydrates-28",
+      "topic": "Condensation arithmetic (oligosaccharides)",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "A trisaccharide consists of three glucose units joined in a linear chain by glycosidic bonds. What is its molecular formula?",
+      "options": [
+        "C₁₂H₂₂O₁₁",
+        "C₁₈H₃₀O₁₅",
+        "C₁₈H₃₂O₁₆",
+        "C₁₈H₃₄O₁₇",
+        "C₁₈H₃₆O₁₈"
+      ],
+      "answer": 2,
+      "explain": "Three glucose units give 3 × C₆H₁₂O₆ = C₁₈H₃₆O₁₈. Joining them needs two glycosidic bonds, and each condensation releases one H₂O, so 2 H₂O are lost: C₁₈H₃₂O₁₆. In general, n hexose units joined in a chain lose (n − 1) water molecules. With three units, this chain is an oligosaccharide.",
+      "distractors": "C₁₈H₃₄O₁₇ subtracts only one water, as if there were a single bond. C₁₈H₃₆O₁₈ subtracts none, and C₁₈H₃₀O₁₅ subtracts three. C₁₂H₂₂O₁₁ is a disaccharide.",
+      "source": "Slides 17, 18 and 5 · Lippincott: Introduction to Carbohydrates"
+    },
+    {
+      "id": "carbohydrates-29",
+      "topic": "Glycogen as storage form",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Hepatocytes store glucose as glycogen rather than as an equivalent amount of free glucose. What is the main advantage of this storage form?",
+      "options": [
+        "It exerts low osmotic pressure, unlike the equivalent free glucose",
+        "It is water-insoluble and precipitates within the cytosol",
+        "It is a heteropolysaccharide that also stores fructose",
+        "It is unbranched, allowing tight crystalline packing",
+        "It is a strong reducing sugar that protects against oxidation"
+      ],
+      "answer": 0,
+      "explain": "Glycogen is a D-glucose homopolysaccharide. It is highly branched, compact and water-soluble, yet it has low osmotic pressure, unlike free glucose, which suits its storage role. Osmotic pressure depends on the number of dissolved particles, and packing thousands of glucose residues into one molecule stops the stored fuel from drawing water into the cell.",
+      "distractors": "The lecture describes glycogen as water-soluble and highly branched, which rules out options B and D. Glycogen contains only glucose, so it is a homopolysaccharide.",
+      "source": "Slide 23 · Lippincott: Glycogen Metabolism (structure and function)"
+    },
+    {
+      "id": "carbohydrates-30",
+      "topic": "Lecture learning check",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 42-year-old man is brought to the emergency department after a severe car accident. His blood pressure is 82/44 mmHg and his heart rate 128 beats/min. A continuous intravenous infusion of dextran is started to stabilise his haemodynamics. What is the primary mechanism by which dextran restores intravascular volume?",
+      "options": [
+        "It triggers nitric oxide release and subsequent vasoconstriction",
+        "It draws water from the interstitial space into the vascular compartment",
+        "It inhibits renal tubular water reabsorption",
+        "It is metabolised into albumin to replace the lost plasma protein",
+        "It increases the viscosity of the blood"
+      ],
+      "answer": 1,
+      "explain": "Dextran is a D-glucose homopolysaccharide that is non-toxic, stable and highly water-soluble, with the same oncotic pressure as plasma. It is used as a plasma expander. Its large molecules stay in the circulation and exert colloid oncotic pressure, pulling fluid from the interstitial space into the vessels. (Converted from the lecture's Session 1 'Critical Thinking' case.)",
+      "distractors": "Nitric oxide causes vasodilation, not vasoconstriction. Dextran is a glucose polymer and is not converted into albumin. Inhibiting renal water reabsorption would reduce, not restore, intravascular volume.",
+      "source": "Slides 25 and 23 · Lippincott: Introduction to Carbohydrates (homopolysaccharides)"
+    },
+    {
+      "id": "carbohydrates-31",
+      "topic": "Inulin and GFR",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A nephrologist wants a gold-standard measurement of glomerular filtration rate (GFR) in a prospective kidney donor. She infuses a low-molecular-weight, water-soluble polysaccharide that the body neither synthesises nor metabolises and that is totally excreted in urine. Which polysaccharide is this, and what is its monomer?",
+      "options": [
+        "Dextran; D-glucose",
+        "Glycogen; D-glucose",
+        "Inulin; D-glucose",
+        "Inulin; D-fructose",
+        "Cellulose; D-glucose"
+      ],
+      "answer": 3,
+      "explain": "Inulin is a homopolysaccharide of D-fructose. It has low molecular weight, is water-soluble, is neither synthesised nor metabolised by the body and is totally excreted in urine, so it is used to measure GFR. It is freely filtered at the glomerulus and neither reabsorbed nor secreted, so its clearance equals GFR (renal physiology).",
+      "distractors": "Option C names the right polymer with the wrong monomer: inulin is the only homopolysaccharide in the lecture built from fructose. Dextran and glycogen are glucose polymers, used as a plasma expander and a storage fuel.",
+      "source": "Slide 23 · Lippincott: Introduction to Carbohydrates (homopolysaccharides)"
+    },
+    {
+      "id": "carbohydrates-32",
+      "topic": "Definition of glycosaminoglycans",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which of the following best describes glycosaminoglycans (mucopolysaccharides)?",
+      "options": [
+        "Branched homopolysaccharides of glucose used for energy storage",
+        "Short oligosaccharides attached to asparagine residues of proteins",
+        "Homopolysaccharides of fructose excreted unchanged in urine",
+        "Homopolysaccharides of galactosamine carrying no net charge",
+        "Heteropolysaccharides of repeating amino sugar–sugar acid disaccharides"
+      ],
+      "answer": 4,
+      "explain": "GAGs are heteropolysaccharides made of repeating disaccharide units joined by glycosidic bonds. Each unit usually has two monosaccharide derivatives: an amino sugar (glucosamine or galactosamine) and a sugar acid (glucuronic or iduronic acid). The name breaks down as glycos- (sugar) + amino + glycan (polysaccharide).",
+      "distractors": "Option A describes glycogen and C describes inulin. GAGs contain two different sugar derivatives and carry a high negative charge, so D is wrong on both counts.",
+      "source": "Slide 28 · Lippincott: Glycosaminoglycans, Proteoglycans and Glycoproteins (structure)"
+    },
+    {
+      "id": "carbohydrates-33",
+      "topic": "Negative charge of GAGs",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Glycosaminoglycans carry a high negative charge, which allows them to attract large amounts of water. Which groups mainly provide this negative charge?",
+      "options": [
+        "Carboxyl groups of the sugar acids and sulfate groups",
+        "Amino groups of the amino sugars and hydroxyl groups",
+        "Phosphate groups and amino groups",
+        "Hydroxyl groups and glycosidic oxygen atoms",
+        "Acetyl groups and amino groups"
+      ],
+      "answer": 0,
+      "explain": "The GAG structure diagram shows a negatively charged carboxyl group (COO⁻) on each sugar acid (glucuronic or iduronic acid) and negatively charged sulfate groups on many units. Because of this high negative charge, GAGs strongly attract water. Lippincott adds that the amino group is usually N-acetylated, which removes its positive charge.",
+      "distractors": "Free amino groups would be positively charged (NH₃⁺), not negative. Hydroxyl groups and glycosidic oxygens are uncharged, and phosphate is not part of the GAG repeating unit.",
+      "source": "Slides 28 and 29 · Lippincott: Glycosaminoglycans (structure–function relationship)"
+    },
+    {
+      "id": "carbohydrates-34",
+      "topic": "ECM forces and water binding",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "In the extracellular matrix, negatively charged GAG chains hold Na⁺ ions, and water moves into the matrix toward these trapped cations. Which force accounts for this movement of water toward the bound Na⁺?",
+      "options": [
+        "Electrostatic repulsion",
+        "Hydrogen bonding",
+        "Ionic interaction",
+        "Osmotic attraction",
+        "Hydrophobic interaction"
+      ],
+      "answer": 3,
+      "explain": "The ECM diagram shows four forces. (1) Electrostatic repulsion between negatively charged GAG chains. (2) Hydrogen bonding between water and the GAGs. (3) Ionic interaction between Na⁺ and the negative GAGs. (4) Osmotic attraction of water by the Na⁺ held in the matrix. Water drawn toward the trapped cations is therefore osmotic attraction. Together, the four forces produce a hydrated gel.",
+      "distractors": "Ionic interaction describes the binding of Na⁺ to the GAG chains, not the attraction of water to Na⁺. Hydrogen bonding is water binding directly to the GAG hydroxyl and carboxyl groups.",
+      "source": "Slide 30 · Lippincott: Glycosaminoglycans (structure–function relationship)"
+    },
+    {
+      "id": "carbohydrates-35",
+      "topic": "Resilience of GAGs",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "During a marathon, the articular cartilage of a runner's knee is compressed with every stride and regains its thickness between strides. Which mechanism best explains how the cartilage regains its original volume when the load is removed?",
+      "options": [
+        "Collagen fibres actively contract and pull the matrix back into shape",
+        "New GAG chains are rapidly synthesised to replace compressed ones",
+        "Repulsion between the GAGs' negative charges re-expands them and water returns",
+        "Covalent cross-links between GAG chains recoil like metal springs",
+        "Hydrophobic GAG chains expel water and refold into their original shape"
+      ],
+      "answer": 2,
+      "explain": "Compression squeezes water out of a GAG-rich gel and forces the GAGs into a smaller volume. When the compression is released, the GAGs spring back to their original hydrated volume because their negative charges repel one another, and water is drawn back in. This resilience is a property of cartilage, synovial fluid and the vitreous humour. Chondroitin sulfate supports cartilage compressibility.",
+      "distractors": "Recovery is a passive physicochemical process: no new synthesis or active contraction is needed. GAGs are highly hydrophilic, not hydrophobic.",
+      "source": "Slides 31 and 33 · Lippincott: Glycosaminoglycans (resilience)"
+    },
+    {
+      "id": "carbohydrates-36",
+      "topic": "Lubricating property of GAGs",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Synovial fluid and mucous secretions have a characteristically slippery consistency. Which property of their glycosaminoglycans is mainly responsible?",
+      "options": [
+        "Their positive amino groups bind tightly to neighbouring chains",
+        "Their hydrophobic sugar rings exclude water and form an oily film",
+        "Disulfide bonds link neighbouring chains into a rigid mesh",
+        "Their low molecular weight lets them diffuse rapidly between surfaces",
+        "Their negative charges make the chains repel and slide past each other"
+      ],
+      "answer": 4,
+      "explain": "GAGs repel each other in solution. When brought together they slide past each other, much as two magnets with the same polarity do. This produces the slippery consistency of mucous secretions and synovial fluid, and the lubricating quality is the origin of the old name 'mucopolysaccharides' (Lippincott).",
+      "distractors": "Binding between chains (A) or rigid cross-links (C) would increase friction rather than reduce it. Hyaluronic acid, the main lubricant in synovial fluid, has the longest chain of any GAG, so it is not low-molecular-weight.",
+      "source": "Slide 31 · Lippincott: Glycosaminoglycans (structure–function relationship)"
+    },
+    {
+      "id": "carbohydrates-37",
+      "topic": "Proteoglycans",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Proteoglycan monomers are described as having a three-dimensional 'bottle-brush' structure. Which components form the 'bristles' and the central 'stem' of this brush?",
+      "options": [
+        "Bristles: sulfate groups; stem: a uronic acid chain",
+        "Bristles: GAG chains; stem: a core protein",
+        "Bristles: collagen fibrils; stem: an elastin fibre",
+        "Bristles: oligosaccharides; stem: a lipid bilayer",
+        "Bristles: GAG chains; stem: a glycogen molecule"
+      ],
+      "answer": 1,
+      "explain": "GAG chains usually bind to a core protein, forming the bottle-brush-like proteoglycan, with the GAGs radiating out from the protein axis like bristles. Binding to a core protein anchors the GAGs to specific locations and maximises water attraction.",
+      "distractors": "Option E has the right bristles but the wrong stem: the axis is a protein, not a carbohydrate. Collagen and elastin are fibrous ECM proteins that are not part of the proteoglycan monomer itself.",
+      "source": "Slide 29 · Lippincott: Glycosaminoglycans (proteoglycan structure)"
+    },
+    {
+      "id": "carbohydrates-38",
+      "topic": "Lecture learning check",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which one of the following is a non-sulfated glycosaminoglycan?",
+      "options": [
+        "Hyaluronic acid",
+        "Dermatan sulfate",
+        "Chondroitin sulfate",
+        "Heparan sulfate",
+        "Heparin"
+      ],
+      "answer": 0,
+      "explain": "Hyaluronic acid (glucosamine + glucuronic acid) is the only non-sulfated GAG. It is also not attached to a core protein and has the longest polysaccharide chain, and it acts as a lubricant and shock absorber and aids wound healing. (Converted from the lecture's Session 2 quiz, Q1.)",
+      "distractors": "All the others are sulfated. Heparin is the richest in sulfate, and heparan sulfate resembles heparin but has fewer sulfates.",
+      "source": "Slides 34 and 33 · Lippincott: Glycosaminoglycans (hyaluronic acid)"
+    },
+    {
+      "id": "carbohydrates-39",
+      "topic": "Lecture learning check",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Proteoglycans are formed when glycosaminoglycans bind covalently to a core protein. Which glycosaminoglycan normally exists free, without covalent attachment to a core protein?",
+      "options": [
+        "Dermatan sulfate",
+        "Chondroitin sulfate",
+        "Hyaluronic acid",
+        "Heparan sulfate",
+        "Heparin"
+      ],
+      "answer": 2,
+      "explain": "Hyaluronic acid is not attached to a core protein, so it is not usually found as part of a proteoglycan. Lippincott states that all GAGs except hyaluronic acid are covalently attached to protein. (Converted from the lecture's Session 2 'Critical Thinking' Q2, reworded positively.)",
+      "distractors": "Chondroitin, dermatan and heparan sulfates are classic proteoglycan GAGs. Heparin is stored in mast cells, bound to its own core protein (textbook).",
+      "source": "Slides 36, 29 and 33 · Lippincott: Glycosaminoglycans (proteoglycans)"
+    },
+    {
+      "id": "carbohydrates-40",
+      "topic": "Hyaluronic acid structure",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "During cataract surgery, an ophthalmologist injects a viscoelastic gel into the anterior chamber to protect the corneal endothelium. The gel is made of the GAG that is non-sulfated, is not attached to a core protein and has the longest polysaccharide chain. What does the repeating disaccharide of this GAG consist of?",
+      "options": [
+        "Galactosamine + glucuronic acid",
+        "Galactosamine + iduronic acid",
+        "Glucosamine + galactose",
+        "Glucosamine + iduronic acid",
+        "Glucosamine + glucuronic acid"
+      ],
+      "answer": 4,
+      "explain": "The features described identify hyaluronic acid (HA): non-sulfated, not attached to a core protein, longest chain. Its repeating unit is glucosamine (an amino sugar) + glucuronic acid (a sugar acid). HA acts as a lubricant and shock absorber and is a major component of the vitreous humour and synovial fluid.",
+      "distractors": "Galactosamine + glucuronic acid is chondroitin sulfate, galactosamine + iduronic acid is dermatan sulfate and glucosamine + galactose is keratan sulfate. Heparin and heparan sulfate contain glucosamine with variable glucuronic/iduronic acid.",
+      "source": "Slide 33 · Lippincott: Glycosaminoglycans (hyaluronic acid)"
+    },
+    {
+      "id": "carbohydrates-41",
+      "topic": "Chondroitin sulfate",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which glycosaminoglycan is the most abundant in the body and provides strength and compressibility to cartilage?",
+      "options": [
+        "Hyaluronic acid",
+        "Keratan sulfate",
+        "Heparin",
+        "Chondroitin sulfate",
+        "Dermatan sulfate"
+      ],
+      "answer": 3,
+      "explain": "Chondroitin sulfate (galactosamine + glucuronic acid, sulfated) is the most abundant GAG in the body and gives cartilage its strength and compressibility. Lippincott places chondroitin 4- and 6-sulfates in cartilage, tendons, ligaments and the aorta. The 4- and 6- prefixes give the position of the sulfate on the galactosamine ring.",
+      "distractors": "Hyaluronic acid is a shock absorber in joints but is the longest-chain GAG, not the most abundant. Keratan sulfate is linked to corneal transparency.",
+      "source": "Slide 33 · Lippincott: Glycosaminoglycans (chondroitin sulfates)"
+    },
+    {
+      "id": "carbohydrates-42",
+      "topic": "Dermatan sulfate",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "A glycosaminoglycan extracted from skin has a repeating disaccharide of galactosamine and iduronic acid. Which GAG is this, and what is its main function?",
+      "options": [
+        "Chondroitin sulfate; gives cartilage its compressibility",
+        "Dermatan sulfate; maintains the shape of skin and eye",
+        "Keratan sulfate; keeps the cornea transparent",
+        "Heparan sulfate; forms part of the basement membrane",
+        "Heparin; acts as an anticoagulant stored in mast cells"
+      ],
+      "answer": 1,
+      "explain": "Dermatan sulfate is the GAG built from galactosamine + iduronic acid, and it is sulfated. The lecture gives its function as maintaining the shape of the skin and eye. Textbooks locate it in skin, blood vessels and heart valves, and in the sclera, where it helps maintain the overall shape of the eye (Lippincott; Harper).",
+      "distractors": "Chondroitin sulfate also contains galactosamine, but its sugar acid is glucuronic acid, not iduronic acid. Heparin and heparan sulfate contain glucosamine, not galactosamine.",
+      "source": "Slide 33 · Lippincott: Glycosaminoglycans (dermatan sulfate)"
+    },
+    {
+      "id": "carbohydrates-43",
+      "topic": "Keratan sulfate",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which glycosaminoglycan contains galactose in place of a uronic acid in its repeating disaccharide and is important for the transparency of the cornea?",
+      "options": [
+        "Dermatan sulfate",
+        "Chondroitin sulfate",
+        "Keratan sulfate",
+        "Hyaluronic acid",
+        "Heparan sulfate"
+      ],
+      "answer": 2,
+      "explain": "Keratan sulfate (glucosamine + galactose, sulfated) is the exception among the GAGs: it contains galactose instead of a uronic (sugar) acid. The lecture links it to the transparency of the cornea. Lippincott likewise notes galactose as the single exception to the amino sugar–acidic sugar rule.",
+      "distractors": "Every other option contains a uronic acid: glucuronic acid in hyaluronic acid and chondroitin sulfate, iduronic acid in dermatan sulfate and a variable mix in heparan sulfate. Dermatan sulfate maintains eye shape rather than corneal transparency.",
+      "source": "Slide 33 · Lippincott: Glycosaminoglycans (keratan sulfate)"
+    },
+    {
+      "id": "carbohydrates-44",
+      "topic": "Heparin",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 45-year-old woman with an acute deep vein thrombosis is started on an intravenous infusion of unfractionated heparin. Which description of this glycosaminoglycan is correct?",
+      "options": [
+        "It is the richest in sulfate of all GAGs and the primary GAG of mast cells",
+        "It is non-sulfated and has the longest polysaccharide chain of all GAGs",
+        "It is the most abundant GAG and gives cartilage its compressibility",
+        "It contains galactose instead of a uronic acid and keeps the cornea clear",
+        "It contains galactosamine and iduronic acid and maintains skin shape"
+      ],
+      "answer": 0,
+      "explain": "Heparin (glucosamine + variable glucuronic/iduronic acid) is the GAG richest in sulfate. It is the primary GAG of mast cells and acts as an anticoagulant. Lippincott notes that heparin is intracellular, in mast cells lining arteries, unlike the other, extracellular GAGs. Its heavily sulfated chains bind antithrombin and enhance its inhibition of thrombin and factor Xa (pharmacology).",
+      "distractors": "Options B–E describe hyaluronic acid, chondroitin sulfate, keratan sulfate and dermatan sulfate.",
+      "source": "Slide 33 · Lippincott: Glycosaminoglycans (heparin)"
+    },
+    {
+      "id": "carbohydrates-45",
+      "topic": "Heparan sulfate",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 6-year-old boy has heavy proteinuria. Studies suggest loss of the fixed negative charge of the glomerular basement membrane, which normally repels negatively charged albumin. Reduced content of which glycosaminoglycan in the basement membrane best explains this loss of charge?",
+      "options": [
+        "Heparin",
+        "Heparan sulfate",
+        "Keratan sulfate",
+        "Hyaluronic acid",
+        "Dermatan sulfate"
+      ],
+      "answer": 1,
+      "explain": "Heparan sulfate is an essential component of basement membranes and cell surfaces. It is a sulfated GAG of glucosamine with variable glucuronic/iduronic acid, resembling heparin but with fewer sulfate groups. Its sulfate and carboxyl groups give the glomerular basement membrane a fixed negative charge that repels anionic proteins such as albumin (renal physiology).",
+      "distractors": "Heparin is tempting because it is similar and even more sulfated, but it is the anticoagulant GAG stored in mast cells, not a structural part of the basement membrane. Keratan sulfate is associated with the cornea and dermatan sulfate with skin and eye.",
+      "source": "Slide 33 · Lippincott: Glycosaminoglycans (heparan sulfate)"
+    },
+    {
+      "id": "carbohydrates-46",
+      "topic": "Amino sugars of GAGs",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which pair of glycosaminoglycans contains galactosamine, rather than glucosamine, as its amino sugar?",
+      "options": [
+        "Hyaluronic acid and keratan sulfate",
+        "Heparin and heparan sulfate",
+        "Keratan sulfate and dermatan sulfate",
+        "Hyaluronic acid and chondroitin sulfate",
+        "Chondroitin sulfate and dermatan sulfate"
+      ],
+      "answer": 4,
+      "explain": "In the lecture's GAG table, only chondroitin sulfate (with glucuronic acid) and dermatan sulfate (with iduronic acid) contain galactosamine. Hyaluronic acid, keratan sulfate, heparin and heparan sulfate all contain glucosamine.",
+      "distractors": "Options C and D each pair one galactosamine GAG with a glucosamine GAG (keratan sulfate or hyaluronic acid). Options A and B list glucosamine-containing GAGs only.",
+      "source": "Slides 33 and 28 · Lippincott: Glycosaminoglycans (structure)"
+    },
+    {
+      "id": "carbohydrates-47",
+      "topic": "Mucopolysaccharidoses: mechanism",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 4-year-old child has progressive coarsening of the facial features, skeletal deformities, developmental regression and hepatosplenomegaly. The urine contains excess dermatan sulfate and heparan sulfate, and a mucopolysaccharidosis is suspected. What is the fundamental defect in this group of disorders?",
+      "options": [
+        "Overproduction of GAGs by an overactive Golgi enzyme",
+        "Deficiency of the core protein needed to form proteoglycans",
+        "Deficiency of a lysosomal enzyme that degrades sphingolipids",
+        "Deficiency of a lysosomal enzyme that degrades glycosaminoglycans",
+        "Deficiency of a lysosomal enzyme that degrades glycogen"
+      ],
+      "answer": 3,
+      "explain": "Mucopolysaccharidoses are hereditary diseases caused by deficiency of any one of the lysosomal enzymes that degrade GAGs. They are progressive, and GAGs accumulate in the lysosomes of many tissues, causing skeletal deformities and intellectual disability. Partly degraded GAGs are also excreted in the urine, which helps diagnosis (Lippincott).",
+      "distractors": "The problem is failed breakdown, not overproduction. Lysosomal enzyme defects that store sphingolipids (sphingolipidoses) or glycogen (Pompe disease) would not raise urinary dermatan and heparan sulfate.",
+      "source": "Slide 32 · Lippincott: Glycosaminoglycans (degradation; mucopolysaccharidoses)"
+    },
+    {
+      "id": "carbohydrates-48",
+      "topic": "Mucopolysaccharidoses: Hunter syndrome",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 6-year-old boy has coarse facial features, short stature, stiff joints and hepatosplenomegaly, but his corneas are clear. Urine shows increased dermatan sulfate and heparan sulfate. His maternal uncle had a similar illness, while his parents and sister are unaffected. Which diagnosis is most likely?",
+      "options": [
+        "Hurler syndrome (MPS I)",
+        "Hunter syndrome (MPS II)",
+        "Sanfilippo syndrome (MPS III)",
+        "Morquio syndrome (MPS IV)",
+        "Sly syndrome (MPS VII)"
+      ],
+      "answer": 1,
+      "explain": "All the mucopolysaccharidoses are autosomal recessive except Hunter syndrome, which is X-linked. An affected boy whose maternal uncle was also affected, with healthy parents (a carrier mother), fits X-linked inheritance. Dermatan and heparan sulfate are the GAGs stored in Hunter syndrome. Lippincott adds that Hunter syndrome lacks corneal clouding (unlike Hurler) and is due to iduronate sulfatase deficiency.",
+      "distractors": "Hurler and Sly syndromes also store dermatan and heparan sulfate but are autosomal recessive, and Hurler typically causes corneal clouding. Sanfilippo syndrome stores heparan sulfate only, and Morquio syndrome stores keratan sulfate (textbook).",
+      "source": "Slide 32 · Lippincott: Glycosaminoglycans (mucopolysaccharidoses)"
+    },
+    {
+      "id": "carbohydrates-49",
+      "topic": "Mucopolysaccharidoses: Sanfilippo syndrome",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 5-year-old girl who had developed normally now shows hyperactivity, aggressive behaviour, sleep disturbance and loss of speech, with only mild coarsening of her facial features. Urinary GAG analysis shows increased heparan sulfate only. Her parents are healthy. Which diagnosis is most likely?",
+      "options": [
+        "Hurler syndrome (MPS I)",
+        "Hunter syndrome (MPS II)",
+        "Sanfilippo syndrome (MPS III)",
+        "Morquio syndrome (MPS IV)",
+        "Sly syndrome (MPS VII)"
+      ],
+      "answer": 2,
+      "explain": "In the lecture's table, Sanfilippo syndrome (MPS III) is the only mucopolysaccharidosis that stores heparan sulfate alone. Hurler, Hunter and Sly store both dermatan and heparan sulfate. It is autosomal recessive, which fits an affected girl with healthy parents. Lippincott describes it as a disease of predominantly central nervous system degeneration with mild physical features, with four subtypes (A–D) caused by different heparan sulfate-degrading enzymes.",
+      "distractors": "Hurler, Hunter and Sly would also raise urinary dermatan sulfate, and Hunter (X-linked) is rare in girls. Morquio syndrome stores keratan sulfate (textbook).",
+      "source": "Slide 32 · Lippincott: Glycosaminoglycans (mucopolysaccharidoses)"
+    },
+    {
+      "id": "carbohydrates-50",
+      "topic": "Mucopolysaccharidoses: Hurler enzyme",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "An 18-month-old girl has coarse facial features, corneal clouding, hepatosplenomegaly, a lumbar gibbus and developmental delay. Her parents are healthy first cousins, and her urine contains excess dermatan sulfate and heparan sulfate. Hurler syndrome is diagnosed. Deficiency of which lysosomal enzyme is responsible?",
+      "options": [
+        "α-L-Iduronidase",
+        "Iduronate-2-sulfatase",
+        "β-Glucuronidase",
+        "Heparan N-sulfatase",
+        "Glucocerebrosidase"
+      ],
+      "answer": 0,
+      "explain": "Hurler syndrome (MPS I) is caused by deficiency of α-L-iduronidase (Lippincott). The enzyme names are a textbook addition; the slide lists only the eponyms and stored GAGs. It stores dermatan and heparan sulfate and is autosomal recessive, which fits consanguineous, unaffected parents. Corneal clouding is a typical feature.",
+      "distractors": "Iduronate-2-sulfatase deficiency causes Hunter syndrome, which is X-linked and has clear corneas, and β-glucuronidase deficiency causes Sly syndrome. Heparan N-sulfatase deficiency causes Sanfilippo type A (heparan sulfate only), and glucocerebrosidase deficiency causes Gaucher disease, a sphingolipidosis.",
+      "source": "Slide 32 · Lippincott: Glycosaminoglycans (mucopolysaccharidoses)"
+    }
+  ]
+}

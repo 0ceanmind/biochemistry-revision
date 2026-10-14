@@ -1,0 +1,728 @@
+{
+  "lecture": "glycolysis",
+  "title": "Glycolysis",
+  "format": "Single best answer · 5 options",
+  "provenance": "Original exam-style items written from the lecture slides and Lippincott; modelled on the NUST/OMC MD-program SBA format (no public past papers were found).",
+  "questions": [
+    {
+      "id": "glycolysis-01",
+      "topic": "Cellular localization",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "A liver tissue homogenate is separated into subcellular fractions by differential centrifugation. In which fraction will the activities of aldolase, enolase and pyruvate kinase be highest?",
+      "options": [
+        "Mitochondrial matrix fraction",
+        "Cytosolic (soluble) fraction",
+        "Inner mitochondrial membrane fraction",
+        "Microsomal (endoplasmic reticulum) fraction",
+        "Nuclear fraction"
+      ],
+      "answer": 1,
+      "explain": "Glycolysis occurs in the cytosol (Slide 3), so all of its enzymes, including aldolase, enolase and pyruvate kinase, are soluble cytosolic enzymes. Pyruvate made in the cytosol is moved into mitochondria only afterwards, when oxygen is available and it enters the TCA cycle (Slide 13).",
+      "distractors": "The mitochondrial matrix holds the TCA cycle, and the inner mitochondrial membrane carries out oxidative phosphorylation. Neither compartment contains the glycolytic enzymes.",
+      "source": "Slide 3 · Lippincott ch. 8 (Glycolysis: overview)"
+    },
+    {
+      "id": "glycolysis-02",
+      "topic": "Definition and purpose",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which statement best describes aerobic glycolysis?",
+      "options": [
+        "Reduction of glucose to lactate, occurring only in cells that lack mitochondria",
+        "Synthesis of glucose from pyruvate, occurring mainly in the liver during fasting",
+        "Oxidation of glucose to pyruvate in the cytosol, as the first stage of aerobic respiration",
+        "Complete oxidation of glucose to CO₂ and H₂O, occurring within the mitochondrial matrix",
+        "Breakdown of glycogen to glucose 1-phosphate, occurring mainly in skeletal muscle"
+      ],
+      "answer": 2,
+      "explain": "Slide 3 defines glycolysis as the oxidative breakdown of glucose to pyruvate in the cytosol. Aerobic glycolysis is the first step of aerobic cellular respiration, the oxygen-requiring process that ends with CO₂, H₂O and energy.",
+      "distractors": "Complete oxidation to CO₂ and H₂O needs the TCA cycle and oxidative phosphorylation after glycolysis, not glycolysis alone. Conversion to lactate is the anaerobic fate of pyruvate (Slide 13), not aerobic glycolysis.",
+      "source": "Slide 3 · Lippincott ch. 8 (Glycolysis: overview)"
+    },
+    {
+      "id": "glycolysis-03",
+      "topic": "Intestinal glucose absorption (SGLT1)",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "In the small intestine, glucose keeps moving from the lumen into the enterocyte even when its concentration inside the cell is higher than in the lumen. What directly provides the energy for this uphill step?",
+      "options": [
+        "Hydrolysis of ATP by the SGLT1 transporter itself",
+        "Binding of insulin to its receptor on the brush border",
+        "Movement of glucose down its gradient through GLUT-2",
+        "Movement of Na⁺ down its concentration gradient through SGLT1",
+        "Movement of K⁺ out of the cell across the brush border"
+      ],
+      "answer": 3,
+      "explain": "SGLT1 is a secondary active symporter (Slides 4–5). Glucose moves against its gradient, powered by Na⁺ moving down its own gradient into the cell. The Na⁺ gradient is kept up by the basolateral Na⁺/K⁺ pump, so ATP is used only indirectly.",
+      "distractors": "SGLT1 does not hydrolyse ATP itself; direct ATP use (primary active transport) happens at the Na⁺/K⁺ pump on the basolateral side. GLUT-2 carries glucose out of the enterocyte down its gradient, not into the cell against it.",
+      "source": "Slides 4–5 · Lippincott ch. 8 (Glucose transport into cells)"
+    },
+    {
+      "id": "glycolysis-04",
+      "topic": "SGLT2 in the kidney",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 56-year-old Omani man with type 2 diabetes is started on a drug that blocks Na⁺-coupled glucose reabsorption in the proximal convoluted tubule. Two weeks later his urine dipstick is strongly positive for glucose. Which transporter does this drug inhibit?",
+      "options": [
+        "SGLT2",
+        "SGLT1",
+        "GLUT-1",
+        "GLUT-3",
+        "GLUT-4"
+      ],
+      "answer": 0,
+      "explain": "SGLTs move glucose against its gradient using the Na⁺ gradient. SGLT2 is found in the proximal renal tubules, while SGLT1 is found in the small intestine (Slide 5). Blocking SGLT2 reduces glucose reabsorption from the filtrate, so glucose appears in the urine.",
+      "distractors": "SGLT1 is also Na⁺-coupled, but it is the intestinal brush-border transporter (Slide 4). GLUT-1, GLUT-3 and GLUT-4 work by facilitated diffusion and do not use the Na⁺ gradient.",
+      "source": "Slide 5 · Lippincott ch. 8 (Glucose transport into cells)"
+    },
+    {
+      "id": "glycolysis-05",
+      "topic": "Enterocyte glucose exit (GLUT-2)",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Glucose that has built up inside the enterocyte crosses the basolateral membrane into the blood. Which transporter and mechanism are responsible?",
+      "options": [
+        "SGLT1, by secondary active symport with Na⁺",
+        "Na⁺/K⁺ pump, by primary active transport",
+        "GLUT-4, by insulin-dependent facilitated diffusion",
+        "SGLT2, by secondary active symport with Na⁺",
+        "GLUT-2, by facilitated diffusion (uniport)"
+      ],
+      "answer": 4,
+      "explain": "Slide 4 places GLUT-2 on the basolateral membrane of the enterocyte. Glucose leaves down its concentration gradient by facilitated diffusion (uniport). GLUTs need no energy and can carry glucose in either direction (Slide 5).",
+      "distractors": "SGLT1 sits on the apical brush border and brings glucose into the cell, and the Na⁺/K⁺ pump moves ions, not glucose. GLUT-4 is the insulin-dependent transporter of muscle and adipose tissue.",
+      "source": "Slides 4–5 · Lippincott ch. 8 (Glucose transport into cells)"
+    },
+    {
+      "id": "glycolysis-06",
+      "topic": "Lecture learning check",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Three glucose transporters have these roles. GLUT-1 provides basal glucose uptake when blood glucose is normal. GLUT-2 lets the liver and pancreas sense high blood glucose. GLUT-3 supplies neurons even when blood glucose is low. Based on these roles, which ranking of Km for glucose, from highest to lowest, is correct?",
+      "options": [
+        "GLUT-3 > GLUT-1 > GLUT-2",
+        "GLUT-1 > GLUT-2 > GLUT-3",
+        "GLUT-2 > GLUT-1 > GLUT-3",
+        "GLUT-2 > GLUT-3 > GLUT-1",
+        "GLUT-1 > GLUT-3 > GLUT-2"
+      ],
+      "answer": 2,
+      "explain": "This is the Km ladder exercise on Slide 6. A transporter that must respond to high glucose needs a high Km (low affinity), so GLUT-2 has the highest Km. A transporter that must work when glucose is low needs the lowest Km (highest affinity), so GLUT-3 is lowest, and GLUT-1, which handles basal uptake, has a low Km. The slide gives GLUT-4 as 'medium'; textbooks give only approximate values, so the ranking follows the slide's functional logic.",
+      "distractors": "Option A is the reverse order, a common error from treating Km as if it were affinity; affinity is inversely related to Km. Option D ranks GLUT-3 above GLUT-1, which would make neuronal uptake weaker during hypoglycaemia.",
+      "source": "Slide 6 · Lippincott ch. 8 (Glucose transport: GLUT isoforms)"
+    },
+    {
+      "id": "glycolysis-07",
+      "topic": "GLUT-4 and insulin",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A 14-year-old girl presents with polyuria, weight loss and a random blood glucose of 21 mmol/L, and is diagnosed with type 1 diabetes. Although her blood glucose is very high, glucose uptake into her skeletal muscle and adipose tissue is markedly reduced. Which transporter is most directly affected by her insulin deficiency?",
+      "options": [
+        "GLUT-1",
+        "GLUT-4",
+        "GLUT-3",
+        "GLUT-2",
+        "SGLT1"
+      ],
+      "answer": 1,
+      "explain": "GLUT-4 carries out insulin-dependent glucose uptake in skeletal muscle and adipose tissue (Slide 6); the padlock-and-key image on Slide 4 represents this. Without insulin, too few GLUT-4 transporters reach the cell surface (Lippincott), so these tissues take up little glucose despite hyperglycaemia.",
+      "distractors": "GLUT-1 (most tissues), GLUT-3 (neurons) and GLUT-2 (liver, pancreas) take up glucose without insulin. SGLT1 is an intestinal transporter.",
+      "source": "Slides 4 and 6 · Lippincott ch. 8 (Insulin-dependent glucose transport)"
+    },
+    {
+      "id": "glycolysis-08",
+      "topic": "GLUT-3 and hypoglycaemia",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 52-year-old man with type 2 diabetes keeps taking his usual insulin dose while fasting during Ramadan. In the late afternoon, his capillary glucose is 3.1 mmol/L. His neurons keep taking up glucose despite the low blood level. Which transporter and property best explain this?",
+      "options": [
+        "GLUT-4, recruited to the membrane by the injected insulin",
+        "SGLT1, using the Na⁺ gradient to concentrate glucose",
+        "GLUT-2, whose high Km matches uptake to blood glucose",
+        "GLUT-3, whose very low Km gives high glucose affinity",
+        "GLUT-1, whose Km is the highest of the GLUT family"
+      ],
+      "answer": 3,
+      "explain": "GLUT-3 serves the brain and neurons and takes up glucose even when blood glucose is low (Slide 6). It can do this because it has the lowest Km, and therefore the highest affinity, of the GLUTs. With a Km well below even a low blood glucose, GLUT-3 keeps transporting glucose at a high fraction of its maximal rate, whereas the high-Km GLUT-2 works poorly at such concentrations. Keeping the same insulin dose while fasting is a recognised cause of hypoglycaemia during Ramadan.",
+      "distractors": "Neurons do not rely on insulin-regulated GLUT-4, which serves muscle and adipose tissue. GLUT-2 has the highest Km, so it is the least effective transporter when glucose is low.",
+      "source": "Slide 6 · Lippincott ch. 8 (GLUT isoforms)"
+    },
+    {
+      "id": "glycolysis-09",
+      "topic": "Preparatory (investment) phase",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Glycolysis invests two molecules of ATP per glucose in its early steps. Which enzymes catalyse these ATP-consuming reactions?",
+      "options": [
+        "Aldolase and enolase",
+        "Phosphofructokinase-1 and aldolase",
+        "Glyceraldehyde 3-P dehydrogenase and pyruvate kinase",
+        "Hexokinase/glucokinase and pyruvate kinase",
+        "Hexokinase/glucokinase and phosphofructokinase-1"
+      ],
+      "answer": 4,
+      "explain": "Slide 7 shows two phosphorylation steps, each using one ATP. Hexokinase or glucokinase converts glucose to glucose 6-phosphate, and phosphofructokinase-1 converts fructose 6-phosphate to fructose 1,6-bisphosphate (Slide 8). Together with the aldolase split, these steps make up the preparatory phase.",
+      "distractors": "Pyruvate kinase is a control enzyme, but it makes ATP rather than using it. Aldolase and enolase neither use nor make ATP.",
+      "source": "Slides 7–8 · Lippincott ch. 8 (Energy investment phase)"
+    },
+    {
+      "id": "glycolysis-10",
+      "topic": "Aldolase (splitting)",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which glycolytic enzyme cleaves fructose 1,6-bisphosphate into two three-carbon triose phosphates?",
+      "options": [
+        "Aldolase",
+        "Enolase",
+        "Phosphofructokinase-1",
+        "Glyceraldehyde 3-P dehydrogenase",
+        "Pyruvate kinase"
+      ],
+      "answer": 0,
+      "explain": "Aldolase catalyses step 3, 'splitting', on Slide 7; it is the chainsaw cartoon on Slide 8. It cuts the C6 sugar into two C3 triose phosphates, dihydroxyacetone phosphate and glyceraldehyde 3-phosphate (Lippincott). Every step after this split happens twice per glucose.",
+      "distractors": "Phosphofructokinase-1 makes fructose 1,6-bisphosphate rather than cleaving it. Enolase removes water from a three-carbon intermediate later in the pathway.",
+      "source": "Slides 7–8 · Lippincott ch. 8 (Cleavage of fructose 1,6-bisphosphate)"
+    },
+    {
+      "id": "glycolysis-11",
+      "topic": "Oxidation step (glyceraldehyde 3-P dehydrogenase)",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Glycolysis has a single oxidation step, which forms NADH. Which enzyme catalyses this step, and which other substrate does it take up besides glyceraldehyde 3-phosphate and NAD⁺?",
+      "options": [
+        "Lactate dehydrogenase; Pi",
+        "Glyceraldehyde 3-P dehydrogenase; ATP",
+        "Pyruvate kinase; ADP",
+        "Glyceraldehyde 3-P dehydrogenase; ADP",
+        "Glyceraldehyde 3-P dehydrogenase; Pi"
+      ],
+      "answer": 4,
+      "explain": "Step 4 on Slide 7 is the oxidation: Pi goes in, and NADH + H⁺ come out. Slide 8 shows the enzyme as the dehydrogenase with its 'assistant' NAD, and Slide 16 names it glyceraldehyde 3-P dehydrogenase. The product, 1,3-bisphosphoglycerate, is a high-energy compound formed without spending ATP.",
+      "distractors": "This step takes up inorganic phosphate (Pi), not ATP or ADP; that is why arsenate, which mimics Pi, acts here. Lactate dehydrogenase reduces pyruvate after glycolysis and takes up no phosphate.",
+      "source": "Slides 7, 8 and 16 · Lippincott ch. 8 (Oxidation of glyceraldehyde 3-phosphate)"
+    },
+    {
+      "id": "glycolysis-12",
+      "topic": "Enolase (dehydration)",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which glycolytic enzyme removes a molecule of water from 2-phosphoglycerate to form phosphoenolpyruvate?",
+      "options": [
+        "Aldolase",
+        "Phosphofructokinase-1",
+        "Enolase",
+        "Pyruvate kinase",
+        "Glyceraldehyde 3-P dehydrogenase"
+      ],
+      "answer": 2,
+      "explain": "Enolase catalyses the dehydration step (step 6 on Slide 7; the bucket-carrier cartoon on Slide 8), releasing one H₂O per triose, or two per glucose. Its product, phosphoenolpyruvate, is the substrate for pyruvate kinase. Enolase is also the step that fluoride inhibits (Slide 8).",
+      "distractors": "Aldolase splits a C6 sugar rather than removing water. Pyruvate kinase acts on phosphoenolpyruvate after enolase has formed it.",
+      "source": "Slides 7–8 · Lippincott ch. 8 (Dehydration of 2-phosphoglycerate)"
+    },
+    {
+      "id": "glycolysis-13",
+      "topic": "Control enzymes",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which set lists the three regulated (control) enzymes of glycolysis?",
+      "options": [
+        "Hexokinase/glucokinase, phosphofructokinase-1, pyruvate kinase",
+        "Hexokinase/glucokinase, aldolase, enolase",
+        "Phosphofructokinase-1, glyceraldehyde 3-P dehydrogenase, pyruvate kinase",
+        "Aldolase, glyceraldehyde 3-P dehydrogenase, lactate dehydrogenase",
+        "Hexokinase/glucokinase, phosphofructokinase-1, enolase"
+      ],
+      "answer": 0,
+      "explain": "Slide 8 marks steps 1, 2 and 7 as the control enzymes. Slide 15 shows these same three enzymes as the sites of allosteric, covalent and transcriptional regulation. Lippincott describes them as catalysing the three irreversible reactions of glycolysis, with phosphofructokinase-1 as the rate-limiting, committed step.",
+      "distractors": "Aldolase, glyceraldehyde 3-P dehydrogenase and enolase catalyse reversible reactions and are not control points. Lactate dehydrogenase acts on pyruvate after glycolysis has finished.",
+      "source": "Slides 8 and 15 · Lippincott ch. 8 (Regulation of glycolysis)"
+    },
+    {
+      "id": "glycolysis-14",
+      "topic": "PFK-1 inhibition",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "When a cell has an abundant energy supply, citrate formed in the mitochondria builds up in the cytosol and slows glycolysis. Which enzyme does citrate allosterically inhibit?",
+      "options": [
+        "Hexokinase",
+        "Phosphofructokinase-1",
+        "Aldolase",
+        "Pyruvate kinase",
+        "Enolase"
+      ],
+      "answer": 1,
+      "explain": "Slide 15 shows ATP and citrate, both signals of high energy, as inhibitors of phosphofructokinase-1. A cytosolic build-up of citrate tells the cell that the TCA cycle is well supplied. Because PFK-1 is the rate-limiting step, this inhibition slows the whole pathway.",
+      "distractors": "Pyruvate kinase is inhibited by ATP and alanine, not by citrate. Hexokinase is inhibited by its own product, glucose 6-phosphate.",
+      "source": "Slide 15 · Lippincott ch. 8 (Regulation of PFK-1)"
+    },
+    {
+      "id": "glycolysis-15",
+      "topic": "PFK-1 activation by AMP",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "In a contracting skeletal muscle fibre, ATP is used faster than it can be regenerated, so AMP and ADP concentrations rise. How do these nucleotides most directly increase glycolytic flux?",
+      "options": [
+        "They allosterically activate hexokinase",
+        "They induce synthesis of glucokinase",
+        "They allosterically inhibit lactate dehydrogenase",
+        "They activate glyceraldehyde 3-P dehydrogenase",
+        "They allosterically activate phosphofructokinase-1"
+      ],
+      "answer": 4,
+      "explain": "On Slide 15, AMP and ADP (signals of low energy) are allosteric activators of phosphofructokinase-1, while ATP inhibits it. A rising AMP:ATP ratio therefore speeds up the rate-limiting step and increases ATP production by glycolysis.",
+      "distractors": "Hexokinase is controlled by glucose 6-phosphate, not by AMP. Glucokinase is the liver and β-cell enzyme, and insulin regulates the amount made, so it plays no part in this muscle response.",
+      "source": "Slide 15 · Lippincott ch. 8 (Regulation of PFK-1)"
+    },
+    {
+      "id": "glycolysis-16",
+      "topic": "PFK-1 activators",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which molecule is an allosteric activator of phosphofructokinase-1?",
+      "options": [
+        "Citrate",
+        "Alanine",
+        "Glucose 6-phosphate",
+        "Fructose 2,6-bisphosphate",
+        "ATP"
+      ],
+      "answer": 3,
+      "explain": "Slide 15 shows fructose 2,6-bisphosphate, together with AMP and ADP, as activators of PFK-1 (green boxes). Lippincott calls fructose 2,6-bisphosphate the most potent allosteric activator of PFK-1. Its level rises in the fed state and falls under glucagon.",
+      "distractors": "Citrate and ATP inhibit PFK-1. Alanine inhibits pyruvate kinase, and glucose 6-phosphate inhibits hexokinase.",
+      "source": "Slide 15 · Lippincott ch. 8 (Regulation of PFK-1 by fructose 2,6-bisphosphate)"
+    },
+    {
+      "id": "glycolysis-17",
+      "topic": "Pyruvate kinase regulation",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which molecule acts as a feed-forward allosteric activator of pyruvate kinase?",
+      "options": [
+        "Fructose 2,6-bisphosphate",
+        "Alanine",
+        "Fructose 1,6-bisphosphate",
+        "Citrate",
+        "Glucose 6-phosphate"
+      ],
+      "answer": 2,
+      "explain": "Slide 15 shows fructose 1,6-bisphosphate as the activator of pyruvate kinase. Because fructose 1,6-bisphosphate is the product of the earlier control enzyme PFK-1, this is feed-forward activation (Lippincott): when PFK-1 is active, pyruvate kinase is made ready for the extra flux coming down the pathway.",
+      "distractors": "Fructose 2,6-bisphosphate activates PFK-1, not pyruvate kinase, and it is not an intermediate of the pathway. Alanine inhibits pyruvate kinase, and glucose 6-phosphate inhibits hexokinase.",
+      "source": "Slide 15 · Lippincott ch. 8 (Regulation of pyruvate kinase)"
+    },
+    {
+      "id": "glycolysis-18",
+      "topic": "Pyruvate kinase inhibition in fasting",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 40-year-old man has not eaten for 20 hours. Breakdown of his muscle protein releases alanine, which travels to the liver as a substrate for glucose production. Which glycolytic enzyme does alanine allosterically inhibit in his liver, helping to switch glycolysis off while glucose is being made?",
+      "options": [
+        "Glucokinase",
+        "Phosphofructokinase-1",
+        "Aldolase",
+        "Pyruvate kinase",
+        "Enolase"
+      ],
+      "answer": 3,
+      "explain": "Slide 15 lists ATP and alanine as inhibitors of pyruvate kinase. Alanine signals that precursors for glucose synthesis are plentiful. Inhibiting hepatic pyruvate kinase stops phosphoenolpyruvate from being turned back into pyruvate while the liver is making glucose (Lippincott).",
+      "distractors": "Phosphofructokinase-1 is inhibited by ATP and citrate, not by alanine. In the lecture's regulation scheme, alanine acts only at pyruvate kinase (Slide 15).",
+      "source": "Slide 15 · Lippincott ch. 8 (Regulation of pyruvate kinase)"
+    },
+    {
+      "id": "glycolysis-19",
+      "topic": "Hexokinase product inhibition",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "When glycolysis slows in resting skeletal muscle, glucose 6-phosphate accumulates in the fibres. What is the most direct effect of this accumulation?",
+      "options": [
+        "Inhibition of glucokinase, slowing glucose phosphorylation",
+        "Inhibition of hexokinase, slowing glucose phosphorylation",
+        "Activation of phosphofructokinase-1, speeding glycolysis",
+        "Inhibition of pyruvate kinase, slowing pyruvate formation",
+        "Induction of glucokinase, speeding glucose phosphorylation"
+      ],
+      "answer": 1,
+      "explain": "Hexokinase is allosterically inhibited by its product, glucose 6-phosphate (Slides 9 and 15). This stops a tissue such as muscle from phosphorylating, and so trapping, more glucose than it can use. The liver and β-cell enzyme, glucokinase, is not inhibited this way.",
+      "distractors": "Muscle relies on hexokinase rather than glucokinase, and glucokinase is not inhibited by glucose 6-phosphate in any case (Slide 9). Glucose 6-phosphate has no effect on PFK-1 or pyruvate kinase in the lecture's scheme.",
+      "source": "Slides 9 and 15 · Lippincott ch. 8 (Regulation of hexokinase)"
+    },
+    {
+      "id": "glycolysis-20",
+      "topic": "Hexokinase vs glucokinase kinetics",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "Hexokinase has a Km for glucose of about 0.1 mM; glucokinase has a Km of about 10 mM. The glucose concentration reaching the enzymes rises from 5 mM (fasting) to 12 mM (after a meal). Which change in their activities is expected?",
+      "options": [
+        "Both enzymes are already saturated, so neither rate changes appreciably",
+        "Hexokinase rate roughly doubles, whereas glucokinase rate is unchanged",
+        "Glucokinase rate falls because of inhibition by the glucose 6-phosphate formed",
+        "Both enzyme rates rise roughly in proportion to the glucose concentration",
+        "Hexokinase stays near maximal rate, whereas glucokinase rate rises substantially"
+      ],
+      "answer": 4,
+      "explain": "With a Km of 0.1 mM (high affinity), hexokinase is already about 98% saturated at 5 mM, so extra glucose hardly changes its rate. Glucokinase, with a Km of about 10 mM (low affinity), works well below saturation at fasting glucose, and its rate rises steeply as glucose increases. This lets the liver remove excess glucose for storage after a meal (Slide 9: 'storage/glucose sensing'). Affinity is inversely related to Km.",
+      "distractors": "Option A wrongly treats glucokinase as saturated at physiological glucose. Options B and D wrongly have hexokinase respond to the rise, although it is about 98% saturated already at 5 mM. Glucokinase is not inhibited by glucose 6-phosphate (Slide 9); that is a hexokinase property (C).",
+      "source": "Slide 9 · Lippincott ch. 8 (Kinetics of hexokinase and glucokinase)"
+    },
+    {
+      "id": "glycolysis-21",
+      "topic": "Glucokinase as glucose sensor",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A lean 15-year-old girl has persistent mild fasting hyperglycaemia (6.9 mmol/L); her mother and maternal grandfather have the same finding. Genetic testing shows a heterozygous loss-of-function mutation in glucokinase, so her β-cells need a higher blood glucose before they increase insulin release. Which property of normal glucokinase allows it to act as the glucose sensor of pancreatic β-cells?",
+      "options": [
+        "A high Km (about 10 mM), so its rate changes with blood glucose",
+        "A low Km (about 0.1 mM), so it is saturated at fasting glucose",
+        "Product inhibition by glucose 6-phosphate",
+        "Ability to phosphorylate all hexoses, including fructose",
+        "Expression in all tissues, independent of insulin"
+      ],
+      "answer": 0,
+      "explain": "Glucokinase in the liver and β-cells has low affinity and a high Km of about 10 mM (Slide 9). Across the physiological range, its rate of glucose phosphorylation therefore follows the blood glucose level, so β-cell glucose metabolism, and with it insulin release, tracks glycaemia ('glucose sensing'). Losing half the enzyme's activity raises the glucose threshold and causes mild, stable familial hyperglycaemia.",
+      "distractors": "Options B to E describe hexokinase (Slide 9). An enzyme that is saturated at fasting glucose, or that is inhibited by its own product, could not report changes in blood glucose.",
+      "source": "Slide 9 · Lippincott ch. 8 (Glucokinase as glucose sensor)"
+    },
+    {
+      "id": "glycolysis-22",
+      "topic": "Hexokinase vs glucokinase properties",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Two kinases are compared. Enzyme X phosphorylates several different hexoses and is strongly inhibited by glucose 6-phosphate. Enzyme Y phosphorylates glucose only, is unaffected by glucose 6-phosphate, and its amount in the liver increases after insulin treatment. Which identification is correct?",
+      "options": [
+        "X = glucokinase; Y = hexokinase",
+        "X = hexokinase; Y = phosphofructokinase-1",
+        "X = hexokinase; Y = glucokinase",
+        "X = glucokinase; Y = pyruvate kinase",
+        "X = phosphofructokinase-1; Y = glucokinase"
+      ],
+      "answer": 2,
+      "explain": "Slide 9 lists the features. Hexokinase acts on all hexoses, is found in all tissues, and is inhibited by glucose 6-phosphate. Glucokinase acts on glucose only, is found in the liver and β-cells, is induced by insulin, and is not inhibited by glucose 6-phosphate.",
+      "distractors": "Option A swaps the two enzymes. PFK-1 and pyruvate kinase do not phosphorylate hexoses, and neither is regulated by glucose 6-phosphate.",
+      "source": "Slide 9 · Lippincott ch. 8 (Hexokinase vs glucokinase)"
+    },
+    {
+      "id": "glycolysis-23",
+      "topic": "Hormonal regulation: transcription",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 20-year-old man with poorly controlled type 1 diabetes has a persistently low insulin-to-glucagon ratio. Over several days, the number of glucokinase molecules in his hepatocytes falls, not merely their activity. Which level of regulation does this reflect?",
+      "options": [
+        "Allosteric inhibition of glucokinase by glucose 6-phosphate",
+        "Feed-forward activation by fructose 1,6-bisphosphate",
+        "Covalent modification by cAMP-dependent phosphorylation",
+        "Allosteric inhibition by ATP and citrate",
+        "Reduced transcription of the glucokinase gene"
+      ],
+      "answer": 4,
+      "explain": "Slide 9 states that insulin induces glucokinase, and Slide 15 lists transcription as one of the levels at which hormones control glucokinase, PFK-1 and pyruvate kinase. When insulin is low (and glucagon high), transcription of these genes falls (Lippincott), so the amount of enzyme drops over hours to days. Slide 15 does not mark the direction of the hormone arrows; the direction used here follows Lippincott.",
+      "distractors": "Allosteric and covalent mechanisms change the activity of existing enzyme molecules within seconds to minutes; they do not change the amount of enzyme. Glucose 6-phosphate inhibits hexokinase, not glucokinase.",
+      "source": "Slides 9 and 15 · Lippincott ch. 8 (Hormonal regulation: induction and repression)"
+    },
+    {
+      "id": "glycolysis-24",
+      "topic": "Covalent regulation of pyruvate kinase",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "After an overnight fast, rising glucagon lowers the activity of the pyruvate kinase already present in a hepatocyte within minutes, without changing the amount of enzyme. Which mechanism is responsible?",
+      "options": [
+        "Phosphorylation of pyruvate kinase by protein kinase A",
+        "Dephosphorylation of pyruvate kinase by a protein phosphatase",
+        "Repression of pyruvate kinase gene transcription",
+        "Allosteric activation by fructose 1,6-bisphosphate",
+        "Allosteric inhibition by glucose 6-phosphate"
+      ],
+      "answer": 0,
+      "explain": "Slide 15 places glucagon in the covalent-modification column, with an arrow to pyruvate kinase. In Lippincott, glucagon raises cAMP, and cAMP-dependent protein kinase (PKA) then phosphorylates and inactivates hepatic pyruvate kinase; dephosphorylation in the fed, high-insulin state reactivates it. This is fast and changes activity, not the amount of enzyme. The slide does not mark the direction of the effect, so the key follows Lippincott.",
+      "distractors": "Dephosphorylation activates pyruvate kinase, which is the insulin effect. Repression of transcription lowers the amount of enzyme over hours, which the stem excludes.",
+      "source": "Slide 15 · Lippincott ch. 8 (Covalent modulation of pyruvate kinase)"
+    },
+    {
+      "id": "glycolysis-25",
+      "topic": "Lecture learning check",
+      "type": "application",
+      "difficulty": "hard",
+      "stem": "What is the net energy yield, expressed as ATP, when one molecule of glucose is converted to two molecules of pyruvate in a cell with an adequate oxygen supply? Assume that each cytosolic NADH yields 3 ATP by oxidative phosphorylation (the older value given in the lecture).",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "answer": 3,
+      "explain": "Glycolysis forms 4 ATP by substrate-level phosphorylation and invests 2, leaving a net 2 ATP, plus 2 NADH (Slides 7 and 10). At 3 ATP per NADH, the total is 2 + (2 × 3) = 8 ATP. Slide 11 states no assumption: with the newer value of 2.5 ATP per NADH the answer would be 7, and if NADH enters the mitochondria by the glycerol 3-phosphate shuttle (Lippincott) it would be 6. That is why the stem states the assumption.",
+      "distractors": "2 counts only the net substrate-level ATP (the anaerobic yield), and 4 is the gross substrate-level ATP before the 2 invested ATP are subtracted. 6 would require each NADH to yield only 2 ATP.",
+      "source": "Slides 7, 10 and 11 · Lippincott ch. 8 (Energy yield of glycolysis); ch. 6 (P:O ratio)"
+    },
+    {
+      "id": "glycolysis-26",
+      "topic": "Anaerobic glycolysis yield",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "During a 400-m sprint, a 21-year-old athlete's leg muscles convert blood glucose to lactate faster than oxygen can be delivered. What is the net ATP yield per molecule of glucose converted to lactate?",
+      "options": [
+        "0",
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": 1,
+      "explain": "Vigorously exercising skeletal muscle uses anaerobic glycolysis (Slide 12). Lactate dehydrogenase reduces pyruvate to lactate, using up the NADH made by glyceraldehyde 3-P dehydrogenase (Slide 13), so the NADH yields no ATP. The only ATP comes from substrate-level phosphorylation: 4 made minus 2 invested gives a net 2 ATP (Slides 7 and 10).",
+      "distractors": "4 is the gross yield, before the 2 invested ATP are subtracted. 8 assumes the NADH is oxidised in mitochondria, which happens only under aerobic conditions.",
+      "source": "Slides 7, 12 and 13 · Lippincott ch. 8 (Anaerobic glycolysis: energy yield)"
+    },
+    {
+      "id": "glycolysis-27",
+      "topic": "Substrate-level phosphorylation",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which statement correctly describes substrate-level phosphorylation?",
+      "options": [
+        "ATP is formed from ADP using energy released by oxidation of NADH and FADH₂ in mitochondria",
+        "ATP is consumed to transfer a phosphate group to glucose or to fructose 6-phosphate",
+        "ATP is formed when a high-energy substrate transfers its phosphate group directly to ADP",
+        "ATP is formed only when oxygen is available to act as the final electron acceptor",
+        "A phosphate group is transferred from ATP to an enzyme protein to change its activity"
+      ],
+      "answer": 2,
+      "explain": "Slide 10: in substrate-level phosphorylation, ATP is made directly within a metabolic pathway. A high-energy substrate hands its phosphate to ADP, and no oxygen or mitochondria are needed. That is why it is the only source of ATP in mature red cells and in anaerobic conditions.",
+      "distractors": "Options A and D describe oxidative phosphorylation, the mitochondrial route for NADH and FADH₂. Option B describes the ATP-consuming kinase steps of the preparatory phase, and option E describes covalent modification of an enzyme.",
+      "source": "Slide 10 · Lippincott ch. 8 (Substrate-level phosphorylation)"
+    },
+    {
+      "id": "glycolysis-28",
+      "topic": "Substrate-level phosphorylation steps",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Which pair of glycolytic intermediates directly donates a phosphate group to ADP to form ATP?",
+      "options": [
+        "Glucose 6-phosphate and fructose 1,6-bisphosphate",
+        "Glyceraldehyde 3-phosphate and 3-phosphoglycerate",
+        "Fructose 1,6-bisphosphate and phosphoenolpyruvate",
+        "2-Phosphoglycerate and pyruvate",
+        "1,3-Bisphosphoglycerate and phosphoenolpyruvate"
+      ],
+      "answer": 4,
+      "explain": "Slide 7 shows two substrate-level phosphorylation steps per triose. In the first, 1,3-bisphosphoglycerate passes its phosphate to ADP and becomes 3-phosphoglycerate (Slide 16; the enzyme is phosphoglycerate kinase in Lippincott). In the second, phosphoenolpyruvate becomes pyruvate through pyruvate kinase. Each happens twice per glucose, giving 4 ATP.",
+      "distractors": "Glucose 6-phosphate and fructose 1,6-bisphosphate are formed by using ATP, not by giving phosphate to ADP. Glyceraldehyde 3-phosphate is oxidised rather than acting as a phosphate donor.",
+      "source": "Slides 7 and 16 · Lippincott ch. 8 (Substrate-level phosphorylation)"
+    },
+    {
+      "id": "glycolysis-29",
+      "topic": "Fate of NADH: anaerobic conditions",
+      "type": "application",
+      "difficulty": "medium",
+      "stem": "Under anaerobic conditions, lactate dehydrogenase reduces pyruvate to lactate. What is the main purpose of this reaction for the continuation of glycolysis?",
+      "options": [
+        "To generate additional ATP by substrate-level phosphorylation",
+        "To regenerate NAD⁺ for glyceraldehyde 3-P dehydrogenase",
+        "To produce NADH for transport into the mitochondria",
+        "To channel pyruvate into the TCA cycle",
+        "To supply inorganic phosphate for the oxidation step"
+      ],
+      "answer": 1,
+      "explain": "Slide 13 shows pyruvate + NADH → lactate + NAD⁺, catalysed by lactate dehydrogenase. The cell holds only a limited amount of NAD⁺, and without oxygen, NADH cannot be reoxidised by oxidative phosphorylation. Lactate formation regenerates the NAD⁺ that glyceraldehyde 3-P dehydrogenase needs, so glycolysis, and its substrate-level ATP, can continue.",
+      "distractors": "Lactate dehydrogenase makes no ATP, and it uses up NADH rather than producing it. Entry into the TCA cycle is the aerobic fate of pyruvate.",
+      "source": "Slide 13 · Lippincott ch. 8 (Reduction of pyruvate to lactate)"
+    },
+    {
+      "id": "glycolysis-30",
+      "topic": "Fate of NADH: aerobic conditions",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "In a well-oxygenated hepatocyte, what is the ultimate fate of the NADH formed in the cytosol by glyceraldehyde 3-P dehydrogenase?",
+      "options": [
+        "It is used by lactate dehydrogenase to reduce pyruvate to lactate",
+        "It is converted directly to ATP by substrate-level phosphorylation",
+        "It reduces oxygen to water directly within the cytosol",
+        "Its reducing equivalents are oxidised in mitochondria to make ATP",
+        "It accumulates in the cytosol and inhibits phosphofructokinase-1"
+      ],
+      "answer": 3,
+      "explain": "Slide 10: NADH must be converted to ATP in the mitochondria by oxidative phosphorylation, giving 3 ATP (older value) or 2.5 ATP (newer value) per NADH. Lippincott adds that NADH cannot itself cross the inner mitochondrial membrane, so its reducing equivalents are carried in by shuttle systems. Reoxidising NADH also regenerates NAD⁺ for glycolysis.",
+      "distractors": "Reducing pyruvate to lactate is the fate of NADH when oxygen is lacking (Slide 13). NADH is not used in substrate-level phosphorylation.",
+      "source": "Slide 10 · Lippincott ch. 8 (Fate of cytosolic NADH); ch. 6 (Shuttle systems)"
+    },
+    {
+      "id": "glycolysis-31",
+      "topic": "Sites of anaerobic glycolysis",
+      "type": "recall",
+      "difficulty": "easy",
+      "stem": "Which pair of tissues relies on anaerobic glycolysis because the tissues are avascular?",
+      "options": [
+        "Cornea and lens",
+        "Liver and kidney cortex",
+        "Cardiac muscle and brain",
+        "Adipose tissue and liver",
+        "Pancreatic β-cells and small intestine"
+      ],
+      "answer": 0,
+      "explain": "Slide 12 lists the sites of anaerobic glycolysis: tissues without mitochondria (red cells), avascular tissues (cornea, lens) and vigorously exercising skeletal muscle. The slide also lists the kidney medulla as 'avascularized'. Strictly, the medulla is vascular but poorly oxygenated, so it was left out of this item.",
+      "distractors": "Heart, brain, liver and kidney cortex are well perfused and rich in mitochondria, so they oxidise pyruvate aerobically.",
+      "source": "Slide 12 · Lippincott ch. 8 (Anaerobic glycolysis)"
+    },
+    {
+      "id": "glycolysis-32",
+      "topic": "Lactic acidosis",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 67-year-old woman is admitted with septic shock; her blood pressure is 78/40 mmHg. She is confused, has vomited twice and is breathing rapidly and deeply. Her plasma lactate is 7.8 mmol/L (reference < 2.0). What is the main biochemical reason for her raised lactate?",
+      "options": [
+        "Excess oxygen speeds pyruvate oxidation, releasing lactate from the TCA cycle",
+        "Lactate dehydrogenase is inhibited, so lactate cannot be reconverted to pyruvate",
+        "Hypoxia limits mitochondrial NADH oxidation, so pyruvate is reduced to lactate",
+        "Glucagon activates hepatic pyruvate kinase, flooding the tissues with pyruvate",
+        "Accumulated NAD⁺ directly reduces pyruvate to lactate in the cytosol"
+      ],
+      "answer": 2,
+      "explain": "Slide 12 lists tissue hypoxia as a cause of lactic acidosis, and nausea and vomiting, hyperventilation and confusion among its features. Poor perfusion stops oxidative phosphorylation from reoxidising NADH. Cells then depend on anaerobic glycolysis, in which lactate dehydrogenase reduces pyruvate to lactate to regenerate NAD⁺ (Slide 13), and lactate builds up.",
+      "distractors": "Inhibiting lactate dehydrogenase would reduce lactate formation, not increase it. NAD⁺ is the oxidised coenzyme and cannot reduce pyruvate; NADH is the reductant.",
+      "source": "Slides 12–13 · Lippincott ch. 8 (Lactic acidosis)"
+    },
+    {
+      "id": "glycolysis-33",
+      "topic": "RBC glycolysis: Luebering–Rapoport shunt",
+      "type": "recall",
+      "difficulty": "medium",
+      "stem": "Mature erythrocytes divert 15–25% of their glucose through the Luebering–Rapoport shunt. What does this shunt produce, and what is the product's effect?",
+      "options": [
+        "2,3-BPG, which increases haemoglobin's affinity for O₂",
+        "Lactate, which supplies most of the cell's ATP",
+        "NADPH, which protects haemoglobin from oxidation",
+        "Phosphoenolpyruvate, which powers the Na⁺/K⁺ pump",
+        "2,3-BPG, which decreases haemoglobin's affinity for O₂"
+      ],
+      "answer": 4,
+      "explain": "Slide 14: the Embden–Meyerhof pathway converts 75–85% of red-cell glucose to lactate for energy, while the Luebering–Rapoport shunt diverts 15–25% into 2,3-BPG. 2,3-BPG lowers haemoglobin's affinity for O₂ and so promotes O₂ release to the tissues. Lippincott notes that the shunt bypasses the phosphoglycerate kinase step, so no ATP is made there.",
+      "distractors": "Option A states the opposite effect. NADPH comes from the pentose phosphate pathway (the pathway affected in G6PD deficiency), not from this shunt.",
+      "source": "Slide 14 · Lippincott ch. 8 (2,3-BPG synthesis in erythrocytes); ch. 3 (2,3-BPG and haemoglobin)"
+    },
+    {
+      "id": "glycolysis-34",
+      "topic": "Lecture learning check",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "An 18-year-old man presents with fatigue, mild jaundice and splenomegaly. His blood film shows haemolytic anaemia with prominent spiculated red cells. Red-cell studies show a low pyruvate and a high phosphoenolpyruvate concentration. Which enzyme is most likely deficient?",
+      "options": [
+        "Glucose 6-phosphate dehydrogenase",
+        "Enolase",
+        "Hexokinase",
+        "Pyruvate kinase",
+        "Lactate dehydrogenase"
+      ],
+      "answer": 3,
+      "explain": "The substrate (phosphoenolpyruvate) is high and the product (pyruvate) is low, which places the block at pyruvate kinase, step 7 (Slides 7–8). Pyruvate kinase deficiency is a genetic disorder of red-cell pyruvate kinase. It causes ATP shortage, spiculated cells and haemolysis, as in the lecture's clinical case (Slides 17–19).",
+      "distractors": "G6PD deficiency, which is very common in Oman, causes oxidant-induced haemolysis and would not raise phosphoenolpyruvate or lower pyruvate. Enolase or hexokinase deficiency would lower phosphoenolpyruvate, not raise it.",
+      "source": "Slides 17 and 19 · Lippincott ch. 8 (Pyruvate kinase deficiency)"
+    },
+    {
+      "id": "glycolysis-35",
+      "topic": "Lecture learning check",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 19-year-old woman with confirmed red-cell pyruvate kinase deficiency has chronic haemolytic anaemia but no muscle weakness or cramps. Why does the deficiency affect her erythrocytes so profoundly while her skeletal muscle functions normally?",
+      "options": [
+        "Erythrocytes lack GLUT transporters and cannot take up glucose",
+        "Erythrocytes lack mitochondria, so glycolysis is their only ATP source",
+        "Skeletal muscle does not use pyruvate kinase in glycolysis",
+        "Erythrocytes use ATP only for synthesising 2,3-BPG",
+        "Skeletal muscle generates ATP only by anaerobic glycolysis"
+      ],
+      "answer": 1,
+      "explain": "Mature red cells have no mitochondria, so anaerobic glycolysis is their only source of energy (Slide 14). Pyruvate kinase catalyses one of the two ATP-yielding steps. Skeletal muscle has mitochondria and can make most of its ATP by oxidative phosphorylation, so it does not depend so completely on glycolytic ATP. Textbooks add that muscle expresses a different pyruvate kinase isozyme (M type, from a separate gene), so the red-cell (R-type) mutation does not affect it.",
+      "distractors": "Red cells take up glucose through GLUT-1, which works without insulin, and they use ATP to maintain cell shape and to power ion pumps (Slide 14), not to make 2,3-BPG. Muscle relies on anaerobic glycolysis only during vigorous exercise.",
+      "source": "Slides 14 and 19 · Lippincott ch. 8 (Pyruvate kinase deficiency)"
+    },
+    {
+      "id": "glycolysis-36",
+      "topic": "Lecture learning check",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 16-year-old boy with pyruvate kinase deficiency has spiculated red cells on his blood film and an enlarged spleen. Which sequence best links his enzyme defect to these findings?",
+      "options": [
+        "↓ATP → Na⁺/K⁺ pump failure → K⁺ lost faster than Na⁺ gained → shrunken, rigid spiculated cells → premature splenic removal",
+        "↓ATP → Na⁺/K⁺ pump failure → Na⁺ gained faster than K⁺ lost → cells swell into rigid spheres → lysis within the circulation",
+        "↑2,3-BPG → ↑haemoglobin O₂ affinity → tissue hypoxia → spiculated cells → compensatory splenic enlargement",
+        "↓NADPH → oxidative damage to haemoglobin → Heinz bodies → spiculated cells → removal by the spleen",
+        "↑Lactate → intracellular acidosis → loss of membrane lipid → spiculated cells → destruction in the bone marrow"
+      ],
+      "answer": 0,
+      "explain": "Slides 17–18 set out the chain. Severe ATP shortage causes the Na⁺/K⁺ pump to fail; Na⁺ leaks in slowly while K⁺ leaks out very rapidly, so the cell loses cations and water. The cells shrink, become rigid and lose their biconcave shape, becoming spiculated cells. The spleen recognises them as abnormal and destroys them prematurely (haemolysis), and the extra workload of removing them enlarges the spleen.",
+      "distractors": "Option B reverses the relative leak rates that the lecture describes. Option C reverses the effect of 2,3-BPG, which lowers O₂ affinity, and option D describes the oxidative mechanism of G6PD deficiency.",
+      "source": "Slides 17–19 · Lippincott ch. 8 (Pyruvate kinase deficiency)"
+    },
+    {
+      "id": "glycolysis-37",
+      "topic": "Lecture learning check",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 12-year-old girl with erythrocyte pyruvate kinase deficiency has a markedly raised red-cell 2,3-bisphosphoglycerate (2,3-BPG). Which sequence best explains why this intermediate builds up?",
+      "options": [
+        "Pyruvate ↑ → lactate ↑ → lactate converted to 2,3-BPG in the shunt",
+        "Glucose 6-P ↑ → more glucose diverted into the pentose phosphate pathway",
+        "PEP ↑ → 2-PG and 3-PG ↑ → 1,3-BPG ↑ → more 1,3-BPG diverted into the shunt",
+        "Fructose 1,6-BP ↑ → aldolase cleaves it directly to 2,3-BPG",
+        "Lactate ↑ → reverse LDH reaction regenerates 1,3-BPG for the shunt"
+      ],
+      "answer": 2,
+      "explain": "Slide 18 states that glucose is diverted to the Luebering–Rapoport shunt, giving abnormally high 2,3-BPG. The block at pyruvate kinase makes its substrate, phosphoenolpyruvate, accumulate. Because the preceding steps are reversible (Lippincott), the intermediates back up as far as 1,3-BPG, and the shunt converts the extra 1,3-BPG to 2,3-BPG (bisphosphoglycerate mutase, Lippincott).",
+      "distractors": "Pyruvate is low in this condition because it lies beyond the block (as in the lecture case), and neither pyruvate nor lactate is a precursor of 2,3-BPG. Aldolase produces triose phosphates, not 2,3-BPG.",
+      "source": "Slides 14, 18 and 19 · Lippincott ch. 8 (2,3-BPG synthesis; pyruvate kinase deficiency)"
+    },
+    {
+      "id": "glycolysis-38",
+      "topic": "Lecture learning check",
+      "type": "clinical",
+      "difficulty": "medium",
+      "stem": "A 25-year-old woman with pyruvate kinase deficiency has a haemoglobin of 8.0 g/dL, yet she works full-time with only mild fatigue. Which mechanism best explains why she tolerates her anaemia so well?",
+      "options": [
+        "Raised 2,3-BPG lowers haemoglobin's O₂ affinity, enhancing O₂ release to tissues",
+        "Raised 2,3-BPG increases haemoglobin's O₂ affinity, improving O₂ loading in the lungs",
+        "Increased lactate production supplies extra ATP to her tissues",
+        "Her red cells switch to oxidative phosphorylation in their mitochondria",
+        "Increased NADPH from the Luebering–Rapoport shunt protects her red cells"
+      ],
+      "answer": 0,
+      "explain": "The block at pyruvate kinase diverts glucose into the Luebering–Rapoport shunt, raising 2,3-BPG (Slide 18). 2,3-BPG lowers haemoglobin's affinity for O₂ and helps release O₂ to the tissues (Slide 14). Her red cells therefore still deliver O₂ efficiently, and the anaemia is tolerated surprisingly well.",
+      "distractors": "Option B reverses the effect of 2,3-BPG. Red cells have no mitochondria, and the shunt produces 2,3-BPG rather than NADPH.",
+      "source": "Slides 14, 18 and 19 · Lippincott ch. 3 (2,3-BPG and O₂ affinity); ch. 8 (Pyruvate kinase deficiency)"
+    },
+    {
+      "id": "glycolysis-39",
+      "topic": "Lecture learning check",
+      "type": "clinical",
+      "difficulty": "easy",
+      "stem": "A fasting blood sample for glucose is collected at a rural health centre and will reach the laboratory about 3 hours later. The phlebotomist uses a tube containing sodium fluoride. Why is fluoride added?",
+      "options": [
+        "It activates hexokinase, so glucose is preserved as glucose 6-phosphate",
+        "It inhibits enolase, stopping glycolysis by blood cells so glucose is not consumed",
+        "It inhibits glyceraldehyde 3-P dehydrogenase in the same way as arsenate",
+        "It inhibits pyruvate kinase, so phosphoenolpyruvate accumulates in the sample",
+        "It inhibits lactate dehydrogenase, so lactate is converted back to glucose"
+      ],
+      "answer": 1,
+      "explain": "Slide 8 places fluoride at enolase (step 6), and Slide 20 asks why glucose samples are taken into sodium fluoride tubes. Blood cells keep running glycolysis after the sample is taken, so glucose would fall in the tube and give a falsely low result. Fluoride inhibits enolase and stops this in-vitro glucose consumption.",
+      "distractors": "Arsenate, not fluoride, acts at glyceraldehyde 3-P dehydrogenase (Slide 16). Fluoride does not act on hexokinase, pyruvate kinase or lactate dehydrogenase.",
+      "source": "Slides 8 and 20 · Lippincott ch. 8 (Enolase step)"
+    },
+    {
+      "id": "glycolysis-40",
+      "topic": "Lecture learning check",
+      "type": "clinical",
+      "difficulty": "hard",
+      "stem": "A 34-year-old farm worker develops nausea, vomiting, severe diarrhoea, abdominal pain and hypotension after accidentally swallowing an arsenate-containing pesticide. Arsenate resembles inorganic phosphate (Pi). What is its effect on glycolysis?",
+      "options": [
+        "Inhibits enolase, stopping formation of phosphoenolpyruvate",
+        "Irreversibly inhibits pyruvate kinase, so phosphoenolpyruvate accumulates",
+        "Completely blocks glyceraldehyde 3-P dehydrogenase, halting glycolysis at that step",
+        "Replaces Pi at glyceraldehyde 3-P dehydrogenase, so the following step makes no ATP",
+        "Inhibits hexokinase, so glucose cannot be phosphorylated or enter the pathway"
+      ],
+      "answer": 3,
+      "explain": "Slide 16 names glyceraldehyde 3-P dehydrogenase as arsenate's target and notes that arsenate resembles Pi. In Lippincott, arsenate takes the place of Pi and forms 1-arseno-3-phosphoglycerate, which breaks down spontaneously to 3-phosphoglycerate. This bypasses the ATP-forming 1,3-BPG step, so glycolysis keeps running but its net ATP yield falls to zero. The patient's features match the slide's clinical list: nausea, vomiting, severe diarrhoea, abdominal pain and shock.",
+      "distractors": "Option C is the tempting misreading of 'target'; arsenate does not stop flux through the pathway, it only removes that step's ATP yield. Fluoride, not arsenate, inhibits enolase.",
+      "source": "Slides 8 and 16 · Lippincott ch. 8 (Arsenic poisoning)"
+    }
+  ]
+}

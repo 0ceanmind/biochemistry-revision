@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Biochemistry Revision</title>
+  <meta name="description" content="Interactive biochemistry revision lecture with live 3D models, animated pathways and charts.">
+  <link rel="icon" href="assets/img/icon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="assets/css/deck.css">
+  <script>try{var t=localStorage.getItem('biochem.theme');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+  <script src="vendor/gsap/gsap.min.js"></script>
+  <script src="vendor/gsap/MotionPathPlugin.min.js"></script>
+  <script type="importmap">
+    { "imports": { "three": "./vendor/three/three.module.js", "three/addons/": "./vendor/three/addons/" } }
+  </script>
+  <script type="module">
+    import { bootDeck } from './assets/js/core/deck.js';
+    window.gsap.registerPlugin(window.MotionPathPlugin);
+    window.gsap.ticker.lagSmoothing(0);
+    bootDeck();
+  </script>
+</head>
+<body></body>
+</html>
